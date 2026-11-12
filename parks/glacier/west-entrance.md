@@ -2,7 +2,7 @@
 
 > Week of Nov 9–15, 2026 · Glacier National Park · West Glacier, MT (US-2) · Status: **Open — road to Avalanche Creek**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/glacier/west-entrance.html
+HTML version: https://parks.goes.health/parks/glacier/west-entrance.html
 
 The West Entrance at West Glacier is the park's year-round front door to Apgar Village, Lake McDonald and the lower Going-to-the-Sun Road. It's about 33 miles from Kalispell.
 
@@ -82,8 +82,8 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Glacier entrances
 
-- [St. Mary Entrance](https://goes-health.github.io/parkready-guides/parks/glacier/st-mary-entrance.md): Open — road to Jackson Glacier Overlook
-- [Glacier overview, closures and park-wide risks](https://goes-health.github.io/parkready-guides/parks/glacier/index.md)
+- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): Open — road to Jackson Glacier Overlook
+- [Glacier overview, closures and park-wide risks](https://parks.goes.health/parks/glacier/index.md)
 
 ## Sources
 
@@ -106,4 +106,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

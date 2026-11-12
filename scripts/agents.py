@@ -375,7 +375,7 @@ def emit(ROOT, BASE, D, COND, URLS, write):
         f"Disclaimer: {GOES['disclaimer']} ParkReady Guides is not affiliated with or endorsed by the National Park Service. "
         f"In an emergency, call 911.",
         "",
-        f"Base URL: {BASE} (the forthcoming canonical domain is https://parks.goes.health/; until it is live, use the base URL above). "
+        f"Base URL: {BASE}. "
         f"Every HTML page has a Markdown twin: replace `.html` with `.md` (directory URLs: `index.md`).",
         "",
         "## This week",

@@ -2,7 +2,7 @@
 
 > Week of Nov 9–15, 2026 · Grand Canyon National Park · Jacob Lake, AZ (SR 67) · Status: **Limited day use — no services, closing soon**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/grand-canyon/north-rim-entrance.html
+HTML version: https://parks.goes.health/parks/grand-canyon/north-rim-entrance.html
 
 The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lake. In fall 2026 the North Rim is in modified operations: day use only, with no services. The gate closes for winter at sunset Nov 30 or after the first major snowstorm, whichever comes first.
 
@@ -85,9 +85,9 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Grand Canyon entrances
 
-- [South Entrance](https://goes-health.github.io/parkready-guides/parks/grand-canyon/south-entrance.md): Open 24/7 — day use, bring water
-- [Desert View (East) Entrance](https://goes-health.github.io/parkready-guides/parks/grand-canyon/desert-view-east-entrance.md): Open 24/7
-- [Grand Canyon overview, closures and park-wide risks](https://goes-health.github.io/parkready-guides/parks/grand-canyon/index.md)
+- [South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md): Open 24/7 — day use, bring water
+- [Desert View (East) Entrance](https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.md): Open 24/7
+- [Grand Canyon overview, closures and park-wide risks](https://parks.goes.health/parks/grand-canyon/index.md)
 
 ## Sources
 
@@ -110,4 +110,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

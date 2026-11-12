@@ -2,10 +2,8 @@
 """Render ParkReady Guides static site from data/parks.json + data/conditions.json."""
 import json, os, html, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Public base URL. GitHub Pages project URL until parks.goes.health DNS + custom domain are live;
-# then run with PARKREADY_BASE=https://parks.goes.health/ (or change this default) so every link, the
-# sitemap, llms.txt and conditions.json move together.
-BASE = os.environ.get("PARKREADY_BASE", "https://goes-health.github.io/parkready-guides/")
+# Public base URL. Override with PARKREADY_BASE if needed.
+BASE = os.environ.get("PARKREADY_BASE", "https://parks.goes.health/")
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 import agents
 subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "content.py")], check=True)

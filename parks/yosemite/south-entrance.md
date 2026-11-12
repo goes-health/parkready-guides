@@ -2,7 +2,7 @@
 
 > Week of Nov 9–15, 2026 · Yosemite National Park · Fish Camp / Oakhurst (Hwy 41) · Status: **Open — Winter Storm Watch**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/yosemite/south-entrance.html
+HTML version: https://parks.goes.health/parks/yosemite/south-entrance.html
 
 The South Entrance on Highway 41 from Fresno, Oakhurst and Fish Camp leads to the Mariposa Grove of Giant Sequoias, Wawona, and then Yosemite Valley, a little over an hour north.
 
@@ -86,10 +86,10 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Yosemite entrances
 
-- [Arch Rock Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/arch-rock-entrance.md): Open — Hwy 140 / El Portal Road
-- [Big Oak Flat Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/big-oak-flat-entrance.md): Open — weekday delays
-- [Hetch Hetchy Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/hetch-hetchy-entrance.md): Daylight only — closes for snow
-- [Yosemite overview, closures and park-wide risks](https://goes-health.github.io/parkready-guides/parks/yosemite/index.md)
+- [Arch Rock Entrance](https://parks.goes.health/parks/yosemite/arch-rock-entrance.md): Open — Hwy 140 / El Portal Road
+- [Big Oak Flat Entrance](https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.md): Open — weekday delays
+- [Hetch Hetchy Entrance](https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.md): Daylight only — closes for snow
+- [Yosemite overview, closures and park-wide risks](https://parks.goes.health/parks/yosemite/index.md)
 
 ## Sources
 
@@ -111,4 +111,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

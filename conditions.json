@@ -4,9 +4,9 @@
     "name": "GOES Health",
     "url": "https://goes.health/"
   },
-  "site": "https://goes-health.github.io/parkready-guides/",
-  "llms_txt": "https://goes-health.github.io/parkready-guides/llms.txt",
-  "feed_url": "https://goes-health.github.io/parkready-guides/conditions.json",
+  "site": "https://parks.goes.health/",
+  "llms_txt": "https://parks.goes.health/llms.txt",
+  "feed_url": "https://parks.goes.health/conditions.json",
   "week": {
     "label": "Week of Nov 9–15, 2026",
     "start": "2026-11-09",
@@ -42,8 +42,8 @@
       "short_name": "Yellowstone",
       "nps_park_code": "yell",
       "state": "WY · MT · ID",
-      "url": "https://goes-health.github.io/parkready-guides/parks/yellowstone/",
-      "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yellowstone/index.md",
+      "url": "https://parks.goes.health/parks/yellowstone/",
+      "markdown_url": "https://parks.goes.health/parks/yellowstone/index.md",
       "nps_url": "https://www.nps.gov/yell/index.htm",
       "nps_conditions_url": "https://www.nps.gov/yell/planyourvisit/conditions.htm",
       "headline": "Winter shoulder season: only the North ↔ Northeast road is open to cars.",
@@ -190,8 +190,8 @@
           "gateway": "Gardiner, MT",
           "status": "open",
           "status_label": "Open to cars (year-round road)",
-          "url": "https://goes-health.github.io/parkready-guides/parks/yellowstone/north-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yellowstone/north-entrance.md",
+          "url": "https://parks.goes.health/parks/yellowstone/north-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/yellowstone/north-entrance.md",
           "intro": "The North Entrance at Gardiner, Montana is the only Yellowstone entrance open to wheeled vehicles all year, and right now it's one of only two ways to drive in. From here the road climbs to Mammoth Hot Springs and continues east through Tower Junction and Lamar Valley to the Northeast Entrance.",
           "conditions": [
             {
@@ -404,8 +404,8 @@
           "gateway": "Cooke City & Silver Gate, MT",
           "status": "open",
           "status_label": "Open to cars, reached via Gardiner",
-          "url": "https://goes-health.github.io/parkready-guides/parks/yellowstone/northeast-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yellowstone/northeast-entrance.md",
+          "url": "https://parks.goes.health/parks/yellowstone/northeast-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/yellowstone/northeast-entrance.md",
           "intro": "The Northeast Entrance near Silver Gate and Cooke City, Montana sits at the far end of Yellowstone's only winter road. With the Beartooth Highway closed for the season, the way to Cooke City in winter is through the park from Gardiner and Lamar Valley.",
           "conditions": [
             {
@@ -592,8 +592,8 @@
       "short_name": "Yosemite",
       "nps_park_code": "yose",
       "state": "CA",
-      "url": "https://goes-health.github.io/parkready-guides/parks/yosemite/",
-      "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yosemite/index.md",
+      "url": "https://parks.goes.health/parks/yosemite/",
+      "markdown_url": "https://parks.goes.health/parks/yosemite/index.md",
       "nps_url": "https://www.nps.gov/yose/index.htm",
       "nps_conditions_url": "https://www.nps.gov/yose/planyourvisit/conditions.htm",
       "headline": "Snow on the way: Tioga and Glacier Point roads close Nov 12 at 5 pm.",
@@ -736,8 +736,8 @@
           "gateway": "El Portal / Mariposa (Hwy 140)",
           "status": "open",
           "status_label": "Open — Hwy 140 / El Portal Road",
-          "url": "https://goes-health.github.io/parkready-guides/parks/yosemite/arch-rock-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yosemite/arch-rock-entrance.md",
+          "url": "https://parks.goes.health/parks/yosemite/arch-rock-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/yosemite/arch-rock-entrance.md",
           "intro": "Arch Rock is the Highway 140 entrance from Merced, Mariposa and El Portal, along the Merced River. NPS puts it about 20–25 minutes from Yosemite Valley.",
           "conditions": [
             {
@@ -928,8 +928,8 @@
           "gateway": "Groveland (Hwy 120 west)",
           "status": "open",
           "status_label": "Open — weekday delays",
-          "url": "https://goes-health.github.io/parkready-guides/parks/yosemite/big-oak-flat-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yosemite/big-oak-flat-entrance.md",
+          "url": "https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.md",
           "intro": "Big Oak Flat is the Highway 120 entrance from the Bay Area via Groveland, next to Hodgdon Meadow. With Tioga Road closing, Hwy 120 inside the park now leads only toward Crane Flat and Yosemite Valley (about 45 minutes away).",
           "conditions": [
             {
@@ -1114,8 +1114,8 @@
           "gateway": "Fish Camp / Oakhurst (Hwy 41)",
           "status": "open",
           "status_label": "Open — Winter Storm Watch",
-          "url": "https://goes-health.github.io/parkready-guides/parks/yosemite/south-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yosemite/south-entrance.md",
+          "url": "https://parks.goes.health/parks/yosemite/south-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/yosemite/south-entrance.md",
           "intro": "The South Entrance on Highway 41 from Fresno, Oakhurst and Fish Camp leads to the Mariposa Grove of Giant Sequoias, Wawona, and then Yosemite Valley, a little over an hour north.",
           "conditions": [
             {
@@ -1333,8 +1333,8 @@
           "gateway": "Evergreen Road (off Hwy 120)",
           "status": "limited",
           "status_label": "Daylight only — closes for snow",
-          "url": "https://goes-health.github.io/parkready-guides/parks/yosemite/hetch-hetchy-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/yosemite/hetch-hetchy-entrance.md",
+          "url": "https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.md",
           "intro": "Hetch Hetchy is Yosemite's quiet northwest corner, a reservoir valley at about 3,900 feet reached on Evergreen and Hetch Hetchy roads off Hwy 120. NPS puts it about 1.5 hours from Yosemite Valley.",
           "conditions": [
             {
@@ -1519,8 +1519,8 @@
       "short_name": "Grand Canyon",
       "nps_park_code": "grca",
       "state": "AZ",
-      "url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/",
-      "markdown_url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/index.md",
+      "url": "https://parks.goes.health/parks/grand-canyon/",
+      "markdown_url": "https://parks.goes.health/parks/grand-canyon/index.md",
       "nps_url": "https://www.nps.gov/grca/index.htm",
       "nps_conditions_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
       "headline": "Day use only on the South Rim: overnight lodging suspended, bring your own water.",
@@ -1657,8 +1657,8 @@
           "gateway": "Tusayan, AZ (Hwy 64 / 180)",
           "status": "open",
           "status_label": "Open 24/7 — day use, bring water",
-          "url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/south-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/south-entrance.md",
+          "url": "https://parks.goes.health/parks/grand-canyon/south-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/grand-canyon/south-entrance.md",
           "intro": "The South Entrance just north of Tusayan is the main gate into Grand Canyon's South Rim (NPS says it gets the most traffic). It leads to Grand Canyon Village, the main visitor center and the Bright Angel and South Kaibab trailheads.",
           "conditions": [
             {
@@ -1873,8 +1873,8 @@
           "gateway": "Cameron, AZ (SR 64 via US 89)",
           "status": "open",
           "status_label": "Open 24/7",
-          "url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/desert-view-east-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/desert-view-east-entrance.md",
+          "url": "https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.md",
           "intro": "The East Entrance at Desert View is 25 miles west of Cameron on State Route 64, reached via US 89 through the Navajo Nation. It's 32 miles east of Grand Canyon Village, and NPS says waits here are usually shorter than at the South Entrance.",
           "conditions": [
             {
@@ -2041,8 +2041,8 @@
           "gateway": "Jacob Lake, AZ (SR 67)",
           "status": "limited",
           "status_label": "Limited day use — no services, closing soon",
-          "url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/north-rim-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/grand-canyon/north-rim-entrance.md",
+          "url": "https://parks.goes.health/parks/grand-canyon/north-rim-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/grand-canyon/north-rim-entrance.md",
           "intro": "The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lake. In fall 2026 the North Rim is in modified operations: day use only, with no services. The gate closes for winter at sunset Nov 30 or after the first major snowstorm, whichever comes first.",
           "conditions": [
             {
@@ -2243,8 +2243,8 @@
       "short_name": "Great Smoky Mountains",
       "nps_park_code": "grsm",
       "state": "TN · NC",
-      "url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/",
-      "markdown_url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/index.md",
+      "url": "https://parks.goes.health/parks/great-smoky-mountains/",
+      "markdown_url": "https://parks.goes.health/parks/great-smoky-mountains/index.md",
       "nps_url": "https://www.nps.gov/grsm/index.htm",
       "nps_conditions_url": "https://www.nps.gov/grsm/planyourvisit/conditions.htm",
       "headline": "Winter Weather Advisory on the Tennessee side; snow showers at Newfound Gap.",
@@ -2381,8 +2381,8 @@
           "gateway": "Gatlinburg, TN (US-441)",
           "status": "open",
           "status_label": "Open — Winter Weather Advisory",
-          "url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/gatlinburg-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/gatlinburg-entrance.md",
+          "url": "https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md",
           "intro": "The Gatlinburg entrance on US-441 leads to Sugarlands Visitor Center and then up Newfound Gap Road over the crest to North Carolina. It's one of the park's three main entrances.",
           "conditions": [
             {
@@ -2600,8 +2600,8 @@
           "gateway": "Townsend, TN (TN-73)",
           "status": "open",
           "status_label": "Open — Winter Weather Advisory",
-          "url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/townsend-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/townsend-entrance.md",
+          "url": "https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md",
           "intro": "The Townsend entrance on TN-73 is the 'quiet side' gateway to Little River Road, Laurel Creek Road and Cades Cove.",
           "conditions": [
             {
@@ -2801,8 +2801,8 @@
           "gateway": "Cherokee, NC (US-441)",
           "status": "open",
           "status_label": "Open — elk area",
-          "url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/cherokee-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/cherokee-entrance.md",
+          "url": "https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md",
           "intro": "The Cherokee entrance on US-441 in North Carolina leads to Oconaluftee Visitor Center and the Mountain Farm Museum, then north up Newfound Gap Road to the state line.",
           "conditions": [
             {
@@ -2999,8 +2999,8 @@
       "short_name": "Zion",
       "nps_park_code": "zion",
       "state": "UT",
-      "url": "https://goes-health.github.io/parkready-guides/parks/zion/",
-      "markdown_url": "https://goes-health.github.io/parkready-guides/parks/zion/index.md",
+      "url": "https://parks.goes.health/parks/zion/",
+      "markdown_url": "https://parks.goes.health/parks/zion/index.md",
       "nps_url": "https://www.nps.gov/zion/index.htm",
       "nps_conditions_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
       "headline": "Shuttle season ends Nov 28; cool days, cold canyon water, storms Friday night.",
@@ -3153,8 +3153,8 @@
           "gateway": "Springdale, UT (SR-9)",
           "status": "open",
           "status_label": "Open — shuttle through Nov 28",
-          "url": "https://goes-health.github.io/parkready-guides/parks/zion/south-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/zion/south-entrance.md",
+          "url": "https://parks.goes.health/parks/zion/south-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/zion/south-entrance.md",
           "intro": "The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.",
           "conditions": [
             {
@@ -3357,8 +3357,8 @@
           "gateway": "Mt. Carmel Junction, UT (SR-9)",
           "status": "open",
           "status_label": "Open — gravel section, size limits",
-          "url": "https://goes-health.github.io/parkready-guides/parks/zion/east-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/zion/east-entrance.md",
+          "url": "https://parks.goes.health/parks/zion/east-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/zion/east-entrance.md",
           "intro": "The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.",
           "conditions": [
             {
@@ -3529,8 +3529,8 @@
           "gateway": "I-15 Exit 40 (near Cedar City)",
           "status": "open",
           "status_label": "Open — may close for snow or ice",
-          "url": "https://goes-health.github.io/parkready-guides/parks/zion/kolob-canyons-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/zion/kolob-canyons-entrance.md",
+          "url": "https://parks.goes.health/parks/zion/kolob-canyons-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/zion/kolob-canyons-entrance.md",
           "intro": "Kolob Canyons is Zion's quieter northwest district, at I-15 Exit 40, 17 miles south of Cedar City and about an hour from Zion Canyon. A five-mile scenic drive leads to viewpoints and wilderness trails.",
           "conditions": [
             {
@@ -3693,8 +3693,8 @@
       "short_name": "Glacier",
       "nps_park_code": "glac",
       "state": "MT",
-      "url": "https://goes-health.github.io/parkready-guides/parks/glacier/",
-      "markdown_url": "https://goes-health.github.io/parkready-guides/parks/glacier/index.md",
+      "url": "https://parks.goes.health/parks/glacier/",
+      "markdown_url": "https://parks.goes.health/parks/glacier/index.md",
       "nps_url": "https://www.nps.gov/glac/index.htm",
       "nps_conditions_url": "https://www.nps.gov/glac/planyourvisit/conditions.htm",
       "headline": "Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season.",
@@ -3827,8 +3827,8 @@
           "gateway": "West Glacier, MT (US-2)",
           "status": "open",
           "status_label": "Open — road to Avalanche Creek",
-          "url": "https://goes-health.github.io/parkready-guides/parks/glacier/west-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/glacier/west-entrance.md",
+          "url": "https://parks.goes.health/parks/glacier/west-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/glacier/west-entrance.md",
           "intro": "The West Entrance at West Glacier is the park's year-round front door to Apgar Village, Lake McDonald and the lower Going-to-the-Sun Road. It's about 33 miles from Kalispell.",
           "conditions": [
             {
@@ -4035,8 +4035,8 @@
           "gateway": "St. Mary, MT (US-89)",
           "status": "limited",
           "status_label": "Open — road to Jackson Glacier Overlook",
-          "url": "https://goes-health.github.io/parkready-guides/parks/glacier/st-mary-entrance.html",
-          "markdown_url": "https://goes-health.github.io/parkready-guides/parks/glacier/st-mary-entrance.md",
+          "url": "https://parks.goes.health/parks/glacier/st-mary-entrance.html",
+          "markdown_url": "https://parks.goes.health/parks/glacier/st-mary-entrance.md",
           "intro": "St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.",
           "conditions": [
             {

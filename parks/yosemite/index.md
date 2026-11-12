@@ -2,16 +2,16 @@
 
 > Week of Nov 9–15, 2026 · CA · Snow on the way: Tioga and Glacier Point roads close Nov 12 at 5 pm. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/yosemite/
+HTML version: https://parks.goes.health/parks/yosemite/
 
 Yosemite is open 24 hours a day, but the high country is shutting down. NPS announced that Tioga Road (Hwy 120 through the park) and Glacier Point Road temporarily close Thursday, Nov 12 at 5 pm because snow is forecast. Wawona Road (Hwy 41), El Portal Road (Hwy 140) and Big Oak Flat Road (Hwy 120 west) are open. Carry tire chains: they can become mandatory at any time, even for 4WD. Sources: [NPS Yosemite alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/yose/planyourvisit/conditions.htm); [Yosemite Current Conditions (updated Nov 11, 2026)](https://www.nps.gov/yose/planyourvisit/conditions.htm)
 
 ## Entrances open this week
 
-- [Arch Rock Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/arch-rock-entrance.md) (El Portal / Mariposa (Hwy 140)): **Open — Hwy 140 / El Portal Road**. Arch Rock is the Highway 140 entrance from Merced, Mariposa and El Portal, along the Merced River. NPS puts it about 20–25 minutes from Yosemite Valley.
-- [Big Oak Flat Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/big-oak-flat-entrance.md) (Groveland (Hwy 120 west)): **Open — weekday delays**. Big Oak Flat is the Highway 120 entrance from the Bay Area via Groveland, next to Hodgdon Meadow. With Tioga Road closing, Hwy 120 inside the park now leads only toward Crane Flat and Yosemite Valley (about 45 minutes away).
-- [South Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/south-entrance.md) (Fish Camp / Oakhurst (Hwy 41)): **Open — Winter Storm Watch**. The South Entrance on Highway 41 from Fresno, Oakhurst and Fish Camp leads to the Mariposa Grove of Giant Sequoias, Wawona, and then Yosemite Valley, a little over an hour north.
-- [Hetch Hetchy Entrance](https://goes-health.github.io/parkready-guides/parks/yosemite/hetch-hetchy-entrance.md) (Evergreen Road (off Hwy 120)): **Daylight only — closes for snow**. Hetch Hetchy is Yosemite's quiet northwest corner, a reservoir valley at about 3,900 feet reached on Evergreen and Hetch Hetchy roads off Hwy 120. NPS puts it about 1.5 hours from Yosemite Valley.
+- [Arch Rock Entrance](https://parks.goes.health/parks/yosemite/arch-rock-entrance.md) (El Portal / Mariposa (Hwy 140)): **Open — Hwy 140 / El Portal Road**. Arch Rock is the Highway 140 entrance from Merced, Mariposa and El Portal, along the Merced River. NPS puts it about 20–25 minutes from Yosemite Valley.
+- [Big Oak Flat Entrance](https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.md) (Groveland (Hwy 120 west)): **Open — weekday delays**. Big Oak Flat is the Highway 120 entrance from the Bay Area via Groveland, next to Hodgdon Meadow. With Tioga Road closing, Hwy 120 inside the park now leads only toward Crane Flat and Yosemite Valley (about 45 minutes away).
+- [South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md) (Fish Camp / Oakhurst (Hwy 41)): **Open — Winter Storm Watch**. The South Entrance on Highway 41 from Fresno, Oakhurst and Fish Camp leads to the Mariposa Grove of Giant Sequoias, Wawona, and then Yosemite Valley, a little over an hour north.
+- [Hetch Hetchy Entrance](https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.md) (Evergreen Road (off Hwy 120)): **Daylight only — closes for snow**. Hetch Hetchy is Yosemite's quiet northwest corner, a reservoir valley at about 3,900 feet reached on Evergreen and Hetch Hetchy roads off Hwy 120. NPS puts it about 1.5 hours from Yosemite Valley.
 
 ## Closed or limited this week
 
@@ -72,4 +72,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

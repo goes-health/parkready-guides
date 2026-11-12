@@ -2,7 +2,7 @@
 
 > Week of Nov 9–15, 2026 · Great Smoky Mountains National Park · Cherokee, NC (US-441) · Status: **Open — elk area**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/cherokee-entrance.html
+HTML version: https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.html
 
 The Cherokee entrance on US-441 in North Carolina leads to Oconaluftee Visitor Center and the Mountain Farm Museum, then north up Newfound Gap Road to the state line.
 
@@ -84,9 +84,9 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Great Smoky Mountains entrances
 
-- [Gatlinburg Entrance (Sugarlands)](https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Winter Weather Advisory
-- [Townsend Entrance](https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/townsend-entrance.md): Open — Winter Weather Advisory
-- [Great Smoky Mountains overview, closures and park-wide risks](https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/index.md)
+- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Winter Weather Advisory
+- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — Winter Weather Advisory
+- [Great Smoky Mountains overview, closures and park-wide risks](https://parks.goes.health/parks/great-smoky-mountains/index.md)
 
 ## Sources
 
@@ -108,4 +108,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

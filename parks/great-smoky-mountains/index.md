@@ -2,15 +2,15 @@
 
 > Week of Nov 9–15, 2026 · TN · NC · Winter Weather Advisory on the Tennessee side; snow showers at Newfound Gap. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/
+HTML version: https://parks.goes.health/parks/great-smoky-mountains/
 
 The Smokies' primary roads (Newfound Gap Road/US-441, Little River Road and Laurel Creek Road) are open 24/7 year-round, weather permitting. This week NWS Morristown has a Winter Weather Advisory for the Gatlinburg and Townsend areas until 7 am EST Nov 14, and the forecast at Newfound Gap shows snow showers Friday. There's no entrance fee, but any vehicle parked longer than 15 minutes needs a parking tag ($5 daily, $15 weekly, $40 annual). Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [NWS Morristown: Winter Weather Advisory (issued Nov 11, until Nov 14 7 am EST)](https://forecast.weather.gov/MapClick.php?lat=35.685&lon=-83.537); [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/)
 
 ## Entrances open this week
 
-- [Gatlinburg Entrance (Sugarlands)](https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/gatlinburg-entrance.md) (Gatlinburg, TN (US-441)): **Open — Winter Weather Advisory**. The Gatlinburg entrance on US-441 leads to Sugarlands Visitor Center and then up Newfound Gap Road over the crest to North Carolina. It's one of the park's three main entrances.
-- [Townsend Entrance](https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/townsend-entrance.md) (Townsend, TN (TN-73)): **Open — Winter Weather Advisory**. The Townsend entrance on TN-73 is the 'quiet side' gateway to Little River Road, Laurel Creek Road and Cades Cove.
-- [Cherokee Entrance (Oconaluftee)](https://goes-health.github.io/parkready-guides/parks/great-smoky-mountains/cherokee-entrance.md) (Cherokee, NC (US-441)): **Open — elk area**. The Cherokee entrance on US-441 in North Carolina leads to Oconaluftee Visitor Center and the Mountain Farm Museum, then north up Newfound Gap Road to the state line.
+- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md) (Gatlinburg, TN (US-441)): **Open — Winter Weather Advisory**. The Gatlinburg entrance on US-441 leads to Sugarlands Visitor Center and then up Newfound Gap Road over the crest to North Carolina. It's one of the park's three main entrances.
+- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md) (Townsend, TN (TN-73)): **Open — Winter Weather Advisory**. The Townsend entrance on TN-73 is the 'quiet side' gateway to Little River Road, Laurel Creek Road and Cades Cove.
+- [Cherokee Entrance (Oconaluftee)](https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md) (Cherokee, NC (US-441)): **Open — elk area**. The Cherokee entrance on US-441 in North Carolina leads to Oconaluftee Visitor Center and the Mountain Farm Museum, then north up Newfound Gap Road to the state line.
 
 ## Closed or limited this week
 
@@ -71,4 +71,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

@@ -2,15 +2,15 @@
 
 > Week of Nov 9–15, 2026 · UT · Shuttle season ends Nov 28; cool days, cold canyon water, storms Friday night. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/zion/
+HTML version: https://parks.goes.health/parks/zion/
 
 Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedule through Nov 28 (first bus 7 am, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm), with no shuttle service Nov 29 – Dec 25. NWS forecasts sunny days Thursday, then rain and thunderstorms Friday night into Saturday. The Narrows closes whenever NWS issues a Flash Flood Warning or the Virgin River tops 150 cfs. Sources: [Zion Canyon shuttle schedule](https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm); [Zion operating hours & facility hours](https://www.nps.gov/zion/planyourvisit/hours.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm)
 
 ## Entrances open this week
 
-- [South Entrance](https://goes-health.github.io/parkready-guides/parks/zion/south-entrance.md) (Springdale, UT (SR-9)): **Open — shuttle through Nov 28**. The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.
-- [East Entrance](https://goes-health.github.io/parkready-guides/parks/zion/east-entrance.md) (Mt. Carmel Junction, UT (SR-9)): **Open — gravel section, size limits**. The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.
-- [Kolob Canyons Entrance](https://goes-health.github.io/parkready-guides/parks/zion/kolob-canyons-entrance.md) (I-15 Exit 40 (near Cedar City)): **Open — may close for snow or ice**. Kolob Canyons is Zion's quieter northwest district, at I-15 Exit 40, 17 miles south of Cedar City and about an hour from Zion Canyon. A five-mile scenic drive leads to viewpoints and wilderness trails.
+- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md) (Springdale, UT (SR-9)): **Open — shuttle through Nov 28**. The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.
+- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md) (Mt. Carmel Junction, UT (SR-9)): **Open — gravel section, size limits**. The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.
+- [Kolob Canyons Entrance](https://parks.goes.health/parks/zion/kolob-canyons-entrance.md) (I-15 Exit 40 (near Cedar City)): **Open — may close for snow or ice**. Kolob Canyons is Zion's quieter northwest district, at I-15 Exit 40, 17 miles south of Cedar City and about an hour from Zion Canyon. A five-mile scenic drive leads to viewpoints and wilderness trails.
 
 ## Closed or limited this week
 
@@ -75,4 +75,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

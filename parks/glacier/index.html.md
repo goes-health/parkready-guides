@@ -2,14 +2,14 @@
 
 > Week of Nov 9–15, 2026 · MT · Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/glacier/
+HTML version: https://parks.goes.health/parks/glacier/
 
 Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-service season. Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side and at Jackson Glacier Overlook on the east. The lower road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. There's no fuel inside the park and no in-park lodging this time of year. Entrance fees still apply; use the self-pay stations when entrances aren't staffed. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/glac/planyourvisit/conditions.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm); [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 
 ## Entrances open this week
 
-- [West Entrance](https://goes-health.github.io/parkready-guides/parks/glacier/west-entrance.md) (West Glacier, MT (US-2)): **Open — road to Avalanche Creek**. The West Entrance at West Glacier is the park's year-round front door to Apgar Village, Lake McDonald and the lower Going-to-the-Sun Road. It's about 33 miles from Kalispell.
-- [St. Mary Entrance](https://goes-health.github.io/parkready-guides/parks/glacier/st-mary-entrance.md) (St. Mary, MT (US-89)): **Open — road to Jackson Glacier Overlook**. St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.
+- [West Entrance](https://parks.goes.health/parks/glacier/west-entrance.md) (West Glacier, MT (US-2)): **Open — road to Avalanche Creek**. The West Entrance at West Glacier is the park's year-round front door to Apgar Village, Lake McDonald and the lower Going-to-the-Sun Road. It's about 33 miles from Kalispell.
+- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md) (St. Mary, MT (US-89)): **Open — road to Jackson Glacier Overlook**. St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.
 
 ## Closed or limited this week
 
@@ -67,4 +67,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

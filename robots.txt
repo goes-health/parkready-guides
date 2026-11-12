@@ -1,5 +1,5 @@
 # ParkReady Guides welcomes search engines and AI assistants.
-# Agent overview: https://goes-health.github.io/parkready-guides/llms.txt  ·  Weekly feed: https://goes-health.github.io/parkready-guides/conditions.json
+# Agent overview: https://parks.goes.health/llms.txt  ·  Weekly feed: https://parks.goes.health/conditions.json
 
 User-agent: OAI-SearchBot
 Allow: /
@@ -46,4 +46,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://goes-health.github.io/parkready-guides/sitemap.xml
+Sitemap: https://parks.goes.health/sitemap.xml

@@ -6,7 +6,7 @@ Key lives in data/indexnow.json; build.py publishes it as <key>.txt at the site 
 No account or login needed. Run only after GitHub Pages has finished deploying."""
 import json, os, sys, urllib.request, urllib.parse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = os.environ.get("PARKREADY_BASE", "https://goes-health.github.io/parkready-guides/")
+BASE = os.environ.get("PARKREADY_BASE", "https://parks.goes.health/")
 key = json.load(open(os.path.join(ROOT, "data", "indexnow.json")))["key"]
 D = json.load(open(os.path.join(ROOT, "data", "parks.json")))
 urls = [BASE, BASE + "llms.txt", BASE + "conditions.json", BASE + "sitemap.xml", BASE + "index.md"]

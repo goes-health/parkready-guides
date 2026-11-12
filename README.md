@@ -3,7 +3,7 @@
 Weekly national-park entrance briefings (open entrances, official NPS closures, NWS forecasts, real seasonal risks) that drive downloads of the GOES offline outdoor-safety app.
 
 - Static site, no build dependencies beyond Python 3 + bs4 (for refresh only). Publish the repo root (`index.html`, `parks/`, `assets/`, `sitemap.xml`, `robots.txt`, `.nojekyll`).
-- Live at https://goes-health.github.io/parkready-guides/ (canonical https://parks.goes.health/ once DNS + the Pages custom domain are on; then build with `PARKREADY_BASE=https://parks.goes.health/`).
+- Live at https://parks.goes.health/ (GitHub Pages; the github.io URL redirects here).
 - Editorial copy: `scripts/content.py` + `scripts/parks/*.py` → exported to `data/parks.json`.
 - Machine-fetched facts: `data/conditions.json` (NPS alerts, operating hours, fees, recent NPS news, NWS forecasts) compiled from `data/raw/`.
 

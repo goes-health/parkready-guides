@@ -2,15 +2,15 @@
 
 > Week of Nov 9–15, 2026 · AZ · Day use only on the South Rim: overnight lodging suspended, bring your own water. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/grand-canyon/
+HTML version: https://parks.goes.health/parks/grand-canyon/
 
 This is not a normal November at Grand Canyon. An Aug. 29 flash flood badly damaged the Transcanyon Waterline. The South Rim is under Stage 4 water restrictions, overnight accommodations are suspended (dry camping only), and visitors are asked to bring their own water. The park is open for day use, and food service, the Grand Canyon Clinic and the Post Office remain open. In September NPS projected that pumping could restart around Nov. 16, with phased overnight service around Thanksgiving; it called those dates tentative. Sources: [NPS Grand Canyon alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/grca/planyourvisit/conditions.htm); [News release: Projected dates for restoring water to the South Rim (Sep 19, 2026)](https://www.nps.gov/grca/learn/news/grand-canyon-national-park-announces-projected-dates-for-restoring-water-to-south-rim.htm); [News release: Stage 2 fire restrictions rescinded on South Rim (Nov 4, 2026)](https://www.nps.gov/grca/learn/news/stage-2-fire-restrictions-rescinded-on-south-rim.htm)
 
 ## Entrances open this week
 
-- [South Entrance](https://goes-health.github.io/parkready-guides/parks/grand-canyon/south-entrance.md) (Tusayan, AZ (Hwy 64 / 180)): **Open 24/7 — day use, bring water**. The South Entrance just north of Tusayan is the main gate into Grand Canyon's South Rim (NPS says it gets the most traffic). It leads to Grand Canyon Village, the main visitor center and the Bright Angel and South Kaibab trailheads.
-- [Desert View (East) Entrance](https://goes-health.github.io/parkready-guides/parks/grand-canyon/desert-view-east-entrance.md) (Cameron, AZ (SR 64 via US 89)): **Open 24/7**. The East Entrance at Desert View is 25 miles west of Cameron on State Route 64, reached via US 89 through the Navajo Nation. It's 32 miles east of Grand Canyon Village, and NPS says waits here are usually shorter than at the South Entrance.
-- [North Rim Entrance](https://goes-health.github.io/parkready-guides/parks/grand-canyon/north-rim-entrance.md) (Jacob Lake, AZ (SR 67)): **Limited day use — no services, closing soon**. The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lake. In fall 2026 the North Rim is in modified operations: day use only, with no services. The gate closes for winter at sunset Nov 30 or after the first major snowstorm, whichever comes first.
+- [South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md) (Tusayan, AZ (Hwy 64 / 180)): **Open 24/7 — day use, bring water**. The South Entrance just north of Tusayan is the main gate into Grand Canyon's South Rim (NPS says it gets the most traffic). It leads to Grand Canyon Village, the main visitor center and the Bright Angel and South Kaibab trailheads.
+- [Desert View (East) Entrance](https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.md) (Cameron, AZ (SR 64 via US 89)): **Open 24/7**. The East Entrance at Desert View is 25 miles west of Cameron on State Route 64, reached via US 89 through the Navajo Nation. It's 32 miles east of Grand Canyon Village, and NPS says waits here are usually shorter than at the South Entrance.
+- [North Rim Entrance](https://parks.goes.health/parks/grand-canyon/north-rim-entrance.md) (Jacob Lake, AZ (SR 67)): **Limited day use — no services, closing soon**. The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lake. In fall 2026 the North Rim is in modified operations: day use only, with no services. The gate closes for winter at sunset Nov 30 or after the first major snowstorm, whichever comes first.
 
 ## Closed or limited this week
 
@@ -73,4 +73,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

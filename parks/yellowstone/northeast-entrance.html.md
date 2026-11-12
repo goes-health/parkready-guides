@@ -2,7 +2,7 @@
 
 > Week of Nov 9–15, 2026 · Yellowstone National Park · Cooke City & Silver Gate, MT · Status: **Open to cars, reached via Gardiner**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
 
-HTML version: https://goes-health.github.io/parkready-guides/parks/yellowstone/northeast-entrance.html
+HTML version: https://parks.goes.health/parks/yellowstone/northeast-entrance.html
 
 The Northeast Entrance near Silver Gate and Cooke City, Montana sits at the far end of Yellowstone's only winter road. With the Beartooth Highway closed for the season, the way to Cooke City in winter is through the park from Gardiner and Lamar Valley.
 
@@ -83,8 +83,8 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Yellowstone entrances
 
-- [North Entrance](https://goes-health.github.io/parkready-guides/parks/yellowstone/north-entrance.md): Open to cars (year-round road)
-- [Yellowstone overview, closures and park-wide risks](https://goes-health.github.io/parkready-guides/parks/yellowstone/index.md)
+- [North Entrance](https://parks.goes.health/parks/yellowstone/north-entrance.md): Open to cars (year-round road)
+- [Yellowstone overview, closures and park-wide risks](https://parks.goes.health/parks/yellowstone/index.md)
 
 ## Sources
 
@@ -104,4 +104,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://goes-health.github.io/parkready-guides/llms.txt · Conditions feed (JSON): https://goes-health.github.io/parkready-guides/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
