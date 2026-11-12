@@ -1,0 +1,2275 @@
+{
+ "week": {
+  "label": "Week of Nov 9–15, 2026",
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "fetched": "2026-11-12",
+  "fetched_note": "Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones."
+ },
+ "goes": {
+  "ios": "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901",
+  "android": "https://play.google.com/store/apps/details?id=com.goes.mobile",
+  "site": "https://goes.health/",
+  "platform": "https://goes.health/platform",
+  "disclaimer": "GOES provides guidance. It is not a substitute for professional medical care."
+ },
+ "goes_tags": {
+  "bears": "Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals",
+  "wildlife": "Wildlife Encounters: location-specific risk indicators for dangerous animals",
+  "snakes": "Wildlife Encounters (venomous snakes) + Poisonous Plants (poison oak, ivy, sumac)",
+  "cold": "Environmental Health: hypothermia and frostbite assessments",
+  "heat": "Environmental Health: heat illness assessment",
+  "altitude": "High Altitude Illness: personalized altitude risk",
+  "smoke": "Respiratory Hazards: smoke, pollution and pollen (AQI) monitoring",
+  "uv": "Sunburn: UV-based burn risk",
+  "ticks": "Tick Risk: location- and season-specific tick activity",
+  "injury": "Offline interactive health assessment + 50+ visual how-to guides",
+  "weather": "125+ extreme weather alerts"
+ },
+ "sources": {
+  "yell-alerts": {
+   "label": "NPS Yellowstone alerts (NPS Data API, fetched Nov 12)",
+   "url": "https://www.nps.gov/yell/planyourvisit/conditions.htm"
+  },
+  "yell-home": {
+   "label": "NPS Yellowstone National Park",
+   "url": "https://www.nps.gov/yell/index.htm"
+  },
+  "yell-fees": {
+   "label": "NPS Yellowstone fees & passes",
+   "url": "https://www.nps.gov/yell/planyourvisit/fees.htm"
+  },
+  "yose-alerts": {
+   "label": "NPS Yosemite alerts (NPS Data API, fetched Nov 12)",
+   "url": "https://www.nps.gov/yose/planyourvisit/conditions.htm"
+  },
+  "yose-home": {
+   "label": "NPS Yosemite National Park",
+   "url": "https://www.nps.gov/yose/index.htm"
+  },
+  "yose-fees": {
+   "label": "NPS Yosemite fees & passes",
+   "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
+  },
+  "grca-alerts": {
+   "label": "NPS Grand Canyon alerts (NPS Data API, fetched Nov 12)",
+   "url": "https://www.nps.gov/grca/planyourvisit/conditions.htm"
+  },
+  "grca-home": {
+   "label": "NPS Grand Canyon National Park",
+   "url": "https://www.nps.gov/grca/index.htm"
+  },
+  "grca-fees": {
+   "label": "NPS Grand Canyon fees & passes",
+   "url": "https://www.nps.gov/grca/planyourvisit/fees.htm"
+  },
+  "grsm-alerts": {
+   "label": "NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 12)",
+   "url": "https://www.nps.gov/grsm/planyourvisit/conditions.htm"
+  },
+  "grsm-home": {
+   "label": "NPS Great Smoky Mountains National Park",
+   "url": "https://www.nps.gov/grsm/index.htm"
+  },
+  "grsm-fees": {
+   "label": "NPS Great Smoky Mountains fees & passes",
+   "url": "https://www.nps.gov/grsm/planyourvisit/fees.htm"
+  },
+  "zion-alerts": {
+   "label": "NPS Zion alerts (NPS Data API, fetched Nov 12)",
+   "url": "https://www.nps.gov/zion/planyourvisit/conditions.htm"
+  },
+  "zion-home": {
+   "label": "NPS Zion National Park",
+   "url": "https://www.nps.gov/zion/index.htm"
+  },
+  "zion-fees": {
+   "label": "NPS Zion fees & passes",
+   "url": "https://www.nps.gov/zion/planyourvisit/fees.htm"
+  },
+  "glac-alerts": {
+   "label": "NPS Glacier alerts (NPS Data API, fetched Nov 12)",
+   "url": "https://www.nps.gov/glac/planyourvisit/conditions.htm"
+  },
+  "glac-home": {
+   "label": "NPS Glacier National Park",
+   "url": "https://www.nps.gov/glac/index.htm"
+  },
+  "glac-fees": {
+   "label": "NPS Glacier fees & passes",
+   "url": "https://www.nps.gov/glac/planyourvisit/fees.htm"
+  },
+  "nps-api": {
+   "label": "NPS Data API (parks, operating hours, fees)",
+   "url": "https://www.nps.gov/subjects/developer/api-documentation.htm"
+  },
+  "nws": {
+   "label": "National Weather Service point forecasts (api.weather.gov, fetched Nov 12)",
+   "url": "https://www.weather.gov/"
+  },
+  "airnow": {
+   "label": "AirNow fire & smoke map",
+   "url": "https://fire.airnow.gov/"
+  },
+  "goes-app": {
+   "label": "GOES app listing (App Store)",
+   "url": "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901"
+  },
+  "yell-roads": {
+   "label": "Yellowstone Park Roads (updated Nov 3, 2026)",
+   "url": "https://www.nps.gov/yell/planyourvisit/parkroads.htm"
+  },
+  "yell-close-nov1": {
+   "label": "News release: Most Yellowstone roads and entrances close Nov. 1, 2026 (Oct 21)",
+   "url": "https://www.nps.gov/yell/learn/news/26026.htm"
+  },
+  "yell-hours": {
+   "label": "Yellowstone operating dates (updated Nov 9, 2026)",
+   "url": "https://www.nps.gov/yell/planyourvisit/hours.htm"
+  },
+  "yell-safety": {
+   "label": "Yellowstone safety: thermal areas, wildlife, bears",
+   "url": "https://www.nps.gov/yell/planyourvisit/safety.htm"
+  },
+  "yose-cond": {
+   "label": "Yosemite Current Conditions (updated Nov 11, 2026)",
+   "url": "https://www.nps.gov/yose/planyourvisit/conditions.htm"
+  },
+  "yose-hours": {
+   "label": "Yosemite operating hours (Hetch Hetchy daylight hours)",
+   "url": "https://www.nps.gov/yose/planyourvisit/hours.htm"
+  },
+  "yose-driving": {
+   "label": "Yosemite driving directions, fuel & GPS warning",
+   "url": "https://www.nps.gov/yose/planyourvisit/driving.htm"
+  },
+  "yose-bears": {
+   "label": "Yosemite bears",
+   "url": "https://www.nps.gov/yose/learn/nature/bears.htm"
+  },
+  "yose-hetch": {
+   "label": "Yosemite: Hetch Hetchy day hikes",
+   "url": "https://www.nps.gov/yose/planyourvisit/hetchhetchy.htm"
+  },
+  "yose-dome": {
+   "label": "Dome Fire update, Oct 13, 2026",
+   "url": "https://www.nps.gov/yose/learn/news/dome-fire-update-october-13-2026-morning.htm"
+  },
+  "nws-hanford-wsw": {
+   "label": "NWS Hanford: Winter Storm Watch (issued Nov 11, until Nov 17 4 am PST)",
+   "url": "https://forecast.weather.gov/MapClick.php?lat=37.507&lon=-119.632"
+  },
+  "grca-cond": {
+   "label": "Grand Canyon Alerts & Conditions",
+   "url": "https://www.nps.gov/grca/planyourvisit/conditions.htm"
+  },
+  "grca-key": {
+   "label": "Grand Canyon Key Hiking Messages (updated Oct 27, 2026)",
+   "url": "https://www.nps.gov/grca/planyourvisit/key-messages.htm"
+  },
+  "grca-water": {
+   "label": "News release: Projected dates for restoring water to the South Rim (Sep 19, 2026)",
+   "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-announces-projected-dates-for-restoring-water-to-south-rim.htm"
+  },
+  "grca-lodging": {
+   "label": "News release linked from the NPS alert: overnight accommodations suspended",
+   "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm"
+  },
+  "grca-trails": {
+   "label": "News release: Select inner canyon trails reopen (Oct 26, 2026)",
+   "url": "https://www.nps.gov/grca/learn/news/select-inner-canyon-trails-reopen-in-grand-canyon-national-park.htm"
+  },
+  "grca-fire": {
+   "label": "News release: Stage 2 fire restrictions rescinded on South Rim (Nov 4, 2026)",
+   "url": "https://www.nps.gov/grca/learn/news/stage-2-fire-restrictions-rescinded-on-south-rim.htm"
+  },
+  "grca-nr": {
+   "label": "News release: Modified fall operations at the North Rim (Sep 30, 2026)",
+   "url": "https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm"
+  },
+  "grca-safety": {
+   "label": "Grand Canyon safety: elevation, rim edges, winter",
+   "url": "https://www.nps.gov/grca/planyourvisit/safety.htm"
+  },
+  "grca-hours": {
+   "label": "Grand Canyon operating hours",
+   "url": "https://www.nps.gov/grca/planyourvisit/hours.htm"
+  },
+  "grsm-seasonal": {
+   "label": "Smokies seasonal road schedule (2026 season)",
+   "url": "https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm"
+  },
+  "grsm-cond": {
+   "label": "Smokies current conditions & trail closures",
+   "url": "https://www.nps.gov/grsm/planyourvisit/conditions.htm"
+  },
+  "grsm-bears": {
+   "label": "Smokies black bears",
+   "url": "https://www.nps.gov/grsm/learn/nature/black-bears.htm"
+  },
+  "grsm-fall": {
+   "label": "News release: View elk and black bears safely this fall (Sep 14, 2026)",
+   "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm"
+  },
+  "grsm-elk": {
+   "label": "News release: Approaching elk is dangerous and illegal (Oct 7, 2026)",
+   "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-approaching-elk-is-both-dangerous-and-illegal.htm"
+  },
+  "grsm-directions": {
+   "label": "Smokies directions & GPS warning",
+   "url": "https://www.nps.gov/grsm/planyourvisit/directions.htm"
+  },
+  "nws-mrx-wwa": {
+   "label": "NWS Morristown: Winter Weather Advisory (issued Nov 11, until Nov 14 7 am EST)",
+   "url": "https://forecast.weather.gov/MapClick.php?lat=35.685&lon=-83.537"
+  },
+  "zion-cond": {
+   "label": "Zion Current Conditions",
+   "url": "https://www.nps.gov/zion/planyourvisit/conditions.htm"
+  },
+  "zion-hours": {
+   "label": "Zion operating hours & facility hours",
+   "url": "https://www.nps.gov/zion/planyourvisit/hours.htm"
+  },
+  "zion-shuttle": {
+   "label": "Zion Canyon shuttle schedule",
+   "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+  },
+  "zion-zmch": {
+   "label": "News release: Zion-Mt. Carmel Highway reopens (Oct 9, 2026)",
+   "url": "https://www.nps.gov/zion/learn/news/2026-10-09-zmch.htm"
+  },
+  "zion-large": {
+   "label": "Zion large-vehicle restrictions",
+   "url": "https://www.nps.gov/zion/planyourvisit/large-vehicles.htm"
+  },
+  "zion-cyano": {
+   "label": "Zion toxic cyanobacteria advisory",
+   "url": "https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm"
+  },
+  "zion-angels": {
+   "label": "Angels Landing permits",
+   "url": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+  },
+  "zion-kolob": {
+   "label": "Kolob Canyons",
+   "url": "https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm"
+  },
+  "zion-safety": {
+   "label": "Zion safety: flash floods, cliffs, hypothermia, water",
+   "url": "https://www.nps.gov/zion/planyourvisit/safety.htm"
+  },
+  "glac-roads": {
+   "label": "Glacier directions, transportation & road status",
+   "url": "https://www.nps.gov/glac/planyourvisit/directions.htm"
+  },
+  "glac-hours": {
+   "label": "Glacier operating hours & seasons",
+   "url": "https://www.nps.gov/glac/planyourvisit/hours.htm"
+  },
+  "glac-winter": {
+   "label": "Glacier: visiting in winter",
+   "url": "https://www.nps.gov/glac/planyourvisit/winter.htm"
+  },
+  "glac-bears": {
+   "label": "Glacier bear safety",
+   "url": "https://www.nps.gov/glac/planyourvisit/bears.htm"
+  },
+  "glac-cond": {
+   "label": "Glacier current conditions & safety",
+   "url": "https://www.nps.gov/glac/planyourvisit/conditions.htm"
+  },
+  "glac-tula-mg": {
+   "label": "News release: Tularemia detected in Many Glacier Valley (Oct 15, 2026)",
+   "url": "https://www.nps.gov/glac/learn/news/tularemia-detected-in-glacier-national-park-s-many-glacier-valley.htm"
+  },
+  "glac-tula-sm": {
+   "label": "News release: Tularemia detected in St. Mary Lake area (Sep 17, 2026)",
+   "url": "https://www.nps.gov/glac/learn/news/tularemia-detected-in-st-mary-lake-area-of-glacier-national-park.htm"
+  }
+ },
+ "parks": [
+  {
+   "slug": "yellowstone",
+   "code": "yell",
+   "name": "Yellowstone National Park",
+   "short": "Yellowstone",
+   "state": "WY · MT · ID",
+   "tagline": "Winter shoulder season: only the North ↔ Northeast road is open to cars.",
+   "summary": "Yellowstone closed its West, South and East entrances and nearly all roads to regular vehicles on Nov. 1. Until snowmobile and snowcoach season starts Dec. 15, the only way to drive into the park is the road between the North Entrance (Gardiner, MT) and the Northeast Entrance (Cooke City/Silver Gate, MT), through Mammoth Hot Springs, Tower Junction and Lamar Valley.",
+   "summary_sources": [
+    "yell-close-nov1",
+    "yell-roads",
+    "yell-alerts"
+   ],
+   "cta_reason": "Grizzly and black bear country, thermal ground that can scald, bison and elk along the road, and a single winter road where you can't count on a signal. GOES keeps its injury assessment, how-to guides and prevention tips on your phone offline.",
+   "fees": "Private vehicle $35. Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass.",
+   "fees_sources": [
+    "yell-fees",
+    "nps-api"
+   ],
+   "closed": [
+    {
+     "name": "West Entrance (West Yellowstone, MT)",
+     "note": "Closed to cars Nov 1 – Dec 14 (shoulder season). Opens to commercially guided snowmobiles and snowcoaches Dec 15.",
+     "sources": [
+      "yell-close-nov1",
+      "nps-api"
+     ]
+    },
+    {
+     "name": "South Entrance (from Grand Teton)",
+     "note": "Closed to cars Nov 1 – Dec 14. Opens to oversnow travel Dec 15.",
+     "sources": [
+      "yell-close-nov1",
+      "nps-api"
+     ]
+    },
+    {
+     "name": "East Entrance (from Cody, WY)",
+     "note": "Closed to cars Nov 1 – Dec 14. Oversnow dates differ between NPS pages (Park Roads lists Dec 15; operating hours list Dec 22) — confirm before planning.",
+     "sources": [
+      "yell-roads",
+      "nps-api"
+     ]
+    }
+   ],
+   "park_risks": [
+    {
+     "title": "Thermal areas (scald burns)",
+     "body": "Burns from thermal features are a common cause of serious injury and death in Yellowstone. Ground that looks solid can be a thin crust over superheated water. Stay on boardwalks, keep kids close, and never touch runoff. More than 20 people have died after entering or falling into hot springs. Biscuit Basin (near Old Faithful) remains closed after the July 2024 hydrothermal explosion.",
+     "sources": [
+      "yell-safety",
+      "yell-alerts"
+     ],
+     "goes": "injury"
+    },
+    {
+     "title": "Bears",
+     "body": "All of Yellowstone is grizzly and black bear country. Stay at least 100 yards from bears and wolves, carry bear spray where you can reach it, hike in groups of 3+, make noise, and avoid carcasses. Since 1970, 91% of people injured by bears in Yellowstone were hiking alone or with one partner.",
+     "sources": [
+      "yell-safety"
+     ],
+     "goes": "bears"
+    },
+    {
+     "title": "Bison, elk and other wildlife",
+     "body": "Stay at least 25 yards from bison, elk and all other animals (100 yards from bears, wolves and cougars). The safest view is usually from inside your car.",
+     "sources": [
+      "yell-safety"
+     ],
+     "goes": "wildlife"
+    },
+    {
+     "title": "Winter driving and cold",
+     "body": "NPS asks fall and winter drivers to watch the weather, keep plans flexible, expect limited services and closures without notice, pack blankets and cold-weather essentials, and keep a full tank.",
+     "sources": [
+      "yell-close-nov1"
+     ],
+     "goes": "cold"
+    }
+   ],
+   "entrances": [
+    {
+     "slug": "north-entrance",
+     "name": "North Entrance",
+     "gateway": "Gardiner, MT",
+     "nws": "yell-north",
+     "status": "open",
+     "status_label": "Open to cars (year-round road)",
+     "intro": "The North Entrance at Gardiner, Montana is the only Yellowstone entrance open to wheeled vehicles all year, and right now it's one of only two ways to drive in. From here the road climbs to Mammoth Hot Springs and continues east through Tower Junction and Lamar Valley to the Northeast Entrance.",
+     "conditions": [
+      {
+       "text": "Open year-round to regular vehicles: North Entrance → Mammoth → Tower Junction → Lamar Valley → Northeast Entrance. Every other park road is closed to cars (oversnow travel only from Dec 15).",
+       "sources": [
+        "yell-roads",
+        "yell-close-nov1"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Gardner River High Bridge (0.5 mi southeast of Mammoth, toward Tower): single-lane traffic with up to 15-minute delays, 24/7, through Nov 24, 2026. Vehicles 8'6\"+ wide, 75'+ long or 80,000+ lbs can't cross.",
+       "sources": [
+        "yell-roads",
+        "yell-alerts"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Mammoth to Norris is closed to cars; it opens to oversnow vehicles Dec 15, 2026.",
+       "sources": [
+        "yell-roads"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Open at Mammoth per NPS operating dates: Albright Visitor Center, Mammoth Campground (first-come, first-served after Oct 15), Mammoth General Store, Mammoth Medical Clinic (closed on Thanksgiving), Mammoth Hot Springs Hotel & Cabins, Post Office. The Mammoth gas station is listed as closed — fill up in Gardiner.",
+       "sources": [
+        "yell-hours"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Road status: call (307) 344-2117 or text 82190 to 888-777 for Yellowstone road alerts.",
+       "sources": [
+        "yell-roads"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Thermal terraces at Mammoth",
+       "body": "Mammoth Hot Springs is the main thermal area you can reach by car right now. Stay on boardwalks and designated trails; thermal runoff can burn. Pets aren't allowed on boardwalks or in thermal areas. If you feel sick in a thermal area, leave immediately — gases can build up.",
+       "sources": [
+        "yell-safety"
+       ],
+       "goes": "injury"
+      },
+      {
+       "title": "Elk and bison around Mammoth and the road",
+       "body": "The rule: at least 25 yards from elk and bison, 100 yards from bears and wolves. If an animal moves toward you, back away. It's illegal to stay near any animal at a distance that disturbs it.",
+       "sources": [
+        "yell-safety"
+       ],
+       "goes": "wildlife"
+      },
+      {
+       "title": "Bears may still be active",
+       "body": "NPS treats all of Yellowstone as bear country. Carry bear spray on any walk away from the car, hike in a group, and never leave packs or coolers unattended.",
+       "sources": [
+        "yell-safety"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Cold, ice and short days",
+       "body": "This week's NWS forecast for Gardiner: highs around 55–64°F, lows in the mid-30s, with a chance of rain and snow showers by Saturday. NPS asks drivers to carry blankets and keep a full tank.",
+       "sources": [
+        "nws",
+        "yell-close-nov1"
+       ],
+       "goes": "cold"
+      }
+     ],
+     "prep": [
+      [
+       "Fill the tank in Gardiner",
+       "NPS lists the Mammoth gas station as closed for winter."
+      ],
+      [
+       "Download offline maps + the GOES app before the arch",
+       "NPS says to dial 911 “if cell service is available” — don't plan around it."
+      ],
+      [
+       "Bear spray within reach",
+       "One can per person, in a holster, not in the pack. NPS: spray when a charging bear is 30–60 ft away."
+      ],
+      [
+       "Pack winter layers and a blanket",
+       "Even after a 60°F afternoon, nights drop near freezing."
+      ],
+      [
+       "Check road status the morning you go",
+       "(307) 344-2117, or text 82190 to 888-777."
+      ]
+     ],
+     "cta_reason": "Mammoth's thermal terraces, elk and bison along the road, and grizzly country beyond. Download GOES in Gardiner so its injury assessment, how-to guides and prevention tips work without a signal."
+    },
+    {
+     "slug": "northeast-entrance",
+     "name": "Northeast Entrance",
+     "gateway": "Cooke City & Silver Gate, MT",
+     "nws": "yell-northeast",
+     "status": "open",
+     "status_label": "Open to cars, reached via Gardiner",
+     "intro": "The Northeast Entrance near Silver Gate and Cooke City, Montana sits at the far end of Yellowstone's only winter road. With the Beartooth Highway closed for the season, the way to Cooke City in winter is through the park from Gardiner and Lamar Valley.",
+     "conditions": [
+      {
+       "text": "Open year-round for wheeled vehicles between the North and Northeast entrances, through Lamar Valley.",
+       "sources": [
+        "yell-roads",
+        "nps-api"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Beartooth Highway (US-212, Cooke City to Red Lodge): closed for the season.",
+       "sources": [
+        "yell-roads"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Chief Joseph Scenic Byway (WY-296): in winter, 9 miles between Cooke City and Pilot Creek close to wheeled vehicles (oversnow only). That segment is normally open to cars mid-May through early November — check WYDOT before relying on it.",
+       "sources": [
+        "yell-roads"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Campgrounds near this entrance are closed: Slough Creek (seasonal) and Pebble Creek (closed until further notice for flood recovery). Tower-Roosevelt services are closed for the winter.",
+       "sources": [
+        "yell-hours"
+       ],
+       "status": "closed"
+      }
+     ],
+     "risks": [
+      {
+       "title": "Lamar Valley wildlife: bison, wolves, bears",
+       "body": "Use pullouts, stay in or near your vehicle, keep 100 yards from wolves and bears and 25 yards from bison. Don't stop in the travel lane.",
+       "sources": [
+        "yell-safety"
+       ],
+       "goes": "wildlife"
+      },
+      {
+       "title": "Bear country right up to town",
+       "body": "Hike in a group of 3+, make noise, carry bear spray, and if you find a carcass, leave by the way you came and report it.",
+       "sources": [
+        "yell-safety"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Remote, cold and far from help",
+       "body": "This week's NWS forecast near Silver Gate: lows in the upper 20s, and a chance of snow showers Saturday. Services in the northeast corner are closed for the winter; the nearest year-round park facilities are back at Mammoth.",
+       "sources": [
+        "nws",
+        "yell-hours"
+       ],
+       "goes": "cold"
+      }
+     ],
+     "prep": [
+      [
+       "Plan an out-and-back trip",
+       "With Beartooth closed, Cooke City is reached through the park from Gardiner."
+      ],
+      [
+       "Fuel, food and water for the whole drive",
+       "Tower-Roosevelt services are closed."
+      ],
+      [
+       "Bear spray, traction and warm layers",
+       "Lamar Valley pullouts get icy and cold at dawn and dusk."
+      ],
+      [
+       "Download GOES + offline maps in Gardiner",
+       "Expect no signal on much of the route."
+      ]
+     ],
+     "cta_reason": "Wolves, bison and grizzlies in Lamar Valley, sub-freezing nights and closed services. Get GOES before you lose signal so its offline assessment and prevention tips are there if something goes wrong."
+    }
+   ]
+  },
+  {
+   "slug": "yosemite",
+   "code": "yose",
+   "name": "Yosemite National Park",
+   "short": "Yosemite",
+   "state": "CA",
+   "tagline": "Snow on the way: Tioga and Glacier Point roads close Nov 12 at 5 pm.",
+   "summary": "Yosemite is open 24 hours a day, but the high country is shutting down. NPS announced that Tioga Road (Hwy 120 through the park) and Glacier Point Road temporarily close Thursday, Nov 12 at 5 pm because snow is forecast. Wawona Road (Hwy 41), El Portal Road (Hwy 140) and Big Oak Flat Road (Hwy 120 west) are open. Carry tire chains: they can become mandatory at any time, even for 4WD.",
+   "summary_sources": [
+    "yose-alerts",
+    "yose-cond"
+   ],
+   "cta_reason": "Black bears active in every part of the park, slick granite by the rivers, and a winter storm on the way. GOES works offline, so its assessment and how-to guides still help if a fall or a cold soaking happens out of signal.",
+   "fees": "Private vehicle $35. Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass.",
+   "fees_sources": [
+    "yose-fees",
+    "nps-api"
+   ],
+   "closed": [
+    {
+     "name": "Tioga Pass Entrance (Hwy 120 east, from Lee Vining)",
+     "note": "Tioga Road temporarily closes Thu Nov 12 at 5 pm for forecast snow, and no overnight parking is allowed on it. NPS says the Tioga Pass Entrance is closed from approximately November through late May or June, so there's no entrance page for it this week.",
+     "sources": [
+      "yose-alerts",
+      "yose-cond",
+      "nps-api"
+     ]
+    },
+    {
+     "name": "Glacier Point Road",
+     "note": "Temporarily closes Thu Nov 12 at 5 pm for forecast snow. Part of the Glacier Point Road area remains under a Dome Fire safety closure.",
+     "sources": [
+      "yose-alerts",
+      "yose-cond"
+     ]
+    }
+   ],
+   "park_risks": [
+    {
+     "title": "Black bears in all areas",
+     "body": "NPS: bears remain active in all areas of the park. Store food properly, use bear-proof dumpsters, and stay at least 50 yards from bears in forest and meadows — but yell at and scare away a bear that approaches you or is in a developed area. Yosemite has an estimated 300–500 black bears and no grizzlies.",
+     "sources": [
+      "yose-cond",
+      "yose-bears"
+     ],
+     "goes": "bears"
+    },
+    {
+     "title": "Rivers and slick rock",
+     "body": "Waterfalls are flowing low, as usual for November, but NPS still asks visitors to use caution along rivers and creeks: rocks are slippery even when dry.",
+     "sources": [
+      "yose-cond"
+     ],
+     "goes": "injury"
+    },
+    {
+     "title": "Winter storm, chains and ice",
+     "body": "NWS Hanford issued a Winter Storm Watch (Nov 11, until Nov 17, 4 am PST) for the park's southern area, and the forecast calls for rain and thunderstorms Friday, with snow possible at higher elevations. Carry chains even with 4WD and expect icy spots on mostly dry roads.",
+     "sources": [
+      "nws-hanford-wsw",
+      "yose-cond",
+      "nws"
+     ],
+     "goes": "cold"
+    },
+    {
+     "title": "Smoke and air quality",
+     "body": "The Dome Fire (Sept–Oct) was 86% contained with minimal activity as of NPS's Oct 13 update, and fire closures remain around the Glacier Point Road area. Air quality can still be affected by fires elsewhere or prescribed burns, so check current AQI before strenuous hikes.",
+     "sources": [
+      "yose-dome",
+      "yose-cond",
+      "airnow"
+     ],
+     "goes": "smoke"
+    }
+   ],
+   "entrances": [
+    {
+     "slug": "arch-rock-entrance",
+     "name": "Arch Rock Entrance",
+     "gateway": "El Portal / Mariposa (Hwy 140)",
+     "nws": "yose-arch-rock",
+     "status": "open",
+     "status_label": "Open — Hwy 140 / El Portal Road",
+     "intro": "Arch Rock is the Highway 140 entrance from Merced, Mariposa and El Portal, along the Merced River. NPS puts it about 20–25 minutes from Yosemite Valley.",
+     "conditions": [
+      {
+       "text": "El Portal Road (Hwy 140): open.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Yosemite Valley roads: open, with 15-minute delays on weekdays 7 am – 7 pm at El Capitan Bridge (stabilization work through December 2026). The Valley Loop Trail crossing at El Capitan Bridge is closed on weekdays.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Valley campgrounds: Upper Pines and Camp 4 open (reservation required). Lower Pines and North Pines are closed.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": null
+      },
+      {
+       "text": "Fuel: 24/7 by credit card at El Portal, Wawona and Crane Flat. There's no gas in Yosemite Valley.",
+       "sources": [
+        "yose-driving"
+       ],
+       "status": null
+      },
+      {
+       "text": "Half Dome cables are down for the season.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": "closed"
+      }
+     ],
+     "risks": [
+      {
+       "title": "Merced River banks",
+       "body": "The river is low, but NPS warns rocks are slippery even when dry. Stay off wet granite near waterfalls and the river's edge.",
+       "sources": [
+        "yose-cond"
+       ],
+       "goes": "injury"
+      },
+      {
+       "title": "Valley bears",
+       "body": "Bears are active in all areas, including the Valley. Use food lockers and bear-proof trash cans, and never leave food unattended at picnic spots.",
+       "sources": [
+        "yose-cond",
+        "yose-bears"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Rain and thunderstorms Friday",
+       "body": "This week's NWS forecast for the Arch Rock area: sunny and about 66°F Thursday, then light rain and showers/thunderstorms Friday into Friday night.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "weather"
+      }
+     ],
+     "prep": [
+      [
+       "Fuel at El Portal or before",
+       "No gas in the Valley."
+      ],
+      [
+       "Chains in the trunk",
+       "Chains can become mandatory at any time, even with 4WD."
+      ],
+      [
+       "Follow road signs over GPS",
+       "NPS: when your GPS and a road sign disagree, the sign is right."
+      ],
+      [
+       "Download GOES before the canyon",
+       "Don't count on coverage in the Merced canyon and Valley."
+      ]
+     ],
+     "cta_reason": "Bears in the Valley, slick river rock and a wet, stormy Friday. Get GOES before the canyon so its offline injury assessment and how-to guides are ready without a signal."
+    },
+    {
+     "slug": "big-oak-flat-entrance",
+     "name": "Big Oak Flat Entrance",
+     "gateway": "Groveland (Hwy 120 west)",
+     "nws": "yose-big-oak-flat",
+     "status": "open",
+     "status_label": "Open — weekday delays",
+     "intro": "Big Oak Flat is the Highway 120 entrance from the Bay Area via Groveland, next to Hodgdon Meadow. With Tioga Road closing, Hwy 120 inside the park now leads only toward Crane Flat and Yosemite Valley (about 45 minutes away).",
+     "conditions": [
+      {
+       "text": "Big Oak Flat Road: open, with 15-minute delays on weekdays for fire-safety vegetation work between Foresta and Big Oak Flat.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Tioga Road (east of Crane Flat) temporarily closes Thu Nov 12 at 5 pm for forecast snow. No overnight parking on Tioga Road.",
+       "sources": [
+        "yose-alerts"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Hodgdon Meadow Campground (by this entrance): open, first-come, first-served. Crane Flat, Tamarack Flat and White Wolf campgrounds are closed.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": null
+      },
+      {
+       "text": "Fuel: Crane Flat, 24/7 by credit card.",
+       "sources": [
+        "yose-driving"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Freezing nights and wet snow",
+       "body": "This week's NWS forecast here: sunny and about 69°F Thursday, then rain and thunderstorms Friday, a Friday-night low near 27°F, and a chance of rain and snow. Being wet in freezing weather is how hikers get hypothermia.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Bears at campgrounds and pullouts",
+       "body": "Hodgdon Meadow is open. Use the food lockers, keep a clean camp, and stay 50 yards from bears in the forest.",
+       "sources": [
+        "yose-cond",
+        "yose-bears"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Road work and wildlife on the road",
+       "body": "Expect weekday work zones on Big Oak Flat Road. NPS posts signs where bears have been hit by vehicles, so drive the speed limit.",
+       "sources": [
+        "yose-cond",
+        "yose-bears"
+       ],
+       "goes": "wildlife"
+      }
+     ],
+     "prep": [
+      [
+       "Chains, even with 4WD",
+       "Chains can become mandatory at any time."
+      ],
+      [
+       "Allow extra time on weekdays",
+       "15-minute delays on Big Oak Flat Road."
+      ],
+      [
+       "Don't plan on Tioga",
+       "It closes Nov 12 at 5 pm."
+      ],
+      [
+       "Download GOES in Groveland",
+       "Before the climb into the park."
+      ]
+     ],
+     "cta_reason": "Sub-freezing nights, a wet storm and bears around camp. Download GOES before Groveland so its hypothermia guidance and offline how-to guides work without a signal."
+    },
+    {
+     "slug": "south-entrance",
+     "name": "South Entrance",
+     "gateway": "Fish Camp / Oakhurst (Hwy 41)",
+     "nws": "yose-south",
+     "status": "open",
+     "status_label": "Open — Winter Storm Watch",
+     "intro": "The South Entrance on Highway 41 from Fresno, Oakhurst and Fish Camp leads to the Mariposa Grove of Giant Sequoias, Wawona, and then Yosemite Valley, a little over an hour north.",
+     "conditions": [
+      {
+       "text": "Wawona Road (Hwy 41): open.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "NWS Winter Storm Watch for this area, issued Nov 11, in effect until Nov 17 at 4 am PST.",
+       "sources": [
+        "nws-hanford-wsw"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Mariposa Grove Road: open only to vehicles displaying a disability placard. Everyone else takes the free shuttle from the Mariposa Grove Welcome Plaza, which runs approximately late April through November.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": null
+      },
+      {
+       "text": "Wawona Campground: open, reservation required until Nov 29. Bridalveil Creek Campground: closed.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": null
+      },
+      {
+       "text": "Glacier Point Road temporarily closes Thu Nov 12 at 5 pm. An area east of Wawona Road and south of Glacier Point Road remains closed after the Dome Fire; the Chilnualna Falls trail has reopened.",
+       "sources": [
+        "yose-alerts",
+        "yose-cond"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Fuel: Wawona, 24/7 by credit card.",
+       "sources": [
+        "yose-driving"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Winter storm on Hwy 41",
+       "body": "The NWS forecast here shows rain and thunderstorms Friday, then a chance of rain and snow with a low near 29°F. Chain controls can start with little notice.",
+       "sources": [
+        "nws",
+        "nws-hanford-wsw",
+        "yose-cond"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Fire-scarred areas",
+       "body": "Stay out of the posted Dome Fire closure area. Burned slopes can drop rocks and trees, especially in rain.",
+       "sources": [
+        "yose-cond",
+        "yose-dome"
+       ],
+       "goes": "injury"
+      },
+      {
+       "title": "Bears in the groves and around Wawona",
+       "body": "Bears are active parkwide. Store food properly and keep your distance in forest and meadows.",
+       "sources": [
+        "yose-cond"
+       ],
+       "goes": "bears"
+      }
+     ],
+     "prep": [
+      [
+       "Watch the forecast until you leave",
+       "The Winter Storm Watch runs through Nov 17."
+      ],
+      [
+       "Chains and a full tank",
+       "Fuel at Wawona; carry chains even with 4WD."
+      ],
+      [
+       "Plan on the shuttle for Mariposa Grove",
+       "Private cars need a disability placard."
+      ],
+      [
+       "Download GOES in Oakhurst or Fish Camp",
+       "Before you drive into the forest."
+      ]
+     ],
+     "cta_reason": "A winter storm watch, fire-scarred slopes and bears in the groves. Get GOES before Fish Camp so its offline cold-weather and injury guidance is ready."
+    },
+    {
+     "slug": "hetch-hetchy-entrance",
+     "name": "Hetch Hetchy Entrance",
+     "gateway": "Evergreen Road (off Hwy 120)",
+     "nws": "yose-hetch-hetchy",
+     "status": "limited",
+     "status_label": "Daylight only — closes for snow",
+     "intro": "Hetch Hetchy is Yosemite's quiet northwest corner, a reservoir valley at about 3,900 feet reached on Evergreen and Hetch Hetchy roads off Hwy 120. NPS puts it about 1.5 hours from Yosemite Valley.",
+     "conditions": [
+      {
+       "text": "Hetch Hetchy Road: open sunrise to sunset only, and closed when it's snowing or snow is forecast overnight. Day visitors must leave by sunset; the road is closed to all vehicles overnight.",
+       "sources": [
+        "yose-cond",
+        "yose-hours",
+        "nps-api"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "No current trail closures in the Hetch Hetchy area.",
+       "sources": [
+        "yose-cond"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Swimming and boating are prohibited in the reservoir (it's a drinking water supply). Pets aren't allowed on the dam or trails.",
+       "sources": [
+        "yose-hetch"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Getting caught by darkness",
+       "body": "Sunset comes early in mid-November and the gate closes at sunset. Turn around with daylight to spare: a twisted ankle on the Wapama Falls trail can turn into a cold night out.",
+       "sources": [
+        "yose-hours",
+        "yose-hetch"
+       ],
+       "goes": "injury"
+      },
+      {
+       "title": "Rattlesnakes and poison oak",
+       "body": "NPS's Hetch Hetchy page tells hikers to watch for rattlesnakes and poison oak.",
+       "sources": [
+        "yose-hetch"
+       ],
+       "goes": "snakes"
+      },
+      {
+       "title": "Storm closures",
+       "body": "Friday's NWS forecast here has rain and thunderstorms with a low near 28°F that night. If snow is forecast overnight, the road may not open.",
+       "sources": [
+        "nws",
+        "yose-cond"
+       ],
+       "goes": "cold"
+      }
+     ],
+     "prep": [
+      [
+       "Call before you drive",
+       "209/372-0200, then press 1, 1 for current road conditions."
+      ],
+      [
+       "Be out before sunset",
+       "The road is gated overnight."
+      ],
+      [
+       "Water, sunscreen and a map",
+       "NPS's own Hetch Hetchy checklist."
+      ],
+      [
+       "Download GOES before the turnoff",
+       "Snakebite and poisonous-plant guidance that works offline."
+      ]
+     ],
+     "cta_reason": "Rattlesnakes, poison oak and a sunset gate. Download GOES before the turnoff; its wildlife and poisonous-plant guidance works without a signal."
+    }
+   ]
+  },
+  {
+   "slug": "grand-canyon",
+   "code": "grca",
+   "name": "Grand Canyon National Park",
+   "short": "Grand Canyon",
+   "state": "AZ",
+   "tagline": "Day use only on the South Rim: overnight lodging suspended, bring your own water.",
+   "summary": "This is not a normal November at Grand Canyon. An Aug. 29 flash flood badly damaged the Transcanyon Waterline. The South Rim is under Stage 4 water restrictions, overnight accommodations are suspended (dry camping only), and visitors are asked to bring their own water. The park is open for day use, and food service, the Grand Canyon Clinic and the Post Office remain open. In September NPS projected that pumping could restart around Nov. 16, with phased overnight service around Thanksgiving; it called those dates tentative.",
+   "summary_sources": [
+    "grca-alerts",
+    "grca-water",
+    "grca-fire"
+   ],
+   "cta_reason": "7,000-foot rims, icy overlook paths, a rim edge with no second chances, and no water in the inner canyon. GOES carries altitude, cold and dehydration guidance offline.",
+   "fees": "Private vehicle $35 (cash is not accepted at the entrances). Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass.",
+   "fees_sources": [
+    "grca-fees",
+    "nps-api"
+   ],
+   "closed": [
+    {
+     "name": "Phantom Ranch, Bright Angel Campground, Black & Silver bridges, entire North Kaibab Trail",
+     "note": "Closed after flash flooding, with no estimated reopening. Boat Beach is closed except for emergencies and brief scouting.",
+     "sources": [
+      "grca-key",
+      "grca-trails",
+      "grca-alerts"
+     ]
+    }
+   ],
+   "park_risks": [
+    {
+     "title": "Water: bring your own",
+     "body": "Stage 4 restrictions are in effect on the South Rim. Inner-canyon water is off everywhere (1.5 Mile and 3 Mile resthouses, Havasupai Gardens) for the rest of the winter. Potable water tanks are at the Bright Angel and South Kaibab trailheads. Carry all your water or a reliable treatment method.",
+     "sources": [
+      "grca-key",
+      "grca-trails",
+      "grca-alerts"
+     ],
+     "goes": "injury"
+    },
+    {
+     "title": "Elevation",
+     "body": "The South Rim is about 7,000 ft and the North Rim about 8,000 ft. NPS warns the altitude and dry air can cause dehydration, nausea, shortness of breath and exhaustion, so take your time at overlooks.",
+     "sources": [
+      "grca-safety"
+     ],
+     "goes": "altitude"
+    },
+    {
+     "title": "The rim edge and ice",
+     "body": "Stay on trails and walkways, at least 6 feet from the edge, and never climb railings. In winter, walkways can be icy; NPS recommends over-the-shoe traction and hiking poles.",
+     "sources": [
+      "grca-safety"
+     ],
+     "goes": "injury"
+    },
+    {
+     "title": "Inner canyon hiking",
+     "body": "Temperatures rise about 5.5°F for every 1,000 ft you descend. Rescue isn't guaranteed and response can be delayed. Rockfall is common during or after rain and freeze/thaw, and flash floods can hit with no warning.",
+     "sources": [
+      "grca-key",
+      "grca-trails"
+     ],
+     "goes": "cold"
+    }
+   ],
+   "entrances": [
+    {
+     "slug": "south-entrance",
+     "name": "South Entrance",
+     "gateway": "Tusayan, AZ (Hwy 64 / 180)",
+     "nws": "grca-south",
+     "status": "open",
+     "status_label": "Open 24/7 — day use, bring water",
+     "intro": "The South Entrance just north of Tusayan is the main gate into Grand Canyon's South Rim (NPS says it gets the most traffic). It leads to Grand Canyon Village, the main visitor center and the Bright Angel and South Kaibab trailheads.",
+     "conditions": [
+      {
+       "text": "Open 24 hours a day, 7 days a week. Credit cards and America the Beautiful passes accepted; cash is not accepted.",
+       "sources": [
+        "grca-hours",
+        "nps-api"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "NPS notes this station has the longest lines, with waits of up to 2 hours between 9:30 am and 4 pm. That's NPS's general guidance, not a live wait time. Desert View (East) usually has shorter waits.",
+       "sources": [
+        "nps-api"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Overnight accommodations are suspended; only dry camping is allowed. Food and beverage services, the Grand Canyon Clinic and the Post Office remain open.",
+       "sources": [
+        "grca-alerts",
+        "grca-lodging"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Stage 2 fire restrictions were lifted on the South Rim Nov 4; Stage 1 remains. Campfires at Mather Campground are allowed only in established rings.",
+       "sources": [
+        "grca-fire"
+       ],
+       "status": null
+      },
+      {
+       "text": "Open trails: Bright Angel to River Resthouse, Plateau Point, River Trail, South Kaibab to the Black Bridge, and Tonto Trail (Tip-Off to Havasupai Gardens). Expect intermittent closures for Bright Angel Trail repairs.",
+       "sources": [
+        "grca-key",
+        "grca-trails"
+       ],
+       "status": "open"
+      }
+     ],
+     "risks": [
+      {
+       "title": "Dehydration in high, dry air",
+       "body": "At 7,000 feet in desert air you lose water fast, and the park is asking everyone to bring their own. Inner-canyon water stations are off.",
+       "sources": [
+        "grca-safety",
+        "grca-key"
+       ],
+       "goes": "altitude"
+      },
+      {
+       "title": "Cold mornings and icy rim paths",
+       "body": "NWS forecast for the South Rim this week: lows near 28–30°F, highs around 57–60°F, and showers and thunderstorms Friday night into Saturday. Freeze/thaw increases rockfall on trails.",
+       "sources": [
+        "nws",
+        "grca-key"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Hiking down is the easy half",
+       "body": "NPS: rescue is not guaranteed and response can be delayed. If you feel nauseated, dizzy or exhausted, stop, rest, and slowly eat and drink. Don't force fluids; drinking too much can cause hyponatremia.",
+       "sources": [
+        "grca-key",
+        "grca-trails"
+       ],
+       "goes": "injury"
+      }
+     ],
+     "prep": [
+      [
+       "Water for everyone, plus treatment if hiking",
+       "Stage 4 restrictions; inner-canyon water is off."
+      ],
+      [
+       "Book a bed outside the park",
+       "Overnight lodging in the park is suspended."
+      ],
+      [
+       "Card, not cash, at the gate",
+       "Cash isn't accepted."
+      ],
+      [
+       "Traction devices for icy walkways",
+       "NPS recommends them in winter."
+      ],
+      [
+       "Download GOES in Tusayan",
+       "Before you're on the rim or below it."
+      ]
+     ],
+     "cta_reason": "High altitude, icy rim paths and no water below the rim this season. Download GOES in Tusayan; its altitude, cold and dehydration guidance works offline."
+    },
+    {
+     "slug": "desert-view-east-entrance",
+     "name": "Desert View (East) Entrance",
+     "gateway": "Cameron, AZ (SR 64 via US 89)",
+     "nws": "grca-desert-view",
+     "status": "open",
+     "status_label": "Open 24/7",
+     "intro": "The East Entrance at Desert View is 25 miles west of Cameron on State Route 64, reached via US 89 through the Navajo Nation. It's 32 miles east of Grand Canyon Village, and NPS says waits here are usually shorter than at the South Entrance.",
+     "conditions": [
+      {
+       "text": "Open 24 hours a day, 7 days a week. Credit cards and passes accepted; cash is not accepted.",
+       "sources": [
+        "grca-hours",
+        "nps-api"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "NPS says most Desert View services are open. Desert View Campground is seasonal (NPS lists an April–October season).",
+       "sources": [
+        "nps-api"
+       ],
+       "status": null
+      },
+      {
+       "text": "Park-wide: Stage 4 water restrictions and suspended overnight accommodations. Bring your own water.",
+       "sources": [
+        "grca-alerts"
+       ],
+       "status": "caution"
+      }
+     ],
+     "risks": [
+      {
+       "title": "Wind and cold at the Watchtower",
+       "body": "NWS forecast for Desert View: highs near 50–53°F, lows in the mid-30s, showers and thunderstorms likely Friday night, and gusts building into Saturday.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Long, remote approach",
+       "body": "US 89 and SR 64 cross long empty stretches. NPS advises keeping your gas tank full and carrying water in the car.",
+       "sources": [
+        "grca-safety"
+       ],
+       "goes": "weather"
+      },
+      {
+       "title": "Edges and overlooks",
+       "body": "Stay 6 feet back from the edge and behind railings, and watch children closely.",
+       "sources": [
+        "grca-safety"
+       ],
+       "goes": "injury"
+      }
+     ],
+     "prep": [
+      [
+       "Fuel and water before Cameron",
+       "NPS: distances are deceiving out here."
+      ],
+      [
+       "Layers and a windproof shell",
+       "The rim is cold and exposed this week."
+      ],
+      [
+       "Download GOES before the drive in",
+       "Plan for gaps in coverage."
+      ]
+     ],
+     "cta_reason": "A cold, windy rim and long remote drives. Download GOES before Cameron so its offline guidance is on your phone when coverage drops."
+    },
+    {
+     "slug": "north-rim-entrance",
+     "name": "North Rim Entrance",
+     "gateway": "Jacob Lake, AZ (SR 67)",
+     "nws": "grca-north-rim",
+     "status": "limited",
+     "status_label": "Limited day use — no services, closing soon",
+     "intro": "The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lake. In fall 2026 the North Rim is in modified operations: day use only, with no services. The gate closes for winter at sunset Nov 30 or after the first major snowstorm, whichever comes first.",
+     "conditions": [
+      {
+       "text": "North Rim: limited fall day use only. NO SERVICES — the campground, store and gas station are closed, and there's no fuel inside the park.",
+       "sources": [
+        "grca-cond",
+        "grca-nr"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "The SR 67 entrance gate closes at sunset Nov 30, 2026, or after the first major snowstorm, whichever comes first. NWS forecasts snow showers here Friday night and Saturday, so check before you drive.",
+       "sources": [
+        "grca-nr",
+        "nws"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "All North Rim water is off. The North Kaibab Trail is closed in its entirety.",
+       "sources": [
+        "grca-key"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Stage 2 fire restrictions remain in effect on the North Rim for the rest of 2026.",
+       "sources": [
+        "grca-fire"
+       ],
+       "status": null
+      },
+      {
+       "text": "Road conditions: Arizona Highway Information, 1-888-411-ROAD (7623). Nearest lodging, food and fuel: Jacob Lake, about 45 miles north.",
+       "sources": [
+        "grca-nr"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Snow at 8,000 feet",
+       "body": "NPS: snow, ice and rain are common here this time of year. NWS forecast this week: highs around 47–52°F, lows near 28°F, and snow showers likely Friday night into Saturday with gusts over 20 mph.",
+       "sources": [
+        "grca-nr",
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Very limited emergency response",
+       "body": "NPS says emergency response on the North Rim will be extremely limited and response times may be significantly delayed. Travel self-sufficient.",
+       "sources": [
+        "grca-nr"
+       ],
+       "goes": "injury"
+      },
+      {
+       "title": "Altitude",
+       "body": "The North Rim is about 8,000 ft. Take it slow if you've come up from lower elevations.",
+       "sources": [
+        "grca-safety"
+       ],
+       "goes": "altitude"
+      }
+     ],
+     "prep": [
+      [
+       "Full tank at Jacob Lake or before",
+       "No fuel in the park."
+      ],
+      [
+       "All the food, water and warm gear you need",
+       "No services at all on the North Rim."
+      ],
+      [
+       "Check that the gate is still open",
+       "1-888-411-ROAD. The first big snowstorm can close it before Nov 30."
+      ],
+      [
+       "Download GOES before Jacob Lake",
+       "You'll be far from help and likely out of signal."
+      ]
+     ],
+     "cta_reason": "Snow at 8,000 feet, no services and slow rescue. If you go, get GOES first so its offline assessment and cold-weather guidance travel with you."
+    }
+   ]
+  },
+  {
+   "slug": "great-smoky-mountains",
+   "code": "grsm",
+   "name": "Great Smoky Mountains National Park",
+   "short": "Great Smoky Mountains",
+   "state": "TN · NC",
+   "tagline": "Winter Weather Advisory on the Tennessee side; snow showers at Newfound Gap.",
+   "summary": "The Smokies' primary roads (Newfound Gap Road/US-441, Little River Road and Laurel Creek Road) are open 24/7 year-round, weather permitting. This week NWS Morristown has a Winter Weather Advisory for the Gatlinburg and Townsend areas until 7 am EST Nov 14, and the forecast at Newfound Gap shows snow showers Friday. There's no entrance fee, but any vehicle parked longer than 15 minutes needs a parking tag ($5 daily, $15 weekly, $40 annual).",
+   "summary_sources": [
+    "grsm-alerts",
+    "nps-api",
+    "nws-mrx-wwa",
+    "nws"
+   ],
+   "cta_reason": "Black bears feeding hard before winter, elk near Cherokee, wet cold that leads to hypothermia, and mountain roads where GPS and signal both fail. GOES works offline.",
+   "fees": "No entrance fee. A parking tag is required for any vehicle parked more than 15 minutes: daily $5, weekly $15, annual $40. America the Beautiful passes are not accepted in place of a tag.",
+   "fees_sources": [
+    "grsm-alerts",
+    "grsm-fees"
+   ],
+   "closed": [
+    {
+     "name": "Seasonal secondary roads",
+     "note": "Heintooga Ridge Road, Parson Branch Road and Rich Mountain Road are closed for the season. Straight Fork and the one-way section of Balsam Mountain Road are closed. Park Headquarters Road is closed for water and wastewater work.",
+     "sources": [
+      "grsm-alerts",
+      "grsm-seasonal"
+     ]
+    }
+   ],
+   "park_risks": [
+    {
+     "title": "Black bears",
+     "body": "Over the last 10 years the Smokies averaged 339 reported negative human–bear encounters a year. In fall, bears feed heavily (up to 20,000 calories a day) and show up near roadsides. Approaching within 50 yards (150 ft) is illegal. If a black bear attacks and isn't after your food, fight back; don't play dead.",
+     "sources": [
+      "grsm-bears",
+      "grsm-fall"
+     ],
+     "goes": "bears"
+    },
+    {
+     "title": "Elk",
+     "body": "It's illegal to approach elk within 25 yards (75 ft). During the fall rut, bulls can be aggressive toward people, vehicles and pets. NPS closed the fields around Oconaluftee and Cataloochee to visitors during the rut, so obey any posted closures.",
+     "sources": [
+      "grsm-fall",
+      "grsm-elk"
+     ],
+     "goes": "wildlife"
+    },
+    {
+     "title": "Wet cold and fast-changing mountain weather",
+     "body": "Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. Rain, then snow, then near-freezing nights is a textbook setup for hypothermia.",
+     "sources": [
+      "nps-api",
+      "nws"
+     ],
+     "goes": "cold"
+    },
+    {
+     "title": "GPS and no signal",
+     "body": "NPS warns that GPS units may send drivers the wrong way on one-way roads or to dead ends, and points mobile users to offline maps for areas without cell service.",
+     "sources": [
+      "grsm-directions"
+     ],
+     "goes": "weather"
+    }
+   ],
+   "entrances": [
+    {
+     "slug": "gatlinburg-entrance",
+     "name": "Gatlinburg Entrance (Sugarlands)",
+     "gateway": "Gatlinburg, TN (US-441)",
+     "nws": "grsm-gatlinburg",
+     "status": "open",
+     "status_label": "Open — Winter Weather Advisory",
+     "intro": "The Gatlinburg entrance on US-441 leads to Sugarlands Visitor Center and then up Newfound Gap Road over the crest to North Carolina. It's one of the park's three main entrances.",
+     "conditions": [
+      {
+       "text": "Newfound Gap Road (US-441) is a primary road, open 24/7 year-round, weather permitting. NWS forecasts snow showers at Newfound Gap Friday, and snow and ice can close the road.",
+       "sources": [
+        "nps-api",
+        "grsm-seasonal",
+        "nws"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "NWS Winter Weather Advisory for the area, issued Nov 11, until 7 am EST Nov 14.",
+       "sources": [
+        "nws-mrx-wwa"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Roaring Fork Motor Nature Trail: open through Nov 29 (one-way and steep; no RVs, buses or vans over 25 ft, and no trailers). Kuwohi Road (formerly Clingmans Dome Road): open through Nov 29, subject to closures for snow and ice.",
+       "sources": [
+        "grsm-seasonal"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Laurel Falls Trail is closed for rehabilitation (closed since Jan 2025 for about 18 months). Bullhead Trail is closed Monday–Thursday through Nov 19.",
+       "sources": [
+        "grsm-cond"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Park Headquarters Road is closed for Sugarlands water and wastewater work.",
+       "sources": [
+        "grsm-alerts"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Parking tags are sold at the Gatlinburg Welcome Center and Sugarlands Visitor Center, and online. Visitor centers are open year-round except Christmas Day.",
+       "sources": [
+        "grsm-fees",
+        "grsm-cond"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Icy curves on US-441",
+       "body": "The NWS forecast at Newfound Gap has snow showers Friday (high near 32°F, low near 24°F Friday night). The climb from Sugarlands can go from wet to icy quickly, so check road status before crossing the crest.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Roadside bears",
+       "body": "Fall is peak feeding time. Use pull-offs, get fully off the road, and stay 50 yards away. Never feed bears, and put trash in bear-proof containers.",
+       "sources": [
+        "grsm-fall",
+        "grsm-bears"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Hypothermia on a 'mild' day",
+       "body": "This week in Gatlinburg: rain showers and about 53°F Thursday, then rain and snow showers Friday. Wet cotton plus wind is how hypothermia happens in mild weather.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      }
+     ],
+     "prep": [
+      [
+       "Buy a parking tag first",
+       "Required for any stop over 15 minutes; most trailheads have no tag machine."
+      ],
+      [
+       "Check US-441 before crossing into NC",
+       "Snow showers are forecast at the crest this week."
+      ],
+      [
+       "Rain shell and warm, non-cotton layers",
+       "Summit temps run 10–20°F colder than town."
+      ],
+      [
+       "Download GOES in Gatlinburg",
+       "Before the signal drops on the climb."
+      ]
+     ],
+     "cta_reason": "Roadside bears, a winter weather advisory and icy curves up to Newfound Gap. Download GOES in Gatlinburg so its offline hypothermia and wildlife guidance is ready."
+    },
+    {
+     "slug": "townsend-entrance",
+     "name": "Townsend Entrance",
+     "gateway": "Townsend, TN (TN-73)",
+     "nws": "grsm-townsend",
+     "status": "open",
+     "status_label": "Open — Winter Weather Advisory",
+     "intro": "The Townsend entrance on TN-73 is the 'quiet side' gateway to Little River Road, Laurel Creek Road and Cades Cove.",
+     "conditions": [
+      {
+       "text": "Little River Road and Laurel Creek Road: primary roads, open 24/7 year-round, weather permitting.",
+       "sources": [
+        "nps-api"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Cades Cove Loop Road: open sunrise to sunset daily, weather permitting.",
+       "sources": [
+        "grsm-seasonal"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Rich Mountain Road and Parson Branch Road (out of Cades Cove) are closed for the season. Forge Creek Road is open through Dec 31, subject to closures for snow, ice or mud.",
+       "sources": [
+        "grsm-alerts",
+        "grsm-seasonal"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "NWS Winter Weather Advisory for the area, issued Nov 11, until 7 am EST Nov 14.",
+       "sources": [
+        "nws-mrx-wwa"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Parking tags are sold at The Great Smokies Welcome Center in Townsend, Cades Cove Visitor Center and the Tremont Institute store. Cades Cove Campground is open year-round.",
+       "sources": [
+        "grsm-fees",
+        "grsm-cond"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Bear jams in Cades Cove",
+       "body": "Cades Cove is one of the park's best places to see bears, and one of the easiest places to get too close. Approaching within 50 yards is illegal. Use pull-offs and don't stop in the road.",
+       "sources": [
+        "grsm-fall",
+        "grsm-bears"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Cold rain into freezing nights",
+       "body": "NWS forecast for Townsend: rain showers Thursday around 53°F, rain and snow showers likely Friday, and a low near 30°F Friday night.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Little River's slick rocks",
+       "body": "Wet rocks and cold water make the Little River a fall and hypothermia risk. NPS links to USGS gauges for current flow.",
+       "sources": [
+        "grsm-cond"
+       ],
+       "goes": "injury"
+      }
+     ],
+     "prep": [
+      [
+       "Parking tag before Cades Cove",
+       "Required for stops over 15 minutes."
+      ],
+      [
+       "Time Cades Cove for daylight",
+       "The loop is open sunrise to sunset."
+      ],
+      [
+       "Download GOES in Townsend",
+       "Before you head up Little River Road."
+      ]
+     ],
+     "cta_reason": "Cades Cove bears, cold rain and slick river rock. Download GOES in Townsend so its offline wildlife and cold-weather guidance travels with you."
+    },
+    {
+     "slug": "cherokee-entrance",
+     "name": "Cherokee Entrance (Oconaluftee)",
+     "gateway": "Cherokee, NC (US-441)",
+     "nws": "grsm-cherokee",
+     "status": "open",
+     "status_label": "Open — elk area",
+     "intro": "The Cherokee entrance on US-441 in North Carolina leads to Oconaluftee Visitor Center and the Mountain Farm Museum, then north up Newfound Gap Road to the state line.",
+     "conditions": [
+      {
+       "text": "Newfound Gap Road (US-441): open 24/7 year-round, weather permitting. Snow showers are forecast at Newfound Gap Friday.",
+       "sources": [
+        "nps-api",
+        "nws"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Heintooga Ridge Road (off the Blue Ridge Parkway) is closed for the season, and Straight Fork and the one-way section of Balsam Mountain Road are closed.",
+       "sources": [
+        "grsm-alerts",
+        "grsm-seasonal"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Kuwohi Road: open through Nov 29, subject to closures for snow and ice.",
+       "sources": [
+        "grsm-seasonal"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Cataloochee Road: a year-round gravel road that may close for snow and ice.",
+       "sources": [
+        "grsm-seasonal"
+       ],
+       "status": null
+      },
+      {
+       "text": "Parking tags are sold at Oconaluftee Visitor Center and Kuwohi Visitor Center, and online.",
+       "sources": [
+        "grsm-fees"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Elk in the Oconaluftee fields",
+       "body": "Stay at least 25 yards (75 ft) from elk; bulls in the fall rut can charge people, cars and pets. NPS closed these fields to visitors during the rut, so follow posted closures and ranger instructions.",
+       "sources": [
+        "grsm-fall",
+        "grsm-elk"
+       ],
+       "goes": "wildlife"
+      },
+      {
+       "title": "Bears along US-441",
+       "body": "Black bears move across the park feeding on acorns in fall. Never stop in the roadway to watch; use pull-offs.",
+       "sources": [
+        "grsm-fall"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Freezing nights",
+       "body": "NWS forecast for Cherokee: a chance of rain and snow showers Thursday night and Friday, and a low near 27°F Friday night.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      }
+     ],
+     "prep": [
+      [
+       "Bring binoculars",
+       "25 yards from elk and 50 from bears is the law."
+      ],
+      [
+       "Check the crest before driving north",
+       "Snow showers at Newfound Gap Friday."
+      ],
+      [
+       "Download GOES in Cherokee",
+       "Before the climb toward the state line."
+      ]
+     ],
+     "cta_reason": "Elk in the fields, bears by the road and a freezing week. Download GOES in Cherokee so its offline wildlife and cold guidance is on your phone."
+    }
+   ]
+  },
+  {
+   "slug": "zion",
+   "code": "zion",
+   "name": "Zion National Park",
+   "short": "Zion",
+   "state": "UT",
+   "tagline": "Shuttle season ends Nov 28; cool days, cold canyon water, storms Friday night.",
+   "summary": "Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedule through Nov 28 (first bus 7 am, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm), with no shuttle service Nov 29 – Dec 25. NWS forecasts sunny days Thursday, then rain and thunderstorms Friday night into Saturday. The Narrows closes whenever NWS issues a Flash Flood Warning or the Virgin River tops 150 cfs.",
+   "summary_sources": [
+    "zion-shuttle",
+    "zion-hours",
+    "nws",
+    "zion-cond"
+   ],
+   "cta_reason": "Flash floods, cliff edges, cold water that causes hypothermia, and toxic cyanobacteria in the river. GOES carries offline guidance for all of these.",
+   "fees": "Private vehicle $35. Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass. Angels Landing requires a separate permit.",
+   "fees_sources": [
+    "zion-fees",
+    "nps-api",
+    "zion-angels"
+   ],
+   "closed": [
+    {
+     "name": "Watchman Trail",
+     "note": "Closed pending repairs.",
+     "sources": [
+      "zion-alerts"
+     ]
+    },
+    {
+     "name": "Hidden Canyon / Observation Point from Zion Canyon",
+     "note": "The East Rim Trail is partially closed by a large rockfall: Hidden Canyon is closed, and Observation Point can only be reached from the east.",
+     "sources": [
+      "zion-cond"
+     ]
+    }
+   ],
+   "park_risks": [
+    {
+     "title": "Flash floods",
+     "body": "Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. Rain and thunderstorms are forecast Friday night into Saturday this week.",
+     "sources": [
+      "zion-safety",
+      "zion-cond",
+      "nws"
+     ],
+     "goes": "weather"
+    },
+    {
+     "title": "Toxic cyanobacteria",
+     "body": "Don't drink water from rivers, streams or pools, and don't submerge your head in them. Use potable water, and treat spring water only as a last resort.",
+     "sources": [
+      "zion-cyano",
+      "zion-alerts"
+     ],
+     "goes": "injury"
+    },
+    {
+     "title": "Hypothermia in the canyons",
+     "body": "NPS: hypothermia is a major hazard in narrow canyons, and immersion in water is the fastest way to lose body heat. Avoid cotton and eat before you get chilled.",
+     "sources": [
+      "zion-safety"
+     ],
+     "goes": "cold"
+    },
+    {
+     "title": "Cliffs",
+     "body": "Falls from cliffs on trails have caused deaths. Loose sand on stone is slippery, so stay on the trail and back from edges.",
+     "sources": [
+      "zion-safety"
+     ],
+     "goes": "injury"
+    }
+   ],
+   "entrances": [
+    {
+     "slug": "south-entrance",
+     "name": "South Entrance",
+     "gateway": "Springdale, UT (SR-9)",
+     "nws": "zion-south",
+     "status": "open",
+     "status_label": "Open — shuttle through Nov 28",
+     "intro": "The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.",
+     "conditions": [
+      {
+       "text": "Zion Canyon shuttle, Oct 25 – Nov 28: first bus 7 am from the Visitor Center, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm. No service Nov 29 – Dec 25. Springdale Line: 8 am – 6 pm through Nov 28.",
+       "sources": [
+        "zion-shuttle"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Zion Canyon Visitor Center, park store and wilderness desk: 8 am – 5 pm. Human History Museum: 10 am – 5 pm.",
+       "sources": [
+        "zion-hours"
+       ],
+       "status": null
+      },
+      {
+       "text": "Watchman Trail is closed pending repairs and Hidden Canyon is closed (rockfall). Angels Landing requires a permit.",
+       "sources": [
+        "zion-alerts",
+        "zion-cond",
+        "zion-angels"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Parking is limited. When park lots fill, park in Springdale; vehicles outside designated spaces can be cited and towed.",
+       "sources": [
+        "zion-alerts"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Watchman Campground is open year-round (reservations required). South Campground closes seasonally in winter.",
+       "sources": [
+        "zion-cond",
+        "zion-hours"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "The Narrows in November",
+       "body": "Cold water and short days. Check USGS flow and the NWS forecast the morning you go; the route closes at 150 cfs or under a Flash Flood Warning. Showers and thunderstorms are forecast Friday night and Saturday.",
+       "sources": [
+        "zion-cond",
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Don't miss the last shuttle",
+       "body": "NPS says not to wait for the last shuttle of the day. Being stuck in the canyon after dark in November means a long, cold walk out.",
+       "sources": [
+        "zion-shuttle"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Cyanobacteria in the Virgin River",
+       "body": "Don't drink river water or put your head under. NPS's advisory covers rivers, streams and pools parkwide.",
+       "sources": [
+        "zion-cyano"
+       ],
+       "goes": "injury"
+      }
+     ],
+     "prep": [
+      [
+       "Arrive early or park in Springdale",
+       "Lots fill, and towing is enforced."
+      ],
+      [
+       "Note the last shuttle times",
+       "Last bus up-canyon 5 pm; last out 6:15 pm through Nov 28."
+      ],
+      [
+       "A gallon of water per person per day",
+       "NPS's desert rule applies even when it's cool."
+      ],
+      [
+       "Download GOES in Springdale",
+       "Don't count on coverage in the canyon."
+      ]
+     ],
+     "cta_reason": "Flash floods, cold canyon water and cliff-edge trails. Download GOES in Springdale; its offline assessment and how-to guides work deep in the canyon."
+    },
+    {
+     "slug": "east-entrance",
+     "name": "East Entrance",
+     "gateway": "Mt. Carmel Junction, UT (SR-9)",
+     "nws": "zion-east",
+     "status": "open",
+     "status_label": "Open — gravel section, size limits",
+     "intro": "The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.",
+     "conditions": [
+      {
+       "text": "The Zion–Mt. Carmel Highway reopened to visitors Oct 9 after a Sept 30 rockfall. One section is temporarily gravel until it's repaved, so drive with caution and watch for crews and pedestrians.",
+       "sources": [
+        "zion-zmch"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Large-vehicle restrictions: vehicles over the length, width, height or weight limits can't travel between Canyon Junction and the East Entrance and must go around through Springdale.",
+       "sources": [
+        "zion-alerts",
+        "zion-large"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Personal vehicles are allowed on the Zion–Mt. Carmel Highway year-round, including during shuttle season.",
+       "sources": [
+        "zion-hours"
+       ],
+       "status": "open"
+      }
+     ],
+     "risks": [
+      {
+       "title": "Slickrock edges",
+       "body": "Canyon Overlook and the slickrock pullouts have drop-offs. Sand on stone is slippery: stay back from edges and watch kids.",
+       "sources": [
+        "zion-safety"
+       ],
+       "goes": "injury"
+      },
+      {
+       "title": "Colder, higher side of the park",
+       "body": "NWS forecast near the East Entrance: lows in the upper 30s, highs around 56–61°F, then rain and thunderstorms Friday night into Saturday.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Lightning and flash floods",
+       "body": "Storms are in the forecast. NPS warns flash floods can occur at any time in Zion; avoid washes and narrow canyons when storms are around.",
+       "sources": [
+        "zion-safety",
+        "nws"
+       ],
+       "goes": "weather"
+      }
+     ],
+     "prep": [
+      [
+       "Check your vehicle size",
+       "Oversize vehicles must go around through Springdale."
+      ],
+      [
+       "Allow time for the gravel section",
+       "A temporary surface after the rockfall."
+      ],
+      [
+       "Download GOES before Mt. Carmel Junction",
+       "Plan for thin coverage on the east side."
+      ]
+     ],
+     "cta_reason": "Slickrock drop-offs, a cold, stormy weekend and a rebuilt road. Download GOES before Mt. Carmel Junction so its offline injury guidance is ready."
+    },
+    {
+     "slug": "kolob-canyons-entrance",
+     "name": "Kolob Canyons Entrance",
+     "gateway": "I-15 Exit 40 (near Cedar City)",
+     "nws": "zion-kolob",
+     "status": "open",
+     "status_label": "Open — may close for snow or ice",
+     "intro": "Kolob Canyons is Zion's quieter northwest district, at I-15 Exit 40, 17 miles south of Cedar City and about an hour from Zion Canyon. A five-mile scenic drive leads to viewpoints and wilderness trails.",
+     "conditions": [
+      {
+       "text": "Kolob Canyons Visitor Center: 8 am – 12 pm and 1 pm – 5 pm. All visitors must stop to show a pass or pay the entrance fee. The Kolob wilderness desk is closed until further notice; get wilderness permits in Zion Canyon.",
+       "sources": [
+        "zion-hours",
+        "zion-kolob"
+       ],
+       "status": null
+      },
+      {
+       "text": "Kolob Canyons Road may close in winter for snow or ice, and pedestrians may not walk the road during plowing.",
+       "sources": [
+        "zion-kolob"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "Personal vehicles are allowed on Kolob Canyons Scenic Drive year-round.",
+       "sources": [
+        "zion-hours"
+       ],
+       "status": "open"
+      }
+     ],
+     "risks": [
+      {
+       "title": "Cold, exposed wilderness trails",
+       "body": "NWS forecast for Kolob: highs near 56–61°F, lows around 40°F, and showers and thunderstorms Friday night into Saturday. These are designated wilderness trails with few people around to help.",
+       "sources": [
+        "nws",
+        "zion-kolob"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Flash floods in narrow canyons",
+       "body": "Know the forecast before entering any narrow canyon and have a plan to reach high ground.",
+       "sources": [
+        "zion-safety"
+       ],
+       "goes": "weather"
+      }
+     ],
+     "prep": [
+      [
+       "Pay or show a pass at the visitor center",
+       "Required for all visitors."
+      ],
+      [
+       "Get wilderness permits in Zion Canyon",
+       "The Kolob desk is closed."
+      ],
+      [
+       "Download GOES before leaving I-15",
+       "Offline guidance for remote trails."
+      ]
+     ],
+     "cta_reason": "Remote wilderness, cold weather and flash-flood canyons. Get GOES before you leave I-15 so its offline guidance comes with you."
+    }
+   ]
+  },
+  {
+   "slug": "glacier",
+   "code": "glac",
+   "name": "Glacier National Park",
+   "short": "Glacier",
+   "state": "MT",
+   "tagline": "Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season.",
+   "summary": "Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-service season. Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side and at Jackson Glacier Overlook on the east. The lower road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. There's no fuel inside the park and no in-park lodging this time of year. Entrance fees still apply; use the self-pay stations when entrances aren't staffed.",
+   "summary_sources": [
+    "glac-alerts",
+    "glac-winter",
+    "glac-roads",
+    "nps-api"
+   ],
+   "cta_reason": "Grizzly country with nearly 1,000 bears, cold water that is the park's leading cause of death, and almost no services. GOES works offline when you're out of signal.",
+   "fees": "Private vehicle $35 (self-pay when stations are unstaffed). Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass.",
+   "fees_sources": [
+    "glac-fees",
+    "nps-api"
+   ],
+   "closed": [
+    {
+     "name": "Going-to-the-Sun Road alpine section (Logan Pass)",
+     "note": "Closed for the season between Avalanche Creek (west) and Jackson Glacier Overlook (east). Open sections may change at any time due to winter weather.",
+     "sources": [
+      "glac-alerts"
+     ]
+    },
+    {
+     "name": "Many Glacier and Two Medicine",
+     "note": "No entrance pages this week. NPS says Many Glacier Road closes the third weekend in November (weather permitting) and Two Medicine Road closes once snow requires it. Confirm on the NPS road status map, or text GNPROADS to 333111.",
+     "sources": [
+      "glac-hours",
+      "glac-roads"
+     ]
+    }
+   ],
+   "park_risks": [
+    {
+     "title": "Grizzly and black bears",
+     "body": "Glacier has habitat for nearly 1,000 bears of both species. Stay 100 yards from bears and wolves (25 yards from other wildlife), carry bear spray, make noise and hike in groups: Glacier has had no reported attacks on groups of four or more. In fall, bears forage hard before denning.",
+     "sources": [
+      "glac-bears",
+      "glac-cond",
+      "glac-hours"
+     ],
+     "goes": "bears"
+    },
+    {
+     "title": "Cold water",
+     "body": "Water is the number one cause of fatalities in Glacier. Use extreme caution near lakes and streams.",
+     "sources": [
+      "glac-cond"
+     ],
+     "goes": "cold"
+    },
+    {
+     "title": "Tularemia",
+     "body": "NPS confirmed tularemia in dead snowshoe hares in Many Glacier (Oct 15 release) and the St. Mary Lake area (Sept 17 release). Use insect repellent, check for ticks, don't touch carcasses, drink only treated or boiled water, and see a doctor if you get fever, chills or sores within two weeks of your visit.",
+     "sources": [
+      "glac-tula-mg",
+      "glac-tula-sm"
+     ],
+     "goes": "ticks"
+    },
+    {
+     "title": "Winter self-sufficiency",
+     "body": "Most businesses and services in and near the park are closed from early October to late May. Expect cold, blustery days and be entirely self-sufficient.",
+     "sources": [
+      "glac-hours",
+      "glac-cond"
+     ],
+     "goes": "cold"
+    }
+   ],
+   "entrances": [
+    {
+     "slug": "west-entrance",
+     "name": "West Entrance",
+     "gateway": "West Glacier, MT (US-2)",
+     "nws": "glac-west",
+     "status": "open",
+     "status_label": "Open — road to Avalanche Creek",
+     "intro": "The West Entrance at West Glacier is the park's year-round front door to Apgar Village, Lake McDonald and the lower Going-to-the-Sun Road. It's about 33 miles from Kalispell.",
+     "conditions": [
+      {
+       "text": "Going-to-the-Sun Road is open from West Glacier and closed for the season at Avalanche Creek. NPS's winter page says the road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting.",
+       "sources": [
+        "glac-alerts",
+        "glac-winter"
+       ],
+       "status": "open"
+      },
+      {
+       "text": "Beyond the closure gate, the unplowed road is open to hikers and bicyclists, and to skiing and snowshoeing once there's snow.",
+       "sources": [
+        "glac-hours",
+        "glac-winter"
+       ],
+       "status": null
+      },
+      {
+       "text": "Apgar Visitor Center restrooms are open year-round, with a water bottle filling station (about 2 miles north of the entrance). NPS's winter page says the visitor center opens on weekends in winter.",
+       "sources": [
+        "glac-hours",
+        "glac-winter"
+       ],
+       "status": null
+      },
+      {
+       "text": "Apgar Campground offers primitive camping (vault toilet, no running water, first-come, first-served). There's no lodging in the park this time of year.",
+       "sources": [
+        "glac-hours"
+       ],
+       "status": null
+      },
+      {
+       "text": "No fuel inside the park. Road alerts: text GNPROADS to 333111, tune to Travelers' Information Station 1610 AM, or call 406-888-7800.",
+       "sources": [
+        "glac-roads",
+        "glac-winter"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "Bears on the lower road and trails",
+       "body": "Bears may still be active and foraging before denning. Carry bear spray, call out and clap (NPS says bells aren't enough), and don't stop near roadside bears: drive at least 100 yards past before pulling over.",
+       "sources": [
+        "glac-bears",
+        "glac-hours"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Lake McDonald's cold water",
+       "body": "Water is the park's top cause of death. Slick shoreline rocks and near-freezing water make a fall dangerous within minutes.",
+       "sources": [
+        "glac-cond"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Fog and short days",
+       "body": "NWS forecast for West Glacier this week: areas of fog, highs near 50–54°F, lows near 35°F, and a slight chance of light rain Saturday.",
+       "sources": [
+        "nws"
+       ],
+       "goes": "weather"
+      }
+     ],
+     "prep": [
+      [
+       "Fuel and food in West Glacier or Columbia Falls",
+       "No gas in the park; Apgar's camp store may or may not be open."
+      ],
+      [
+       "Bear spray, even for short walks",
+       "NPS: bears may still be active."
+      ],
+      [
+       "Pay at the self-pay station",
+       "Fees apply when the booth is unstaffed."
+      ],
+      [
+       "Download GOES before the entrance",
+       "Plan for no signal past Apgar."
+      ]
+     ],
+     "cta_reason": "Grizzly country, ice-cold lake water and almost no services. Download GOES in West Glacier so its offline bear, cold-water and injury guidance comes with you."
+    },
+    {
+     "slug": "st-mary-entrance",
+     "name": "St. Mary Entrance",
+     "gateway": "St. Mary, MT (US-89)",
+     "nws": "glac-st-mary",
+     "status": "limited",
+     "status_label": "Open — road to Jackson Glacier Overlook",
+     "intro": "St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.",
+     "conditions": [
+      {
+       "text": "Going-to-the-Sun Road is closed for the season at Jackson Glacier Overlook on the east side. Open sections can change at any time due to winter weather.",
+       "sources": [
+        "glac-alerts"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "St. Mary Visitor Center is closed for the winter. Primitive camping is available year-round at St. Mary Campground.",
+       "sources": [
+        "glac-winter",
+        "glac-hours"
+       ],
+       "status": "closed"
+      },
+      {
+       "text": "Tularemia was confirmed in a dead snowshoe hare in the St. Mary Lake area (Sept 17 release).",
+       "sources": [
+        "glac-tula-sm"
+       ],
+       "status": "caution"
+      },
+      {
+       "text": "No fuel inside the park. The St. Mary grocery store sometimes stays open in fall; full-service groceries are in Browning.",
+       "sources": [
+        "glac-roads",
+        "glac-hours"
+       ],
+       "status": null
+      }
+     ],
+     "risks": [
+      {
+       "title": "East-side wind and cold",
+       "body": "Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: mostly cloudy, highs around 54–62°F, lows near 36–46°F. Expect colder, harsher conditions higher up.",
+       "sources": [
+        "nws",
+        "glac-cond",
+        "nps-api"
+       ],
+       "goes": "cold"
+      },
+      {
+       "title": "Bears",
+       "body": "Grizzlies and black bears live on both sides of the Divide. Make noise, hike in a group, and carry bear spray where you can reach it.",
+       "sources": [
+        "glac-bears"
+       ],
+       "goes": "bears"
+      },
+      {
+       "title": "Tularemia and ticks",
+       "body": "Don't touch dead animals, use repellent, check for ticks, and drink only treated or boiled water.",
+       "sources": [
+        "glac-tula-sm"
+       ],
+       "goes": "ticks"
+      }
+     ],
+     "prep": [
+      [
+       "Fuel and supplies in Browning or St. Mary",
+       "No fuel in the park."
+      ],
+      [
+       "Bear spray and windproof layers",
+       "The east side is exposed."
+      ],
+      [
+       "Treat all water",
+       "Tularemia advisory in the St. Mary Lake area."
+      ],
+      [
+       "Download GOES before St. Mary",
+       "Plan for no signal inside the park."
+      ]
+     ],
+     "cta_reason": "Grizzlies, a tularemia advisory and wind off the Divide. Download GOES before St. Mary so its offline tick, wildlife and cold guidance is ready."
+    }
+   ]
+  }
+ ]
+}

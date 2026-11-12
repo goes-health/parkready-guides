@@ -1,0 +1,116 @@
+/* ParkReady Guides — park-visitor layer on top of the shared GOES tokens in site.css.
+   Sibling of HeatReady: same type, buttons and cards; teal + forest accents instead of heat colors. */
+:root {
+  --park-forest: #2F5D50;
+  --park-forest-dark: #22443B;
+  --park-teal-soft: #E4F0F2;
+  --ok: #2F7D5B;
+  --warn: #B8860B;
+  --stop: var(--goes-coral);
+}
+
+.site-header .site-name .by { font-weight: 400; color: var(--goes-navy); font-size: 0.8rem; margin-left: 0.35rem; }
+.nav a[aria-current="page"] { color: var(--goes-teal); text-decoration: underline; text-underline-offset: 4px; }
+.nav .nav-cta { background: var(--goes-charcoal); color: var(--goes-sand); padding: 0.3rem 0.75rem; border-radius: 9999px; }
+.nav .nav-cta:hover { color: var(--goes-yellow); }
+@media (max-width: 720px) {
+  .site-header .inner { flex-wrap: wrap; }
+  .nav { gap: 0.4rem 0.85rem; font-size: 0.85rem; }
+  .nav .hide-sm { display: none; }
+}
+
+.skip { position: absolute; left: -999px; top: 0; background: var(--goes-yellow); padding: 0.5rem 1rem; z-index: 50; }
+.skip:focus { left: 0.5rem; top: 0.5rem; }
+a:focus-visible, .btn:focus-visible, summary:focus-visible { outline: 3px solid var(--goes-teal); outline-offset: 2px; }
+
+/* Week bar */
+.week-bar { background: var(--park-forest); color: var(--goes-white-soft); font-size: 0.85rem; }
+.week-bar .inner { width: min(100% - 2rem, var(--wide)); margin-inline: auto; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; padding: 0.5rem 0; align-items: center; }
+.week-bar .wk { font-family: var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.95rem; color: var(--goes-yellow); }
+.week-bar a { color: var(--goes-white-soft); }
+
+/* Hero tweaks */
+.hero.park-hero { background: linear-gradient(180deg, var(--goes-sand) 0%, #EDE9E1 100%); }
+.hero .eyebrow { color: var(--park-forest); }
+.hero h1 { max-width: 24ch; }
+
+/* Status pills */
+.pill { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.85rem; padding: 0.25rem 0.65rem; border-radius: 9999px; background: var(--goes-white); border: 1px solid var(--goes-cloud); color: var(--goes-charcoal); }
+.pill::before { content: ""; width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--goes-cloud); }
+.pill.open::before { background: var(--ok); }
+.pill.limited::before, .pill.caution::before { background: var(--warn); }
+.pill.closed::before { background: var(--stop); }
+
+/* Offline callout (compact CTA high on page) */
+.offline-callout { display: grid; gap: 0.75rem; align-items: center; background: var(--goes-charcoal); color: var(--goes-sand); border-radius: var(--radius); padding: 1rem 1.15rem; margin: 1.25rem 0 0; }
+.offline-callout strong { color: var(--goes-white-soft); display: block; font-size: 1.02rem; }
+.offline-callout p { margin: 0.2rem 0 0; font-size: 0.92rem; color: var(--goes-sand); }
+@media (min-width: 640px) { .offline-callout { grid-template-columns: 1fr auto; } }
+
+/* Store buttons */
+.stores { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.store-btn { display: inline-flex; align-items: center; gap: 0.6rem; background: var(--goes-yellow); color: var(--goes-charcoal); text-decoration: none; border-radius: 12px; padding: 0.5rem 0.95rem; line-height: 1.1; border: 2px solid var(--goes-yellow); min-height: 48px; }
+.store-btn:hover { filter: brightness(0.96); color: var(--goes-charcoal); }
+.store-btn.alt { background: transparent; color: var(--goes-white-soft); border-color: var(--goes-sand-mid); }
+.store-btn.alt:hover { border-color: var(--goes-yellow); color: var(--goes-yellow); }
+.store-btn svg { width: 22px; height: 22px; flex: none; }
+.store-btn small { display: block; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.02em; opacity: 0.85; }
+.store-btn b { display: block; font-size: 1rem; }
+
+/* Conditions list */
+.cond-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.cond-list li { background: var(--surface); border: 1px solid var(--goes-cloud); border-left: 5px solid var(--goes-cloud); border-radius: 10px; padding: 0.85rem 1rem; }
+.cond-list li.open { border-left-color: var(--ok); }
+.cond-list li.caution { border-left-color: var(--warn); }
+.cond-list li.closed { border-left-color: var(--stop); }
+.cond-list .tag { font-family: var(--font-display); letter-spacing: 0.12em; font-size: 0.8rem; text-transform: uppercase; margin-right: 0.35rem; }
+.cond-list li.open .tag { color: var(--ok); }
+.cond-list li.caution .tag { color: var(--warn); }
+.cond-list li.closed .tag { color: var(--stop); }
+
+/* Source chips */
+.src { display: inline-flex; flex-wrap: wrap; gap: 0.3rem; margin-left: 0.25rem; vertical-align: baseline; }
+.src a { font-size: 0.72rem; font-weight: 700; text-decoration: none; background: var(--park-teal-soft); color: var(--goes-teal); border-radius: 9999px; padding: 0.05rem 0.45rem; white-space: nowrap; }
+.src a:hover { background: var(--goes-teal); color: var(--goes-white); }
+
+/* Risk cards */
+.risk-card h3 { display: flex; gap: 0.5rem; align-items: baseline; }
+.risk-card .goes-line { margin-top: 0.75rem; font-size: 0.85rem; color: var(--goes-charcoal); background: #FBF6E2; border-radius: 8px; padding: 0.45rem 0.6rem; }
+.risk-card .goes-line b { font-family: var(--font-display); letter-spacing: 0.1em; font-weight: 400; margin-right: 0.3rem; }
+
+/* Forecast */
+.forecast-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; align-items: baseline; margin-bottom: 0.6rem; }
+.forecast-status { font-size: 0.8rem; color: var(--goes-navy); }
+.forecast-status.live { color: var(--ok); font-weight: 700; }
+.wx-alert { background: #FDEDEC; border: 1px solid var(--goes-coral); border-radius: 10px; padding: 0.6rem 0.85rem; margin-bottom: 0.75rem; font-size: 0.92rem; }
+
+/* Entrance cards on park + home */
+.ent-list { list-style: none; padding: 0; margin: 0.75rem 0 0; display: grid; gap: 0.4rem; }
+.ent-list a { font-weight: 700; color: var(--goes-charcoal); text-decoration: none; }
+.ent-list a:hover { color: var(--goes-teal); }
+.ent-list .pill { font-size: 0.72rem; margin-left: 0.35rem; padding: 0.1rem 0.5rem; }
+.closed-list li { border-left-color: var(--stop) !important; }
+.park-card { display: flex; flex-direction: column; }
+.park-card .meta { color: var(--park-forest); }
+.park-card p.tag { margin-top: 0.35rem; }
+
+.why-grid .card h3 { font-size: 1.1rem; }
+.facts { font-size: 0.95rem; color: var(--goes-navy); }
+
+.sources-list { font-size: 0.9rem; padding-left: 1.1rem; }
+.sources-list li { margin-bottom: 0.35rem; }
+.rules-note { font-size: 0.9rem; color: var(--goes-navy); background: var(--goes-white); border-left: 4px solid var(--park-forest); padding: 0.75rem 1rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
+
+.cta-band .stores { margin-top: 1rem; }
+.cta-band .reason { font-size: 1.02rem; }
+.cta-band .feature-list { margin: 0.75rem 0 0; padding-left: 1.1rem; color: var(--goes-sand); font-size: 0.95rem; }
+.cta-band .feature-list li { margin-bottom: 0.3rem; }
+
+/* fixes */
+.cta-band a.store-btn:not(.alt) { color: var(--goes-charcoal); }
+.cta-band a.store-btn.alt { color: var(--goes-white-soft); }
+.offline-callout a.store-btn.alt { color: var(--goes-white-soft); }
+.footer-brand .goes-logo { align-self: flex-start; }
+.site-header .site-name { white-space: nowrap; }
+@media (min-width: 900px) { .nav { flex-wrap: nowrap; } }
+.risk-wrap { width: min(100% - 2rem, 880px); margin-inline: auto; }

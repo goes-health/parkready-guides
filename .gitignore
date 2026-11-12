@@ -1,0 +1,7 @@
+# Not part of the published site
+previews/
+data/raw/
+scripts/__pycache__/
+.DS_Store
+*.swp
+.env*
