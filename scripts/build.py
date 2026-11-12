@@ -2,7 +2,12 @@
 """Render ParkReady Guides static site from data/parks.json + data/conditions.json."""
 import json, os, html, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = "https://parks.goes.health/"
+# Public base URL. GitHub Pages project URL until parks.goes.health DNS + custom domain are live;
+# then run with PARKREADY_BASE=https://parks.goes.health/ (or change this default) so every link, the
+# sitemap, llms.txt and conditions.json move together.
+BASE = os.environ.get("PARKREADY_BASE", "https://goes-health.github.io/parkready-guides/")
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+import agents
 subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "content.py")], check=True)
 D = json.load(open(os.path.join(ROOT, "data", "parks.json")))
 COND = json.load(open(os.path.join(ROOT, "data", "conditions.json")))
@@ -48,6 +53,8 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
   <title>{e(title)}</title>
   <meta name="description" content="{e(desc)}">
   <link rel="canonical" href="{BASE}{canonical}">
+  <link rel="alternate" type="text/markdown" href="{BASE}{agents.md_path(canonical)}">
+  <link rel="describedby" href="{BASE}llms.txt">
   <meta property="og:title" content="{e(title)}">
   <meta property="og:description" content="{e(desc)}">
   <meta property="og:url" content="{BASE}{canonical}">
@@ -366,6 +373,24 @@ for p in PARKS:
     write(path, page(rel, title, desc, path, body, active=p["slug"]))
 
 # ---------------- home
+def jsonld():
+    n_ent = sum(len(p["entrances"]) for p in PARKS)
+    org = {"@type": "Organization", "name": "GOES Health", "url": GOES["site"]}
+    data = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "@id": BASE + "#website", "name": "ParkReady Guides", "url": BASE,
+         "description": "Weekly U.S. national park entrance briefings: open entrances, official NPS closures, NWS forecasts and what to prepare for.",
+         "publisher": org, "inLanguage": "en"},
+        {"@type": "Dataset", "name": f"ParkReady weekly national park entrance conditions — {WEEK['label']}",
+         "description": f"This week's official National Park Service alerts and closures and National Weather Service forecasts for {n_ent} open entrances at {len(PARKS)} U.S. national parks, with seasonal preparation guidance. Updated weekly.",
+         "url": BASE, "creator": org, "isAccessibleForFree": True,
+         "temporalCoverage": f"{WEEK['start']}/{WEEK['end']}", "dateModified": WEEK["fetched"],
+         "spatialCoverage": [{"@type": "Place", "name": p["name"]} for p in PARKS],
+         "isBasedOn": ["https://www.nps.gov/subjects/developer/api-documentation.htm", "https://www.weather.gov/documentation/services-web-api"],
+         "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE + "conditions.json"},
+                          {"@type": "DataDownload", "encodingFormat": "text/markdown", "contentUrl": BASE + "llms.txt"}]},
+    ]}
+    return '\n  <script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + '</script>'
+
 rel = ""
 cards = []
 for p in PARKS:
@@ -424,12 +449,12 @@ body = f'''
 URLS.insert(0, "")
 write("index.html", page(rel, "ParkReady Guides — National Park Entrance Conditions & Safety, This Week | GOES Health",
       "Weekly national park entrance briefings: open entrances, official NPS closures, NWS forecasts, and what to prepare for this week — plus the GOES app, your outdoor safety companion that works offline.",
-      "", body, active="home"))
+      "", body, active="home", extra_head=jsonld()))
 
 # ---------------- sitemap / robots
 lastmod = WEEK["fetched"]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{BASE}{u}</loc><lastmod>{lastmod}</lastmod><changefreq>weekly</changefreq></url>\n" for u in URLS) + "</urlset>\n"
 write("sitemap.xml", sm)
-write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
+agent_files = agents.emit(ROOT, BASE, D, COND, URLS, write)
 write(".nojekyll", "")
-print("built", len(URLS), "pages")
+print("built", len(URLS), "pages +", len(agent_files), "agent files (llms.txt, markdown, conditions.json, robots.txt)")
