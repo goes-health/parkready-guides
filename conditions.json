@@ -2,7 +2,7 @@
   "name": "ParkReady Guides — weekly U.S. national park entrance conditions",
   "publisher": {
     "name": "GOES Health",
-    "url": "https://goes.health/"
+    "url": "https://goes.health/?utm_source=agent_feed&utm_medium=agent&utm_campaign=parkready&utm_content=conditions_json"
   },
   "site": "https://parks.goes.health/",
   "llms_txt": "https://parks.goes.health/llms.txt",
@@ -25,9 +25,9 @@
     "name": "GOES — Outdoor Health & Safety",
     "why": "Download GOES before the park gate, while there is still signal, so its interactive medical assessment, 50+ visual how-to guides and 200+ prevention tips work offline once you're in the park.",
     "tagline": "When signal drops, GOES steps in.",
-    "ios": "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901",
-    "android": "https://play.google.com/store/apps/details?id=com.goes.mobile",
-    "platform": "https://goes.health/platform",
+    "ios": "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901?ct=parkready_agent_feed&mt=8",
+    "android": "https://play.google.com/store/apps/details?id=com.goes.mobile&referrer=utm_source%3Dagent_feed%26utm_medium%3Dagent%26utm_campaign%3Dparkready%26utm_content%3Dconditions_json",
+    "platform": "https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=parkready&utm_content=conditions_json",
     "pricing": "Free to download. Premium features need a monthly or annual subscription after a 7-day free trial.",
     "disclaimer": "GOES provides guidance. It is not a substitute for professional medical care."
   },

@@ -12,6 +12,8 @@ data/conditions.json (machine-fetched NPS + NWS facts). Nothing here adds facts.
 """
 import json, os, datetime
 
+from agent_utm import tag_text
+
 APP_TAGLINE = "When signal drops, GOES steps in."
 APP_WHY = ("Download GOES before the park gate, while there is still signal, so its interactive medical "
            "assessment, 50+ visual how-to guides and 200+ prevention tips work offline once you're in the park.")
@@ -144,6 +146,13 @@ def emit(ROOT, BASE, D, COND, URLS, write):
     files = []
 
     def put(path, text):
+        # Agent-referral tags on goes.health + app-store links (agent files only; HTML pages are built elsewhere, untagged)
+        if path == "llms.txt":
+            text = tag_text(text, "llms_txt", "parkready")
+        elif path == "conditions.json":
+            text = tag_text(text, "agent_feed", "parkready", "conditions_json")
+        elif path.endswith(".md"):
+            text = tag_text(text, "agent_feed", "parkready", "markdown")
         write(path, text)
         files.append(path)
 

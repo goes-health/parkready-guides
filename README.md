@@ -23,3 +23,9 @@ Entrance pages also load the live NWS forecast in the browser (assets/js/live-fo
 - `robots.txt` — allows search, user-fetch and training AI crawlers; points at the sitemap.
 - Home page JSON-LD (WebSite + Dataset).
 - IndexNow: key in `data/indexnow.json`, published as `<key>.txt`. After a publish has deployed: `python3 scripts/indexnow.py`.
+
+### Agent-referral tags (scripts/agent_utm.py)
+Links to goes.health and the app stores inside agent files only (llms.txt, the JSON feed, Markdown twins) are tagged automatically by the generator — never hand-edit them, and keep HTML links untagged:
+- goes.health: `utm_source=llms_txt|agent_feed&utm_medium=agent&utm_campaign=parkready&utm_content=markdown|<feed>_json`
+- Google Play: `&referrer=<url-encoded utm string>` (Play Console › Acquisition)
+- App Store: `?ct=parkready_<source>&mt=8` (add `pt=` via env `GOES_APPSTORE_PT` once the App Store Connect provider ID is known)

@@ -74,9 +74,9 @@ From the NPS Data API, fetched Nov 12, 2026. Live: https://www.nps.gov/yose/plan
 
 GOES — Outdoor Health & Safety is your outdoor safety companion: an offline interactive health assessment, 50+ visual how-to guides, 200+ prevention tips across 60+ medical topics, and location-specific risk indicators (wildlife, cold, heat, altitude, ticks, poisonous plants, UV, smoke). Built by wilderness medicine physicians: founded by Dr. Grant Lipman; Chief Medical Officer Dr. Colin Little, MD, FAWM.
 
-- iOS (App Store): https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901
-- Android (Google Play): https://play.google.com/store/apps/details?id=com.goes.mobile
-- About GOES: https://goes.health/platform
+- iOS (App Store): https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901?ct=parkready_agent_feed&mt=8
+- Android (Google Play): https://play.google.com/store/apps/details?id=com.goes.mobile&referrer=utm_source%3Dagent_feed%26utm_medium%3Dagent%26utm_campaign%3Dparkready%26utm_content%3Dmarkdown
+- About GOES: https://goes.health/platform?utm_source=agent_feed&utm_medium=agent&utm_campaign=parkready&utm_content=markdown
 
 Free to download. Premium features need a monthly or annual subscription after a 7-day free trial. GOES provides guidance. It is not a substitute for professional medical care.
 
