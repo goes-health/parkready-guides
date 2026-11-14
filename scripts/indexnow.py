@@ -9,7 +9,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = os.environ.get("PARKREADY_BASE", "https://parks.goes.health/")
 key = json.load(open(os.path.join(ROOT, "data", "indexnow.json")))["key"]
 D = json.load(open(os.path.join(ROOT, "data", "parks.json")))
-urls = [BASE, BASE + "llms.txt", BASE + "conditions.json", BASE + "sitemap.xml", BASE + "index.md"]
+urls = [BASE, BASE + "llms.txt", BASE + "llms-full.txt", BASE + "conditions.json", BASE + "sitemap.xml", BASE + "index.md"]
 for p in D["parks"]:
     urls += [f'{BASE}parks/{p["slug"]}/', f'{BASE}parks/{p["slug"]}/index.md']
     for en in p["entrances"]:
