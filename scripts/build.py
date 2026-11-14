@@ -203,6 +203,35 @@ def write(path, content):
 
 URLS = []
 
+# ---------------- per-page JSON-LD (invisible; added for search engines and AI assistants)
+def _ld(data):
+    return '\n  <script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + '</script>'
+
+def page_jsonld(p, en=None):
+    org = {"@type": "Organization", "name": "GOES Health", "url": GOES["site"]}
+    park_url = f'{BASE}parks/{p["slug"]}/'
+    park = {"@type": "Park", "name": p["name"], "sameAs": f'https://www.nps.gov/{p["code"]}/index.htm'}
+    crumbs = [{"@type": "ListItem", "position": 1, "name": "ParkReady Guides", "item": BASE},
+              {"@type": "ListItem", "position": 2, "name": p["short"], "item": park_url}]
+    if en:
+        url = f'{BASE}parks/{p["slug"]}/{en["slug"]}.html'
+        n = COND["nws"].get(en["nws"], {}) if isinstance(COND.get("nws"), dict) else {}
+        about = {"@type": "Place", "name": f'{p["name"]} — {en["name"]}', "containedInPlace": park, "address": en["gateway"]}
+        if n.get("lat") is not None and n.get("lon") is not None:
+            about["geo"] = {"@type": "GeoCoordinates", "latitude": n["lat"], "longitude": n["lon"]}
+        name = f'{p["short"]} {en["name"]}: conditions this week'
+        crumbs.append({"@type": "ListItem", "position": 3, "name": en["name"], "item": url})
+    else:
+        url, about, name = park_url, park, f'{p["name"]} this week'
+    return _ld({"@context": "https://schema.org", "@graph": [
+        {"@type": "WebPage", "@id": url + "#webpage", "url": url, "name": name, "inLanguage": "en",
+         "isPartOf": {"@type": "WebSite", "@id": BASE + "#website", "name": "ParkReady Guides", "url": BASE},
+         "about": about, "publisher": org, "dateModified": WEEK["fetched"],
+         "isBasedOn": ["https://www.nps.gov/subjects/developer/api-documentation.htm", "https://www.weather.gov/documentation/services-web-api"],
+         "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown", "contentUrl": BASE + agents.md_path(f'parks/{p["slug"]}/{en["slug"]}.html' if en else f'parks/{p["slug"]}/index.html')}},
+        {"@type": "BreadcrumbList", "itemListElement": crumbs},
+    ]})
+
 # ---------------- entrance pages
 for p in PARKS:
     for en in p["entrances"]:
@@ -298,7 +327,7 @@ for p in PARKS:
       </section>
 {sources_section(collect_keys(p, en))}
     </article>'''
-        write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=f'\n  <script src="{rel}assets/js/live-forecast.js" defer></script>'))
+        write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=f'\n  <script src="{rel}assets/js/live-forecast.js" defer></script>' + page_jsonld(p, en)))
 
 # ---------------- park overview pages
 for p in PARKS:
@@ -368,13 +397,18 @@ for p in PARKS:
 {cta_band(p["cta_reason"], rel, "-band")}
 {sources_section(collect_keys(p) + [k for en in p["entrances"] for c in en["conditions"] for k in c["sources"]])}
     </article>'''
-    write(path, page(rel, title, desc, path, body, active=p["slug"]))
+    write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=page_jsonld(p)))
 
 # ---------------- home
 def jsonld():
     n_ent = sum(len(p["entrances"]) for p in PARKS)
     org = {"@type": "Organization", "name": "GOES Health", "url": GOES["site"]}
-    data = {"@context": "https://schema.org", "@graph": [
+    app = {"@type": "MobileApplication", "name": "GOES: Outdoor Health & Safety", "operatingSystem": "iOS, Android",
+           "applicationCategory": "HealthApplication", "url": "https://goes.health/app", "downloadUrl": [GOES["ios"], GOES["android"]],
+           "sameAs": [GOES["ios"], GOES["android"]], "publisher": org,
+           "description": "Offline interactive health assessment, visual how-to guides and prevention tips for the outdoors, built by wilderness-medicine physicians.",
+           "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free to download; premium features need a subscription after a 7-day free trial."}}
+    data = {"@context": "https://schema.org", "@graph": [app,
         {"@type": "WebSite", "@id": BASE + "#website", "name": "ParkReady Guides", "url": BASE,
          "description": "Weekly U.S. national park entrance briefings: open entrances, official NPS closures, NWS forecasts and what to prepare for.",
          "publisher": org, "inLanguage": "en"},

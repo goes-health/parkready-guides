@@ -43,6 +43,11 @@ Base URL: https://parks.goes.health/. Every HTML page has a Markdown twin: repla
 - [Glacier — West Entrance](https://parks.goes.health/parks/glacier/west-entrance.md): West Glacier, MT (US-2); Open — road to Avalanche Creek
 - [Glacier — St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): St. Mary, MT (US-89); Open — road to Jackson Glacier Overlook
 
+## Connect as a tool (MCP)
+
+- [GOES MCP server](https://goes-mcp.goes-health.workers.dev/mcp): Free, read-only remote MCP server (Streamable HTTP, no auth). Tools: get_park_conditions, list_parks, get_nws_forecast_and_alerts, get_outdoor_safety_guidance, heat guides, GOES app info. Listed in the official MCP Registry as `health.goes/goes-mcp`
+- [Server card](https://goes-mcp.goes-health.workers.dev/mcp/server-card): MCP Server Card (connection metadata)
+
 ## GOES app
 
 - [GOES on the App Store (iOS)](https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901?ct=parkready_llms_txt&mt=8): Free download; offline medical assessment and how-to guides
@@ -51,6 +56,7 @@ Base URL: https://parks.goes.health/. Every HTML page has a Markdown twin: repla
 
 ## Optional
 
+- [Full text (llms-full.txt)](https://parks.goes.health/llms-full.txt): Every Markdown page above in one file
 - [Sitemap](https://parks.goes.health/sitemap.xml): All HTML pages
 - [Home page (HTML)](https://parks.goes.health/): Human-facing version
 - [NPS Data API](https://www.nps.gov/subjects/developer/api-documentation.htm): Upstream source for alerts, hours and fees

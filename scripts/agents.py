@@ -4,7 +4,9 @@ Emits (all at the published site root):
   llms.txt                    llms.txt v2 overview for AI assistants (https://llmstxt.org/)
   index.md, parks/**/*.md     clean Markdown twin of every HTML page (also *.html.md aliases)
   conditions.json             stable, agent-friendly feed of this week's official conditions
+  llms-full.txt               every Markdown page in one file (llms.txt convention for full context)
   robots.txt                  allows search, user-fetch and training AI crawlers
+  .well-known/ai-catalog.json AI Catalog (MCP Server Cards discovery, SEP-2127; beta) pointing at the GOES MCP server
   <indexnow-key>.txt          IndexNow key file (key stored in data/indexnow.json)
 
 Everything is rendered from data/parks.json (editorial, sourced copy) and
@@ -15,6 +17,18 @@ import json, os, datetime
 from agent_utm import tag_text
 
 APP_TAGLINE = "When signal drops, GOES steps in."
+MCP_URL = "https://goes-mcp.goes-health.workers.dev/mcp"
+MCP_CARD = "https://goes-mcp.goes-health.workers.dev/mcp/server-card"
+AI_BOTS = ["OAI-SearchBot", "ChatGPT-User", "GPTBot", "Claude-SearchBot", "Claude-User", "ClaudeBot",
+           "PerplexityBot", "Perplexity-User", "Googlebot", "Google-Extended", "Bingbot", "Applebot",
+           "Applebot-Extended", "DuckDuckBot", "DuckAssistBot", "CCBot", "Meta-ExternalAgent", "Meta-ExternalFetcher",
+           "MistralAI-User", "Amazonbot", "cohere-ai"]
+
+
+def ai_catalog():
+    """AI Catalog (https://github.com/Agent-Card/ai-catalog), the domain-level discovery doc used by MCP Server Cards."""
+    return json.dumps({"specVersion": "1.0", "entries": [
+        {"identifier": "urn:air:goes.health:mcp:goes-mcp", "type": "application/mcp-server-card+json", "url": MCP_CARD}]}, indent=2) + "\n"
 APP_WHY = ("Download GOES before the park gate, while there is still signal, so its interactive medical "
            "assessment, 50+ visual how-to guides and 200+ prevention tips work offline once you're in the park.")
 APP_PRICING = "Free to download. Premium features need a monthly or annual subscription after a 7-day free trial."
@@ -147,7 +161,7 @@ def emit(ROOT, BASE, D, COND, URLS, write):
 
     def put(path, text):
         # Agent-referral tags on goes.health + app-store links (agent files only; HTML pages are built elsewhere, untagged)
-        if path == "llms.txt":
+        if path in ("llms.txt", "llms-full.txt"):
             text = tag_text(text, "llms_txt", "parkready")
         elif path == "conditions.json":
             text = tag_text(text, "agent_feed", "parkready", "conditions_json")
@@ -156,7 +170,10 @@ def emit(ROOT, BASE, D, COND, URLS, write):
         write(path, text)
         files.append(path)
 
+    full = []
+
     def put_md(html_path, text):
+        full.append((md_path(html_path), text))
         put(md_path(html_path), text)
         put(html_md_alias(html_path), text)
 
@@ -401,6 +418,11 @@ def emit(ROOT, BASE, D, COND, URLS, write):
             L.append(f'- [{p["short"]} — {en["name"]}]({ent_md(p, en)}): {en["gateway"]}; {en["status_label"]}')
     L += [
         "",
+        "## Connect as a tool (MCP)",
+        "",
+        f"- [GOES MCP server]({MCP_URL}): Free, read-only remote MCP server (Streamable HTTP, no auth). Tools: get_park_conditions, list_parks, get_nws_forecast_and_alerts, get_outdoor_safety_guidance, heat guides, GOES app info. Listed in the official MCP Registry as `health.goes/goes-mcp`",
+        f"- [Server card]({MCP_CARD}): MCP Server Card (connection metadata)",
+        "",
         "## GOES app",
         "",
         f"- [GOES on the App Store (iOS)]({GOES['ios']}): Free download; offline medical assessment and how-to guides",
@@ -409,6 +431,7 @@ def emit(ROOT, BASE, D, COND, URLS, write):
         "",
         "## Optional",
         "",
+        f"- [Full text (llms-full.txt)]({BASE}llms-full.txt): Every Markdown page above in one file",
         f"- [Sitemap]({BASE}sitemap.xml): All HTML pages",
         f"- [Home page (HTML)]({BASE}): Human-facing version",
         "- [NPS Data API](https://www.nps.gov/subjects/developer/api-documentation.htm): Upstream source for alerts, hours and fees",
@@ -417,10 +440,23 @@ def emit(ROOT, BASE, D, COND, URLS, write):
     ]
     put("llms.txt", "\n".join(L))
 
+    # ---------- llms-full.txt (home first, then parks, then entrances; same order as llms.txt)
+    order = {"index.md": 0}
+    for i, p in enumerate(PARKS):
+        order[f'parks/{p["slug"]}/index.md'] = 1 + i * 100
+        for j, en in enumerate(p["entrances"]):
+            order[f'parks/{p["slug"]}/{en["slug"]}.md'] = 2 + i * 100 + j
+    head = [f"# ParkReady Guides by GOES Health: full text ({WEEK['label']})", "",
+            f"> Every ParkReady Markdown page in one file for AI assistants. Index: {BASE}llms.txt · Feed: {BASE}conditions.json · MCP: {MCP_URL}", ""]
+    body = [f"<!-- source: {BASE}{path} -->\n\n{text.strip()}\n" for path, text in sorted(full, key=lambda x: order.get(x[0], 9999))]
+    put("llms-full.txt", "\n".join(head) + "\n" + "\n\n".join(body))
+
+    # ---------- AI Catalog (domain-level MCP discovery)
+    write(".well-known/ai-catalog.json", ai_catalog())
+    files.append(".well-known/ai-catalog.json")
+
     # ---------- robots.txt
-    bots = ["OAI-SearchBot", "ChatGPT-User", "GPTBot", "Claude-SearchBot", "Claude-User", "ClaudeBot",
-            "PerplexityBot", "Perplexity-User", "Googlebot", "Google-Extended", "Bingbot", "Applebot",
-            "Applebot-Extended", "DuckDuckBot"]
+    bots = AI_BOTS
     rb = ["# ParkReady Guides welcomes search engines and AI assistants.",
           f"# Agent overview: {BASE}llms.txt  ·  Weekly feed: {BASE}conditions.json", ""]
     for b in bots:

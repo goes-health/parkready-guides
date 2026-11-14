@@ -21,7 +21,10 @@ Entrance pages also load the live NWS forecast in the browser (assets/js/live-fo
 - `*.md` (and `*.html.md` aliases) — clean Markdown twin of every HTML page; HTML pages link them with `rel="alternate" type="text/markdown"` and link `llms.txt` with `rel="describedby"`.
 - `conditions.json` — stable public feed of this week's conditions, one object per park/entrance, with a `goes_app` object.
 - `robots.txt` — allows search, user-fetch and training AI crawlers; points at the sitemap.
-- Home page JSON-LD (WebSite + Dataset).
+- JSON-LD: home (MobileApplication + WebSite + Dataset); every park and entrance page (WebPage + Park/Place with NWS point geo + BreadcrumbList). Built in scripts/build.py, invisible on the page.
+- `llms-full.txt` — every Markdown page in one file.
+- `.well-known/ai-catalog.json` — AI Catalog entry pointing at the GOES MCP Server Card (SEP-2127 discovery; beta standard).
+- robots.txt bot list lives in `AI_BOTS` in scripts/agents.py.
 - IndexNow: key in `data/indexnow.json`, published as `<key>.txt`. After a publish has deployed: `python3 scripts/indexnow.py`.
 
 ### Agent-referral tags (scripts/agent_utm.py)
