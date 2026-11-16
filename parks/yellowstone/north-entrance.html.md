@@ -1,6 +1,6 @@
 # Yellowstone North Entrance: this week
 
-> Week of Nov 9–15, 2026 · Yellowstone National Park · Gardiner, MT · Status: **Open to cars (year-round road)**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
+> Week of Nov 16–22, 2026 · Yellowstone National Park · Gardiner, MT · Status: **Open to cars (year-round road)**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/yellowstone/north-entrance.html
 
@@ -9,7 +9,7 @@ The North Entrance at Gardiner, Montana is the only Yellowstone entrance open to
 ## This week at the North Entrance (official conditions)
 
 - **Open:** Open year-round to regular vehicles: North Entrance → Mammoth → Tower Junction → Lamar Valley → Northeast Entrance. Every other park road is closed to cars (oversnow travel only from Dec 15). Sources: [Yellowstone Park Roads (updated Nov 3, 2026)](https://www.nps.gov/yell/planyourvisit/parkroads.htm); [News release: Most Yellowstone roads and entrances close Nov. 1, 2026 (Oct 21)](https://www.nps.gov/yell/learn/news/26026.htm)
-- **Heads-up:** Gardner River High Bridge (0.5 mi southeast of Mammoth, toward Tower): single-lane traffic with up to 15-minute delays, 24/7, through Nov 24, 2026. Vehicles 8'6"+ wide, 75'+ long or 80,000+ lbs can't cross. Sources: [Yellowstone Park Roads (updated Nov 3, 2026)](https://www.nps.gov/yell/planyourvisit/parkroads.htm); [NPS Yellowstone alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/yell/planyourvisit/conditions.htm)
+- **Heads-up:** Gardner River High Bridge (0.5 mi southeast of Mammoth, toward Tower): single-lane traffic with up to 15-minute delays, 24/7, through Nov 24, 2026. Vehicles 8'6"+ wide, 75'+ long or 80,000+ lbs can't cross. Sources: [Yellowstone Park Roads (updated Nov 3, 2026)](https://www.nps.gov/yell/planyourvisit/parkroads.htm); [NPS Yellowstone alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/yell/planyourvisit/conditions.htm)
 - **Closed:** Mammoth to Norris is closed to cars; it opens to oversnow vehicles Dec 15, 2026. Sources: [Yellowstone Park Roads (updated Nov 3, 2026)](https://www.nps.gov/yell/planyourvisit/parkroads.htm)
 - **Open:** Open at Mammoth per NPS operating dates: Albright Visitor Center, Mammoth Campground (first-come, first-served after Oct 15), Mammoth General Store, Mammoth Medical Clinic (closed on Thanksgiving), Mammoth Hot Springs Hotel & Cabins, Post Office. The Mammoth gas station is listed as closed — fill up in Gardiner. Sources: [Yellowstone operating dates (updated Nov 9, 2026)](https://www.nps.gov/yell/planyourvisit/hours.htm)
 - **Info:** Road status: call (307) 344-2117 or text 82190 to 888-777 for Yellowstone road alerts. Sources: [Yellowstone Park Roads (updated Nov 3, 2026)](https://www.nps.gov/yell/planyourvisit/parkroads.htm)
@@ -20,16 +20,16 @@ The North Entrance at Gardiner, Montana is the only Yellowstone entrance open to
 
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| Tonight | 34°F | Mostly Cloudy | 8 mph |
-| Thursday | 64°F | Partly Sunny | 3 to 7 mph |
-| Thursday Night | 35°F | Mostly Cloudy | 8 mph |
-| Friday | 60°F | Partly Sunny | 6 to 12 mph |
-| Friday Night | 36°F | Mostly Cloudy then Slight Chance Rain And Snow Showers | 7 to 12 mph |
-| Saturday | 55°F | Chance Rain And Snow Showers | 2 to 6 mph |
-| Saturday Night | 36°F | Chance Rain Showers then Mostly Cloudy | 6 to 9 mph |
-| Sunday | 48°F | Mostly Sunny | 9 mph |
+| Today | 55°F | Mostly Cloudy | 6 to 10 mph |
+| Tonight | 37°F | Mostly Cloudy | 9 mph |
+| Tuesday | 57°F | Partly Sunny then Rain Showers Likely | 3 to 9 mph |
+| Tuesday Night | 31°F | Rain And Snow Showers | 3 to 12 mph |
+| Wednesday | 39°F | Chance Snow Showers then Partly Sunny | 9 mph |
+| Wednesday Night | 22°F | Mostly Cloudy then Slight Chance Snow Showers | 10 mph |
+| Thursday | 43°F | Rain And Snow Showers Likely | 3 to 7 mph |
+| Thursday Night | 28°F | Rain And Snow Showers Likely | 5 mph |
 
-Snapshot from the National Weather Service, fetched Nov 12, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=45.029&lon=-110.708
+Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=45.029&lon=-110.708
 
 ## What actually matters here this season
 
@@ -41,7 +41,7 @@ The goal is a good trip, not a scary one. These are the hazards NPS highlights f
   - In GOES: Wildlife Encounters: location-specific risk indicators for dangerous animals
 - **Bears may still be active.** NPS treats all of Yellowstone as bear country. Carry bear spray on any walk away from the car, hike in a group, and never leave packs or coolers unattended. Sources: [Yellowstone safety: thermal areas, wildlife, bears](https://www.nps.gov/yell/planyourvisit/safety.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
-- **Cold, ice and short days.** This week's NWS forecast for Gardiner: highs around 55–64°F, lows in the mid-30s, with a chance of rain and snow showers by Saturday. NPS asks drivers to carry blankets and keep a full tank. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/); [News release: Most Yellowstone roads and entrances close Nov. 1, 2026 (Oct 21)](https://www.nps.gov/yell/learn/news/26026.htm)
+- **Cold, ice and short days.** This week's NWS forecast for Gardiner: mid-50s Monday and Tuesday, then rain and snow showers from Tuesday night, highs around 37–43°F and lows near 22°F the rest of the week. NPS asks drivers to carry blankets and keep a full tank. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/); [News release: Most Yellowstone roads and entrances close Nov. 1, 2026 (Oct 21)](https://www.nps.gov/yell/learn/news/26026.htm)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 
 ## Checklist for the North Entrance
@@ -56,7 +56,7 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## Yellowstone park-wide
 
-- **Thermal areas (scald burns).** Burns from thermal features are a common cause of serious injury and death in Yellowstone. Ground that looks solid can be a thin crust over superheated water. Stay on boardwalks, keep kids close, and never touch runoff. More than 20 people have died after entering or falling into hot springs. Biscuit Basin (near Old Faithful) remains closed after the July 2024 hydrothermal explosion. Sources: [Yellowstone safety: thermal areas, wildlife, bears](https://www.nps.gov/yell/planyourvisit/safety.htm); [NPS Yellowstone alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/yell/planyourvisit/conditions.htm)
+- **Thermal areas (scald burns).** Burns from thermal features are a common cause of serious injury and death in Yellowstone. Ground that looks solid can be a thin crust over superheated water. Stay on boardwalks, keep kids close, and never touch runoff. More than 20 people have died after entering or falling into hot springs. Biscuit Basin (near Old Faithful) remains closed after the July 2024 hydrothermal explosion. Sources: [Yellowstone safety: thermal areas, wildlife, bears](https://www.nps.gov/yell/planyourvisit/safety.htm); [NPS Yellowstone alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/yell/planyourvisit/conditions.htm)
   - In GOES: Offline interactive health assessment + 50+ visual how-to guides
 - **Bears.** All of Yellowstone is grizzly and black bear country. Stay at least 100 yards from bears and wolves, carry bear spray where you can reach it, hike in groups of 3+, make noise, and avoid carcasses. Since 1970, 91% of people injured by bears in Yellowstone were hiking alone or with one partner. Sources: [Yellowstone safety: thermal areas, wildlife, bears](https://www.nps.gov/yell/planyourvisit/safety.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
@@ -67,7 +67,7 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## All active Yellowstone NPS alerts
 
-From the NPS Data API, fetched Nov 12, 2026. Live: https://www.nps.gov/yell/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/yell/planyourvisit/conditions.htm
 
 - **[Park Closure] Most Park Roads Closed to All Vehicles.** Most roads are closed to prepare for commercially-guided snowcoach and snowmobile travel during the winter season, which will begin December 15 (weather depending). The road between the North and Northeast entrances is the only road open year-round to regular vehicles. (https://www.nps.gov/yell/planyourvisit/parkroads.htm)
 - **[Information] Traffic Delays - Gardner River High Bridge.** Expect a single lane of traffic with up to 15-minute delays, 24 hours a day, seven days a week, from April 1 through November 24, 2026. Oversized/overweight vehicles (8'6"+ wide, 75'+ long, 80,000 lbs+ gross vehicle weight) will not be able to cross the bridge during this time. (https://www.nps.gov/yell/planyourvisit/parkroads.htm)
@@ -92,14 +92,14 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Sources
 
-Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
 - [Yellowstone Park Roads (updated Nov 3, 2026)](https://www.nps.gov/yell/planyourvisit/parkroads.htm)
 - [News release: Most Yellowstone roads and entrances close Nov. 1, 2026 (Oct 21)](https://www.nps.gov/yell/learn/news/26026.htm)
-- [NPS Yellowstone alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/yell/planyourvisit/conditions.htm)
+- [NPS Yellowstone alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/yell/planyourvisit/conditions.htm)
 - [Yellowstone operating dates (updated Nov 9, 2026)](https://www.nps.gov/yell/planyourvisit/hours.htm)
 - [Yellowstone safety: thermal areas, wildlife, bears](https://www.nps.gov/yell/planyourvisit/safety.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
 - [NPS Yellowstone fees & passes](https://www.nps.gov/yell/planyourvisit/fees.htm)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - [NPS Yellowstone National Park](https://www.nps.gov/yell/index.htm)
@@ -108,4 +108,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

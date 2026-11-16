@@ -1,6 +1,6 @@
 # Grand Canyon North Rim Entrance: this week
 
-> Week of Nov 9–15, 2026 · Grand Canyon National Park · Jacob Lake, AZ (SR 67) · Status: **Limited day use — no services, closing soon**. Facts fetched Nov 12, 2026 from official NPS and NWS sources.
+> Week of Nov 16–22, 2026 · Grand Canyon National Park · Jacob Lake, AZ (SR 67) · Status: **Limited day use — no services, closing soon**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/grand-canyon/north-rim-entrance.html
 
@@ -9,7 +9,7 @@ The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lak
 ## This week at the North Rim Entrance (official conditions)
 
 - **Heads-up:** North Rim: limited fall day use only. NO SERVICES — the campground, store and gas station are closed, and there's no fuel inside the park. Sources: [Grand Canyon Alerts & Conditions](https://www.nps.gov/grca/planyourvisit/conditions.htm); [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm)
-- **Heads-up:** The SR 67 entrance gate closes at sunset Nov 30, 2026, or after the first major snowstorm, whichever comes first. NWS forecasts snow showers here Friday night and Saturday, so check before you drive. Sources: [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/)
+- **Heads-up:** The SR 67 entrance gate closes at sunset Nov 30, 2026, or after the first major snowstorm, whichever comes first. NWS forecasts snow showers and blowing snow here Tuesday and snow showers again Thursday into Friday, so check before you drive. Sources: [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
 - **Closed:** All North Rim water is off. The North Kaibab Trail is closed in its entirety. Sources: [Grand Canyon Key Hiking Messages (updated Oct 27, 2026)](https://www.nps.gov/grca/planyourvisit/key-messages.htm)
 - **Info:** Stage 2 fire restrictions remain in effect on the North Rim for the rest of 2026. Sources: [News release: Stage 2 fire restrictions rescinded on South Rim (Nov 4, 2026)](https://www.nps.gov/grca/learn/news/stage-2-fire-restrictions-rescinded-on-south-rim.htm)
 - **Info:** Road conditions: Arizona Highway Information, 1-888-411-ROAD (7623). Nearest lodging, food and fuel: Jacob Lake, about 45 miles north. Sources: [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm)
@@ -20,22 +20,22 @@ The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lak
 
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| Tonight | 28°F | Clear | 8 mph |
-| Thursday | 52°F | Sunny | 8 mph |
-| Thursday Night | 28°F | Partly Cloudy | 7 mph |
-| Friday | 47°F | Chance Snow Showers | 5 to 13 mph |
-| Friday Night | 31°F | Snow Showers Likely | 10 to 22 mph |
-| Saturday | 38°F | Snow Showers | 9 to 24 mph |
-| Saturday Night | 23°F | Mostly Clear | 3 to 9 mph |
-| Sunday | 41°F | Mostly Sunny | 3 mph |
+| Today | 46°F | Partly Sunny | 6 to 10 mph |
+| Tonight | 35°F | Mostly Cloudy then Chance Rain And Snow Showers | 8 to 16 mph |
+| Tuesday | 37°F | Snow Showers And Areas Of Blowing Snow | 20 to 30 mph |
+| Tuesday Night | 18°F | Patchy Blowing Snow then Partly Cloudy | 7 to 25 mph |
+| Wednesday | 37°F | Sunny | 7 mph |
+| Wednesday Night | 23°F | Mostly Cloudy | 6 to 12 mph |
+| Thursday | 39°F | Snow Showers Likely | 13 to 22 mph |
+| Thursday Night | 24°F | Snow Showers | 18 to 25 mph |
 
-Snapshot from the National Weather Service, fetched Nov 12, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=36.336&lon=-112.117
+Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=36.336&lon=-112.117
 
 ## What actually matters here this season
 
 The goal is a good trip, not a scary one. These are the hazards NPS highlights for this area and season, and what to do about each.
 
-- **Snow at 8,000 feet.** NPS: snow, ice and rain are common here this time of year. NWS forecast this week: highs around 47–52°F, lows near 28°F, and snow showers likely Friday night into Saturday with gusts over 20 mph. Sources: [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/)
+- **Snow at 8,000 feet.** NPS: snow, ice and rain are common here this time of year. NWS forecast this week: snow showers and areas of blowing snow Tuesday, snow showers likely Thursday and Friday, highs around 31–46°F and lows down to about 15°F. Sources: [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **Very limited emergency response.** NPS says emergency response on the North Rim will be extremely limited and response times may be significantly delayed. Travel self-sufficient. Sources: [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm)
   - In GOES: Offline interactive health assessment + 50+ visual how-to guides
@@ -53,7 +53,7 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## Grand Canyon park-wide
 
-- **Water: bring your own.** Stage 4 restrictions are in effect on the South Rim. Inner-canyon water is off everywhere (1.5 Mile and 3 Mile resthouses, Havasupai Gardens) for the rest of the winter. Potable water tanks are at the Bright Angel and South Kaibab trailheads. Carry all your water or a reliable treatment method. Sources: [Grand Canyon Key Hiking Messages (updated Oct 27, 2026)](https://www.nps.gov/grca/planyourvisit/key-messages.htm); [News release: Select inner canyon trails reopen (Oct 26, 2026)](https://www.nps.gov/grca/learn/news/select-inner-canyon-trails-reopen-in-grand-canyon-national-park.htm); [NPS Grand Canyon alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/grca/planyourvisit/conditions.htm)
+- **Water: bring your own.** Stage 4 restrictions are in effect on the South Rim. Inner-canyon water is off everywhere (1.5 Mile and 3 Mile resthouses, Havasupai Gardens) for the rest of the winter. Potable water tanks are at the Bright Angel and South Kaibab trailheads. Carry all your water or a reliable treatment method. Sources: [Grand Canyon Key Hiking Messages (updated Oct 27, 2026)](https://www.nps.gov/grca/planyourvisit/key-messages.htm); [News release: Select inner canyon trails reopen (Oct 26, 2026)](https://www.nps.gov/grca/learn/news/select-inner-canyon-trails-reopen-in-grand-canyon-national-park.htm); [NPS Grand Canyon alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grca/planyourvisit/conditions.htm)
   - In GOES: Offline interactive health assessment + 50+ visual how-to guides
 - **Elevation.** The South Rim is about 7,000 ft and the North Rim about 8,000 ft. NPS warns the altitude and dry air can cause dehydration, nausea, shortness of breath and exhaustion, so take your time at overlooks. Sources: [Grand Canyon safety: elevation, rim edges, winter](https://www.nps.gov/grca/planyourvisit/safety.htm)
   - In GOES: High Altitude Illness: personalized altitude risk
@@ -64,10 +64,10 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## All active Grand Canyon NPS alerts
 
-From the NPS Data API, fetched Nov 12, 2026. Live: https://www.nps.gov/grca/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/grca/planyourvisit/conditions.htm
 
-- **[Park Closure] INNER CANYON TRAIL CLOSURES.** Current trail closures: the entire North Kaibab Trail (including Cottonwood Campground), Phantom Ranch, Bright Angel Campground, Silver Bridge, and the Black Bridge. Please do not attempt to access the closed areas.
-- **[Caution] Overnight Lodging Suspended and Parkwide Stage 4 Water Restrictions.** Grand Canyon National Park has implemented Stage 4 water restrictions on the South Rim due to extensive flash flood damage to the Transcanyon Waterline. Overnight accommodations are suspended, and only dry camping is allowed. The park remains open for day use, with food and beverage services, the Grand Canyon Clinic, and Post Office remaining open. Visitors are asked to bring water with them when visiting the park. (https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm)
+- **[Caution] Overnight Lodging Suspended and Parkwide Stage 4 Water Restrictions.** Stage 4 water restrictions continue through Nov. 19, 2026 due to a parkwide water shortage. Overnight lodging is anticipated to resume on Friday, Nov. 20. The park remains open for day use, with food and beverage services, the Grand Canyon Clinic, and Post Office remaining open. Visitors are asked to bring water with them when visiting the park. (https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm)
+- **[Park Closure] INNER CANYON TRAIL CLOSURES.** Current trail closures: the entire North Kaibab Trail (including Cottonwood Campground), Phantom Ranch, Bright Angel Campground, Silver Bridge, and the Black Bridge. Please do not attempt to access the closed areas. Beginning Nov. 18, intermittent trail delays will occur just above 3-Mile Resthouse on the Bright Angel Trail as trail crew continues rockfall mitigation work.
 - **[Danger] INNER CANYON WATER SHUTOFFS.** Beginning Sep. 6, no potable water will be available in the inner canyon, including along the Bright Angel Trail (1.5 Mile Resthouse, 3-Mile Resthouse, Havasupai Gardens day use and campground). All backpackers and hikers should carry water filtration and treatment OR carry all water with them. (https://www.nps.gov/grca/planyourvisit/key-messages.htm)
 - **[Caution] Critical Backcountry Updates/Closures.** Visit this link for the inner canyon weather forecast, current trail closures, today's heat risk, and drinking water availability. (https://www.nps.gov/grca/planyourvisit/key-messages.htm)
 
@@ -91,16 +91,16 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Sources
 
-Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
 - [Grand Canyon Alerts & Conditions](https://www.nps.gov/grca/planyourvisit/conditions.htm)
 - [News release: Modified fall operations at the North Rim (Sep 30, 2026)](https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 12)](https://www.weather.gov/)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
 - [Grand Canyon Key Hiking Messages (updated Oct 27, 2026)](https://www.nps.gov/grca/planyourvisit/key-messages.htm)
 - [News release: Stage 2 fire restrictions rescinded on South Rim (Nov 4, 2026)](https://www.nps.gov/grca/learn/news/stage-2-fire-restrictions-rescinded-on-south-rim.htm)
 - [Grand Canyon safety: elevation, rim edges, winter](https://www.nps.gov/grca/planyourvisit/safety.htm)
-- [NPS Grand Canyon alerts (NPS Data API, fetched Nov 12)](https://www.nps.gov/grca/planyourvisit/conditions.htm)
-- [News release: Projected dates for restoring water to the South Rim (Sep 19, 2026)](https://www.nps.gov/grca/learn/news/grand-canyon-national-park-announces-projected-dates-for-restoring-water-to-south-rim.htm)
+- [NPS Grand Canyon alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grca/planyourvisit/conditions.htm)
+- [News release linked from the NPS alert: overnight accommodations suspended](https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm)
 - [NPS Grand Canyon fees & passes](https://www.nps.gov/grca/planyourvisit/fees.htm)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - [News release: Select inner canyon trails reopen (Oct 26, 2026)](https://www.nps.gov/grca/learn/news/select-inner-canyon-trails-reopen-in-grand-canyon-national-park.htm)
@@ -110,4 +110,4 @@ Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones. We
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

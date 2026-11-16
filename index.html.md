@@ -1,6 +1,6 @@
 # What's open this week — and what to know before you go.
 
-> ParkReady Guides by GOES Health · Week of Nov 9–15, 2026. Weekly entrance briefings for 6 of America's busiest national parks (17 open entrances): which entrances are open, this week's official closures and weather, and what to prepare for at that entrance and season. Every fact links to the National Park Service or National Weather Service page it came from.
+> ParkReady Guides by GOES Health · Week of Nov 16–22, 2026. Weekly entrance briefings for 6 of America's busiest national parks (17 open entrances): which entrances are open, this week's official closures and weather, and what to prepare for at that entrance and season. Every fact links to the National Park Service or National Weather Service page it came from.
 
 HTML version: https://parks.goes.health/
 
@@ -18,17 +18,17 @@ WY · MT · ID · Winter shoulder season: only the North ↔ Northeast road is o
 
 ### [Yosemite National Park](https://parks.goes.health/parks/yosemite/index.md)
 
-CA · Snow on the way: Tioga and Glacier Point roads close Nov 12 at 5 pm.
+CA · Tioga and Glacier Point roads are closed for snow; a winter storm watch runs to Nov 20.
 
 - [Arch Rock Entrance](https://parks.goes.health/parks/yosemite/arch-rock-entrance.md): Open — Hwy 140 / El Portal Road
 - [Big Oak Flat Entrance](https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.md): Open — weekday delays
-- [South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md): Open — Winter Storm Watch
+- [South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md): Open — Winter Storm Watch to Nov 20
 - [Hetch Hetchy Entrance](https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.md): Daylight only — closes for snow
 - Closed / limited: Tioga Pass Entrance (Hwy 120 east, from Lee Vining); Glacier Point Road
 
 ### [Grand Canyon National Park](https://parks.goes.health/parks/grand-canyon/index.md)
 
-AZ · Day use only on the South Rim: overnight lodging suspended, bring your own water.
+AZ · Day use on the South Rim through Nov 19; NPS expects overnight lodging back Nov 20. Bring water.
 
 - [South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md): Open 24/7 — day use, bring water
 - [Desert View (East) Entrance](https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.md): Open 24/7
@@ -37,21 +37,21 @@ AZ · Day use only on the South Rim: overnight lodging suspended, bring your own
 
 ### [Great Smoky Mountains National Park](https://parks.goes.health/parks/great-smoky-mountains/index.md)
 
-TN · NC · Winter Weather Advisory on the Tennessee side; snow showers at Newfound Gap.
+TN · NC · A sunny, mild week, but Kuwohi Road is closed for snow and ice.
 
-- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Winter Weather Advisory
-- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — Winter Weather Advisory
+- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Kuwohi Road closed
+- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — sunny week
 - [Cherokee Entrance (Oconaluftee)](https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md): Open — elk area
 - Closed / limited: Seasonal secondary roads
 
 ### [Zion National Park](https://parks.goes.health/parks/zion/index.md)
 
-UT · Shuttle season ends Nov 28; cool days, cold canyon water, storms Friday night.
+UT · Shuttle through Nov 28; top-down Narrows closed for high water; tunnel closes nightly Nov 16–20.
 
 - [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Open — shuttle through Nov 28
-- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Open — gravel section, size limits
+- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Open — tunnel closed nightly Nov 16–20
 - [Kolob Canyons Entrance](https://parks.goes.health/parks/zion/kolob-canyons-entrance.md): Open — may close for snow or ice
-- Closed / limited: Watchman Trail; Hidden Canyon / Observation Point from Zion Canyon
+- Closed / limited: The Narrows from the top (top-down route); Zion–Mt. Carmel Tunnel, overnight; Watchman Trail; Hidden Canyon / Observation Point from Zion Canyon
 
 ### [Glacier National Park](https://parks.goes.health/parks/glacier/index.md)
 
@@ -81,4 +81,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 9–15, 2026 · facts fetched Nov 12, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

@@ -1,22 +1,22 @@
-"""ParkReady Guides — editorial content for the week of Nov 9–15, 2026.
+"""ParkReady Guides — editorial content for the week of Nov 16–22, 2026.
 Every 'this week' fact cites a source key from S. Facts were fetched on
-2026-11-12 (JST) from nps.gov, the NPS Data API, and api.weather.gov.
+2026-11-16 (Pacific) from nps.gov, the NPS Data API, and api.weather.gov.
 Weekly: run scripts/refresh.py, review/edit the park content files, rebuild.
 """
 import json, os, glob
 
-WEEK = {"label": "Week of Nov 9–15, 2026", "start": "2026-11-09", "end": "2026-11-15",
-        "fetched": "2026-11-12", "fetched_note": "Fetched Thu Nov 12, 2026 (JST), which is Wed Nov 11 evening in US time zones."}
+WEEK = {"label": "Week of Nov 16–22, 2026", "start": "2026-11-16", "end": "2026-11-22",
+        "fetched": "2026-11-16", "fetched_note": "Fetched Mon Nov 16, 2026, about 9 am Pacific."}
 
 S = {}
 def src(key, label, url): S[key] = {"label": label, "url": url}
 
 for code, name in [("yell","Yellowstone"),("yose","Yosemite"),("grca","Grand Canyon"),("grsm","Great Smoky Mountains"),("zion","Zion"),("glac","Glacier")]:
-    src(f"{code}-alerts", f"NPS {name} alerts (NPS Data API, fetched Nov 12)", f"https://www.nps.gov/{code}/planyourvisit/conditions.htm")
+    src(f"{code}-alerts", f"NPS {name} alerts (NPS Data API, fetched Nov 16)", f"https://www.nps.gov/{code}/planyourvisit/conditions.htm")
     src(f"{code}-home", f"NPS {name} National Park", f"https://www.nps.gov/{code}/index.htm")
     src(f"{code}-fees", f"NPS {name} fees & passes", f"https://www.nps.gov/{code}/planyourvisit/fees.htm")
 src("nps-api", "NPS Data API (parks, operating hours, fees)", "https://www.nps.gov/subjects/developer/api-documentation.htm")
-src("nws", "National Weather Service point forecasts (api.weather.gov, fetched Nov 12)", "https://www.weather.gov/")
+src("nws", "National Weather Service point forecasts (api.weather.gov, fetched Nov 16)", "https://www.weather.gov/")
 src("airnow", "AirNow fire & smoke map", "https://fire.airnow.gov/")
 src("goes-app", "GOES app listing (App Store)", "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901")
 

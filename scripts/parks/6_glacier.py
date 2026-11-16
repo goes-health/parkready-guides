@@ -40,7 +40,7 @@ PARKS.append({
    "risks": [
      R("Bears on the lower road and trails", "Bears may still be active and foraging before denning. Carry bear spray, call out and clap (NPS says bells aren't enough), and don't stop near roadside bears: drive at least 100 yards past before pulling over.", ["glac-bears", "glac-hours"], "bears"),
      R("Lake McDonald's cold water", "Water is the park's top cause of death. Slick shoreline rocks and near-freezing water make a fall dangerous within minutes.", ["glac-cond"], "cold"),
-     R("Fog and short days", "NWS forecast for West Glacier this week: areas of fog, highs near 50–54°F, lows near 35°F, and a slight chance of light rain Saturday.", ["nws"], "weather"),
+     R("Fog and short days", "NWS forecast for West Glacier this week: light rain Monday, areas of fog Tuesday and Wednesday, highs in the mid-30s to low 40s, lows in the mid-20s, and a chance of light snow Friday into the weekend.", ["nws"], "weather"),
    ],
    "prep": [
      ("Fuel and food in West Glacier or Columbia Falls", "No gas in the park; Apgar's camp store may or may not be open."),
@@ -61,7 +61,7 @@ PARKS.append({
      C("No fuel inside the park. The St. Mary grocery store sometimes stays open in fall; full-service groceries are in Browning.", ["glac-roads", "glac-hours"], None),
    ],
    "risks": [
-     R("East-side wind and cold", "Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: mostly cloudy, highs around 54–62°F, lows near 36–46°F. Expect colder, harsher conditions higher up.", ["nws", "glac-cond", "nps-api"], "cold"),
+     R("East-side wind and cold", "Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: light snow Tuesday and chances of light snow most days after, highs around 33–44°F and lows near 18–29°F. Expect colder, harsher conditions higher up.", ["nws", "glac-cond", "nps-api"], "cold"),
      R("Bears", "Grizzlies and black bears live on both sides of the Divide. Make noise, hike in a group, and carry bear spray where you can reach it.", ["glac-bears"], "bears"),
      R("Tularemia and ticks", "Don't touch dead animals, use repellent, check for ticks, and drink only treated or boiled water.", ["glac-tula-sm"], "ticks"),
    ],
