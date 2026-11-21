@@ -1,0 +1,13 @@
+{
+  "name": "parkready-guides",
+  "private": true,
+  "type": "module",
+  "description": "ParkReady Guides static site. Node is only used for the mobile QA gate.",
+  "scripts": {
+    "mobile-check": "node scripts/mobile-check.mjs",
+    "mobile-check:live": "node scripts/mobile-check.mjs --base https://parks.goes.health/"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}

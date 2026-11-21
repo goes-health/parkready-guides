@@ -41,13 +41,14 @@ def short_label(k):
 STATUS_TXT = {"open": "Open", "caution": "Heads-up", "closed": "Closed", None: "Info"}
 
 def page(rel, title, desc, canonical, body, active=None, extra_head=""):
-    nav = [("index.html", "Parks", "home")] + [(f"parks/{p['slug']}/index.html", p["short"].replace("Great Smoky Mountains", "Smokies"), p["slug"]) for p in PARKS]
-    navhtml = "".join(f'<a href="{rel}{h}"{" aria-current=\"page\"" if a == active else ""} class="{"hide-sm" if a not in ("home",) else ""}">{e(t)}</a>' for h, t, a in nav)
+    nav = [("index.html", "All parks", "home")] + [(f"parks/{p['slug']}/index.html", p["short"].replace("Great Smoky Mountains", "Smokies"), p["slug"]) for p in PARKS]
+    navhtml = "".join(f'<a href="{rel}{h}"{" aria-current=\"page\"" if a == active else ""}>{e(t)}</a>' for h, t, a in nav)
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>document.documentElement.classList.add("js")</script>
   <title>{e(title)}</title>
   <meta name="description" content="{e(desc)}">
   <link rel="canonical" href="{BASE}{canonical}">
@@ -61,7 +62,9 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
   <meta name="theme-color" content="#2F5D50">
   <link rel="icon" href="{rel}assets/brand/logomark/logomark_yellow.svg" type="image/svg+xml">
   <link rel="stylesheet" href="{rel}assets/css/site.css">
-  <link rel="stylesheet" href="{rel}assets/css/parks.css">{extra_head}
+  <link rel="stylesheet" href="{rel}assets/css/parks.css">
+  <link rel="stylesheet" href="{rel}assets/css/mobile.css">
+  <script src="{rel}assets/js/site.js" defer></script>{extra_head}
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -70,12 +73,16 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
       <a class="brand-lockup" href="{rel}index.html">
         <img class="goes-logo" src="{rel}assets/brand/logo/GOES_black.svg" alt="GOES" width="70" height="22">
         <span class="divider" aria-hidden="true"></span>
-        <span class="site-name">ParkReady Guides<span class="by">by GOES Health</span></span>
+        <span class="site-name">ParkReady<span class="sn-guides"> Guides</span><span class="by">by GOES Health</span></span>
       </a>
-      <nav class="nav" aria-label="Primary">{navhtml}<a class="nav-cta" href="#get-goes">Get the app</a></nav>
+      <div class="header-actions">
+        <nav class="nav" id="site-nav" aria-label="Primary">{navhtml}</nav>
+        <a class="nav-cta" href="#get-goes" data-cta="header">Get <span class="cta-long">the app</span><span class="cta-short">GOES</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open park menu"><span class="bars" aria-hidden="true"></span><span class="nav-toggle-label">Parks</span></button>
+      </div>
     </div>
   </header>
-  <div class="week-bar"><div class="inner"><span class="wk">{e(WEEK["label"])}</span><span>Conditions pulled from official NPS and National Weather Service sources on {fmt_date(WEEK["fetched"])}. <a href="#sources">See sources</a></span></div></div>
+  <div class="week-bar"><div class="inner"><span class="wk">{e(WEEK["label"])}</span><span class="wb-text"><span class="wb-long">Conditions pulled from official NPS and National Weather Service sources on {fmt_date(WEEK["fetched"])}.</span><span class="wb-short">NPS + NWS data, {fmt_date(WEEK["fetched"]).rsplit(",", 1)[0]}</span> <a href="#sources">See sources</a></span></div></div>
   <main id="main">
 {body}
   </main>
@@ -88,10 +95,11 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
         <p class="footer-disclaimer">{e(GOES["disclaimer"])} Always follow official National Park Service rules, posted closures and ranger instructions. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.</p>
       </div>
       <div>
-        <p style="margin:0 0 .4rem"><a href="{GOES["ios"]}" rel="noopener">GOES on the App Store</a></p>
-        <p style="margin:0 0 .4rem"><a href="{GOES["android"]}" rel="noopener">GOES on Google Play</a></p>
-        <p style="margin:0"><a href="{GOES["site"]}">goes.health</a></p>
-      </div>
+        <ul class="footer-links">
+        <li><a href="{GOES["ios"]}" rel="noopener">GOES on the App Store</a></li>
+        <li><a href="{GOES["android"]}" rel="noopener">GOES on Google Play</a></li>
+        <li><a href="{GOES["site"]}">goes.health</a></li>
+      </ul>
     </div>
   </footer>
 </body>
@@ -103,13 +111,22 @@ def fmt_date(iso):
     d = datetime.date.fromisoformat(iso)
     return d.strftime("%b %-d, %Y")
 
-def cta_band(reason, rel, where=""):
+# Copy shared by both app CTAs. Terms match the App Store listing + goes.health/app (checked Nov 21, 2026:
+# GOES | Monthly $5.99, GOES | Yearly $35.99, 7-day free trial, auto-renews). Trust line uses goes.health wording only.
+# Never claim NPS affiliation or endorsement.
+TERMS = "Free to download. GOES+ is $5.99/month or $35.99/year after a 7-day free trial; renews automatically unless canceled."
+TRUST = "Doctor-built and trail-tested: guidance developed or validated by wilderness medicine physicians. Founded by Dr. Grant Lipman."
+
+def kit_line(park):
+    return f"Your {park} offline kit" if park else "Your outdoor safety companion"
+
+def cta_band(reason, rel, where="", park=None):
     return f'''
       <section class="section" id="get-goes">
         <div class="wrap-narrow">
           <div class="cta-band">
             <img class="goes-mark" src="{rel}assets/brand/logo/GOES_offwhite.svg" alt="GOES" width="90" height="28">
-            <p class="partner-line">Your outdoor safety companion</p>
+            <p class="partner-line">{e(kit_line(park))}</p>
             <h2>When signal drops, GOES steps in.</h2>
             <p class="reason">{e(reason)}</p>
             <ul class="feature-list">
@@ -119,13 +136,17 @@ def cta_band(reason, rel, where=""):
               <li><strong>Built by wilderness medicine physicians:</strong> founded by Dr. Grant Lipman, former Stanford Emergency Medicine professor and director of its wilderness medicine fellowship; Chief Medical Officer Dr. Colin Little, MD, FAWM.</li>
             </ul>
             {stores(where=where)}
-            <p class="cta-disclaimer">Free to download. Premium features need a monthly or annual subscription after a 7-day free trial. {e(GOES["disclaimer"])} Follow official NPS rules and ranger instructions.</p>
+            <p class="cta-terms">{e(TERMS)}</p>
+            <p class="cta-disclaimer">{e(GOES["disclaimer"])} Follow official NPS rules and ranger instructions.</p>
           </div>
         </div>
       </section>'''
 
-def offline_callout(text, where=""):
-    return f'''<div class="offline-callout"><div><strong>When signal drops, GOES steps in.</strong><p>{e(text)}</p></div>{stores(where=where)}</div>'''
+def offline_callout(text, where="", park=None):
+    kit = f'<span class="kit-line">{e(kit_line(park))}</span>' if park else ""
+    return (f'''<div class="offline-callout"><div class="oc-copy">{kit}<strong>When signal drops, GOES steps in.</strong><p>{e(text)}</p></div>'''
+            f'''<div class="oc-action">{stores(where=where)}<p class="cta-terms">{e(TERMS)}</p></div>'''
+            f'''<p class="trust-line">{e(TRUST)}</p></div>''')
 
 def risk_cards(risks, rel):
     out = []
@@ -156,7 +177,7 @@ def forecast_block(nkey):
     alerts = "".join(f'<div class="wx-alert"><strong>{e(a["event"])}</strong> — {e(a["headline"] or "")}</div>' for a in n["alerts"])
     return f'''
           <div class="forecast" data-forecast-url="{e(n["forecast_url"] or "")}" data-lat="{n["lat"]}" data-lon="{n["lon"]}">
-            <div class="forecast-head"><span class="forecast-status" aria-live="polite">Snapshot from the National Weather Service, fetched {fmt_date(WEEK["fetched"])}. Live forecast loads below if you're online.</span><a href="{e(n["forecast_page"])}" rel="noopener">Full NWS forecast</a></div>
+            <div class="forecast-head"><span class="forecast-status" aria-live="polite">Snapshot from the National Weather Service, fetched {fmt_date(WEEK["fetched"])}. Live forecast loads below if you're online.</span><a class="standalone-link" href="{e(n["forecast_page"])}" rel="noopener">Full NWS forecast</a></div>
             <div class="wx-alerts">{alerts}</div>
             <div class="table-wrap"><table><thead><tr><th scope="col">Period</th><th scope="col">Temp</th><th scope="col">Forecast</th><th scope="col">Wind</th></tr></thead><tbody>{rows}</tbody></table></div>
           </div>'''
@@ -245,18 +266,18 @@ for p in PARKS:
     <article>
       <section class="hero park-hero">
         <img class="hero-pattern" src="{rel}assets/brand/pattern/Pattern_TopRight.svg" alt="" aria-hidden="true">
-        <div class="wrap-narrow">
+        <div class="wrap-narrow hero-stack">
           <p class="kicker"><a href="{rel}index.html">Parks</a> / <a href="index.html">{e(p["short"])}</a> / {e(en["name"])}</p>
           <p class="eyebrow">{e(p["short"])} · {e(en["gateway"])}</p>
           <h1>{e(p["short"])} {e(en["name"])}: this week</h1>
-          <p><span class="pill {en["status"]}">{e(en["status_label"])}</span> <span class="badge" style="margin:0 0 0 .4rem">{e(WEEK["label"])}</span></p>
+          <p class="hero-status"><span class="pill {en["status"]}">{e(en["status_label"])}</span> <span class="badge">{e(WEEK["label"])}</span></p>
           <p class="lead">{e(en["intro"])}</p>
           <div class="actions">
             <a class="btn btn-secondary" href="#conditions">This week's conditions</a>
             <a class="btn btn-secondary" href="#risks">Risks here now</a>
             <a class="btn btn-primary" href="#get-goes">Get GOES before you lose signal</a>
           </div>
-          {offline_callout(en["cta_reason"], "-top")}
+          {offline_callout(en["cta_reason"], "-top", p["short"])}
         </div>
       </section>
 
@@ -316,13 +337,13 @@ for p in PARKS:
           {nps_alerts(p["code"], rel)}
         </div>
       </section>
-{cta_band(en["cta_reason"], rel, "-band")}
+{cta_band(en["cta_reason"], rel, "-band", p["short"])}
 
       <section class="section">
         <div class="wrap-narrow">
           <p class="eyebrow">Other {e(p["short"])} entrances</p>
           {ent_pills(p, rel, en["slug"])}
-          <p style="margin-top:1rem"><a href="index.html">{e(p["short"])} overview, closures and park-wide risks →</a></p>
+          <p class="more-link"><a class="standalone-link" href="index.html">{e(p["short"])} overview, closures and park-wide risks →</a></p>
         </div>
       </section>
 {sources_section(collect_keys(p, en))}
@@ -336,24 +357,24 @@ for p in PARKS:
     URLS.append(path)
     title = f'{p["short"]} This Week ({WEEK["label"].replace("Week of ", "")}): Open Entrances, Closures & Safety — ParkReady'
     desc = f'{p["name"]} this week: which entrances are open, seasonal closures, official NPS alerts, mid-November risks and the GOES offline safety app.'
-    ent_cards = "".join(f'''<div class="card park-card"><p class="meta">{e(en["gateway"])}</p><h3><a class="title-link" href="{en["slug"]}.html">{e(en["name"])}</a></h3><p>{e(en["intro"])}</p><p style="margin-top:.75rem"><span class="pill {en["status"]}">{e(en["status_label"])}</span></p><p style="margin-top:.75rem"><a href="{en["slug"]}.html">This week at {e(en["name"])} →</a></p></div>''' for en in p["entrances"])
+    ent_cards = "".join(f'''<div class="card park-card"><p class="meta">{e(en["gateway"])}</p><h3><a class="title-link" href="{en["slug"]}.html">{e(en["name"])}</a></h3><p>{e(en["intro"])}</p><p class="card-status"><span class="pill {en["status"]}">{e(en["status_label"])}</span></p><p class="card-more"><a class="standalone-link" href="{en["slug"]}.html">This week at {e(en["name"])} →</a></p></div>''' for en in p["entrances"])
     closed = "".join(f'<li class="closed"><span class="tag">Closed / limited</span><strong>{e(c["name"])}.</strong> {e(c["note"])} {chips(c["sources"], rel)}</li>' for c in p["closed"])
     body = f'''
     <article>
       <section class="hero park-hero">
         <img class="hero-pattern" src="{rel}assets/brand/pattern/Pattern_TopRight.svg" alt="" aria-hidden="true">
-        <div class="wrap-narrow">
+        <div class="wrap-narrow hero-stack">
           <p class="kicker"><a href="{rel}index.html">Parks</a> / {e(p["short"])}</p>
           <p class="eyebrow">{e(p["state"])} · {e(WEEK["label"])}</p>
           <h1>{e(p["name"])} this week</h1>
-          <p class="lead"><strong>{e(p["tagline"])}</strong></p>
+          <p class="lead lead-tagline"><strong>{e(p["tagline"])}</strong></p>
           <p class="lead">{e(p["summary"])} {chips(p["summary_sources"], rel)}</p>
           <div class="actions">
             <a class="btn btn-secondary" href="#entrances">Open entrances</a>
             <a class="btn btn-secondary" href="#closed">Closed this week</a>
             <a class="btn btn-primary" href="#get-goes">Get GOES before you lose signal</a>
           </div>
-          {offline_callout(p["cta_reason"], "-top")}
+          {offline_callout(p["cta_reason"], "-top", p["short"])}
         </div>
       </section>
 
@@ -394,7 +415,7 @@ for p in PARKS:
           <p class="rules-note">Follow official NPS rules, posted closures and ranger instructions. They override anything on this page.</p>
         </div>
       </section>
-{cta_band(p["cta_reason"], rel, "-band")}
+{cta_band(p["cta_reason"], rel, "-band", p["short"])}
 {sources_section(collect_keys(p) + [k for en in p["entrances"] for c in en["conditions"] for k in c["sources"]])}
     </article>'''
     write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=page_jsonld(p)))
@@ -427,14 +448,14 @@ rel = ""
 cards = []
 for p in PARKS:
     cl = "; ".join(c["name"].split(" (")[0] for c in p["closed"])
-    cards.append(f'''<div class="card park-card"><p class="meta">{e(p["state"])}</p><h3><a class="title-link" href="parks/{p["slug"]}/index.html">{e(p["short"])}</a></h3><p class="tag">{e(p["tagline"])}</p>{ent_pills(p, rel)}<p style="margin-top:.75rem;font-size:.85rem"><strong>Closed / limited:</strong> {e(cl)}</p></div>''')
+    cards.append(f'''<div class="card park-card"><p class="meta">{e(p["state"])}</p><h3><a class="title-link" href="parks/{p["slug"]}/index.html">{e(p["short"])}</a></h3><p class="tagline">{e(p["tagline"])}</p>{ent_pills(p, rel)}<p class="card-closed"><strong>Closed / limited:</strong> {e(cl)}</p></div>''')
 home_keys = []
 for p in PARKS: home_keys += p["summary_sources"]
 home_keys += ["nps-api", "nws", "goes-app"]
 body = f'''
     <section class="hero park-hero">
       <img class="hero-pattern" src="assets/brand/pattern/Pattern_TopRight.svg" alt="" aria-hidden="true">
-      <div class="wrap-narrow">
+      <div class="wrap-narrow hero-stack">
         <span class="badge">{e(WEEK["label"])}</span>
         <h1>What's open this week — and what to know before you go.</h1>
         <p class="lead">ParkReady Guides are weekly entrance briefings for America's busiest national parks: which entrances are open, this week's official closures and weather, and what to prepare for at that entrance and season — bears, bison, thermal ground, ice, flash floods, altitude. Every fact links to the National Park Service or National Weather Service page it came from.</p>
