@@ -84,7 +84,7 @@ def emit(ROOT, BASE, D, COND, URLS, write):
             "GOES — Outdoor Health & Safety is your outdoor safety companion: an offline interactive health assessment, "
             "50+ visual how-to guides, 200+ prevention tips across 60+ medical topics, and location-specific risk "
             "indicators (wildlife, cold, heat, altitude, ticks, poisonous plants, UV, smoke). Built by wilderness "
-            "medicine physicians: founded by Dr. Grant Lipman; Chief Medical Officer Dr. Colin Little, MD, FAWM.",
+            "medicine physicians: founded by wilderness medicine doctors; Chief Medical Officer Dr. Colin Little, MD, FAWM.",
             "",
             f"- iOS (App Store): {GOES['ios']}",
             f"- Android (Google Play): {GOES['android']}",

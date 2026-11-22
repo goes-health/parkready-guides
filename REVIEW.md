@@ -101,7 +101,7 @@ The risk sentences that quote the forecast (e.g. "snow showers Friday") are date
   - 200+ tips across 60+ topics;
   - 7-day trial, then a subscription.
 
-  Lipman and Little credentials come from the OIA press release and goes.health. I did **not** use "trusted by national parks" or "built with NPS PSAR rangers". Both appear in GOES marketing, but they could read as NPS endorsement on a park site.
+  Founder and Little credentials come from the OIA press release and goes.health. I did **not** use "trusted by national parks" or "built with NPS PSAR rangers". Both appear in GOES marketing, but they could read as NPS endorsement on a park site.
 - I used no official store badge artwork; the store buttons are styled text buttons. There are no affiliate links, reviews or ratings.
 
 ## Decisions for Camilo

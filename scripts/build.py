@@ -115,7 +115,7 @@ def fmt_date(iso):
 # GOES | Monthly $5.99, GOES | Yearly $35.99, 7-day free trial, auto-renews). Trust line uses goes.health wording only.
 # Never claim NPS affiliation or endorsement.
 TERMS = "Free to download. GOES+ is $5.99/month or $35.99/year after a 7-day free trial; renews automatically unless canceled."
-TRUST = "Doctor-built and trail-tested: guidance developed or validated by wilderness medicine physicians. Founded by Dr. Grant Lipman."
+TRUST = "Doctor-built and trail-tested: guidance developed or validated by wilderness medicine physicians. Founded by wilderness medicine doctors."
 
 def kit_line(park):
     return f"Your {park} offline kit" if park else "Your outdoor safety companion"
@@ -133,7 +133,7 @@ def cta_band(reason, rel, where="", park=None):
               <li><strong>Works with no cell service:</strong> interactive health assessment and 50+ visual how-to guides, available offline.</li>
               <li><strong>Location-specific risks:</strong> wildlife (bears, venomous snakes), hypothermia, frostbite, heat illness, altitude, ticks, poisonous plants, UV and smoke/air quality.</li>
               <li><strong>200+ prevention tips across 60+ medical topics,</strong> also available offline.</li>
-              <li><strong>Built by wilderness medicine physicians:</strong> founded by Dr. Grant Lipman, former Stanford Emergency Medicine professor and director of its wilderness medicine fellowship; Chief Medical Officer Dr. Colin Little, MD, FAWM.</li>
+              <li><strong>Built by wilderness medicine physicians:</strong> founded by wilderness medicine doctors; Chief Medical Officer Dr. Colin Little, MD, FAWM.</li>
             </ul>
             {stores(where=where)}
             <p class="cta-terms">{e(TERMS)}</p>
@@ -483,7 +483,7 @@ body = f'''
         <div class="grid grid-3 why-grid">
           <div class="card"><h3>Offline by design</h3><p>Interactive health assessment, 50+ visual how-to guides and 200+ prevention tips across 60+ medical topics, all on your phone with no cell service.</p></div>
           <div class="card"><h3>Risks for where you are</h3><p>Location-specific indicators for bears, venomous snakes and other wildlife, plus hypothermia, frostbite, heat illness, altitude illness, ticks, poisonous plants, UV and smoke.</p></div>
-          <div class="card"><h3>Written by wilderness doctors</h3><p>Founded by Dr. Grant Lipman, former Stanford Emergency Medicine professor and director of its wilderness medicine fellowship. Chief Medical Officer: Dr. Colin Little, MD, FAWM.</p></div>
+          <div class="card"><h3>Written by wilderness doctors</h3><p>Founded by wilderness medicine doctors. Chief Medical Officer: Dr. Colin Little, MD, FAWM.</p></div>
         </div>
       </div>
     </section>

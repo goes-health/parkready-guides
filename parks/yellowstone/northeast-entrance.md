@@ -73,7 +73,7 @@ From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/yell/plan
 
 **When signal drops, GOES steps in.** Wolves, bison and grizzlies in Lamar Valley, sub-freezing nights and closed services. Get GOES before you lose signal so its offline assessment and prevention tips are there if something goes wrong.
 
-GOES — Outdoor Health & Safety is your outdoor safety companion: an offline interactive health assessment, 50+ visual how-to guides, 200+ prevention tips across 60+ medical topics, and location-specific risk indicators (wildlife, cold, heat, altitude, ticks, poisonous plants, UV, smoke). Built by wilderness medicine physicians: founded by Dr. Grant Lipman; Chief Medical Officer Dr. Colin Little, MD, FAWM.
+GOES — Outdoor Health & Safety is your outdoor safety companion: an offline interactive health assessment, 50+ visual how-to guides, 200+ prevention tips across 60+ medical topics, and location-specific risk indicators (wildlife, cold, heat, altitude, ticks, poisonous plants, UV, smoke). Built by wilderness medicine physicians: founded by wilderness medicine doctors; Chief Medical Officer Dr. Colin Little, MD, FAWM.
 
 - iOS (App Store): https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901?ct=parkready_agent_feed&mt=8
 - Android (Google Play): https://play.google.com/store/apps/details?id=com.goes.mobile&referrer=utm_source%3Dagent_feed%26utm_medium%3Dagent%26utm_campaign%3Dparkready%26utm_content%3Dmarkdown

@@ -44,7 +44,7 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 **When signal drops, GOES steps in.** Black bears active in every part of the park, slick granite by the rivers, and a winter storm on the way. GOES works offline, so its assessment and how-to guides still help if a fall or a cold soaking happens out of signal.
 
-GOES — Outdoor Health & Safety is your outdoor safety companion: an offline interactive health assessment, 50+ visual how-to guides, 200+ prevention tips across 60+ medical topics, and location-specific risk indicators (wildlife, cold, heat, altitude, ticks, poisonous plants, UV, smoke). Built by wilderness medicine physicians: founded by Dr. Grant Lipman; Chief Medical Officer Dr. Colin Little, MD, FAWM.
+GOES — Outdoor Health & Safety is your outdoor safety companion: an offline interactive health assessment, 50+ visual how-to guides, 200+ prevention tips across 60+ medical topics, and location-specific risk indicators (wildlife, cold, heat, altitude, ticks, poisonous plants, UV, smoke). Built by wilderness medicine physicians: founded by wilderness medicine doctors; Chief Medical Officer Dr. Colin Little, MD, FAWM.
 
 - iOS (App Store): https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901?ct=parkready_agent_feed&mt=8
 - Android (Google Play): https://play.google.com/store/apps/details?id=com.goes.mobile&referrer=utm_source%3Dagent_feed%26utm_medium%3Dagent%26utm_campaign%3Dparkready%26utm_content%3Dmarkdown
