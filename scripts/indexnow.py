@@ -11,7 +11,7 @@ key = json.load(open(os.path.join(ROOT, "data", "indexnow.json")))["key"]
 D = json.load(open(os.path.join(ROOT, "data", "parks.json")))
 urls = [BASE, BASE + "llms.txt", BASE + "llms-full.txt", BASE + "conditions.json", BASE + "sitemap.xml", BASE + "index.md"]
 for p in D["parks"]:
-    urls += [f'{BASE}parks/{p["slug"]}/', f'{BASE}parks/{p["slug"]}/index.md']
+    urls += [f'{BASE}parks/{p["slug"]}/index.html', f'{BASE}parks/{p["slug"]}/index.md']
     for en in p["entrances"]:
         urls += [f'{BASE}parks/{p["slug"]}/{en["slug"]}.html', f'{BASE}parks/{p["slug"]}/{en["slug"]}.md']
 body = {"host": urllib.parse.urlparse(BASE).netloc, "key": key, "keyLocation": f"{BASE}{key}.txt", "urlList": urls}

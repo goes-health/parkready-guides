@@ -230,7 +230,7 @@ def _ld(data):
 
 def page_jsonld(p, en=None):
     org = {"@type": "Organization", "name": "GOES Health", "url": GOES["site"]}
-    park_url = f'{BASE}parks/{p["slug"]}/'
+    park_url = f'{BASE}parks/{p["slug"]}/index.html'  # must match <link rel=canonical>
     park = {"@type": "Park", "name": p["name"], "sameAs": f'https://www.nps.gov/{p["code"]}/index.htm'}
     crumbs = [{"@type": "ListItem", "position": 1, "name": "ParkReady Guides", "item": BASE},
               {"@type": "ListItem", "position": 2, "name": p["short"], "item": park_url}]
@@ -259,8 +259,9 @@ for p in PARKS:
         rel = "../../"
         path = f'parks/{p["slug"]}/{en["slug"]}.html'
         URLS.append(path)
-        title = f'{p["short"]} {en["name"]} This Week ({WEEK["label"].replace("Week of ", "")}): Conditions & Safety — ParkReady'
-        desc = f'{p["short"]} {en["name"]} ({en["gateway"]}) this week: official NPS road and entrance status, NWS forecast, the risks that matter in mid-November, and why to download the GOES offline safety app before you lose signal.'
+        # Search-first title: the entrance + gateway town people type, then the intent (is it open / roads / weather).
+        title = f'{p["short"]} {en["name"]} ({en["gateway"]}): Road Status & Weather This Week — ParkReady'
+        desc = f'{en["status_label"]}. {p["short"]} {en["name"]} ({en["gateway"]}), {WEEK["label"].replace("Week of ", "week of ")}: official NPS road and entrance status, NWS forecast and what to prep for. Plus GOES, the offline outdoor safety app.'
         others = [x for x in p["entrances"] if x["slug"] != en["slug"]]
         body = f'''
     <article>
@@ -269,7 +270,7 @@ for p in PARKS:
         <div class="wrap-narrow hero-stack">
           <p class="kicker"><a href="{rel}index.html">Parks</a> / <a href="index.html">{e(p["short"])}</a> / {e(en["name"])}</p>
           <p class="eyebrow">{e(p["short"])} · {e(en["gateway"])}</p>
-          <h1>{e(p["short"])} {e(en["name"])}: this week</h1>
+          <h1>{e(p["short"])} {e(en["name"])}: road status &amp; weather this week</h1>
           <p class="hero-status"><span class="pill {en["status"]}">{e(en["status_label"])}</span> <span class="badge">{e(WEEK["label"])}</span></p>
           <p class="lead">{e(en["intro"])}</p>
           <div class="actions">
@@ -350,14 +351,49 @@ for p in PARKS:
     </article>'''
         write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=f'\n  <script src="{rel}assets/js/live-forecast.js" defer></script>' + page_jsonld(p, en)))
 
+# ---------------- quick answers (visible FAQ + FAQPage JSON-LD), built only from this week's sourced data
+def park_faq(p):
+    dates = WEEK["label"].replace("Week of ", "")
+    fetched = fmt_date(WEEK["fetched"])
+    opened = "; ".join(f'{en["name"]} ({en["gateway"]}): {en["status_label"]}' for en in p["entrances"])
+    closed = "; ".join(c["name"] for c in p["closed"])
+    qa = [
+        (f'Is {p["name"]} open this week?',
+         f'For {dates}, these {p["short"]} entrances were open: {opened}. {p["tagline"]} Based on NPS and NWS sources fetched {fetched}; check nps.gov/{p["code"]} the morning you go.'),
+        (f'What is closed at {p["short"]} this week?',
+         f'Closed or limited for {dates}: {closed}. Details and sources are in the closures section of this page.'),
+        (f'How much does it cost to enter {p["short"]}?', p["fees"]),
+        (f'Where can I check {p["short"]} road conditions live?',
+         f'The official source is the NPS current conditions page at nps.gov/{p["code"]}/planyourvisit/conditions.htm. ParkReady updates weekly and links every fact to the NPS or National Weather Service page it came from.'),
+        ('Do I need cell service to use the GOES app in the park?',
+         'No. Download GOES before you lose signal: its interactive health assessment, 50+ visual how-to guides and 200+ prevention tips work offline.'),
+    ]
+    return qa
+
+def faq_html(qa):
+    items = "".join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in qa)
+    return f'''
+      <section class="section" id="quick-answers">
+        <div class="wrap-narrow">
+          <p class="eyebrow">Quick answers</p>
+          <h2>Before you drive in</h2>
+          <div class="faq">{items}</div>
+        </div>
+      </section>'''
+
+def faq_jsonld(qa, url):
+    return _ld({"@context": "https://schema.org", "@type": "FAQPage", "@id": url + "#faq", "url": url,
+                "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in qa]})
+
 # ---------------- park overview pages
 for p in PARKS:
     rel = "../../"
     path = f'parks/{p["slug"]}/index.html'
     URLS.append(path)
-    title = f'{p["short"]} This Week ({WEEK["label"].replace("Week of ", "")}): Open Entrances, Closures & Safety — ParkReady'
-    desc = f'{p["name"]} this week: which entrances are open, seasonal closures, official NPS alerts, mid-November risks and the GOES offline safety app.'
+    title = f'Is {p["short"]} Open? Entrances, Road Closures & Weather ({WEEK["label"].replace("Week of ", "")}) — ParkReady'
+    desc = f'{p["tagline"]} Which {p["name"]} entrances are open, what\'s closed, official NPS alerts and NWS forecasts, {WEEK["label"].replace("Week of ", "week of ")}.'
     ent_cards = "".join(f'''<div class="card park-card"><p class="meta">{e(en["gateway"])}</p><h3><a class="title-link" href="{en["slug"]}.html">{e(en["name"])}</a></h3><p>{e(en["intro"])}</p><p class="card-status"><span class="pill {en["status"]}">{e(en["status_label"])}</span></p><p class="card-more"><a class="standalone-link" href="{en["slug"]}.html">This week at {e(en["name"])} →</a></p></div>''' for en in p["entrances"])
+    qa = park_faq(p)
     closed = "".join(f'<li class="closed"><span class="tag">Closed / limited</span><strong>{e(c["name"])}.</strong> {e(c["note"])} {chips(c["sources"], rel)}</li>' for c in p["closed"])
     body = f'''
     <article>
@@ -366,7 +402,7 @@ for p in PARKS:
         <div class="wrap-narrow hero-stack">
           <p class="kicker"><a href="{rel}index.html">Parks</a> / {e(p["short"])}</p>
           <p class="eyebrow">{e(p["state"])} · {e(WEEK["label"])}</p>
-          <h1>{e(p["name"])} this week</h1>
+          <h1>Is {e(p["short"])} open? {e(p["name"])} this week</h1>
           <p class="lead lead-tagline"><strong>{e(p["tagline"])}</strong></p>
           <p class="lead">{e(p["summary"])} {chips(p["summary_sources"], rel)}</p>
           <div class="actions">
@@ -394,6 +430,7 @@ for p in PARKS:
           <p class="rules-note"><strong>Entrance fee:</strong> {e(p["fees"])} {chips(p["fees_sources"], rel)}</p>
         </div>
       </section>
+{faq_html(qa)}
 
       <section class="section" id="risks">
         <div class="risk-wrap">
@@ -418,7 +455,7 @@ for p in PARKS:
 {cta_band(p["cta_reason"], rel, "-band", p["short"])}
 {sources_section(collect_keys(p) + [k for en in p["entrances"] for c in en["conditions"] for k in c["sources"]])}
     </article>'''
-    write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=page_jsonld(p)))
+    write(path, page(rel, title, desc, path, body, active=p["slug"], extra_head=page_jsonld(p) + faq_jsonld(qa, BASE + path)))
 
 # ---------------- home
 def jsonld():

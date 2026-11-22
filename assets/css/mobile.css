@@ -247,3 +247,8 @@ body { overflow-wrap: break-word; }
 /* Breadcrumb: tall hit area without inflating wrapped lines */
 .kicker { line-height: 1.75; }
 .kicker a { display: inline; padding: 0.55rem 0; min-width: 0; }
+
+/* Quick answers: full-height tap rows on every screen (44px minimum) */
+.faq details { padding-top: 0; padding-bottom: 0; }
+.faq summary { padding: 0.7rem 0; min-height: 44px; box-sizing: border-box; line-height: 1.4; }
+.faq details p { margin: 0 0 0.9rem; }
