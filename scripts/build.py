@@ -15,10 +15,31 @@ e = html.escape
 APPLE = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.3.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.8-1.1-2.8-4.1zM14 5.1c.7-.9 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg>'
 PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M3.6 2.3c-.3.3-.4.7-.4 1.2v17c0 .5.1.9.4 1.2l9.5-9.7-9.5-9.7zm10.6 10.8 2.6 2.6-11 6.3 8.4-8.9zm0-2.2L5.8 2l11 6.3-2.6 2.6zm3.9-1.8 3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-2.8-2.9 2.8-2.9z"/></svg>'
 
+# ---------------- download attribution (approved by Camilo Nov 22, 2026)
+# Every App Store / Google Play link on a page carries that page's park as the campaign:
+#   Play:      &referrer=utm_source%3Dparkready%26utm_medium%3Dweb%26utm_campaign%3D<park>  (Play Console > Acquisition)
+#   App Store: ?ct=parkready-<park>&mt=8 (+ pt=<provider id> when GOES_APPSTORE_PT is set; App Store Connect needs pt to attribute)
+# <park> is the park slug, or "home" on the home page. Set by each page loop below via set_campaign().
+from urllib.parse import quote as _q
+CAMPAIGN = "home"
+APPSTORE_PT = os.environ.get("GOES_APPSTORE_PT", "")
+def set_campaign(c):
+    global CAMPAIGN
+    CAMPAIGN = c
+def ios_url():
+    return GOES["ios"] + "?" + (f"pt={APPSTORE_PT}&" if APPSTORE_PT else "") + f"ct=parkready-{CAMPAIGN}&mt=8"
+def play_url():
+    return GOES["android"] + "&referrer=" + _q(f"utm_source=parkready&utm_medium=web&utm_campaign={CAMPAIGN}", safe="")
+
+# ---------------- Cloudflare Web Analytics (cookie-free). Token lives in data/analytics.json; empty = no beacon.
+_AN = os.path.join(ROOT, "data", "analytics.json")
+CF_TOKEN = (json.load(open(_AN)).get("cf_beacon_token", "") if os.path.exists(_AN) else "") or os.environ.get("PARKREADY_CF_BEACON", "")
+CF_BEACON = (f"\n  <script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{{\"token\": \"{CF_TOKEN}\"}}'></script>" if CF_TOKEN else "")
+
 def stores(alt_android=True, where=""):
     return (f'<div class="stores">'
-            f'<a class="store-btn" href="{GOES["ios"]}" rel="noopener" data-cta="ios{where}">{APPLE}<span><small>Download on the</small><b>App Store</b></span></a>'
-            f'<a class="store-btn{" alt" if alt_android else ""}" href="{GOES["android"]}" rel="noopener" data-cta="android{where}">{PLAY}<span><small>Get it on</small><b>Google Play</b></span></a>'
+            f'<a class="store-btn" href="{e(ios_url())}" rel="noopener" data-cta="ios{where}">{APPLE}<span><small>Download on the</small><b>App Store</b></span></a>'
+            f'<a class="store-btn{" alt" if alt_android else ""}" href="{e(play_url())}" rel="noopener" data-cta="android{where}">{PLAY}<span><small>Get it on</small><b>Google Play</b></span></a>'
             f'</div>')
 
 def chips(keys, rel):
@@ -64,7 +85,7 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
   <link rel="stylesheet" href="{rel}assets/css/site.css">
   <link rel="stylesheet" href="{rel}assets/css/parks.css">
   <link rel="stylesheet" href="{rel}assets/css/mobile.css">
-  <script src="{rel}assets/js/site.js" defer></script>{extra_head}
+  <script src="{rel}assets/js/site.js" defer></script>{CF_BEACON}{extra_head}
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -96,8 +117,8 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
       </div>
       <div>
         <ul class="footer-links">
-        <li><a href="{GOES["ios"]}" rel="noopener">GOES on the App Store</a></li>
-        <li><a href="{GOES["android"]}" rel="noopener">GOES on Google Play</a></li>
+        <li><a href="{e(ios_url())}" rel="noopener">GOES on the App Store</a></li>
+        <li><a href="{e(play_url())}" rel="noopener">GOES on Google Play</a></li>
         <li><a href="{GOES["site"]}">goes.health</a></li>
       </ul>
     </div>
@@ -255,6 +276,7 @@ def page_jsonld(p, en=None):
 
 # ---------------- entrance pages
 for p in PARKS:
+    set_campaign(p["slug"])
     for en in p["entrances"]:
         rel = "../../"
         path = f'parks/{p["slug"]}/{en["slug"]}.html'
@@ -387,6 +409,7 @@ def faq_jsonld(qa, url):
 
 # ---------------- park overview pages
 for p in PARKS:
+    set_campaign(p["slug"])
     rel = "../../"
     path = f'parks/{p["slug"]}/index.html'
     URLS.append(path)
@@ -482,6 +505,7 @@ def jsonld():
     return '\n  <script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + '</script>'
 
 rel = ""
+set_campaign("home")
 cards = []
 for p in PARKS:
     cl = "; ".join(c["name"].split(" (")[0] for c in p["closed"])

@@ -44,7 +44,13 @@ Entrance pages also load the live NWS forecast in the browser (assets/js/live-fo
 - IndexNow: key in `data/indexnow.json`, published as `<key>.txt`. After a publish has deployed: `python3 scripts/indexnow.py`.
 
 ### Agent-referral tags (scripts/agent_utm.py)
-Links to goes.health and the app stores inside agent files only (llms.txt, the JSON feed, Markdown twins) are tagged automatically by the generator — never hand-edit them, and keep HTML links untagged:
+Links to goes.health and the app stores inside agent files (llms.txt, the JSON feed, Markdown twins) are tagged automatically by the generator — never hand-edit them:
 - goes.health: `utm_source=llms_txt|agent_feed&utm_medium=agent&utm_campaign=parkready&utm_content=markdown|<feed>_json`
 - Google Play: `&referrer=<url-encoded utm string>` (Play Console › Acquisition)
 - App Store: `?ct=parkready_<source>&mt=8` (add `pt=` via env `GOES_APPSTORE_PT` once the App Store Connect provider ID is known)
+
+### HTML download attribution + analytics (scripts/build.py, approved Nov 22, 2026)
+- Every App Store / Google Play button on an HTML page is tagged with that page's park (`home` on the home page):
+  Play `&referrer=utm_source%3Dparkready%26utm_medium%3Dweb%26utm_campaign%3D<park>` · App Store `?ct=parkready-<park>&mt=8`
+  (+ `pt=` when env `GOES_APPSTORE_PT` holds the App Store Connect provider ID — Apple needs it to attribute).
+- Cloudflare Web Analytics (cookie-free beacon): put the site token in `data/analytics.json` → `cf_beacon_token`. Empty = no script.
