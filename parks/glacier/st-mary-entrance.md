@@ -1,6 +1,6 @@
 # Glacier St. Mary Entrance: this week
 
-> Week of Nov 16–22, 2026 · Glacier National Park · St. Mary, MT (US-89) · Status: **Open — road to Jackson Glacier Overlook**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · Glacier National Park · St. Mary, MT (US-89) · Status: **Open — road to Rising Sun**. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/glacier/st-mary-entrance.html
 
@@ -8,8 +8,9 @@ St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake
 
 ## This week at the St. Mary Entrance (official conditions)
 
-- **Heads-up:** Going-to-the-Sun Road is closed for the season at Jackson Glacier Overlook on the east side. Open sections can change at any time due to winter weather. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
+- **Heads-up:** Going-to-the-Sun Road is now closed for the season at Rising Sun on the east side (NPS alert, Nov 23). Open sections can change at any time due to winter weather. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
 - **Closed:** St. Mary Visitor Center is closed for the winter. Primitive camping is available year-round at St. Mary Campground. Sources: [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm); [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm)
+- **Heads-up:** NWS Winter Weather Advisory for the St. Mary area until Tue Nov 24 at noon MST, with patchy blowing snow. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
 - **Heads-up:** Tularemia was confirmed in a dead snowshoe hare in the St. Mary Lake area (Sept 17 release). Sources: [News release: Tularemia detected in St. Mary Lake area (Sep 17, 2026)](https://www.nps.gov/glac/learn/news/tularemia-detected-in-st-mary-lake-area-of-glacier-national-park.htm)
 - **Info:** No fuel inside the park. The St. Mary grocery store sometimes stays open in fall; full-service groceries are in Browning. Sources: [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm); [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm)
 
@@ -17,24 +18,26 @@ St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake
 
 ## Forecast near the St. Mary Entrance
 
+- **NWS Winter Weather Advisory:** Winter Weather Advisory issued November 23 at 8:37AM MST until November 24 at 12:00PM MST by NWS Great Falls MT
+
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| Today | 44°F | Mostly Cloudy | 3 to 8 mph |
-| Tonight | 29°F | Chance Light Snow | 3 mph |
-| Tuesday | 36°F | Light Snow | 1 to 5 mph |
-| Tuesday Night | 20°F | Light Snow | 5 mph |
-| Wednesday | 34°F | Slight Chance Light Snow then Partly Sunny | 3 mph |
-| Wednesday Night | 19°F | Mostly Cloudy then Slight Chance Light Snow | 2 mph |
-| Thursday | 33°F | Chance Light Snow | 3 mph |
-| Thursday Night | 18°F | Chance Light Snow then Mostly Cloudy | 2 mph |
+| Today | 30°F | Patchy Blowing Snow | 18 mph |
+| Tonight | 25°F | Patchy Blowing Snow | 18 to 28 mph |
+| Tuesday | 36°F | Patchy Blowing Snow then Partly Sunny | 20 to 25 mph |
+| Tuesday Night | 33°F | Mostly Cloudy | 24 to 29 mph |
+| Wednesday | 37°F | Partly Sunny | 29 mph |
+| Wednesday Night | 35°F | Mostly Cloudy then Chance Light Snow | 9 to 33 mph |
+| Thanksgiving Day | 41°F | Rain And Snow | 9 to 16 mph |
+| Thursday Night | 34°F | Rain And Snow | 14 to 21 mph |
 
-Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=48.746&lon=-113.437
+Snapshot from the National Weather Service, fetched Nov 23, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=48.746&lon=-113.437
 
 ## What actually matters here this season
 
 The goal is a good trip, not a scary one. These are the hazards NPS highlights for this area and season, and what to do about each.
 
-- **East-side wind and cold.** Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: light snow Tuesday and chances of light snow most days after, highs around 33–44°F and lows near 18–29°F. Expect colder, harsher conditions higher up. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/); [Glacier current conditions & safety](https://www.nps.gov/glac/planyourvisit/conditions.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
+- **East-side wind and cold.** Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: patchy blowing snow under a Winter Weather Advisory through Tuesday noon, then rain and snow Thanksgiving Day and Thursday night, highs around 30–41°F and lows near 25–35°F. Expect colder, harsher conditions higher up. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/); [Glacier current conditions & safety](https://www.nps.gov/glac/planyourvisit/conditions.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **Bears.** Grizzlies and black bears live on both sides of the Divide. Make noise, hike in a group, and carry bear spray where you can reach it. Sources: [Glacier bear safety](https://www.nps.gov/glac/planyourvisit/bears.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
@@ -63,9 +66,9 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## All active Glacier NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/glac/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/glac/planyourvisit/conditions.htm
 
-- **[Park Closure] Going-to-the-Sun Road Seasonal Closure.** Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Jackson Glacier Overlook. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather. (https://www.nps.gov/glac/planyourvisit/directions.htm)
+- **[Park Closure] Going-to-the-Sun Road Seasonal Closure.** Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Rising Sun. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather. (https://www.nps.gov/glac/planyourvisit/directions.htm)
 
 ## Get the GOES app before the gate
 
@@ -86,14 +89,14 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Sources
 
-Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 23, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
-- [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
+- [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
 - [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
 - [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
 - [News release: Tularemia detected in St. Mary Lake area (Sep 17, 2026)](https://www.nps.gov/glac/learn/news/tularemia-detected-in-st-mary-lake-area-of-glacier-national-park.htm)
 - [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
 - [Glacier current conditions & safety](https://www.nps.gov/glac/planyourvisit/conditions.htm)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - [Glacier bear safety](https://www.nps.gov/glac/planyourvisit/bears.htm)
@@ -105,4 +108,4 @@ Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildl
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

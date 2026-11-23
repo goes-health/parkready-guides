@@ -1,6 +1,6 @@
 # Zion Kolob Canyons Entrance: this week
 
-> Week of Nov 16–22, 2026 · Zion National Park · I-15 Exit 40 (near Cedar City) · Status: **Open — may close for snow or ice**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · Zion National Park · I-15 Exit 40 (near Cedar City) · Status: **Open — may close for snow or ice**. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/zion/kolob-canyons-entrance.html
 
@@ -18,22 +18,22 @@ Kolob Canyons is Zion's quieter northwest district, at I-15 Exit 40, 17 miles so
 
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| Today | 54°F | Mostly Cloudy then Slight Chance Light Rain | 9 to 14 mph |
-| Tonight | 40°F | Light Rain then Showers And Thunderstorms | 9 to 18 mph |
-| Tuesday | 44°F | Showers And Thunderstorms then Chance Rain And Snow | 9 to 18 mph |
-| Tuesday Night | 26°F | Chance Rain And Snow then Areas Of Frost | 5 to 9 mph |
-| Wednesday | 43°F | Areas Of Frost then Sunny | 5 to 12 mph |
-| Wednesday Night | 32°F | Mostly Cloudy then Chance Light Snow | 8 to 14 mph |
-| Thursday | 42°F | Rain And Snow | 8 to 14 mph |
-| Thursday Night | 30°F | Rain And Snow then Slight Chance T-storms | 8 to 12 mph |
+| Today | 47°F | Patchy Frost then Sunny | 2 to 6 mph |
+| Tonight | 29°F | Mostly Clear | 6 to 9 mph |
+| Tuesday | 50°F | Patchy Frost then Sunny | 2 to 8 mph |
+| Tuesday Night | 33°F | Partly Cloudy | 5 mph |
+| Wednesday | 51°F | Partly Sunny | 3 mph |
+| Wednesday Night | 30°F | Mostly Clear | 1 to 14 mph |
+| Thanksgiving Day | 53°F | Sunny | 5 to 14 mph |
+| Thursday Night | 36°F | Mostly Clear | 5 to 10 mph |
 
-Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=37.453&lon=-113.225
+Snapshot from the National Weather Service, fetched Nov 23, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=37.453&lon=-113.225
 
 ## What actually matters here this season
 
 The goal is a good trip, not a scary one. These are the hazards NPS highlights for this area and season, and what to do about each.
 
-- **Cold, exposed wilderness trails.** NWS forecast for Kolob: showers and thunderstorms Tuesday, rain and snow Thursday into Friday, highs around 37–54°F, and frosty nights near 20°F by Friday. These are designated wilderness trails with few people around to help. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/); [Kolob Canyons](https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm)
+- **Cold, exposed wilderness trails.** NWS forecast for Kolob: sunny and dry, with patchy frost early in the week, highs around 47–57°F, and lows near 29–40°F. These are designated wilderness trails with few people around to help. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/); [Kolob Canyons](https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **Flash floods in narrow canyons.** Know the forecast before entering any narrow canyon and have a plan to reach high ground. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm)
   - In GOES: 125+ extreme weather alerts
@@ -48,9 +48,9 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## Zion park-wide
 
-- **Flash floods.** Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. This week NWS forecasts showers and thunderstorms Tuesday and rain and snow Thursday into Friday. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Flash floods.** Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. This week's NWS forecast is sunny and dry, but always check it the morning you go. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: 125+ extreme weather alerts
-- **Toxic cyanobacteria.** Don't drink water from rivers, streams or pools, and don't submerge your head in them. Use potable water, and treat spring water only as a last resort. Sources: [Zion toxic cyanobacteria advisory](https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm); [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+- **Toxic cyanobacteria.** Don't drink water from rivers, streams or pools, and don't submerge your head in them. Use potable water, and treat spring water only as a last resort. Sources: [Zion toxic cyanobacteria advisory](https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm); [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
   - In GOES: Offline interactive health assessment + 50+ visual how-to guides
 - **Hypothermia in the canyons.** NPS: hypothermia is a major hazard in narrow canyons, and immersion in water is the fastest way to lose body heat. Avoid cotton and eat before you get chilled. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
@@ -59,10 +59,9 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## All active Zion NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/zion/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/zion/planyourvisit/conditions.htm
 
-- **[Park Closure] The Virgin River Narrows closed to top-down travel.** The Virgin River Narrows is closed to top-down travel due to high water. The lower section of the Narrows from Big Spring down and canyons leading into this section are now open.
-- **[Information] Zion Mount Carmel Highway - Nightly Road Closures.** Overnight tunnel closures are set for the tunnel on the Zion–Mount Carmel Highway (SR-9) inside Zion National Park starting Monday, Nov. 16 for fiber optic installation. See Utah Department of Transportation website for more information. (https://udotinput.utah.gov/ziontechnology)
+- **[Park Closure] Road to Lava Point and West Rim Trailhead closed.** This is a regular, seasonal closure, and we will remove this alert when snow melts. Lava Point Overlook is also closed.
 - **[Park Closure] Watchman Trail closed.** The Watchman Trail is closed pending repairs.
 - **[Caution] Large vehicle restrictions on Zion-Mt. Carmel Highway.** Vehicles that exceed length, width, height, or weight limits cannot travel between Canyon Junction and the park's East Entrance. See the current limits on the page linked below. (https://www.nps.gov/zion/planyourvisit/large-vehicles.htm)
 - **[Caution] Toxic cyanobacteria in rivers, streams, and pools.** Do not submerge your head in or drink instream water in Zion National Park. (https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm)
@@ -83,21 +82,21 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Zion entrances
 
-- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Open — shuttle through Nov 28
-- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Open — tunnel closed nightly Nov 16–20
+- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Open — last shuttle week
+- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Open — tunnel open overnight again
 - [Zion overview, closures and park-wide risks](https://parks.goes.health/parks/zion/index.md)
 
 ## Sources
 
-Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 23, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
 - [Zion operating hours & facility hours](https://www.nps.gov/zion/planyourvisit/hours.htm)
 - [Kolob Canyons](https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
 - [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm)
 - [Zion Canyon shuttle schedule](https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm)
-- [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
-- [UDOT Zion Canyon fiber project: Zion–Mt. Carmel Tunnel closure advisory (update Nov 12, 2026)](https://udotinput.utah.gov/ziontechnology)
+- [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+- [UDOT Zion Canyon fiber project: construction update (Nov 20, 2026)](https://udotinput.utah.gov/ziontechnology)
 - [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm)
 - [NPS Zion fees & passes](https://www.nps.gov/zion/planyourvisit/fees.htm)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
@@ -109,4 +108,4 @@ Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildl
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

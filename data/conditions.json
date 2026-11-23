@@ -1,5 +1,5 @@
 {
- "compiled_at": "2026-11-17T02:01:21+09:00",
+ "compiled_at": "2026-11-23T10:54:21-06:00",
  "note": "Machine-fetched facts. Editorial page copy lives in scripts/parks/*.py and data/parks.json.",
  "sources": {
   "nps_alerts": "https://developer.nps.gov/api/v1/alerts",
@@ -143,6 +143,11 @@
    "weather_info": "Yellowstone's weather can vary quite a bit, even in a single day. In the summer, daytime highs can exceed 70°F (21°C), only to drop 20 or more degrees when a thunderstorm rolls through. It can snow during any month of the year, and winter lows frequently drop below 0°F (-18°C), especially at night. Bring a range of clothing options, including a warm jacket and rain gear, even in the summer.",
    "recent_news": [
     {
+     "date": "2026-11-16",
+     "title": "Yellowstone National Park reports October 2026 visitation statistics",
+     "url": "https://www.nps.gov/yell/learn/news/26027.htm"
+    },
+    {
      "date": "2026-10-21",
      "title": "Most Yellowstone National Park Roads and Entrances Close Nov. 1, 2026, for Winter Season",
      "url": "https://www.nps.gov/yell/learn/news/26026.htm"
@@ -166,11 +171,6 @@
      "date": "2026-09-15",
      "title": "Yellowstone National Park reports August 2026 visitation statistics",
      "url": "https://www.nps.gov/yell/learn/news/26022.htm"
-    },
-    {
-     "date": "2026-09-11",
-     "title": "Yellowstone Superintendent Cam Sholly Departing Federal Service to Join the National Fish and Wildlife Foundation",
-     "url": "https://www.nps.gov/yell/learn/news/26021.htm"
     }
    ]
   },
@@ -179,18 +179,18 @@
    "url": "https://www.nps.gov/yose/index.htm",
    "alerts": [
     {
-     "title": "Tioga Road and Glacier Point Road are temporarily closed",
+     "title": "Tioga and Glacier Point Roads are closed due snow",
      "category": "Park Closure",
-     "description": "Tioga Road (continuation of Highway 120 through the park) and Glacier Point Road are temporarily closed due to a forecast of snow. Call 209/372-0200 (then 1, 1) to check road conditions in the park.",
-     "url": null,
-     "last_indexed": "2026-11-12 00:00:00.0"
+     "description": "Tioga Road (continuation of Highway 120 through the park) and Glacier Point Road are closed for the season. They usually reopen in late May or June, depending on conditions.",
+     "url": "https://www.nps.gov/yose/planyourvisit/wroads.htm",
+     "last_indexed": "2026-11-17 00:00:00.0"
     },
     {
-     "title": "No overnight parking on Tioga & Glacier Point Roads",
+     "title": "Tire chains may be required",
      "category": "Information",
-     "description": "Overnight parking is not allowed on Tioga Road and Glacier Point Road, including all parking lots reachable from these roads.",
-     "url": null,
-     "last_indexed": "2026-10-16 00:00:00.0"
+     "description": "Carry tire chains in your car and be prepared to use them (even if your car has four-wheel drive): chains may become mandatory at any time. Drive carefully even when there are no chain requirements: you may encounter icy spots on mostly dry roads.",
+     "url": "https://www.nps.gov/yose/planyourvisit/tirechains.htm",
+     "last_indexed": "2026-11-16 00:00:00.0"
     }
    ],
    "operating_hours": [
@@ -292,13 +292,6 @@
    "url": "https://www.nps.gov/grca/index.htm",
    "alerts": [
     {
-     "title": "Overnight Lodging Suspended and Parkwide Stage 4 Water Restrictions",
-     "category": "Caution",
-     "description": "Stage 4 water restrictions continue through Nov. 19, 2026 due to a parkwide water shortage. Overnight lodging is anticipated to resume on Friday, Nov. 20. The park remains open for day use, with food and beverage services, the Grand Canyon Clinic, and Post Office remaining open. Visitors are asked to bring water with them when visiting the park.",
-     "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm",
-     "last_indexed": "2026-11-13 00:00:00.0"
-    },
-    {
      "title": "INNER CANYON TRAIL CLOSURES",
      "category": "Park Closure",
      "description": "Current trail closures: the entire North Kaibab Trail (including Cottonwood Campground), Phantom Ranch, Bright Angel Campground, Silver Bridge, and the Black Bridge. Please do not attempt to access the closed areas. Beginning Nov. 18, intermittent trail delays will occur just above 3-Mile Resthouse on the Bright Angel Trail as trail crew continues rockfall mitigation work.",
@@ -353,6 +346,16 @@
    "weather_info": "Since Grand Canyon has elevations that range from 2,500 feet at the bottom to 8,400 feet on the North Rim, weather can vary significantly depending on the season and the specific location within the park. Winters tend to be cold and snowy, and summers have periods of excessive heat. High temperatures inside the canyon tend to be 20 to 30 degrees warmer then on the canyon's rims. Weather conditions can change rapidly, so it's wise to check forecasts before visiting.",
    "recent_news": [
     {
+     "date": "2026-11-18",
+     "title": "Grand Canyon National Park Transitions to Stage 3 Water Conservation Measures and South Rim Lodging Reopens, Nov. 20",
+     "url": "https://www.nps.gov/grca/learn/news/transitions-to-stage-3-water-conservation-measures-and-south-rim-lodging-reopens-nov-20.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "title": "Missing Aircraft Located on the North Rim of Grand Canyon National Park",
+     "url": "https://www.nps.gov/grca/learn/news/missing-aircraft-located-on-the-north-rim.htm"
+    },
+    {
      "date": "2026-11-04",
      "title": "Grand Canyon National Park Rescinds Stage 2 Fire Restrictions on South Rim",
      "url": "https://www.nps.gov/grca/learn/news/stage-2-fire-restrictions-rescinded-on-south-rim.htm"
@@ -381,16 +384,6 @@
      "date": "2026-09-30",
      "title": "Modified Fall Operations Begin at Grand Canyon’s North Rim Oct. 15",
      "url": "https://www.nps.gov/grca/learn/news/modified-fall-operations-north-rim-2026.htm"
-    },
-    {
-     "date": "2026-09-19",
-     "title": "Grand Canyon National Park Announces Projected Dates for Restoring Water to South Rim",
-     "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-announces-projected-dates-for-restoring-water-to-south-rim.htm"
-    },
-    {
-     "date": "2026-09-17",
-     "title": "Crews Assessing New Damage Following Second Flash Flood Event at Grand Canyon National Park",
-     "url": "https://www.nps.gov/grca/learn/news/crews-assessing-new-damage-following-second-flash-flood-event-at-grand-canyon-national-park.htm"
     }
    ]
   },
@@ -398,13 +391,6 @@
    "name": "Great Smoky Mountains National Park",
    "url": "https://www.nps.gov/grsm/index.htm",
    "alerts": [
-    {
-     "title": "KUWOHI Road Closed Due To Snow And Ice",
-     "category": "Park Closure",
-     "description": "KUWOHI Road Closed Due To Snow and Ice",
-     "url": "https://www.nps.gov/grsm/planyourvisit/conditions.htm",
-     "last_indexed": "2026-11-16 00:00:00.0"
-    },
     {
      "title": "Seasonal road closures",
      "category": "Park Closure",
@@ -445,6 +431,11 @@
    "weather_info": "Elevations in the park range from approximately 875 feet (267 meters) to 6,643 feet (2,025 meters) and the topography can drastically affect local weather. Temperatures can vary by 10-20 degrees Fahrenheit from mountain base to top, and clear skies lower down do not guarantee equally pleasant weather at higher elevations.",
    "recent_news": [
     {
+     "date": "2026-11-19",
+     "title": "Great Smoky Mountains National Park Reopens Rehabilitated Bullhead Trail",
+     "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reopens-rehabilitated-bullhead-trail.htm"
+    },
+    {
      "date": "2026-10-12",
      "title": "Missing Hiker Sahil Jilani Found Deceased in Great Smoky Mountains National Park",
      "url": "https://www.nps.gov/grsm/learn/news/missing-hiker-sahil-jilani-found-deceased-in-great-smoky-mountains-national-park.htm"
@@ -478,11 +469,6 @@
      "date": "2026-09-17",
      "title": "Roaring Fork Motor Nature Trail Closed to Visitors Sept. 24 for Mowing",
      "url": "https://www.nps.gov/grsm/learn/news/roaring-fork-motor-nature-trail-closed-to-visitors-sept-24-for-mowing.htm"
-    },
-    {
-     "date": "2026-09-14",
-     "title": "Great Smoky Mountains National Park Reminds Visitors to View Elk and Black Bears Safely this Fall",
-     "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm"
     }
    ]
   },
@@ -491,18 +477,11 @@
    "url": "https://www.nps.gov/zion/index.htm",
    "alerts": [
     {
-     "title": "The Virgin River Narrows closed to top-down travel",
+     "title": "Road to Lava Point and West Rim Trailhead closed",
      "category": "Park Closure",
-     "description": "The Virgin River Narrows is closed to top-down travel due to high water. The lower section of the Narrows from Big Spring down and canyons leading into this section are now open.",
+     "description": "This is a regular, seasonal closure, and we will remove this alert when snow melts. Lava Point Overlook is also closed.",
      "url": null,
-     "last_indexed": "2026-11-15 00:00:00.0"
-    },
-    {
-     "title": "Zion Mount Carmel Highway - Nightly Road Closures",
-     "category": "Information",
-     "description": "Overnight tunnel closures are set for the tunnel on the Zion–Mount Carmel Highway (SR-9) inside Zion National Park starting Monday, Nov. 16 for fiber optic installation. See Utah Department of Transportation website for more information.",
-     "url": "https://udotinput.utah.gov/ziontechnology",
-     "last_indexed": "2026-11-12 00:00:00.0"
+     "last_indexed": "2026-11-21 00:00:00.0"
     },
     {
      "title": "Watchman Trail closed",
@@ -615,9 +594,9 @@
     {
      "title": "Going-to-the-Sun Road Seasonal Closure",
      "category": "Park Closure",
-     "description": "Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Jackson Glacier Overlook. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather.",
+     "description": "Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Rising Sun. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather.",
      "url": "https://www.nps.gov/glac/planyourvisit/directions.htm",
-     "last_indexed": "2026-11-02 00:00:00.0"
+     "last_indexed": "2026-11-23 00:00:00.0"
     }
    ],
    "operating_hours": [
@@ -692,118 +671,118 @@
    "lon": -110.708,
    "forecast_url": "https://api.weather.gov/gridpoints/RIW/52,210/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=45.029&lon=-110.708",
-   "generated": "2026-11-16T17:00:01+00:00",
+   "generated": "2026-11-23T15:30:01+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 55,
+     "temp": 40,
      "unit": "F",
      "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy. High near 55, with temperatures falling to around 50 in the afternoon. East southeast wind 6 to 10 mph.",
-     "wind": "6 to 10 mph"
+     "detailed": "Mostly cloudy. High near 40, with temperatures falling to around 33 in the afternoon. Southeast wind around 3 mph.",
+     "wind": "3 mph"
     },
     {
      "name": "Tonight",
-     "temp": 37,
+     "temp": 28,
      "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. East southeast wind around 9 mph.",
-     "wind": "9 mph"
-    },
-    {
-     "name": "Tuesday",
-     "temp": 57,
-     "unit": "F",
-     "short": "Partly Sunny then Rain Showers Likely",
-     "detailed": "Rain showers likely after 2pm. Partly sunny, with a high near 57. Southeast wind 3 to 9 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 28. Southeast wind 3 to 9 mph.",
      "wind": "3 to 9 mph"
     },
     {
-     "name": "Tuesday Night",
-     "temp": 31,
+     "name": "Tuesday",
+     "temp": 39,
      "unit": "F",
-     "short": "Rain And Snow Showers",
-     "detailed": "Rain showers likely before 8pm, then rain and snow showers. Mostly cloudy, with a low around 31. South southwest wind 3 to 12 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "3 to 12 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 39. South southeast wind around 9 mph.",
+     "wind": "9 mph"
+    },
+    {
+     "name": "Tuesday Night",
+     "temp": 26,
+     "unit": "F",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 26. South wind 8 to 12 mph.",
+     "wind": "8 to 12 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 39,
+     "temp": 46,
      "unit": "F",
-     "short": "Chance Snow Showers then Partly Sunny",
-     "detailed": "A chance of snow showers before 11am. Partly sunny, with a high near 39. South southwest wind around 9 mph. Chance of precipitation is 40%. Little or no snow accumulation expected.",
-     "wind": "9 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 46. South wind 5 to 8 mph.",
+     "wind": "5 to 8 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 22,
+     "temp": 27,
      "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Snow Showers",
-     "detailed": "A slight chance of snow showers after 5am. Mostly cloudy, with a low around 22. South southeast wind around 10 mph. Chance of precipitation is 20%.",
-     "wind": "10 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 27. South wind 6 to 10 mph.",
+     "wind": "6 to 10 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 43,
+     "name": "Thanksgiving Day",
+     "temp": 44,
      "unit": "F",
-     "short": "Rain And Snow Showers Likely",
-     "detailed": "A slight chance of snow showers before 11am, then rain and snow showers likely. Mostly cloudy, with a high near 43. South southeast wind 3 to 7 mph. Chance of precipitation is 60%.",
-     "wind": "3 to 7 mph"
+     "short": "Chance Rain And Snow Showers",
+     "detailed": "A chance of rain and snow showers after 11am. Partly sunny, with a high near 44. South wind 7 to 14 mph, with gusts as high as 25 mph. Chance of precipitation is 40%.",
+     "wind": "7 to 14 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 28,
+     "temp": 32,
      "unit": "F",
-     "short": "Rain And Snow Showers Likely",
-     "detailed": "Rain and snow showers likely. Mostly cloudy, with a low around 28. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible.",
-     "wind": "5 mph"
+     "short": "Chance Snow Showers",
+     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 32. Chance of precipitation is 40%.",
+     "wind": "8 to 14 mph"
     },
     {
      "name": "Friday",
-     "temp": 40,
+     "temp": 44,
      "unit": "F",
      "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a high near 40. Chance of precipitation is 40%. Little or no snow accumulation expected.",
-     "wind": "6 mph"
+     "detailed": "A chance of snow showers before 11am, then a chance of rain and snow showers. Mostly cloudy, with a high near 44. Chance of precipitation is 40%.",
+     "wind": "8 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 22,
+     "temp": 33,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers before 5am. Mostly cloudy, with a low around 22.",
-     "wind": "6 mph"
+     "short": "Chance Rain And Snow Showers",
+     "detailed": "A chance of rain and snow showers. Mostly cloudy, with a low around 33.",
+     "wind": "8 mph"
     },
     {
      "name": "Saturday",
-     "temp": 37,
+     "temp": 45,
      "unit": "F",
-     "short": "Partly Sunny then Slight Chance Snow Showers",
-     "detailed": "A slight chance of snow showers after 5pm. Partly sunny, with a high near 37.",
-     "wind": "8 mph"
+     "short": "Chance Rain And Snow Showers",
+     "detailed": "A chance of rain and snow showers. Mostly cloudy, with a high near 45.",
+     "wind": "5 to 8 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 22,
+     "temp": 30,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 22.",
-     "wind": "9 mph"
+     "short": "Chance Rain And Snow Showers",
+     "detailed": "A chance of rain and snow showers. Mostly cloudy, with a low around 30.",
+     "wind": "7 mph"
     },
     {
      "name": "Sunday",
-     "temp": 41,
+     "temp": 44,
      "unit": "F",
      "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a high near 41.",
-     "wind": "8 mph"
+     "detailed": "A chance of snow showers before 2pm, then a chance of rain and snow showers. Mostly cloudy, with a high near 44.",
+     "wind": "7 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 24,
+     "temp": 31,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 24.",
+     "short": "Chance Rain And Snow Showers",
+     "detailed": "A chance of rain and snow showers. Mostly cloudy, with a low around 31. New snow accumulation of less than half an inch possible.",
      "wind": "7 mph"
     }
    ],
@@ -814,102 +793,102 @@
    "lon": -110.005,
    "forecast_url": "https://api.weather.gov/gridpoints/RIW/75,206/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=45.004&lon=-110.005",
-   "generated": "2026-11-16T17:00:27+00:00",
+   "generated": "2026-11-23T16:54:06+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 54,
+     "temp": 34,
      "unit": "F",
-     "short": "Partly Sunny",
-     "detailed": "Partly sunny. High near 54, with temperatures falling to around 41 in the afternoon. South southwest wind 3 to 7 mph, with gusts as high as 22 mph.",
-     "wind": "3 to 7 mph"
+     "short": "Mostly Cloudy then Chance Snow Showers",
+     "detailed": "A chance of snow showers between 1pm and 5pm. Mostly cloudy. High near 34, with temperatures falling to around 25 in the afternoon. West southwest wind 0 to 5 mph. Chance of precipitation is 30%.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 28,
+     "temp": 17,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 28. South wind around 2 mph.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 17. West southwest wind around 2 mph.",
      "wind": "2 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 57,
+     "temp": 34,
      "unit": "F",
-     "short": "Partly Sunny then Chance Rain And Snow Showers",
-     "detailed": "A chance of rain showers between 2pm and 4pm, then a chance of rain and snow showers. Partly sunny, with a high near 57. South wind around 5 mph. Chance of precipitation is 50%. New snow accumulation of 1 to 3 inches possible.",
-     "wind": "5 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 34. West southwest wind 2 to 7 mph.",
+     "wind": "2 to 7 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 21,
+     "temp": 13,
      "unit": "F",
-     "short": "Snow Showers",
-     "detailed": "Snow showers. Mostly cloudy, with a low around 21. South southwest wind 2 to 10 mph, with gusts as high as 26 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.",
-     "wind": "2 to 10 mph"
-    },
-    {
-     "name": "Wednesday",
-     "temp": 37,
-     "unit": "F",
-     "short": "Snow Showers Likely then Partly Sunny",
-     "detailed": "Snow showers likely before 11am. Partly sunny, with a high near 37. West southwest wind 6 to 12 mph, with gusts as high as 31 mph. Chance of precipitation is 70%. New snow accumulation of around one inch possible.",
-     "wind": "6 to 12 mph"
-    },
-    {
-     "name": "Wednesday Night",
-     "temp": 12,
-     "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy, with a low around 12. South wind 1 to 5 mph.",
-     "wind": "1 to 5 mph"
-    },
-    {
-     "name": "Thursday",
-     "temp": 41,
-     "unit": "F",
-     "short": "Snow Showers Likely",
-     "detailed": "Snow showers likely after 11am. Mostly cloudy, with a high near 41. South southeast wind around 5 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible.",
-     "wind": "5 mph"
-    },
-    {
-     "name": "Thursday Night",
-     "temp": 18,
-     "unit": "F",
-     "short": "Snow Showers Likely",
-     "detailed": "Snow showers likely. Mostly cloudy, with a low around 18. Chance of precipitation is 70%. New snow accumulation of less than one inch possible.",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 13. South wind around 2 mph.",
      "wind": "2 mph"
     },
     {
-     "name": "Friday",
+     "name": "Wednesday",
+     "temp": 42,
+     "unit": "F",
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 42. South wind 0 to 6 mph.",
+     "wind": "0 to 6 mph"
+    },
+    {
+     "name": "Wednesday Night",
+     "temp": 14,
+     "unit": "F",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 14. South wind around 1 mph.",
+     "wind": "1 mph"
+    },
+    {
+     "name": "Thanksgiving Day",
      "temp": 39,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a high near 39. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible.",
-     "wind": "3 mph"
+     "short": "Snow Showers",
+     "detailed": "Snow showers after 11am. Partly sunny, with a high near 39. South southwest wind 0 to 12 mph, with gusts as high as 31 mph. Chance of precipitation is 90%. New snow accumulation of less than one inch possible.",
+     "wind": "0 to 12 mph"
+    },
+    {
+     "name": "Thursday Night",
+     "temp": 21,
+     "unit": "F",
+     "short": "Snow Showers",
+     "detailed": "Snow showers. Mostly cloudy, with a low around 21. Chance of precipitation is 90%. New snow accumulation of 2 to 4 inches possible.",
+     "wind": "13 mph"
+    },
+    {
+     "name": "Friday",
+     "temp": 38,
+     "unit": "F",
+     "short": "Snow Showers",
+     "detailed": "Snow showers. Mostly cloudy, with a high near 38. Chance of precipitation is 90%. New snow accumulation of 5 to 9 inches possible.",
+     "wind": "10 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 12,
+     "temp": 22,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 12. New snow accumulation of less than half an inch possible.",
-     "wind": "3 mph"
+     "short": "Snow Showers",
+     "detailed": "Snow showers. Mostly cloudy, with a low around 22. New snow accumulation of 6 to 10 inches possible.",
+     "wind": "8 mph"
     },
     {
      "name": "Saturday",
-     "temp": 36,
+     "temp": 40,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Partly sunny, with a high near 36.",
-     "wind": "6 mph"
+     "short": "Snow Showers Likely",
+     "detailed": "Snow showers likely. Mostly cloudy, with a high near 40. New snow accumulation of 1 to 2 inches possible.",
+     "wind": "3 to 7 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 12,
+     "temp": 18,
      "unit": "F",
      "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 12.",
+     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 18. New snow accumulation of less than one inch possible.",
      "wind": "3 mph"
     },
     {
@@ -917,15 +896,15 @@
      "temp": 39,
      "unit": "F",
      "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a high near 39.",
-     "wind": "5 mph"
+     "detailed": "A chance of snow showers. Partly sunny, with a high near 39.",
+     "wind": "3 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 15,
+     "temp": 19,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers. Mostly cloudy, with a low around 15.",
+     "short": "Snow Showers Likely",
+     "detailed": "Snow showers likely. Mostly cloudy, with a low around 19. New snow accumulation of less than half an inch possible.",
      "wind": "2 mph"
     }
    ],
@@ -936,118 +915,118 @@
    "lon": -119.73,
    "forecast_url": "https://api.weather.gov/gridpoints/HNX/62,141/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.687&lon=-119.73",
-   "generated": "2026-11-16T17:00:32+00:00",
+   "generated": "2026-11-23T16:54:07+00:00",
    "periods": [
     {
      "name": "Today",
      "temp": 48,
      "unit": "F",
-     "short": "Light Rain",
-     "detailed": "Rain. Cloudy. High near 48, with temperatures falling to around 41 in the afternoon. Northwest wind 0 to 5 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny. High near 48, with temperatures falling to around 42 in the afternoon. Wind chill values as low as 30. South wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 31,
+     "temp": 39,
      "unit": "F",
-     "short": "Light Rain",
-     "detailed": "Rain before 4am. Mostly cloudy. Low around 31, with temperatures rising to around 33 overnight. Wind chill values as low as 30. Southwest wind 0 to 5 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 39. East northeast wind 5 to 10 mph.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 42,
+     "temp": 53,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 42, with temperatures falling to around 39 in the afternoon. Wind chill values as low as 29. Southwest wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy. High near 53, with temperatures falling to around 44 in the afternoon. Southeast wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 32,
+     "temp": 41,
      "unit": "F",
-     "short": "Partly Cloudy then Chance Rain And Snow",
-     "detailed": "A chance of rain and snow after 4am. Partly cloudy, with a low around 32. Wind chill values as low as 25. East southeast wind 5 to 10 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible.",
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain after 10pm. Mostly cloudy, with a low around 41. East southeast wind 5 to 10 mph. Chance of precipitation is 30%.",
      "wind": "5 to 10 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 42,
+     "temp": 53,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "Rain and snow before 4pm, then rain and snow. Cloudy, with a high near 42. Southeast wind 5 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "5 to 15 mph"
+     "short": "Chance Light Rain then Mostly Sunny",
+     "detailed": "A chance of rain before 10am. Mostly sunny, with a high near 53. Northwest wind 0 to 5 mph. Chance of precipitation is 30%.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 38,
+     "temp": 41,
      "unit": "F",
-     "short": "Rain And Snow then Slight Chance T-storms",
-     "detailed": "Rain and snow before 10pm, then a slight chance of thunderstorms and rain and snow showers between 10pm and 4am, then rain and snow. Cloudy, with a low around 38. South southeast wind 5 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible.",
-     "wind": "5 to 20 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 41. North northeast wind 0 to 10 mph.",
+     "wind": "0 to 10 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 39,
+     "name": "Thanksgiving Day",
+     "temp": 60,
      "unit": "F",
-     "short": "Rain And Snow then Slight Chance T-storms",
-     "detailed": "Rain and snow before 10am, then a slight chance of thunderstorms and rain and snow showers. Cloudy, with a high near 39. South wind 5 to 10 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "5 to 10 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 60. North wind 0 to 5 mph.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 30,
+     "temp": 46,
      "unit": "F",
-     "short": "Slight Chance T-storms then Light Snow Likely",
-     "detailed": "A slight chance of thunderstorms and rain and snow showers before 10pm, then snow likely. Mostly cloudy, with a low around 30. Southeast wind 0 to 15 mph. Chance of precipitation is 80%. New snow accumulation of around one inch possible.",
-     "wind": "0 to 15 mph"
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 46. Northeast wind 5 to 15 mph.",
+     "wind": "5 to 15 mph"
     },
     {
      "name": "Friday",
-     "temp": 41,
+     "temp": 63,
      "unit": "F",
-     "short": "Slight Chance Light Snow then Mostly Sunny",
-     "detailed": "A slight chance of snow before 10am. Mostly sunny, with a high near 41. South wind 0 to 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 63. Southeast wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 29,
+     "temp": 48,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 29. Southeast wind 0 to 15 mph.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 48. East wind 0 to 15 mph.",
      "wind": "0 to 15 mph"
     },
     {
      "name": "Saturday",
-     "temp": 44,
+     "temp": 57,
      "unit": "F",
      "short": "Partly Sunny then Chance Light Rain",
-     "detailed": "A chance of rain after 4pm. Partly sunny, with a high near 44. Southeast wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
+     "detailed": "A chance of rain after 4pm. Partly sunny, with a high near 57. Southeast wind around 5 mph. Chance of precipitation is 30%.",
+     "wind": "5 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 35,
+     "temp": 44,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain before 7pm, then a chance of rain and snow. Mostly cloudy, with a low around 35. Southeast wind 5 to 10 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible.",
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain. Mostly cloudy, with a low around 44. Southeast wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.",
      "wind": "5 to 10 mph"
     },
     {
      "name": "Sunday",
-     "temp": 44,
+     "temp": 49,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain and snow. Mostly cloudy, with a high near 44. South southeast wind 0 to 5 mph. Chance of precipitation is 50%. Little or no snow accumulation expected.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a high near 49. South wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible.",
+     "wind": "5 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 36,
+     "temp": 40,
      "unit": "F",
-     "short": "Chance Light Rain",
-     "detailed": "A chance of rain. Mostly cloudy, with a low around 36. Southeast wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a low around 40. Southeast wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible.",
      "wind": "5 mph"
     }
    ],
@@ -1058,507 +1037,484 @@
    "lon": -119.874,
    "forecast_url": "https://api.weather.gov/gridpoints/STO/91,23/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.8&lon=-119.874",
-   "generated": "2026-11-16T17:00:38+00:00",
+   "generated": "2026-11-23T16:54:08+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 46,
+     "temp": 48,
      "unit": "F",
-     "short": "Rain",
-     "detailed": "Rain and patchy fog. Cloudy. High near 46, with temperatures falling to around 40 in the afternoon. North northwest wind around 0 mph. Chance of precipitation is 90%. New rainfall amounts between three quarters and one inch possible.",
-     "wind": "0 mph"
+     "short": "Widespread Frost then Mostly Sunny",
+     "detailed": "Widespread frost before 10am. Mostly sunny. High near 48, with temperatures falling to around 39 in the afternoon. Wind chill values as low as 21. East wind 0 to 5 mph.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 21,
+     "temp": 28,
      "unit": "F",
-     "short": "Patchy Fog",
-     "detailed": "Rain likely and patchy fog before 7pm, then patchy fog and a chance of rain and snow between 7pm and midnight, then patchy fog and a slight chance of rain and snow between midnight and 2am, then widespread frost and patchy fog between 2am and 4am, then widespread frost and widespread freezing fog. Partly cloudy. Low around 21, with temperatures rising to around 26 overnight. Wind chill values as low as 19. West northwest wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Widespread Frost",
+     "detailed": "Widespread frost between 9pm and 3am. Partly cloudy. Low around 28, with temperatures rising to around 30 overnight. Wind chill values as low as 20. East wind 5 to 10 mph.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 45,
+     "temp": 53,
      "unit": "F",
-     "short": "Widespread Frost",
-     "detailed": "Widespread frost. Sunny. High near 45, with temperatures falling to around 36 in the afternoon. Wind chill values as low as 16. West wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Widespread Frost then Partly Sunny",
+     "detailed": "Widespread frost between 8am and 10am. Partly sunny. High near 53, with temperatures falling to around 42 in the afternoon. Southeast wind 0 to 10 mph, with gusts as high as 20 mph.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 20,
+     "temp": 31,
      "unit": "F",
-     "short": "Widespread Frost then Light Snow Likely",
-     "detailed": "Widespread frost before 4am, then snow likely. Partly cloudy, with a low around 20. Wind chill values as low as 13. East southeast wind 5 to 10 mph. Chance of precipitation is 70%. New snow accumulation of less than one inch possible.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 31. Wind chill values as low as 25. East wind 5 to 10 mph, with gusts as high as 20 mph.",
      "wind": "5 to 10 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 42,
+     "temp": 55,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "Snow likely before 10am, then rain and snow. Cloudy, with a high near 42. Southeast wind 10 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible.",
-     "wind": "10 to 15 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 55. North wind 0 to 10 mph.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 24,
+     "temp": 30,
      "unit": "F",
-     "short": "Rain then Slight Chance T-storms",
-     "detailed": "Rain before 4am, then a slight chance of thunderstorms and rain and snow showers. Cloudy, with a low around 24. South southeast wind 10 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "10 to 15 mph"
+     "short": "Mostly Clear then Widespread Frost",
+     "detailed": "Widespread frost after 1am. Mostly clear, with a low around 30. North wind 0 to 10 mph, with gusts as high as 20 mph.",
+     "wind": "0 to 10 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 41,
+     "name": "Thanksgiving Day",
+     "temp": 61,
      "unit": "F",
-     "short": "Chance T-storms",
-     "detailed": "A chance of thunderstorms and rain and snow showers before 4pm, then rain and snow. Cloudy, with a high near 41. South wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 3 inches possible.",
-     "wind": "5 to 10 mph"
+     "short": "Widespread Frost then Mostly Sunny",
+     "detailed": "Widespread frost before 7am. Mostly sunny, with a high near 61. North wind 0 to 10 mph.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 19,
+     "temp": 36,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "Rain and snow. Mostly cloudy, with a low around 19. Southeast wind 5 to 10 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 3 inches possible.",
-     "wind": "5 to 10 mph"
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 36. Northeast wind 0 to 10 mph, with gusts as high as 20 mph.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Friday",
-     "temp": 44,
+     "temp": 65,
      "unit": "F",
-     "short": "Slight Chance Light Snow then Mostly Sunny",
-     "detailed": "A slight chance of snow before 10am. Mostly sunny, with a high near 44. South wind 0 to 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 65. Northeast wind 0 to 10 mph.",
      "wind": "0 to 10 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 15,
+     "temp": 38,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 15. South southeast wind 0 to 10 mph, with gusts as high as 20 mph.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 38. East northeast wind 0 to 10 mph, with gusts as high as 20 mph.",
      "wind": "0 to 10 mph"
     },
     {
      "name": "Saturday",
-     "temp": 47,
+     "temp": 58,
      "unit": "F",
-     "short": "Partly Sunny then Chance Rain And Snow",
-     "detailed": "A chance of rain and snow after 4pm. Partly sunny, with a high near 47. South southeast wind 0 to 10 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 10 mph"
+     "short": "Partly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 4pm. Partly sunny, with a high near 58. Southeast wind 5 to 10 mph. Chance of precipitation is 40%.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 21,
+     "temp": 35,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain and snow. Mostly cloudy, with a low around 21. East southeast wind 0 to 5 mph. Chance of precipitation is 50%. New snow accumulation of around one inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a low around 35. East southeast wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Sunday",
-     "temp": 46,
+     "temp": 47,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow before 10am, then a chance of rain and snow. Mostly cloudy, with a high near 46. South southeast wind 0 to 5 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain",
+     "detailed": "Rain. Mostly cloudy, with a high near 47. South wind around 5 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "wind": "5 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 22,
+     "temp": 32,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain and snow. Mostly cloudy, with a low around 22. East wind 0 to 10 mph. Chance of precipitation is 40%. Little or no snow accumulation expected.",
-     "wind": "0 to 10 mph"
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a low around 32. South southeast wind 5 to 10 mph. Chance of precipitation is 70%. New rainfall amounts between three quarters and one inch possible.",
+     "wind": "5 to 10 mph"
     }
    ],
-   "alerts": [
-    {
-     "event": "Winter Storm Watch",
-     "headline": "Winter Storm Watch issued November 15 at 11:40AM PST until November 20 at 4:00AM PST by NWS Sacramento CA",
-     "ends": "2026-11-20T04:00:00-08:00"
-    }
-   ]
+   "alerts": []
   },
   "yose-south": {
    "lat": 37.507,
    "lon": -119.632,
    "forecast_url": "https://api.weather.gov/gridpoints/HNX/64,132/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.507&lon=-119.632",
-   "generated": "2026-11-16T17:00:44+00:00",
+   "generated": "2026-11-23T16:54:09+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 41,
+     "temp": 44,
      "unit": "F",
-     "short": "Light Rain",
-     "detailed": "Rain. Cloudy. High near 41, with temperatures falling to around 38 in the afternoon. West wind around 0 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny. High near 44, with temperatures falling to around 37 in the afternoon. Wind chill values as low as 28. South southwest wind around 0 mph.",
      "wind": "0 mph"
     },
     {
      "name": "Tonight",
-     "temp": 24,
+     "temp": 32,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "Rain before 7pm, then rain and snow between 7pm and 4am. Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. Wind chill values as low as 26. West northwest wind around 0 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible.",
-     "wind": "0 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 32. Wind chill values as low as 29. East southeast wind 0 to 5 mph.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 38,
+     "temp": 50,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 38, with temperatures falling to around 34 in the afternoon. Wind chill values as low as 24. Northwest wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny. High near 50, with temperatures falling to around 41 in the afternoon. Wind chill values as low as 30. Southeast wind 0 to 5 mph.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 22,
+     "temp": 34,
      "unit": "F",
-     "short": "Partly Cloudy then Chance Light Snow",
-     "detailed": "A chance of snow after 4am. Partly cloudy, with a low around 22. Wind chill values as low as 20. East southeast wind 0 to 5 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible.",
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain and snow after 10pm. Mostly cloudy, with a low around 34. East wind 0 to 5 mph. Chance of precipitation is 30%.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 36,
+     "temp": 49,
      "unit": "F",
-     "short": "Light Snow",
-     "detailed": "Snow before 1pm, then rain and snow between 1pm and 4pm, then a slight chance of thunderstorms and rain and snow showers. Cloudy, with a high near 36. Southeast wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.",
-     "wind": "5 to 10 mph"
+     "short": "Chance Light Rain then Mostly Sunny",
+     "detailed": "A chance of rain before 10am. Mostly sunny, with a high near 49. Northeast wind around 0 mph. Chance of precipitation is 30%.",
+     "wind": "0 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 27,
+     "temp": 34,
      "unit": "F",
-     "short": "Slight Chance T-storms then Rain And Snow",
-     "detailed": "A slight chance of thunderstorms and rain and snow showers before 10pm, then rain and snow. Cloudy, with a low around 27. South southeast wind 5 to 10 mph, with gusts as high as 30 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch possible.",
-     "wind": "5 to 10 mph"
-    },
-    {
-     "name": "Thursday",
-     "temp": 36,
-     "unit": "F",
-     "short": "Rain And Snow then Slight Chance T-storms",
-     "detailed": "Rain and snow before 10am, then a slight chance of thunderstorms and rain and snow showers. Cloudy, with a high near 36. South wind 0 to 5 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 34. North northeast wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
-     "name": "Thursday Night",
-     "temp": 21,
+     "name": "Thanksgiving Day",
+     "temp": 55,
      "unit": "F",
-     "short": "Snow Showers then Light Snow Likely",
-     "detailed": "Snow showers and a slight chance of thunderstorms before 10pm, then snow likely between 10pm and 4am. Mostly cloudy, with a low around 21. South southeast wind 0 to 5 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New snow accumulation of 3 to 5 inches possible.",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 55. North northeast wind around 0 mph.",
+     "wind": "0 mph"
+    },
+    {
+     "name": "Thursday Night",
+     "temp": 39,
+     "unit": "F",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 39. North northeast wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Friday",
-     "temp": 37,
+     "temp": 59,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 37. East northeast wind 0 to 5 mph. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 59. Northeast wind around 0 mph.",
+     "wind": "0 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 20,
+     "temp": 40,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 20. East southeast wind 0 to 5 mph.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 40. Northeast wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Saturday",
-     "temp": 41,
+     "temp": 53,
      "unit": "F",
-     "short": "Partly Sunny then Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 4pm. Partly sunny, with a high near 41. East northeast wind around 0 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+     "short": "Partly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 4pm. Partly sunny, with a high near 53. Southeast wind around 0 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
      "wind": "0 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 25,
+     "temp": 36,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow. Mostly cloudy, with a low around 25. Southeast wind around 0 mph. Chance of precipitation is 50%. New snow accumulation of less than one inch possible.",
-     "wind": "0 mph"
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain. Mostly cloudy, with a low around 36. East southeast wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Sunday",
-     "temp": 40,
+     "temp": 44,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow before 1pm, then a chance of rain and snow. Mostly cloudy, with a high near 40. Southeast wind around 0 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible.",
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a high near 44. South wind around 0 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible.",
      "wind": "0 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 26,
+     "temp": 33,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain and snow. Mostly cloudy, with a low around 26. Southeast wind around 0 mph. Chance of precipitation is 40%. New snow accumulation of less than half an inch possible.",
+     "short": "Rain And Snow Likely",
+     "detailed": "Rain likely before 7pm, then rain and snow likely. Mostly cloudy, with a low around 33. Southeast wind around 0 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible.",
      "wind": "0 mph"
     }
    ],
-   "alerts": [
-    {
-     "event": "Winter Storm Watch",
-     "headline": "Winter Storm Watch issued November 16 at 3:40AM PST until November 20 at 4:00AM PST by NWS Hanford CA",
-     "ends": "2026-11-20T04:00:00-08:00"
-    },
-    {
-     "event": "Winter Weather Advisory",
-     "headline": "Winter Weather Advisory issued November 16 at 3:40AM PST until November 17 at 4:00AM PST by NWS Hanford CA",
-     "ends": "2026-11-17T04:00:00-08:00"
-    }
-   ]
+   "alerts": []
   },
   "yose-hetch-hetchy": {
    "lat": 37.886,
    "lon": -119.841,
    "forecast_url": "https://api.weather.gov/gridpoints/STO/92,27/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.886&lon=-119.841",
-   "generated": "2026-11-16T17:00:49+00:00",
+   "generated": "2026-11-23T16:54:10+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 50,
+     "temp": 52,
      "unit": "F",
-     "short": "Rain",
-     "detailed": "Rain and patchy fog. Cloudy. High near 50, with temperatures falling to around 43 in the afternoon. North northwest wind 0 to 5 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "short": "Widespread Frost then Mostly Sunny",
+     "detailed": "Widespread frost before 10am. Mostly sunny. High near 52, with temperatures falling to around 43 in the afternoon. Wind chill values as low as 24. East wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 22,
+     "temp": 30,
      "unit": "F",
-     "short": "Patchy Fog",
-     "detailed": "Rain likely before 9pm, then a chance of rain and patchy fog between 9pm and 11pm, then patchy fog and a chance of rain and snow between 11pm and midnight, then patchy fog and a slight chance of rain and snow between midnight and 1am, then widespread frost and patchy fog between 1am and 4am, then widespread frost and widespread freezing fog. Partly cloudy. Low around 22, with temperatures rising to around 25 overnight. Wind chill values as low as 21. Southwest wind 0 to 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Widespread Frost",
+     "detailed": "Areas of frost between 8pm and 10pm, then widespread frost and patchy fog. Partly cloudy, with a low around 30. Wind chill values as low as 24. East northeast wind 5 to 10 mph.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 49,
+     "temp": 57,
      "unit": "F",
-     "short": "Widespread Frost then Sunny",
-     "detailed": "Widespread frost before 10am. Sunny. High near 49, with temperatures falling to around 40 in the afternoon. Wind chill values as low as 18. Southeast wind around 5 mph.",
-     "wind": "5 mph"
+     "short": "Widespread Frost then Partly Sunny",
+     "detailed": "Widespread frost before 7am, then widespread frost and patchy fog between 7am and 9am. Partly sunny. High near 57, with temperatures falling to around 46 in the afternoon. North wind 0 to 10 mph.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 21,
+     "temp": 33,
      "unit": "F",
-     "short": "Widespread Frost then Light Snow",
-     "detailed": "Widespread frost before 4am, then snow. Partly cloudy, with a low around 21. Wind chill values as low as 16. East wind around 5 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 33. Wind chill values as low as 29. East northeast wind around 5 mph.",
      "wind": "5 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 46,
+     "temp": 58,
      "unit": "F",
-     "short": "Light Snow",
-     "detailed": "Snow before 7am, then rain and snow. Cloudy, with a high near 46. Southeast wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "5 to 10 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 58. North wind 0 to 5 mph.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 25,
+     "temp": 34,
      "unit": "F",
-     "short": "Rain then Slight Chance T-storms",
-     "detailed": "Rain before 4am, then a slight chance of thunderstorms and rain and snow showers. Cloudy, with a low around 25. South wind 5 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 100%. New rainfall amounts between 1 and 2 inches possible.",
-     "wind": "5 to 15 mph"
-    },
-    {
-     "name": "Thursday",
-     "temp": 45,
-     "unit": "F",
-     "short": "Chance T-storms",
-     "detailed": "A chance of thunderstorms and rain and snow showers before 4pm, then rain and snow. Cloudy, with a high near 45. South wind around 5 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "5 mph"
-    },
-    {
-     "name": "Thursday Night",
-     "temp": 20,
-     "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "Rain and snow. Mostly cloudy, with a low around 20. Southeast wind 0 to 5 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible.",
-     "wind": "0 to 5 mph"
-    },
-    {
-     "name": "Friday",
-     "temp": 47,
-     "unit": "F",
-     "short": "Slight Chance Rain And Snow then Mostly Sunny",
-     "detailed": "A slight chance of rain and snow before 10am. Mostly sunny, with a high near 47. Northeast wind 0 to 5 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
-    },
-    {
-     "name": "Friday Night",
-     "temp": 17,
-     "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 17. South southeast wind 0 to 10 mph, with gusts as high as 20 mph.",
+     "short": "Areas Of Frost",
+     "detailed": "Areas of frost between 10pm and 2am. Mostly clear, with a low around 34. Northeast wind 0 to 10 mph, with gusts as high as 20 mph.",
      "wind": "0 to 10 mph"
     },
     {
-     "name": "Saturday",
-     "temp": 50,
+     "name": "Thanksgiving Day",
+     "temp": 65,
      "unit": "F",
-     "short": "Partly Sunny then Chance Light Rain",
-     "detailed": "A chance of rain after 4pm. Partly sunny, with a high near 50. Southeast wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 65. Northeast wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
+    },
+    {
+     "name": "Thursday Night",
+     "temp": 38,
+     "unit": "F",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 38. Northeast wind 5 to 15 mph, with gusts as high as 25 mph.",
+     "wind": "5 to 15 mph"
+    },
+    {
+     "name": "Friday",
+     "temp": 68,
+     "unit": "F",
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 68. East northeast wind 0 to 10 mph.",
+     "wind": "0 to 10 mph"
+    },
+    {
+     "name": "Friday Night",
+     "temp": 38,
+     "unit": "F",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 38. East wind 0 to 15 mph, with gusts as high as 25 mph.",
+     "wind": "0 to 15 mph"
+    },
+    {
+     "name": "Saturday",
+     "temp": 61,
+     "unit": "F",
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain after 10am. Partly sunny, with a high near 61. Southeast wind around 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 23,
+     "temp": 36,
      "unit": "F",
-     "short": "Rain And Snow Likely",
-     "detailed": "A chance of rain before 7pm, then rain and snow likely. Mostly cloudy, with a low around 23. East southeast wind 0 to 5 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a low around 36. East southeast wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 mph"
     },
     {
      "name": "Sunday",
-     "temp": 49,
+     "temp": 51,
      "unit": "F",
-     "short": "Rain And Snow Likely",
-     "detailed": "Rain and snow likely. Mostly cloudy, with a high near 49. South southeast wind 0 to 5 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain",
+     "detailed": "Rain. Mostly cloudy, with a high near 51. South wind 5 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 80%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 23,
+     "temp": 34,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain and snow. Mostly cloudy, with a low around 23. Southeast wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a low around 34. South southeast wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "wind": "5 mph"
     }
    ],
-   "alerts": [
-    {
-     "event": "Winter Storm Watch",
-     "headline": "Winter Storm Watch issued November 15 at 11:40AM PST until November 20 at 4:00AM PST by NWS Sacramento CA",
-     "ends": "2026-11-20T04:00:00-08:00"
-    }
-   ]
+   "alerts": []
   },
   "yose-valley": {
    "lat": 37.7456,
    "lon": -119.5936,
    "forecast_url": "https://api.weather.gov/gridpoints/HNX/67,143/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.7456&lon=-119.5936",
-   "generated": "2026-11-16T17:00:51+00:00",
+   "generated": "2026-11-23T16:54:10+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 50,
+     "temp": 51,
      "unit": "F",
-     "short": "Light Rain",
-     "detailed": "Rain. Cloudy. High near 50, with temperatures falling to around 42 in the afternoon. Northwest wind 0 to 5 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny. High near 51, with temperatures falling to around 44 in the afternoon. Wind chill values as low as 25. South southeast wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 22,
+     "temp": 34,
      "unit": "F",
-     "short": "Chance Rain And Snow",
-     "detailed": "Rain before 10pm, then a chance of rain and snow between 10pm and 4am. Mostly cloudy. Low around 22, with temperatures rising to around 25 overnight. Wind chill values as low as 21. South southwest wind 0 to 5 mph. Chance of precipitation is 90%. Little or no snow accumulation expected.",
-     "wind": "0 to 5 mph"
-    },
-    {
-     "name": "Tuesday",
-     "temp": 45,
-     "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 45, with temperatures falling to around 39 in the afternoon. Wind chill values as low as 17. West southwest wind 5 to 10 mph.",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 34. Wind chill values as low as 30. South southeast wind 5 to 10 mph.",
      "wind": "5 to 10 mph"
     },
     {
-     "name": "Tuesday Night",
-     "temp": 23,
+     "name": "Tuesday",
+     "temp": 55,
      "unit": "F",
-     "short": "Partly Cloudy then Light Snow Likely",
-     "detailed": "Snow likely after 4am. Partly cloudy, with a low around 23. Wind chill values as low as 19. Southeast wind 5 to 10 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 2 inches possible.",
+     "short": "Partly Sunny then Slight Chance Light Rain",
+     "detailed": "A slight chance of rain after 4pm. Partly sunny. High near 55, with temperatures falling to around 46 in the afternoon. South southeast wind around 5 mph.",
+     "wind": "5 mph"
+    },
+    {
+     "name": "Tuesday Night",
+     "temp": 36,
+     "unit": "F",
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain. Mostly cloudy, with a low around 36. East southeast wind 5 to 10 mph. Chance of precipitation is 30%.",
      "wind": "5 to 10 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 44,
+     "temp": 55,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "Snow likely before 10am, then rain and snow. Cloudy, with a high near 44. South southeast wind 5 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 2 inches possible.",
-     "wind": "5 to 15 mph"
+     "short": "Chance Light Rain then Mostly Sunny",
+     "detailed": "A chance of rain before 10am. Mostly sunny, with a high near 55. North northeast wind 0 to 5 mph. Chance of precipitation is 30%.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 32,
+     "temp": 36,
      "unit": "F",
-     "short": "Light Snow then Slight Chance T-storms",
-     "detailed": "Snow before 7pm, then rain and snow between 7pm and 10pm, then a slight chance of thunderstorms and rain and snow showers between 10pm and 4am, then snow. Cloudy, with a low around 32. South wind 10 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 100%. New snow accumulation of less than half an inch possible.",
-     "wind": "10 to 20 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 36. Northeast wind 0 to 15 mph.",
+     "wind": "0 to 15 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 43,
+     "name": "Thanksgiving Day",
+     "temp": 64,
      "unit": "F",
-     "short": "Light Snow then Snow Showers",
-     "detailed": "Snow before 10am, then snow showers and a slight chance of thunderstorms. Cloudy, with a high near 43. South southwest wind 5 to 10 mph. Chance of precipitation is 100%. New snow accumulation of around one inch possible.",
-     "wind": "5 to 10 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 64. North northeast wind 0 to 5 mph.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 22,
+     "temp": 41,
      "unit": "F",
-     "short": "Snow Showers then Light Snow Likely",
-     "detailed": "Snow showers and a slight chance of thunderstorms before 10pm, then snow likely. Mostly cloudy, with a low around 22. South wind 5 to 15 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 3 inches possible.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 41. Northeast wind 5 to 15 mph.",
      "wind": "5 to 15 mph"
     },
     {
      "name": "Friday",
-     "temp": 45,
+     "temp": 66,
      "unit": "F",
-     "short": "Slight Chance Light Snow then Mostly Sunny",
-     "detailed": "A slight chance of snow before 10am. Mostly sunny, with a high near 45. Southeast wind 0 to 5 mph. Chance of precipitation is 20%. Little or no snow accumulation expected.",
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 66. South wind 0 to 5 mph.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 19,
+     "temp": 42,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 19. Southeast wind 0 to 15 mph.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 42. East southeast wind 0 to 15 mph.",
      "wind": "0 to 15 mph"
     },
     {
      "name": "Saturday",
-     "temp": 49,
+     "temp": 58,
      "unit": "F",
-     "short": "Partly Sunny then Chance Light Snow",
-     "detailed": "A chance of snow after 4pm. Partly sunny, with a high near 49. South wind 0 to 5 mph. Chance of precipitation is 30%.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 4pm. Partly sunny, with a high near 58. South wind 5 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 27,
+     "temp": 39,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow. Mostly cloudy, with a low around 27. South southeast wind 5 to 10 mph. Chance of precipitation is 50%. New snow accumulation of around one inch possible.",
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain. Mostly cloudy, with a low around 39. South southeast wind 5 to 10 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.",
      "wind": "5 to 10 mph"
     },
     {
      "name": "Sunday",
-     "temp": 48,
+     "temp": 51,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow before 1pm, then a chance of rain and snow. Mostly cloudy, with a high near 48. South wind 5 to 10 mph. Chance of precipitation is 50%. New snow accumulation of less than one inch possible.",
+     "short": "Light Rain Likely",
+     "detailed": "Rain likely. Mostly cloudy, with a high near 51. South southwest wind 5 to 10 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible.",
      "wind": "5 to 10 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 28,
+     "temp": 36,
      "unit": "F",
      "short": "Chance Rain And Snow",
-     "detailed": "A chance of rain and snow. Mostly cloudy, with a low around 28. South southeast wind around 5 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible.",
+     "detailed": "Rain likely before 10pm, then a chance of rain and snow. Mostly cloudy, with a low around 36. South wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch possible.",
      "wind": "5 mph"
     }
    ],
@@ -1569,119 +1525,119 @@
    "lon": -112.121,
    "forecast_url": "https://api.weather.gov/gridpoints/FGZ/61,126/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=35.993&lon=-112.121",
-   "generated": "2026-11-16T17:00:54+00:00",
+   "generated": "2026-11-23T16:54:11+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 56,
+     "temp": 46,
      "unit": "F",
-     "short": "Partly Sunny",
-     "detailed": "Partly sunny. High near 56, with temperatures falling to around 53 in the afternoon. South wind around 2 mph.",
-     "wind": "2 mph"
+     "short": "Sunny",
+     "detailed": "Sunny. High near 46, with temperatures falling to around 40 in the afternoon. West wind 2 to 6 mph.",
+     "wind": "2 to 6 mph"
     },
     {
      "name": "Tonight",
-     "temp": 38,
+     "temp": 16,
      "unit": "F",
-     "short": "Partly Cloudy then Chance Rain Showers",
-     "detailed": "A chance of rain showers after 5am. Partly cloudy. Low around 38, with temperatures rising to around 42 overnight. Southeast wind around 3 mph. Chance of precipitation is 30%.",
-     "wind": "3 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 16. Northeast wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 47,
+     "temp": 49,
      "unit": "F",
-     "short": "Showers And Thunderstorms",
-     "detailed": "A chance of rain showers before 8am, then showers and thunderstorms between 8am and 5pm. Mostly cloudy. High near 47, with temperatures falling to around 39 in the afternoon. South wind around 6 mph, with gusts as high as 22 mph. Chance of precipitation is 100%.",
-     "wind": "6 mph"
+     "short": "Sunny",
+     "detailed": "Sunny. High near 49, with temperatures falling to around 43 in the afternoon. East wind 5 to 10 mph, with gusts as high as 17 mph.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 18,
+     "temp": 22,
      "unit": "F",
-     "short": "Partly Cloudy then Patchy Fog",
-     "detailed": "Patchy fog after 4am. Partly cloudy, with a low around 18. Southwest wind 1 to 6 mph, with gusts as high as 20 mph.",
-     "wind": "1 to 6 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 22. East wind 2 to 6 mph.",
+     "wind": "2 to 6 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 47,
+     "temp": 51,
      "unit": "F",
-     "short": "Patchy Fog then Sunny",
-     "detailed": "Patchy fog before 7am. Sunny, with a high near 47. South wind around 2 mph.",
-     "wind": "2 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 51. Northeast wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 23,
+     "temp": 21,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 23. South wind around 2 mph.",
-     "wind": "2 mph"
+     "detailed": "Partly cloudy, with a low around 21. Northeast wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 49,
+     "name": "Thanksgiving Day",
+     "temp": 54,
      "unit": "F",
-     "short": "Partly Sunny then Chance Rain Showers",
-     "detailed": "A chance of rain showers after 5pm. Partly sunny, with a high near 49. South wind 2 to 15 mph. Chance of precipitation is 50%.",
-     "wind": "2 to 15 mph"
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 54. Northeast wind 1 to 5 mph.",
+     "wind": "1 to 5 mph"
     },
     {
      "name": "Thursday Night",
      "temp": 26,
      "unit": "F",
-     "short": "Rain And Snow Showers",
-     "detailed": "A chance of rain showers before 11pm, then rain and snow showers. Mostly cloudy, with a low around 26. Southwest wind 16 to 20 mph, with gusts as high as 25 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible.",
-     "wind": "16 to 20 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 26. Northeast wind around 1 mph.",
+     "wind": "1 mph"
     },
     {
      "name": "Friday",
-     "temp": 40,
+     "temp": 56,
      "unit": "F",
-     "short": "Chance Snow Showers",
-     "detailed": "A chance of snow showers before 5pm. Mostly sunny, with a high near 40. West wind 8 to 23 mph. Chance of precipitation is 50%. Little or no snow accumulation expected.",
-     "wind": "8 to 23 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 56. Northwest wind 0 to 3 mph.",
+     "wind": "0 to 3 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 19,
+     "temp": 30,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 19. West wind 0 to 6 mph.",
-     "wind": "0 to 6 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 30. Northwest wind around 1 mph.",
+     "wind": "1 mph"
     },
     {
      "name": "Saturday",
-     "temp": 43,
+     "temp": 59,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 43. East wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 59. Southwest wind 1 to 8 mph.",
+     "wind": "1 to 8 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 19,
+     "temp": 31,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 19. Southeast wind around 2 mph.",
-     "wind": "2 mph"
+     "detailed": "Partly cloudy, with a low around 31. Southwest wind around 6 mph.",
+     "wind": "6 mph"
     },
     {
      "name": "Sunday",
-     "temp": 46,
+     "temp": 55,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 46. Southwest wind 2 to 7 mph.",
-     "wind": "2 to 7 mph"
+     "detailed": "Mostly sunny, with a high near 55. Southwest wind 5 to 14 mph.",
+     "wind": "5 to 14 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 21,
+     "temp": 28,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 21. South wind around 2 mph.",
-     "wind": "2 mph"
+     "short": "Slight Chance Rain And Snow Showers",
+     "detailed": "A slight chance of rain and snow showers after 11pm. Partly cloudy, with a low around 28. Southwest wind 3 to 8 mph. Chance of precipitation is 20%.",
+     "wind": "3 to 8 mph"
     }
    ],
    "alerts": []
@@ -1691,119 +1647,119 @@
    "lon": -111.827,
    "forecast_url": "https://api.weather.gov/gridpoints/FGZ/72,127/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=36.039&lon=-111.827",
-   "generated": "2026-11-16T13:53:39+00:00",
+   "generated": "2026-11-23T16:54:12+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 49,
+     "temp": 40,
      "unit": "F",
-     "short": "Partly Sunny",
-     "detailed": "Partly sunny. High near 49, with temperatures falling to around 47 in the afternoon. East wind around 6 mph.",
-     "wind": "6 mph"
+     "short": "Sunny",
+     "detailed": "Sunny. High near 40, with temperatures falling to around 38 in the afternoon. Northwest wind around 7 mph.",
+     "wind": "7 mph"
     },
     {
      "name": "Tonight",
-     "temp": 42,
+     "temp": 28,
      "unit": "F",
-     "short": "Partly Cloudy then Chance Rain Showers",
-     "detailed": "A chance of rain showers after 5am. Partly cloudy. Low around 42, with temperatures rising to around 44 overnight. Southeast wind 5 to 8 mph. Chance of precipitation is 30%.",
-     "wind": "5 to 8 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 28. Northeast wind 2 to 7 mph.",
+     "wind": "2 to 7 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 44,
-     "unit": "F",
-     "short": "Showers And Thunderstorms",
-     "detailed": "A chance of rain showers before 8am, then showers and thunderstorms between 8am and 4pm, then rain and snow showers between 4pm and 5pm. Mostly cloudy. High near 44, with temperatures falling to around 39 in the afternoon. South wind 7 to 25 mph, with gusts as high as 37 mph. Chance of precipitation is 90%.",
-     "wind": "7 to 25 mph"
-    },
-    {
-     "name": "Tuesday Night",
-     "temp": 27,
-     "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 27. Southwest wind 9 to 23 mph, with gusts as high as 36 mph.",
-     "wind": "9 to 23 mph"
-    },
-    {
-     "name": "Wednesday",
      "temp": 43,
      "unit": "F",
      "short": "Sunny",
-     "detailed": "Sunny, with a high near 43. South wind 3 to 9 mph.",
-     "wind": "3 to 9 mph"
+     "detailed": "Sunny. High near 43, with temperatures falling to around 40 in the afternoon. East wind 7 to 10 mph.",
+     "wind": "7 to 10 mph"
+    },
+    {
+     "name": "Tuesday Night",
+     "temp": 30,
+     "unit": "F",
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 30. East wind 3 to 7 mph.",
+     "wind": "3 to 7 mph"
+    },
+    {
+     "name": "Wednesday",
+     "temp": 44,
+     "unit": "F",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 44. Northeast wind around 7 mph.",
+     "wind": "7 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 31,
+     "temp": 32,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 31. South wind around 6 mph.",
+     "detailed": "Partly cloudy, with a low around 32. Northeast wind around 6 mph.",
      "wind": "6 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 46,
+     "name": "Thanksgiving Day",
+     "temp": 48,
      "unit": "F",
-     "short": "Partly Sunny then Chance Rain And Snow Showers",
-     "detailed": "A chance of rain and snow showers after 5pm. Partly sunny, with a high near 46. South wind 6 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 40%.",
-     "wind": "6 to 14 mph"
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 48. Northeast wind 2 to 6 mph.",
+     "wind": "2 to 6 mph"
     },
     {
      "name": "Thursday Night",
      "temp": 33,
      "unit": "F",
-     "short": "Rain And Snow Showers",
-     "detailed": "Rain and snow showers. Mostly cloudy, with a low around 33. Southwest wind 14 to 28 mph, with gusts as high as 38 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible.",
-     "wind": "14 to 28 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 33. Northwest wind around 3 mph.",
+     "wind": "3 mph"
     },
     {
      "name": "Friday",
-     "temp": 37,
+     "temp": 50,
      "unit": "F",
-     "short": "Chance Snow Showers then Mostly Sunny",
-     "detailed": "A chance of snow showers before 11am. Mostly sunny, with a high near 37. Southwest wind 9 to 25 mph, with gusts as high as 37 mph. Chance of precipitation is 40%.",
-     "wind": "9 to 25 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 50. Northeast wind around 3 mph.",
+     "wind": "3 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 26,
-     "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 26. Southwest wind 3 to 9 mph.",
-     "wind": "3 to 9 mph"
-    },
-    {
-     "name": "Saturday",
      "temp": 37,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 37. Southeast wind around 6 mph.",
-     "wind": "6 mph"
-    },
-    {
-     "name": "Saturday Night",
-     "temp": 27,
-     "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 27. South wind around 5 mph.",
+     "detailed": "Partly cloudy, with a low around 37. West wind around 5 mph.",
      "wind": "5 mph"
     },
     {
-     "name": "Sunday",
-     "temp": 40,
+     "name": "Saturday",
+     "temp": 53,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 40. Southwest wind around 6 mph.",
-     "wind": "6 mph"
+     "detailed": "Mostly sunny, with a high near 53. Southwest wind around 7 mph.",
+     "wind": "7 mph"
+    },
+    {
+     "name": "Saturday Night",
+     "temp": 37,
+     "unit": "F",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 37. Southwest wind 8 to 14 mph.",
+     "wind": "8 to 14 mph"
+    },
+    {
+     "name": "Sunday",
+     "temp": 50,
+     "unit": "F",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 50. Southwest wind 9 to 13 mph, with gusts as high as 21 mph.",
+     "wind": "9 to 13 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 29,
+     "temp": 35,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 29. Southwest wind around 6 mph.",
-     "wind": "6 mph"
+     "short": "Slight Chance Snow Showers",
+     "detailed": "A slight chance of snow showers between 11pm and 5am. Partly cloudy, with a low around 35. Southwest wind 9 to 15 mph. Chance of precipitation is 20%.",
+     "wind": "9 to 15 mph"
     }
    ],
    "alerts": []
@@ -1813,119 +1769,119 @@
    "lon": -112.117,
    "forecast_url": "https://api.weather.gov/gridpoints/FGZ/64,141/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=36.336&lon=-112.117",
-   "generated": "2026-11-16T17:00:59+00:00",
+   "generated": "2026-11-23T16:54:13+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 46,
-     "unit": "F",
-     "short": "Partly Sunny",
-     "detailed": "Partly sunny. High near 46, with temperatures falling to around 41 in the afternoon. South wind 6 to 10 mph, with gusts as high as 16 mph.",
-     "wind": "6 to 10 mph"
-    },
-    {
-     "name": "Tonight",
-     "temp": 35,
-     "unit": "F",
-     "short": "Mostly Cloudy then Chance Rain And Snow Showers",
-     "detailed": "A chance of rain and snow showers between 2am and 4am, then rain and snow showers likely. Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. South wind 8 to 16 mph, with gusts as high as 31 mph. Chance of precipitation is 60%.",
-     "wind": "8 to 16 mph"
-    },
-    {
-     "name": "Tuesday",
-     "temp": 37,
-     "unit": "F",
-     "short": "Snow Showers And Areas Of Blowing Snow",
-     "detailed": "Rain and snow showers likely before 8am, then snow showers and a slight chance of thunderstorms between 8am and 2pm, then snow showers and areas of blowing snow. Mostly cloudy. High near 37, with temperatures falling to around 28 in the afternoon. South wind 20 to 30 mph, with gusts as high as 41 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 2 inches possible.",
-     "wind": "20 to 30 mph"
-    },
-    {
-     "name": "Tuesday Night",
-     "temp": 18,
-     "unit": "F",
-     "short": "Patchy Blowing Snow then Partly Cloudy",
-     "detailed": "Patchy blowing snow before 10pm. Partly cloudy, with a low around 18. Southwest wind 7 to 25 mph, with gusts as high as 37 mph.",
-     "wind": "7 to 25 mph"
-    },
-    {
-     "name": "Wednesday",
-     "temp": 37,
-     "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 37. Southwest wind around 7 mph.",
-     "wind": "7 mph"
-    },
-    {
-     "name": "Wednesday Night",
-     "temp": 23,
-     "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy, with a low around 23. South wind 6 to 12 mph, with gusts as high as 21 mph.",
-     "wind": "6 to 12 mph"
-    },
-    {
-     "name": "Thursday",
-     "temp": 39,
-     "unit": "F",
-     "short": "Snow Showers Likely",
-     "detailed": "Snow showers likely after 11am. Mostly cloudy, with a high near 39. South wind 13 to 22 mph, with gusts as high as 33 mph. Chance of precipitation is 70%. New snow accumulation of 1 to 3 inches possible.",
-     "wind": "13 to 22 mph"
-    },
-    {
-     "name": "Thursday Night",
-     "temp": 24,
-     "unit": "F",
-     "short": "Snow Showers",
-     "detailed": "Snow showers. Mostly cloudy, with a low around 24. Southwest wind 18 to 25 mph, with gusts as high as 43 mph. Chance of precipitation is 90%. New snow accumulation of 4 to 8 inches possible.",
-     "wind": "18 to 25 mph"
-    },
-    {
-     "name": "Friday",
-     "temp": 31,
-     "unit": "F",
-     "short": "Snow Showers Likely",
-     "detailed": "Snow showers likely before 5pm. Partly sunny, with a high near 31. Southwest wind 8 to 28 mph, with gusts as high as 44 mph. Chance of precipitation is 70%. New snow accumulation of around one inch possible.",
-     "wind": "8 to 28 mph"
-    },
-    {
-     "name": "Friday Night",
-     "temp": 15,
-     "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 15. Northwest wind 3 to 9 mph, with gusts as high as 16 mph.",
-     "wind": "3 to 9 mph"
-    },
-    {
-     "name": "Saturday",
      "temp": 34,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 34. Southeast wind around 3 mph.",
+     "detailed": "Mostly sunny. High near 34, with temperatures falling to around 28 in the afternoon. Northwest wind around 6 mph.",
+     "wind": "6 mph"
+    },
+    {
+     "name": "Tonight",
+     "temp": 19,
+     "unit": "F",
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 19. Northeast wind 3 to 7 mph.",
+     "wind": "3 to 7 mph"
+    },
+    {
+     "name": "Tuesday",
+     "temp": 41,
+     "unit": "F",
+     "short": "Sunny",
+     "detailed": "Sunny. High near 41, with temperatures falling to around 35 in the afternoon. East wind around 9 mph.",
+     "wind": "9 mph"
+    },
+    {
+     "name": "Tuesday Night",
+     "temp": 20,
+     "unit": "F",
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 20. South wind around 6 mph.",
+     "wind": "6 mph"
+    },
+    {
+     "name": "Wednesday",
+     "temp": 43,
+     "unit": "F",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 43. Southwest wind around 3 mph.",
      "wind": "3 mph"
     },
     {
-     "name": "Saturday Night",
-     "temp": 18,
+     "name": "Wednesday Night",
+     "temp": 20,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 18. Northwest wind around 5 mph.",
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 20. North wind around 5 mph.",
      "wind": "5 mph"
     },
     {
-     "name": "Sunday",
-     "temp": 37,
+     "name": "Thanksgiving Day",
+     "temp": 47,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 37. Southwest wind around 6 mph.",
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 47. North wind around 6 mph.",
      "wind": "6 mph"
     },
     {
-     "name": "Sunday Night",
-     "temp": 21,
+     "name": "Thursday Night",
+     "temp": 27,
+     "unit": "F",
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 27. North wind around 6 mph.",
+     "wind": "6 mph"
+    },
+    {
+     "name": "Friday",
+     "temp": 49,
+     "unit": "F",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 49. Northwest wind around 5 mph.",
+     "wind": "5 mph"
+    },
+    {
+     "name": "Friday Night",
+     "temp": 29,
+     "unit": "F",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 29. West wind 2 to 7 mph.",
+     "wind": "2 to 7 mph"
+    },
+    {
+     "name": "Saturday",
+     "temp": 50,
+     "unit": "F",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 50. West wind around 9 mph.",
+     "wind": "9 mph"
+    },
+    {
+     "name": "Saturday Night",
+     "temp": 29,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 21. West wind around 6 mph.",
-     "wind": "6 mph"
+     "detailed": "Partly cloudy, with a low around 29. West wind 8 to 13 mph, with gusts as high as 22 mph.",
+     "wind": "8 to 13 mph"
+    },
+    {
+     "name": "Sunday",
+     "temp": 45,
+     "unit": "F",
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 45. Southwest wind 8 to 12 mph, with gusts as high as 18 mph.",
+     "wind": "8 to 12 mph"
+    },
+    {
+     "name": "Sunday Night",
+     "temp": 26,
+     "unit": "F",
+     "short": "Slight Chance Snow Showers",
+     "detailed": "A slight chance of snow showers after 11pm. Partly cloudy, with a low around 26. Southwest wind 8 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 20%.",
+     "wind": "8 to 13 mph"
     }
    ],
    "alerts": []
@@ -1935,119 +1891,119 @@
    "lon": -83.537,
    "forecast_url": "https://api.weather.gov/gridpoints/MRX/86,40/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=35.685&lon=-83.537",
-   "generated": "2026-11-16T17:01:04+00:00",
+   "generated": "2026-11-23T16:54:14+00:00",
    "periods": [
     {
-     "name": "This Afternoon",
-     "temp": 59,
+     "name": "Today",
+     "temp": 60,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 59, with temperatures falling to around 52 in the afternoon. North wind 0 to 5 mph.",
+     "short": "Chance Rain Showers",
+     "detailed": "A chance of rain showers. Cloudy, with a high near 60. Northwest wind 0 to 5 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 38,
+     "temp": 36,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 38. South wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Slight Chance Rain Showers then Mostly Cloudy",
+     "detailed": "A slight chance of rain showers before 7pm. Mostly cloudy, with a low around 36. North wind 5 to 10 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 63,
+     "temp": 57,
      "unit": "F",
      "short": "Sunny",
-     "detailed": "Sunny. High near 63, with temperatures falling to around 57 in the afternoon. North wind around 0 mph.",
-     "wind": "0 mph"
+     "detailed": "Sunny, with a high near 57. Northeast wind 5 to 10 mph.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday Night",
      "temp": 39,
      "unit": "F",
-     "short": "Clear",
-     "detailed": "Clear, with a low around 39. Southeast wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 39. East wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 66,
+     "temp": 59,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 66. East wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Partly Sunny then Chance Rain Showers",
+     "detailed": "A chance of rain showers after 1pm. Partly sunny, with a high near 59. Southeast wind 5 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 40%.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 42,
+     "temp": 45,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 42. Southeast wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Rain Showers",
+     "detailed": "Rain showers. Cloudy, with a low around 45. East wind 10 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 90%.",
+     "wind": "10 to 15 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 68,
+     "name": "Thanksgiving Day",
+     "temp": 52,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 68. Northeast wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Rain Showers",
+     "detailed": "Rain showers. Mostly cloudy, with a high near 52. Northwest wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 90%.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 44,
+     "temp": 35,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 44.",
-     "wind": "0 mph"
+     "short": "Rain Showers Likely",
+     "detailed": "Rain showers likely before 1am. Mostly cloudy, with a low around 35. Chance of precipitation is 60%.",
+     "wind": "15 mph"
     },
     {
      "name": "Friday",
-     "temp": 68,
+     "temp": 48,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 68.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 48.",
+     "wind": "10 to 15 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 45,
+     "temp": 34,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 45.",
-     "wind": "0 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 34.",
+     "wind": "5 mph"
     },
     {
      "name": "Saturday",
-     "temp": 68,
+     "temp": 56,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 68.",
-     "wind": "0 mph"
+     "detailed": "Mostly sunny, with a high near 56.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 46,
+     "temp": 38,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 46.",
-     "wind": "0 mph"
+     "detailed": "Partly cloudy, with a low around 38.",
+     "wind": "5 mph"
     },
     {
      "name": "Sunday",
-     "temp": 67,
+     "temp": 59,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 67.",
-     "wind": "0 to 5 mph"
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 59.",
+     "wind": "5 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 44,
+     "temp": 40,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 44.",
-     "wind": "0 mph"
+     "short": "Slight Chance Rain Showers",
+     "detailed": "A slight chance of rain showers between 7pm and 1am. Partly cloudy, with a low around 40.",
+     "wind": "5 mph"
     }
    ],
    "alerts": []
@@ -2057,119 +2013,119 @@
    "lon": -83.711,
    "forecast_url": "https://api.weather.gov/gridpoints/MRX/79,38/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=35.659&lon=-83.711",
-   "generated": "2026-11-16T17:01:08+00:00",
+   "generated": "2026-11-23T13:04:58+00:00",
    "periods": [
     {
-     "name": "This Afternoon",
-     "temp": 58,
+     "name": "Today",
+     "temp": 61,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 58, with temperatures falling to around 50 in the afternoon. North wind 0 to 5 mph.",
+     "short": "Chance Rain Showers",
+     "detailed": "A chance of rain showers and patchy fog before 5pm. Mostly cloudy. High near 61, with temperatures falling to around 55 in the afternoon. Northwest wind 0 to 5 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 34,
+     "temp": 32,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 34. Southeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy. Low around 32, with temperatures rising to around 35 overnight. North wind 5 to 10 mph. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 63,
+     "temp": 57,
      "unit": "F",
      "short": "Sunny",
-     "detailed": "Sunny. High near 63, with temperatures falling to around 53 in the afternoon. North wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "detailed": "Sunny. High near 57, with temperatures falling to around 51 in the afternoon. Northeast wind 5 to 10 mph.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 35,
+     "temp": 37,
      "unit": "F",
-     "short": "Clear",
-     "detailed": "Clear, with a low around 35. Southeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 37. East wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 66,
+     "temp": 60,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 66. North wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Partly Sunny then Chance Rain Showers",
+     "detailed": "A chance of rain showers after 1pm. Partly sunny, with a high near 60. East wind around 5 mph. Chance of precipitation is 40%.",
+     "wind": "5 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 38,
+     "temp": 42,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 38. Southeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Rain Showers",
+     "detailed": "Rain showers. Cloudy, with a low around 42. Northeast wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is 90%.",
+     "wind": "10 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 68,
+     "name": "Thanksgiving Day",
+     "temp": 53,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 68. North wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Rain Showers",
+     "detailed": "Rain showers. Mostly cloudy, with a high near 53. Northwest wind 0 to 10 mph. Chance of precipitation is 90%.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 41,
+     "temp": 31,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 41.",
-     "wind": "0 mph"
+     "short": "Rain Showers Likely",
+     "detailed": "Rain showers likely before 1am. Mostly cloudy, with a low around 31. Chance of precipitation is 60%.",
+     "wind": "10 to 15 mph"
     },
     {
      "name": "Friday",
-     "temp": 68,
+     "temp": 49,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 68.",
-     "wind": "0 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 49.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 42,
+     "temp": 31,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 42.",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 31.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Saturday",
-     "temp": 69,
+     "temp": 57,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 69.",
-     "wind": "0 mph"
+     "detailed": "Mostly sunny, with a high near 57.",
+     "wind": "0 to 15 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 44,
+     "temp": 35,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 44.",
-     "wind": "0 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 35.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Sunday",
-     "temp": 67,
+     "temp": 60,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 67.",
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 60.",
      "wind": "0 to 5 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 42,
+     "temp": 37,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 42.",
-     "wind": "0 mph"
+     "short": "Slight Chance Rain Showers",
+     "detailed": "A slight chance of rain showers between 7pm and 1am. Partly cloudy, with a low around 37.",
+     "wind": "0 to 5 mph"
     }
    ],
    "alerts": []
@@ -2179,118 +2135,118 @@
    "lon": -83.306,
    "forecast_url": "https://api.weather.gov/gridpoints/GSP/29,69/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=35.513&lon=-83.306",
-   "generated": "2026-11-16T17:01:11+00:00",
+   "generated": "2026-11-23T16:54:16+00:00",
    "periods": [
     {
-     "name": "This Afternoon",
-     "temp": 62,
+     "name": "Today",
+     "temp": 65,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 62, with temperatures falling to around 55 in the afternoon. West southwest wind around 1 mph.",
-     "wind": "1 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 65. Northwest wind around 2 mph.",
+     "wind": "2 mph"
     },
     {
      "name": "Tonight",
-     "temp": 31,
+     "temp": 35,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 31. East wind around 1 mph.",
-     "wind": "1 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 35. North wind around 2 mph.",
+     "wind": "2 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 65,
+     "temp": 63,
      "unit": "F",
      "short": "Sunny",
-     "detailed": "Sunny. High near 65, with temperatures falling to around 58 in the afternoon. North wind around 1 mph.",
-     "wind": "1 mph"
+     "detailed": "Sunny, with a high near 63. East southeast wind around 2 mph.",
+     "wind": "2 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 32,
+     "temp": 33,
      "unit": "F",
-     "short": "Clear",
-     "detailed": "Clear, with a low around 32. East northeast wind around 1 mph.",
-     "wind": "1 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 33. East southeast wind around 2 mph.",
+     "wind": "2 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 68,
+     "temp": 57,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 68. South southeast wind around 1 mph.",
-     "wind": "1 mph"
+     "short": "Mostly Cloudy then Chance Light Rain",
+     "detailed": "A chance of rain after 1pm. Mostly cloudy, with a high near 57. East wind around 3 mph. Chance of precipitation is 30%.",
+     "wind": "3 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 36,
+     "temp": 41,
      "unit": "F",
-     "short": "Clear",
-     "detailed": "Clear, with a low around 36.",
-     "wind": "1 mph"
+     "short": "Light Rain",
+     "detailed": "Rain. Cloudy, with a low around 41. Chance of precipitation is 90%.",
+     "wind": "5 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 70,
+     "name": "Thanksgiving Day",
+     "temp": 55,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 70.",
-     "wind": "1 mph"
+     "short": "Light Rain",
+     "detailed": "Rain. Mostly cloudy, with a high near 55. Chance of precipitation is 90%.",
+     "wind": "5 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 38,
+     "temp": 30,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 38.",
-     "wind": "0 mph"
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain before 1am. Mostly cloudy, with a low around 30. Chance of precipitation is 30%.",
+     "wind": "7 mph"
     },
     {
      "name": "Friday",
-     "temp": 71,
+     "temp": 52,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 71.",
-     "wind": "1 mph"
+     "detailed": "Mostly sunny, with a high near 52.",
+     "wind": "2 to 6 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 39,
+     "temp": 29,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 39.",
-     "wind": "1 mph"
+     "detailed": "Partly cloudy, with a low around 29.",
+     "wind": "2 mph"
     },
     {
      "name": "Saturday",
-     "temp": 69,
+     "temp": 59,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 69.",
-     "wind": "1 mph"
+     "detailed": "Mostly sunny, with a high near 59.",
+     "wind": "0 to 3 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 41,
+     "temp": 32,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 41.",
-     "wind": "1 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 32.",
+     "wind": "2 mph"
     },
     {
      "name": "Sunday",
-     "temp": 69,
+     "temp": 62,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 69.",
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 62.",
      "wind": "2 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 40,
+     "temp": 35,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 40.",
+     "short": "Slight Chance Light Rain",
+     "detailed": "A slight chance of rain between 7pm and 1am. Partly cloudy, with a low around 35.",
      "wind": "1 mph"
     }
    ],
@@ -2301,118 +2257,118 @@
    "lon": -83.425,
    "forecast_url": "https://api.weather.gov/gridpoints/GSP/24,73/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=35.611&lon=-83.425",
-   "generated": "2026-11-16T17:01:12+00:00",
+   "generated": "2026-11-23T16:54:17+00:00",
    "periods": [
     {
-     "name": "This Afternoon",
-     "temp": 48,
+     "name": "Today",
+     "temp": 51,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny. High near 48, with temperatures falling to around 36 in the afternoon. Southeast wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Patchy Fog then Chance Light Rain",
+     "detailed": "Patchy fog and a slight chance of rain showers before 1pm, then a chance of rain between 1pm and 2pm, then a chance of rain and patchy fog between 2pm and 4pm, then patchy fog and a slight chance of rain. Mostly cloudy. High near 51, with temperatures falling to around 46 in the afternoon. Northwest wind around 5 mph. Chance of precipitation is 30%.",
+     "wind": "5 mph"
     },
     {
      "name": "Tonight",
-     "temp": 32,
+     "temp": 34,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 32. Southeast wind around 5 mph.",
-     "wind": "5 mph"
+     "short": "Patchy Fog",
+     "detailed": "Patchy fog before 5am. Mostly cloudy, with a low around 34. North wind around 10 mph, with gusts as high as 25 mph.",
+     "wind": "10 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 53,
+     "temp": 49,
      "unit": "F",
      "short": "Sunny",
-     "detailed": "Sunny. High near 53, with temperatures falling to around 40 in the afternoon. Southeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "detailed": "Sunny. High near 49, with temperatures falling to around 43 in the afternoon. Northeast wind 0 to 10 mph.",
+     "wind": "0 to 10 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 34,
+     "temp": 33,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 34. Southeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 33. Southeast wind 5 to 15 mph, with gusts as high as 25 mph.",
+     "wind": "5 to 15 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 57,
+     "temp": 47,
      "unit": "F",
-     "short": "Sunny",
-     "detailed": "Sunny, with a high near 57. Southeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Partly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 1pm. Partly sunny, with a high near 47. Southeast wind 5 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 30%.",
+     "wind": "5 to 15 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 37,
+     "temp": 38,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 37. Southeast wind around 5 mph.",
-     "wind": "5 mph"
+     "short": "Light Rain",
+     "detailed": "Rain. Cloudy, with a low around 38. East wind 10 to 15 mph, with gusts as high as 35 mph. Chance of precipitation is 90%.",
+     "wind": "10 to 15 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 58,
+     "name": "Thanksgiving Day",
+     "temp": 41,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 58. Northeast wind 0 to 5 mph.",
-     "wind": "0 to 5 mph"
+     "short": "Light Rain",
+     "detailed": "Rain. Mostly cloudy, with a high near 41. North wind 5 to 10 mph, with gusts as high as 25 mph. Chance of precipitation is 90%.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 39,
+     "temp": 28,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 39.",
-     "wind": "0 to 5 mph"
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain before 7pm, then a chance of rain and snow. Mostly cloudy, with a low around 28. Chance of precipitation is 40%.",
+     "wind": "15 to 20 mph"
     },
     {
      "name": "Friday",
-     "temp": 58,
+     "temp": 37,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 58.",
-     "wind": "0 to 5 mph"
+     "short": "Slight Chance Light Snow then Partly Sunny",
+     "detailed": "A slight chance of snow before 7am. Partly sunny, with a high near 37. Chance of precipitation is 20%.",
+     "wind": "5 to 20 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 40,
+     "temp": 28,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 40.",
+     "detailed": "Partly cloudy, with a low around 28.",
      "wind": "5 mph"
     },
     {
      "name": "Saturday",
-     "temp": 58,
+     "temp": 45,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 58.",
-     "wind": "0 to 5 mph"
+     "detailed": "Mostly sunny, with a high near 45.",
+     "wind": "5 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 41,
+     "temp": 32,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 41.",
+     "detailed": "Partly cloudy, with a low around 32.",
      "wind": "5 mph"
     },
     {
      "name": "Sunday",
-     "temp": 56,
+     "temp": 48,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 56.",
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 48.",
      "wind": "5 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 39,
+     "temp": 34,
      "unit": "F",
-     "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 39.",
+     "short": "Slight Chance Light Rain",
+     "detailed": "A slight chance of rain between 7pm and 1am. Partly cloudy, with a low around 34.",
      "wind": "5 mph"
     }
    ],
@@ -2423,119 +2379,119 @@
    "lon": -112.987,
    "forecast_url": "https://api.weather.gov/gridpoints/SLC/42,21/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.2&lon=-112.987",
-   "generated": "2026-11-16T16:03:10+00:00",
+   "generated": "2026-11-23T15:00:53+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 67,
-     "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Light Rain",
-     "detailed": "A slight chance of rain after 5pm. Mostly cloudy. High near 67, with temperatures falling to around 60 in the afternoon. East southeast wind 6 to 14 mph. Chance of precipitation is 20%.",
-     "wind": "6 to 14 mph"
-    },
-    {
-     "name": "Tonight",
-     "temp": 45,
-     "unit": "F",
-     "short": "Light Rain Likely",
-     "detailed": "Rain likely. Mostly cloudy. Low around 45, with temperatures rising to around 53 overnight. East wind 8 to 18 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible.",
-     "wind": "8 to 18 mph"
-    },
-    {
-     "name": "Tuesday",
-     "temp": 58,
-     "unit": "F",
-     "short": "Showers And Thunderstorms",
-     "detailed": "Rain likely before 8am, then showers and thunderstorms between 8am and 2pm, then a slight chance of rain. Mostly cloudy. High near 58, with temperatures falling to around 46 in the afternoon. South wind 7 to 18 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
-     "wind": "7 to 18 mph"
-    },
-    {
-     "name": "Tuesday Night",
-     "temp": 34,
-     "unit": "F",
-     "short": "Slight Chance Light Rain then Partly Cloudy",
-     "detailed": "A slight chance of rain before 11pm. Partly cloudy, with a low around 34. South southwest wind 2 to 7 mph. Chance of precipitation is 20%.",
-     "wind": "2 to 7 mph"
-    },
-    {
-     "name": "Wednesday",
      "temp": 58,
      "unit": "F",
      "short": "Sunny",
-     "detailed": "Sunny, with a high near 58. Southeast wind 3 to 7 mph.",
-     "wind": "3 to 7 mph"
+     "detailed": "Sunny. High near 58, with temperatures falling to around 51 in the afternoon. West wind 2 to 7 mph.",
+     "wind": "2 to 7 mph"
+    },
+    {
+     "name": "Tonight",
+     "temp": 36,
+     "unit": "F",
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear. Low around 36, with temperatures rising to around 40 overnight. Northeast wind 2 to 10 mph.",
+     "wind": "2 to 10 mph"
+    },
+    {
+     "name": "Tuesday",
+     "temp": 61,
+     "unit": "F",
+     "short": "Sunny",
+     "detailed": "Sunny. High near 61, with temperatures falling to around 53 in the afternoon. East wind 6 to 10 mph.",
+     "wind": "6 to 10 mph"
+    },
+    {
+     "name": "Tuesday Night",
+     "temp": 40,
+     "unit": "F",
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 40. East northeast wind 7 to 15 mph.",
+     "wind": "7 to 15 mph"
+    },
+    {
+     "name": "Wednesday",
+     "temp": 62,
+     "unit": "F",
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 62. East wind 1 to 15 mph.",
+     "wind": "1 to 15 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 38,
+     "temp": 37,
      "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Light Rain",
-     "detailed": "A slight chance of rain after 5am. Mostly cloudy, with a low around 38. Chance of precipitation is 20%.",
-     "wind": "3 to 15 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 37.",
+     "wind": "1 to 12 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 56,
+     "name": "Thanksgiving Day",
+     "temp": 66,
      "unit": "F",
-     "short": "Light Rain Likely then Rain And Snow",
-     "detailed": "Rain likely before 5pm, then rain and snow. Mostly cloudy, with a high near 56. New rainfall amounts between a quarter and half of an inch possible.",
-     "wind": "3 to 15 mph"
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 66.",
+     "wind": "0 to 12 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 37,
+     "temp": 40,
      "unit": "F",
-     "short": "Rain And Snow then Slight Chance T-storms",
-     "detailed": "Rain and snow before 11pm, then a slight chance of thunderstorms and rain and snow showers between 11pm and 5am, then rain and snow likely. Cloudy, with a low around 37.",
-     "wind": "3 to 15 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 40.",
+     "wind": "0 to 9 mph"
     },
     {
      "name": "Friday",
-     "temp": 51,
+     "temp": 68,
      "unit": "F",
-     "short": "Rain And Snow Likely",
-     "detailed": "Rain and snow likely before 5pm. Partly sunny, with a high near 51.",
-     "wind": "2 to 15 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 68.",
+     "wind": "0 to 8 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 29,
+     "temp": 42,
      "unit": "F",
-     "short": "Mostly Clear",
-     "detailed": "Mostly clear, with a low around 29.",
-     "wind": "2 to 12 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 42.",
+     "wind": "0 to 7 mph"
     },
     {
      "name": "Saturday",
-     "temp": 54,
+     "temp": 68,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 54.",
-     "wind": "2 to 12 mph"
+     "detailed": "Mostly sunny, with a high near 68.",
+     "wind": "1 to 7 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 32,
+     "temp": 42,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 32.",
-     "wind": "2 to 17 mph"
+     "detailed": "Partly cloudy, with a low around 42.",
+     "wind": "1 to 8 mph"
     },
     {
      "name": "Sunday",
-     "temp": 57,
+     "temp": 65,
      "unit": "F",
-     "short": "Mostly Sunny then Slight Chance Light Rain",
-     "detailed": "A slight chance of rain after 5pm. Mostly sunny, with a high near 57.",
-     "wind": "3 to 17 mph"
+     "short": "Mostly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 5pm. Mostly sunny, with a high near 65.",
+     "wind": "2 to 8 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 34,
+     "temp": 40,
      "unit": "F",
-     "short": "Slight Chance Rain And Snow",
-     "detailed": "A slight chance of rain before 11pm, then a slight chance of rain and snow. Partly cloudy, with a low around 34.",
-     "wind": "3 to 15 mph"
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain. Mostly cloudy, with a low around 40.",
+     "wind": "2 to 9 mph"
     }
    ],
    "alerts": []
@@ -2545,119 +2501,119 @@
    "lon": -112.876,
    "forecast_url": "https://api.weather.gov/gridpoints/SLC/46,22/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.234&lon=-112.876",
-   "generated": "2026-11-16T17:01:17+00:00",
+   "generated": "2026-11-23T16:54:18+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 55,
+     "temp": 47,
      "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Light Rain",
-     "detailed": "A slight chance of rain after 5pm. Mostly cloudy. High near 55, with temperatures falling to around 51 in the afternoon. East southeast wind around 9 mph. Chance of precipitation is 20%.",
-     "wind": "9 mph"
+     "short": "Sunny",
+     "detailed": "Sunny. High near 47, with temperatures falling to around 42 in the afternoon. West northwest wind around 6 mph.",
+     "wind": "6 mph"
     },
     {
      "name": "Tonight",
-     "temp": 39,
+     "temp": 25,
      "unit": "F",
-     "short": "Light Rain Likely",
-     "detailed": "Rain likely. Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. East southeast wind 8 to 15 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible.",
-     "wind": "8 to 15 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear. Low around 25, with temperatures rising to around 27 overnight. Northeast wind 3 to 8 mph.",
+     "wind": "3 to 8 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 45,
+     "temp": 49,
      "unit": "F",
-     "short": "Showers And Thunderstorms then Chance Rain And Snow",
-     "detailed": "Rain likely before 8am, then showers and thunderstorms between 8am and 2pm, then a chance of rain and snow. Mostly cloudy. High near 45, with temperatures falling to around 39 in the afternoon. South wind 9 to 15 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
-     "wind": "9 to 15 mph"
+     "short": "Sunny",
+     "detailed": "Sunny. High near 49, with temperatures falling to around 43 in the afternoon. East wind around 9 mph.",
+     "wind": "9 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 25,
+     "temp": 29,
      "unit": "F",
-     "short": "Chance Rain And Snow then Partly Cloudy",
-     "detailed": "A chance of rain and snow before 11pm. Partly cloudy, with a low around 25. Northwest wind 2 to 9 mph. Chance of precipitation is 30%.",
-     "wind": "2 to 9 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 29. East northeast wind 7 to 10 mph.",
+     "wind": "7 to 10 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 45,
+     "temp": 50,
      "unit": "F",
-     "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 45. Southeast wind around 5 mph.",
-     "wind": "5 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 50. East wind 1 to 10 mph.",
+     "wind": "1 to 10 mph"
     },
     {
      "name": "Wednesday Night",
      "temp": 27,
      "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 5am. Mostly cloudy, with a low around 27. Chance of precipitation is 20%.",
-     "wind": "2 to 10 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 27.",
+     "wind": "1 to 8 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 44,
+     "name": "Thanksgiving Day",
+     "temp": 54,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "A slight chance of snow before 11am, then rain and snow. Mostly cloudy, with a high near 44. New snow accumulation of less than half an inch possible.",
-     "wind": "3 to 9 mph"
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 54.",
+     "wind": "0 to 8 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 28,
+     "temp": 31,
      "unit": "F",
-     "short": "Rain And Snow then Slight Chance T-storms",
-     "detailed": "Rain and snow before 11pm, then a slight chance of thunderstorms and rain and snow showers between 11pm and 5am, then snow likely. Cloudy, with a low around 28. New snow accumulation of 1 to 3 inches possible.",
-     "wind": "3 to 12 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 31.",
+     "wind": "0 to 6 mph"
     },
     {
      "name": "Friday",
-     "temp": 38,
+     "temp": 57,
      "unit": "F",
-     "short": "Light Snow Likely",
-     "detailed": "Snow likely before 5pm. Partly sunny, with a high near 38. New snow accumulation of less than half an inch possible.",
-     "wind": "3 to 12 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 57.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 19,
+     "temp": 33,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 19.",
-     "wind": "3 to 7 mph"
+     "detailed": "Partly cloudy, with a low around 33.",
+     "wind": "0 to 3 mph"
     },
     {
      "name": "Saturday",
-     "temp": 41,
+     "temp": 56,
      "unit": "F",
      "short": "Mostly Sunny",
-     "detailed": "Mostly sunny, with a high near 41.",
-     "wind": "2 to 7 mph"
+     "detailed": "Mostly sunny, with a high near 56.",
+     "wind": "3 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 22,
+     "temp": 33,
      "unit": "F",
      "short": "Partly Cloudy",
-     "detailed": "Partly cloudy, with a low around 22.",
-     "wind": "2 to 12 mph"
+     "detailed": "Partly cloudy, with a low around 33.",
+     "wind": "3 mph"
     },
     {
      "name": "Sunday",
-     "temp": 44,
+     "temp": 53,
      "unit": "F",
-     "short": "Mostly Sunny then Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 5pm. Mostly sunny, with a high near 44.",
-     "wind": "3 to 12 mph"
+     "short": "Mostly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 5pm. Mostly sunny, with a high near 53.",
+     "wind": "5 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 24,
+     "temp": 32,
      "unit": "F",
-     "short": "Slight Chance Light Snow",
-     "detailed": "A slight chance of snow. Partly cloudy, with a low around 24.",
-     "wind": "3 to 9 mph"
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain before 8pm, then a chance of rain and snow. Mostly cloudy, with a low around 32.",
+     "wind": "5 mph"
     }
    ],
    "alerts": []
@@ -2667,118 +2623,118 @@
    "lon": -113.225,
    "forecast_url": "https://api.weather.gov/gridpoints/SLC/35,33/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=37.453&lon=-113.225",
-   "generated": "2026-11-16T17:01:18+00:00",
+   "generated": "2026-11-23T16:54:19+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 54,
+     "temp": 47,
      "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Light Rain",
-     "detailed": "A slight chance of rain after 5pm. Mostly cloudy. High near 54, with temperatures falling to around 51 in the afternoon. South southeast wind 9 to 14 mph. Chance of precipitation is 20%.",
-     "wind": "9 to 14 mph"
+     "short": "Patchy Frost then Sunny",
+     "detailed": "Patchy frost before 11am. Sunny. High near 47, with temperatures falling to around 42 in the afternoon. Northwest wind 2 to 6 mph.",
+     "wind": "2 to 6 mph"
     },
     {
      "name": "Tonight",
-     "temp": 40,
+     "temp": 29,
      "unit": "F",
-     "short": "Light Rain then Showers And Thunderstorms",
-     "detailed": "Rain before 5am, then showers and thunderstorms. Mostly cloudy. Low around 40, with temperatures rising to around 45 overnight. South southeast wind 9 to 18 mph, with gusts as high as 31 mph. Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible.",
-     "wind": "9 to 18 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 29. North northeast wind 6 to 9 mph.",
+     "wind": "6 to 9 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 44,
+     "temp": 50,
      "unit": "F",
-     "short": "Showers And Thunderstorms then Chance Rain And Snow",
-     "detailed": "Showers and thunderstorms before 2pm, then a chance of rain and snow. Mostly cloudy. High near 44, with temperatures falling to around 39 in the afternoon. South wind 9 to 18 mph, with gusts as high as 31 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.",
-     "wind": "9 to 18 mph"
+     "short": "Patchy Frost then Sunny",
+     "detailed": "Patchy frost between 8am and 11am. Sunny. High near 50, with temperatures falling to around 44 in the afternoon. East wind 2 to 8 mph.",
+     "wind": "2 to 8 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 26,
+     "temp": 33,
      "unit": "F",
-     "short": "Chance Rain And Snow then Areas Of Frost",
-     "detailed": "A chance of rain and snow before 11pm, then areas of frost. Partly cloudy, with a low around 26. South southeast wind 5 to 9 mph. Chance of precipitation is 30%.",
-     "wind": "5 to 9 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 33. Southeast wind around 5 mph.",
+     "wind": "5 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 43,
+     "temp": 51,
      "unit": "F",
-     "short": "Areas Of Frost then Sunny",
-     "detailed": "Areas of frost before 11am. Sunny, with a high near 43. Southeast wind 5 to 12 mph.",
-     "wind": "5 to 12 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 51. South southeast wind around 3 mph.",
+     "wind": "3 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 32,
+     "temp": 30,
      "unit": "F",
-     "short": "Mostly Cloudy then Chance Light Snow",
-     "detailed": "A chance of snow after 5am. Mostly cloudy, with a low around 32. Chance of precipitation is 30%. Little or no snow accumulation expected.",
-     "wind": "8 to 14 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 30.",
+     "wind": "1 to 14 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 42,
+     "name": "Thanksgiving Day",
+     "temp": 53,
      "unit": "F",
-     "short": "Rain And Snow",
-     "detailed": "A chance of snow before 11am, then rain and snow. Mostly cloudy, with a high near 42. Little or no snow accumulation expected.",
-     "wind": "8 to 14 mph"
+     "short": "Sunny",
+     "detailed": "Sunny, with a high near 53.",
+     "wind": "5 to 14 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 30,
+     "temp": 36,
      "unit": "F",
-     "short": "Rain And Snow then Slight Chance T-storms",
-     "detailed": "Rain and snow before 11pm, then a slight chance of thunderstorms and rain and snow showers between 11pm and 5am, then rain and snow likely. Cloudy, with a low around 30. New snow accumulation of less than half an inch possible.",
-     "wind": "8 to 12 mph"
+     "short": "Mostly Clear",
+     "detailed": "Mostly clear, with a low around 36.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Friday",
-     "temp": 37,
+     "temp": 57,
      "unit": "F",
-     "short": "Rain And Snow Likely",
-     "detailed": "Rain and snow likely before 5pm, then areas of frost. Partly sunny, with a high near 37. New snow accumulation of less than half an inch possible.",
-     "wind": "3 to 10 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 57.",
+     "wind": "1 to 8 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 20,
+     "temp": 40,
      "unit": "F",
-     "short": "Areas Of Frost",
-     "detailed": "Areas of frost. Mostly clear, with a low around 20.",
-     "wind": "6 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 40.",
+     "wind": "3 mph"
     },
     {
      "name": "Saturday",
-     "temp": 41,
+     "temp": 56,
      "unit": "F",
-     "short": "Areas Of Frost",
-     "detailed": "Areas of frost. Mostly sunny, with a high near 41.",
-     "wind": "2 to 6 mph"
+     "short": "Mostly Sunny",
+     "detailed": "Mostly sunny, with a high near 56.",
+     "wind": "2 to 8 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 24,
+     "temp": 38,
      "unit": "F",
-     "short": "Patchy Frost then Partly Cloudy",
-     "detailed": "Patchy frost before 11pm. Partly cloudy, with a low around 24.",
-     "wind": "2 to 6 mph"
+     "short": "Partly Cloudy",
+     "detailed": "Partly cloudy, with a low around 38.",
+     "wind": "6 mph"
     },
     {
      "name": "Sunday",
-     "temp": 44,
+     "temp": 53,
      "unit": "F",
-     "short": "Partly Sunny then Slight Chance Light Rain",
-     "detailed": "A slight chance of rain after 5pm. Partly sunny, with a high near 44.",
-     "wind": "3 to 7 mph"
+     "short": "Mostly Sunny then Chance Light Rain",
+     "detailed": "A chance of rain after 5pm. Mostly sunny, with a high near 53.",
+     "wind": "5 to 9 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 27,
+     "temp": 35,
      "unit": "F",
-     "short": "Slight Chance Light Snow then Patchy Frost",
-     "detailed": "A slight chance of rain before 8pm, then a slight chance of snow between 8pm and 11pm, then patchy frost and a slight chance of snow. Mostly cloudy, with a low around 27.",
+     "short": "Chance Light Rain",
+     "detailed": "A chance of rain. Mostly cloudy, with a low around 35.",
      "wind": "5 mph"
     }
    ],
@@ -2789,118 +2745,118 @@
    "lon": -113.987,
    "forecast_url": "https://api.weather.gov/gridpoints/MSO/116,208/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=48.502&lon=-113.987",
-   "generated": "2026-11-16T13:17:45+00:00",
+   "generated": "2026-11-23T16:54:20+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 41,
+     "temp": 31,
      "unit": "F",
-     "short": "Light Rain",
-     "detailed": "Rain and areas of fog before 10am, then patchy fog and a slight chance of rain between 10am and 11am, then a chance of rain and patchy fog between 11am and 1pm, then areas of fog and a slight chance of rain. Mostly cloudy, with a high near 41. South wind around 2 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "2 mph"
+     "short": "Areas Of Fog",
+     "detailed": "Areas of fog. Mostly sunny, with a high near 31. South southwest wind around 1 mph.",
+     "wind": "1 mph"
     },
     {
      "name": "Tonight",
-     "temp": 32,
+     "temp": 20,
      "unit": "F",
      "short": "Areas Of Fog",
-     "detailed": "Areas of fog and a chance of rain before 1am, then areas of fog and a chance of rain and snow. Cloudy, with a low around 32. Wind around 0 mph. Chance of precipitation is 40%.",
+     "detailed": "Areas of fog between 7pm and 5am. Mostly cloudy, with a low around 20. Wind around 0 mph.",
      "wind": "0 mph"
     },
     {
      "name": "Tuesday",
-     "temp": 37,
+     "temp": 34,
      "unit": "F",
-     "short": "Areas Of Fog then Patchy Fog",
-     "detailed": "Areas of fog and a chance of rain and snow before 7am, then areas of fog and rain and snow between 7am and 10am, then areas of fog and a chance of rain and snow between 10am and 11am, then patchy fog and rain and snow between 11am and 4pm, then patchy fog and a slight chance of rain and snow between 4pm and 5pm, then areas of fog and rain and snow likely. Cloudy, with a high near 37. North northwest wind around 1 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible.",
-     "wind": "1 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 34. Wind around 0 mph.",
+     "wind": "0 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 29,
+     "temp": 26,
      "unit": "F",
-     "short": "Areas Of Fog",
-     "detailed": "Areas of fog and rain and snow likely before 11pm, then areas of fog and a chance of snow. Mostly cloudy, with a low around 29. Wind around 0 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible.",
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 26. Wind around 0 mph.",
      "wind": "0 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 36,
+     "temp": 37,
      "unit": "F",
-     "short": "Areas Of Fog then Partly Sunny",
-     "detailed": "Areas of fog before noon. Partly sunny, with a high near 36. Wind around 0 mph.",
-     "wind": "0 mph"
+     "short": "Mostly Cloudy then Slight Chance Light Rain",
+     "detailed": "A slight chance of rain after 5pm. Mostly cloudy, with a high near 37. South southwest wind around 1 mph. Chance of precipitation is 20%.",
+     "wind": "1 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 26,
+     "temp": 31,
      "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy, with a low around 26.",
+     "short": "Chance Rain And Snow",
+     "detailed": "A slight chance of rain before 8pm, then a chance of rain and snow. Mostly cloudy, with a low around 31. Chance of precipitation is 40%.",
      "wind": "1 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 35,
+     "name": "Thanksgiving Day",
+     "temp": 38,
      "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy, with a high near 35.",
-     "wind": "0 mph"
+     "short": "Rain And Snow",
+     "detailed": "Rain and snow. Cloudy, with a high near 38. New rainfall amounts between a tenth and quarter of an inch possible.",
+     "wind": "0 to 5 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 25,
+     "temp": 34,
      "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy, with a low around 25.",
-     "wind": "1 mph"
+     "short": "Rain And Snow",
+     "detailed": "Rain and snow. Cloudy, with a low around 34. New rainfall amounts less than a tenth of an inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Friday",
-     "temp": 34,
+     "temp": 38,
      "unit": "F",
-     "short": "Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 11am. Partly sunny, with a high near 34.",
-     "wind": "1 mph"
+     "short": "Rain And Snow Likely",
+     "detailed": "Rain and snow likely. Cloudy, with a high near 38.",
+     "wind": "2 to 8 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 25,
+     "temp": 33,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow before 5am. Mostly cloudy, with a low around 25.",
-     "wind": "1 mph"
+     "short": "Rain And Snow Likely",
+     "detailed": "Rain and snow likely. Cloudy, with a low around 33.",
+     "wind": "2 mph"
     },
     {
      "name": "Saturday",
-     "temp": 34,
+     "temp": 38,
      "unit": "F",
-     "short": "Partly Sunny then Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 5pm. Partly sunny, with a high near 34.",
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain and snow. Cloudy, with a high near 38.",
      "wind": "1 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 23,
+     "temp": 31,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow. Mostly cloudy, with a low around 23.",
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain and snow. Cloudy, with a low around 31.",
      "wind": "1 mph"
     },
     {
      "name": "Sunday",
-     "temp": 34,
+     "temp": 36,
      "unit": "F",
      "short": "Chance Light Snow",
-     "detailed": "A chance of snow. Mostly cloudy, with a high near 34.",
+     "detailed": "A chance of snow before 2pm, then a chance of rain and snow. Mostly cloudy, with a high near 36.",
      "wind": "1 mph"
     },
     {
      "name": "Sunday Night",
-     "temp": 24,
+     "temp": 30,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow. Mostly cloudy, with a low around 24.",
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain and snow. Cloudy, with a low around 30. Little or no snow accumulation expected.",
      "wind": "1 mph"
     }
    ],
@@ -2911,122 +2867,128 @@
    "lon": -113.437,
    "forecast_url": "https://api.weather.gov/gridpoints/TFX/38,212/forecast",
    "forecast_page": "https://forecast.weather.gov/MapClick.php?lat=48.746&lon=-113.437",
-   "generated": "2026-11-16T17:01:20+00:00",
+   "generated": "2026-11-23T16:54:21+00:00",
    "periods": [
     {
      "name": "Today",
-     "temp": 44,
+     "temp": 30,
      "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy. High near 44, with temperatures falling to around 40 in the afternoon. Southwest wind 3 to 8 mph. Little or no snow accumulation expected.",
-     "wind": "3 to 8 mph"
+     "short": "Patchy Blowing Snow",
+     "detailed": "Patchy blowing snow. Mostly sunny. High near 30, with temperatures falling to around 27 in the afternoon. South southwest wind around 18 mph, with gusts as high as 26 mph.",
+     "wind": "18 mph"
     },
     {
      "name": "Tonight",
-     "temp": 29,
+     "temp": 25,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow after 8pm. Cloudy, with a low around 29. Southeast wind around 3 mph. Chance of precipitation is 50%. New snow accumulation of around one inch possible.",
-     "wind": "3 mph"
+     "short": "Patchy Blowing Snow",
+     "detailed": "Patchy blowing snow. Mostly cloudy, with a low around 25. South southwest wind 18 to 28 mph, with gusts as high as 40 mph.",
+     "wind": "18 to 28 mph"
     },
     {
      "name": "Tuesday",
      "temp": 36,
      "unit": "F",
-     "short": "Light Snow",
-     "detailed": "Snow. Cloudy. High near 36, with temperatures falling to around 31 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 100%. New snow accumulation of 1 to 2 inches possible.",
-     "wind": "1 to 5 mph"
+     "short": "Patchy Blowing Snow then Partly Sunny",
+     "detailed": "Patchy blowing snow before noon. Partly sunny, with a high near 36. Southwest wind 20 to 25 mph, with gusts as high as 37 mph.",
+     "wind": "20 to 25 mph"
     },
     {
      "name": "Tuesday Night",
-     "temp": 20,
+     "temp": 33,
      "unit": "F",
-     "short": "Light Snow",
-     "detailed": "Snow. Mostly cloudy, with a low around 20. North northwest wind around 5 mph. Chance of precipitation is 80%. New snow accumulation of around one inch possible.",
-     "wind": "5 mph"
+     "short": "Mostly Cloudy",
+     "detailed": "Mostly cloudy, with a low around 33. Southwest wind 24 to 29 mph, with gusts as high as 53 mph.",
+     "wind": "24 to 29 mph"
     },
     {
      "name": "Wednesday",
-     "temp": 34,
+     "temp": 37,
      "unit": "F",
-     "short": "Slight Chance Light Snow then Partly Sunny",
-     "detailed": "A slight chance of snow before 11am. Partly sunny, with a high near 34. North northwest wind around 3 mph. Chance of precipitation is 20%. Little or no snow accumulation expected.",
-     "wind": "3 mph"
+     "short": "Partly Sunny",
+     "detailed": "Partly sunny, with a high near 37. Southwest wind around 29 mph, with gusts as high as 55 mph.",
+     "wind": "29 mph"
     },
     {
      "name": "Wednesday Night",
-     "temp": 19,
+     "temp": 35,
      "unit": "F",
-     "short": "Mostly Cloudy then Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 5am. Mostly cloudy, with a low around 19. East wind around 2 mph. Chance of precipitation is 20%.",
-     "wind": "2 mph"
+     "short": "Mostly Cloudy then Chance Light Snow",
+     "detailed": "A chance of snow after 5am. Mostly cloudy, with a low around 35. Southwest wind 9 to 33 mph, with gusts as high as 58 mph. Chance of precipitation is 30%.",
+     "wind": "9 to 33 mph"
     },
     {
-     "name": "Thursday",
-     "temp": 33,
+     "name": "Thanksgiving Day",
+     "temp": 41,
      "unit": "F",
-     "short": "Chance Light Snow",
-     "detailed": "A chance of snow. Mostly cloudy, with a high near 33. East southeast wind around 3 mph.",
-     "wind": "3 mph"
+     "short": "Rain And Snow",
+     "detailed": "A chance of snow before 11am, then rain and snow. Mostly cloudy, with a high near 41. Southwest wind 9 to 16 mph, with gusts as high as 38 mph.",
+     "wind": "9 to 16 mph"
     },
     {
      "name": "Thursday Night",
-     "temp": 18,
+     "temp": 34,
      "unit": "F",
-     "short": "Chance Light Snow then Mostly Cloudy",
-     "detailed": "A chance of snow before 11pm. Mostly cloudy, with a low around 18. South wind around 2 mph.",
-     "wind": "2 mph"
+     "short": "Rain And Snow",
+     "detailed": "Rain and snow. Mostly cloudy, with a low around 34. West southwest wind 14 to 21 mph, with gusts as high as 53 mph.",
+     "wind": "14 to 21 mph"
     },
     {
      "name": "Friday",
-     "temp": 35,
+     "temp": 38,
      "unit": "F",
-     "short": "Partly Sunny",
-     "detailed": "Partly sunny, with a high near 35.",
-     "wind": "3 mph"
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain and snow. Mostly cloudy, with a high near 38. Little or no snow accumulation expected.",
+     "wind": "10 to 14 mph"
     },
     {
      "name": "Friday Night",
-     "temp": 19,
+     "temp": 30,
      "unit": "F",
-     "short": "Slight Chance Light Snow",
-     "detailed": "A slight chance of snow between 11pm and 5am. Mostly cloudy, with a low around 19.",
-     "wind": "3 mph"
+     "short": "Chance Rain And Snow",
+     "detailed": "A chance of rain and snow. Mostly cloudy, with a low around 30. New snow accumulation of less than one inch possible.",
+     "wind": "5 to 10 mph"
     },
     {
      "name": "Saturday",
-     "temp": 33,
+     "temp": 38,
      "unit": "F",
-     "short": "Partly Sunny then Slight Chance Light Snow",
-     "detailed": "A slight chance of snow after 5pm. Partly sunny, with a high near 33.",
-     "wind": "3 mph"
+     "short": "Chance Light Snow",
+     "detailed": "A chance of snow before 2pm, then a chance of rain and snow. Partly sunny, with a high near 38. New snow accumulation of less than half an inch possible.",
+     "wind": "5 mph"
     },
     {
      "name": "Saturday Night",
-     "temp": 18,
+     "temp": 26,
      "unit": "F",
-     "short": "Slight Chance Light Snow",
-     "detailed": "A slight chance of snow. Mostly cloudy, with a low around 18.",
-     "wind": "2 mph"
-    },
-    {
-     "name": "Sunday",
-     "temp": 34,
-     "unit": "F",
-     "short": "Slight Chance Light Snow then Partly Sunny",
-     "detailed": "A slight chance of snow before 11am. Partly sunny, with a high near 34.",
+     "short": "Chance Light Snow",
+     "detailed": "A chance of snow. Mostly cloudy, with a low around 26. New snow accumulation of less than half an inch possible.",
      "wind": "3 mph"
     },
     {
-     "name": "Sunday Night",
-     "temp": 19,
+     "name": "Sunday",
+     "temp": 37,
      "unit": "F",
-     "short": "Mostly Cloudy",
-     "detailed": "Mostly cloudy, with a low around 19.",
+     "short": "Slight Chance Light Snow",
+     "detailed": "A slight chance of snow. Partly sunny, with a high near 37.",
+     "wind": "6 mph"
+    },
+    {
+     "name": "Sunday Night",
+     "temp": 26,
+     "unit": "F",
+     "short": "Chance Light Snow",
+     "detailed": "A chance of snow. Mostly cloudy, with a low around 26.",
      "wind": "5 mph"
     }
    ],
-   "alerts": []
+   "alerts": [
+    {
+     "event": "Winter Weather Advisory",
+     "headline": "Winter Weather Advisory issued November 23 at 8:37AM MST until November 24 at 12:00PM MST by NWS Great Falls MT",
+     "ends": "2026-11-24T12:00:00-07:00"
+    }
+   ]
   }
  }
 }

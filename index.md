@@ -1,6 +1,6 @@
 # What's open this week — and what to know before you go.
 
-> ParkReady Guides by GOES Health · Week of Nov 16–22, 2026. Weekly entrance briefings for 6 of America's busiest national parks (17 open entrances): which entrances are open, this week's official closures and weather, and what to prepare for at that entrance and season. Every fact links to the National Park Service or National Weather Service page it came from.
+> ParkReady Guides by GOES Health · Week of Nov 23–29, 2026. Weekly entrance briefings for 6 of America's busiest national parks (17 open entrances): which entrances are open, this week's official closures and weather, and what to prepare for at that entrance and season. Every fact links to the National Park Service or National Weather Service page it came from.
 
 HTML version: https://parks.goes.health/
 
@@ -18,47 +18,47 @@ WY · MT · ID · Winter shoulder season: only the North ↔ Northeast road is o
 
 ### [Yosemite National Park](https://parks.goes.health/parks/yosemite/index.md)
 
-CA · Tioga and Glacier Point roads are closed for snow; a winter storm watch runs to Nov 20.
+CA · Tioga and Glacier Point roads are closed for the season; the valley is mild and mostly dry this week.
 
 - [Arch Rock Entrance](https://parks.goes.health/parks/yosemite/arch-rock-entrance.md): Open — Hwy 140 / El Portal Road
 - [Big Oak Flat Entrance](https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.md): Open — weekday delays
-- [South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md): Open — Winter Storm Watch to Nov 20
+- [South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md): Call for Hwy 41 status
 - [Hetch Hetchy Entrance](https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.md): Daylight only — closes for snow
 - Closed / limited: Tioga Pass Entrance (Hwy 120 east, from Lee Vining); Glacier Point Road
 
 ### [Grand Canyon National Park](https://parks.goes.health/parks/grand-canyon/index.md)
 
-AZ · Day use on the South Rim through Nov 19; NPS expects overnight lodging back Nov 20. Bring water.
+AZ · South Rim hotels reopened Nov 20 and water rules eased to Stage 3. Still pack water for the trail.
 
-- [South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md): Open 24/7 — day use, bring water
+- [South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md): Open 24/7 — lodging reopened Nov 20
 - [Desert View (East) Entrance](https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.md): Open 24/7
-- [North Rim Entrance](https://parks.goes.health/parks/grand-canyon/north-rim-entrance.md): Limited day use — no services, closing soon
+- [North Rim Entrance](https://parks.goes.health/parks/grand-canyon/north-rim-entrance.md): Limited day use — closes Nov 30
 - Closed / limited: Phantom Ranch, Bright Angel Campground, Black & Silver bridges, entire North Kaibab Trail
 
 ### [Great Smoky Mountains National Park](https://parks.goes.health/parks/great-smoky-mountains/index.md)
 
-TN · NC · A sunny, mild week, but Kuwohi Road is closed for snow and ice.
+TN · NC · Kuwohi Road and Roaring Fork have their last week of the season (through Nov 29); rain arrives for Thanksgiving.
 
-- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Kuwohi Road closed
-- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — sunny week
+- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Kuwohi Road's last week
+- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — rainy Thanksgiving
 - [Cherokee Entrance (Oconaluftee)](https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md): Open — elk area
 - Closed / limited: Seasonal secondary roads
 
 ### [Zion National Park](https://parks.goes.health/parks/zion/index.md)
 
-UT · Shuttle through Nov 28; top-down Narrows closed for high water; tunnel closes nightly Nov 16–20.
+UT · Last week of shuttle service (through Nov 28), the tunnel's nightly closures are over, and a sunny week ahead.
 
-- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Open — shuttle through Nov 28
-- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Open — tunnel closed nightly Nov 16–20
+- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Open — last shuttle week
+- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Open — tunnel open overnight again
 - [Kolob Canyons Entrance](https://parks.goes.health/parks/zion/kolob-canyons-entrance.md): Open — may close for snow or ice
-- Closed / limited: The Narrows from the top (top-down route); Zion–Mt. Carmel Tunnel, overnight; Watchman Trail; Hidden Canyon / Observation Point from Zion Canyon
+- Closed / limited: Lava Point and West Rim Trailhead road; Watchman Trail; Hidden Canyon / Observation Point from Zion Canyon
 
 ### [Glacier National Park](https://parks.goes.health/parks/glacier/index.md)
 
-MT · Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season.
+MT · Going-to-the-Sun Road is closed for the season at Avalanche Creek and, on the east side, now at Rising Sun.
 
 - [West Entrance](https://parks.goes.health/parks/glacier/west-entrance.md): Open — road to Avalanche Creek
-- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): Open — road to Jackson Glacier Overlook
+- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): Open — road to Rising Sun
 - Closed / limited: Going-to-the-Sun Road alpine section (Logan Pass); Many Glacier and Two Medicine
 
 ## How ParkReady works
@@ -81,4 +81,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

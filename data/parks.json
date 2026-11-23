@@ -1,10 +1,10 @@
 {
  "week": {
-  "label": "Week of Nov 16–22, 2026",
-  "start": "2026-11-16",
-  "end": "2026-11-22",
-  "fetched": "2026-11-16",
-  "fetched_note": "Fetched Mon Nov 16, 2026, about 9 am Pacific."
+  "label": "Week of Nov 23–29, 2026",
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "fetched": "2026-11-23",
+  "fetched_note": "Fetched Mon Nov 23, 2026, about 9 am Pacific."
  },
  "goes": {
   "ios": "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901",
@@ -28,7 +28,7 @@
  },
  "sources": {
   "yell-alerts": {
-   "label": "NPS Yellowstone alerts (NPS Data API, fetched Nov 16)",
+   "label": "NPS Yellowstone alerts (NPS Data API, fetched Nov 23)",
    "url": "https://www.nps.gov/yell/planyourvisit/conditions.htm"
   },
   "yell-home": {
@@ -40,7 +40,7 @@
    "url": "https://www.nps.gov/yell/planyourvisit/fees.htm"
   },
   "yose-alerts": {
-   "label": "NPS Yosemite alerts (NPS Data API, fetched Nov 16)",
+   "label": "NPS Yosemite alerts (NPS Data API, fetched Nov 23)",
    "url": "https://www.nps.gov/yose/planyourvisit/conditions.htm"
   },
   "yose-home": {
@@ -52,7 +52,7 @@
    "url": "https://www.nps.gov/yose/planyourvisit/fees.htm"
   },
   "grca-alerts": {
-   "label": "NPS Grand Canyon alerts (NPS Data API, fetched Nov 16)",
+   "label": "NPS Grand Canyon alerts (NPS Data API, fetched Nov 23)",
    "url": "https://www.nps.gov/grca/planyourvisit/conditions.htm"
   },
   "grca-home": {
@@ -64,7 +64,7 @@
    "url": "https://www.nps.gov/grca/planyourvisit/fees.htm"
   },
   "grsm-alerts": {
-   "label": "NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)",
+   "label": "NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)",
    "url": "https://www.nps.gov/grsm/planyourvisit/conditions.htm"
   },
   "grsm-home": {
@@ -76,7 +76,7 @@
    "url": "https://www.nps.gov/grsm/planyourvisit/fees.htm"
   },
   "zion-alerts": {
-   "label": "NPS Zion alerts (NPS Data API, fetched Nov 16)",
+   "label": "NPS Zion alerts (NPS Data API, fetched Nov 23)",
    "url": "https://www.nps.gov/zion/planyourvisit/conditions.htm"
   },
   "zion-home": {
@@ -88,7 +88,7 @@
    "url": "https://www.nps.gov/zion/planyourvisit/fees.htm"
   },
   "glac-alerts": {
-   "label": "NPS Glacier alerts (NPS Data API, fetched Nov 16)",
+   "label": "NPS Glacier alerts (NPS Data API, fetched Nov 23)",
    "url": "https://www.nps.gov/glac/planyourvisit/conditions.htm"
   },
   "glac-home": {
@@ -104,7 +104,7 @@
    "url": "https://www.nps.gov/subjects/developer/api-documentation.htm"
   },
   "nws": {
-   "label": "National Weather Service point forecasts (api.weather.gov, fetched Nov 16)",
+   "label": "National Weather Service point forecasts (api.weather.gov, fetched Nov 23)",
    "url": "https://www.weather.gov/"
   },
   "airnow": {
@@ -116,7 +116,7 @@
    "url": "https://apps.apple.com/us/app/goes-outdoor-health-safety/id1576527901"
   },
   "yell-roads": {
-   "label": "Yellowstone Park Roads (updated Nov 3, 2026)",
+   "label": "Yellowstone Park Roads (updated Nov 12, 2026)",
    "url": "https://www.nps.gov/yell/planyourvisit/parkroads.htm"
   },
   "yell-close-nov1": {
@@ -132,7 +132,7 @@
    "url": "https://www.nps.gov/yell/planyourvisit/safety.htm"
   },
   "yose-cond": {
-   "label": "Yosemite Current Conditions (updated Nov 13, 2026)",
+   "label": "Yosemite Current Conditions (updated Nov 20, 2026)",
    "url": "https://www.nps.gov/yose/planyourvisit/conditions.htm"
   },
   "yose-hours": {
@@ -155,14 +155,6 @@
    "label": "Dome Fire update, Oct 13, 2026",
    "url": "https://www.nps.gov/yose/learn/news/dome-fire-update-october-13-2026-morning.htm"
   },
-  "nws-hanford-wsw": {
-   "label": "NWS Hanford: Winter Storm Watch (issued Nov 16, until Nov 20 4 am PST) and Winter Weather Advisory (until Nov 17 4 am PST)",
-   "url": "https://forecast.weather.gov/MapClick.php?lat=37.507&lon=-119.632"
-  },
-  "nws-sto-wsw": {
-   "label": "NWS Sacramento: Winter Storm Watch (issued Nov 15, until Nov 20 4 am PST)",
-   "url": "https://forecast.weather.gov/MapClick.php?lat=37.8&lon=-119.874"
-  },
   "grca-cond": {
    "label": "Grand Canyon Alerts & Conditions",
    "url": "https://www.nps.gov/grca/planyourvisit/conditions.htm"
@@ -176,8 +168,8 @@
    "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-announces-projected-dates-for-restoring-water-to-south-rim.htm"
   },
   "grca-lodging": {
-   "label": "News release linked from the NPS alert: overnight accommodations suspended",
-   "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm"
+   "label": "News release: Stage 3 water conservation and South Rim lodging reopens Nov 20 (Nov 18, 2026)",
+   "url": "https://www.nps.gov/grca/learn/news/transitions-to-stage-3-water-conservation-measures-and-south-rim-lodging-reopens-nov-20.htm"
   },
   "grca-trails": {
    "label": "News release: Select inner canyon trails reopen (Oct 26, 2026)",
@@ -219,6 +211,10 @@
    "label": "News release: Approaching elk is dangerous and illegal (Oct 7, 2026)",
    "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-approaching-elk-is-both-dangerous-and-illegal.htm"
   },
+  "grsm-bullhead": {
+   "label": "News release: Bullhead Trail reopens (Nov 19, 2026)",
+   "url": "https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reopens-rehabilitated-bullhead-trail.htm"
+  },
   "grsm-directions": {
    "label": "Smokies directions & GPS warning",
    "url": "https://www.nps.gov/grsm/planyourvisit/directions.htm"
@@ -256,8 +252,12 @@
    "url": "https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm"
   },
   "udot-zion": {
-   "label": "UDOT Zion Canyon fiber project: Zion–Mt. Carmel Tunnel closure advisory (update Nov 12, 2026)",
+   "label": "UDOT Zion Canyon fiber project: construction update (Nov 20, 2026)",
    "url": "https://udotinput.utah.gov/ziontechnology"
+  },
+  "zion-narrows": {
+   "label": "Zion: The Narrows (permits, closures)",
+   "url": "https://www.nps.gov/zion/planyourvisit/thenarrows.htm"
   },
   "zion-safety": {
    "label": "Zion safety: flash floods, cliffs, hypothermia, water",
@@ -448,7 +448,7 @@
       },
       {
        "title": "Cold, ice and short days",
-       "body": "This week's NWS forecast for Gardiner: mid-50s Monday and Tuesday, then rain and snow showers from Tuesday night, highs around 37–43°F and lows near 22°F the rest of the week. NPS asks drivers to carry blankets and keep a full tank.",
+       "body": "This week's NWS forecast for Gardiner: mostly sunny through Wednesday, then chances of rain and snow showers from Thanksgiving Day into the weekend, highs around 39–46°F and lows near 26–33°F. NPS asks drivers to carry blankets and keep a full tank.",
        "sources": [
         "nws",
         "yell-close-nov1"
@@ -538,7 +538,7 @@
       },
       {
        "title": "Remote, cold and far from help",
-       "body": "This week's NWS forecast near Silver Gate: snow showers from Tuesday night on and off through the weekend, highs in the upper 30s to low 40s after Tuesday, and lows down to about 12°F. Services in the northeast corner are closed for the winter; the nearest year-round park facilities are back at Mammoth.",
+       "body": "This week's NWS forecast near Silver Gate: mostly sunny Tuesday and Wednesday, then snow showers from Thanksgiving Day through the weekend, highs around 34–42°F and lows down to about 13°F. Services in the northeast corner are closed for the winter; the nearest year-round park facilities are back at Mammoth.",
        "sources": [
         "nws",
         "yell-hours"
@@ -574,14 +574,14 @@
    "name": "Yosemite National Park",
    "short": "Yosemite",
    "state": "CA",
-   "tagline": "Tioga and Glacier Point roads are closed for snow; a winter storm watch runs to Nov 20.",
-   "summary": "Yosemite is open 24 hours a day, but the high country is shutting down. Tioga Road (Hwy 120 through the park) and Glacier Point Road are temporarily closed for snow, and NWS has a Winter Storm Watch for the park area until Nov 20. Wawona Road (Hwy 41), El Portal Road (Hwy 140) and Big Oak Flat Road (Hwy 120 west) are open. Carry tire chains: they can become mandatory at any time, even for 4WD.",
+   "tagline": "Tioga and Glacier Point roads are closed for the season; the valley is mild and mostly dry this week.",
+   "summary": "Yosemite is open 24 hours a day, and the high country is now closed for winter: Tioga Road (Hwy 120 through the park) and Glacier Point Road are closed for the season and usually reopen in late May or June. El Portal Road (Hwy 140) is open; for Wawona Road (Hwy 41) and Big Oak Flat Road (Hwy 120 west), NPS asks you to call 209/372-0200 (press 1, then 1) for current status. Last week's winter storm watch has ended, and NWS forecasts a mostly sunny week with a chance of light rain Tuesday night into Wednesday. Carry tire chains: they can become mandatory at any time, even for 4WD.",
    "summary_sources": [
     "yose-alerts",
     "yose-cond",
-    "nws-hanford-wsw"
+    "nws"
    ],
-   "cta_reason": "Black bears active in every part of the park, slick granite by the rivers, and a winter storm on the way. GOES works offline, so its assessment and how-to guides still help if a fall or a cold soaking happens out of signal.",
+   "cta_reason": "Black bears active in every part of the park, slick granite by the rivers, and freezing nights. GOES works offline, so its assessment and how-to guides still help if a fall or a cold soaking happens out of signal.",
    "fees": "Private vehicle $35. Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass.",
    "fees_sources": [
     "yose-fees",
@@ -590,7 +590,7 @@
    "closed": [
     {
      "name": "Tioga Pass Entrance (Hwy 120 east, from Lee Vining)",
-     "note": "Tioga Road is temporarily closed for snow. NPS says the Tioga Pass Entrance is closed from approximately November through late May or June, so there's no entrance page for it this week.",
+     "note": "Tioga Road is closed for the season due to snow. NPS says the Tioga Pass Entrance is closed from approximately November through late May or June, so there's no entrance page for it this week.",
      "sources": [
       "yose-alerts",
       "yose-cond",
@@ -599,7 +599,7 @@
     },
     {
      "name": "Glacier Point Road",
-     "note": "Temporarily closed for snow. Part of the Glacier Point Road area remains under a Dome Fire safety closure.",
+     "note": "Closed for the season due to snow (usually reopens late May or June). Part of the Glacier Point Road area remains under a Dome Fire safety closure.",
      "sources": [
       "yose-alerts",
       "yose-cond"
@@ -625,11 +625,9 @@
      "goes": "injury"
     },
     {
-     "title": "Winter storm, chains and ice",
-     "body": "NWS has a Winter Storm Watch for the park area until Nov 20 at 4 am PST (plus a Winter Weather Advisory near Wawona until Nov 17), with rain and snow on and off from Monday through Thursday and highs mostly in the 30s and 40s. Carry chains even with 4WD and expect icy spots on mostly dry roads.",
+     "title": "Frosty mornings, chains and ice",
+     "body": "There are no NWS watches or warnings for the park this week. Days are mild (50s to mid-60s in the Valley), but NWS forecasts widespread frost near Big Oak Flat and Hetch Hetchy with lows around 28–34°F. NPS: carry chains even with 4WD and expect icy spots on mostly dry roads.",
      "sources": [
-      "nws-hanford-wsw",
-      "nws-sto-wsw",
       "yose-cond",
       "nws"
      ],
@@ -711,8 +709,8 @@
        "goes": "bears"
       },
       {
-       "title": "Rain and snow midweek",
-       "body": "This week's NWS forecast for the Arch Rock area: light rain Monday, sunny Tuesday, then rain and snow Wednesday and Thursday with highs around 39–42°F and a chance of thunderstorms.",
+       "title": "A little rain midweek",
+       "body": "This week's NWS forecast for the Arch Rock area: mostly sunny Monday, a chance of light rain Tuesday night into Wednesday morning, then sunny and mild for Thanksgiving, with highs around 48–63°F and lows around 39–48°F.",
        "sources": [
         "nws"
        ],
@@ -737,7 +735,7 @@
        "Don't count on coverage in the Merced canyon and Valley."
       ]
      ],
-     "cta_reason": "Bears in the Valley, slick river rock and a wet, snowy midweek. Get GOES before the canyon so its offline injury assessment and how-to guides are ready without a signal."
+     "cta_reason": "Bears in the Valley, slick river rock and short November days. Get GOES before the canyon so its offline injury assessment and how-to guides are ready without a signal."
     },
     {
      "slug": "big-oak-flat-entrance",
@@ -749,26 +747,19 @@
      "intro": "Big Oak Flat is the Highway 120 entrance from the Bay Area via Groveland, next to Hodgdon Meadow. With Tioga Road closed, Hwy 120 inside the park now leads only toward Crane Flat and Yosemite Valley (about 45 minutes away).",
      "conditions": [
       {
-       "text": "Big Oak Flat Road: open, with 15-minute delays on weekdays for fire-safety vegetation work between Foresta and Big Oak Flat.",
+       "text": "Big Oak Flat Road: NPS lists it as \"call\" for current status (209/372-0200, press 1, then 1), with 15-minute delays on weekdays for fire-safety vegetation work between Foresta and Big Oak Flat.",
        "sources": [
         "yose-cond"
        ],
        "status": "caution"
       },
       {
-       "text": "Tioga Road (east of Crane Flat) is temporarily closed for snow.",
+       "text": "Tioga Road (east of Crane Flat) is closed for the season due to snow.",
        "sources": [
         "yose-alerts",
         "yose-cond"
        ],
        "status": "closed"
-      },
-      {
-       "text": "NWS Winter Storm Watch for this area, issued Nov 15, in effect until Nov 20 at 4 am PST.",
-       "sources": [
-        "nws-sto-wsw"
-       ],
-       "status": "caution"
       },
       {
        "text": "Hodgdon Meadow Campground (by this entrance): open, first-come, first-served. Crane Flat, Tamarack Flat and White Wolf campgrounds are closed.",
@@ -787,8 +778,8 @@
      ],
      "risks": [
       {
-       "title": "Freezing nights and wet snow",
-       "body": "This week's NWS forecast here: rain Monday, nights around 15–24°F, and rain and snow again Wednesday and Thursday under a Winter Storm Watch. Being wet in freezing weather is how hikers get hypothermia.",
+       "title": "Freezing nights",
+       "body": "This week's NWS forecast here: widespread frost most mornings, lows around 28–38°F, highs in the 50s to mid-60s, and light rain likely Saturday night. Cold and wet together is how hikers get hypothermia.",
        "sources": [
         "nws"
        ],
@@ -824,14 +815,14 @@
       ],
       [
        "Don't plan on Tioga",
-       "It's closed for snow."
+       "It's closed for the season."
       ],
       [
        "Download GOES in Groveland",
        "Before the climb into the park."
       ]
      ],
-     "cta_reason": "Sub-freezing nights, a wet storm and bears around camp. Download GOES before Groveland so its hypothermia guidance and offline how-to guides work without a signal."
+     "cta_reason": "Frosty nights, weekday road work and bears around camp. Download GOES before Groveland so its hypothermia guidance and offline how-to guides work without a signal."
     },
     {
      "slug": "south-entrance",
@@ -839,29 +830,22 @@
      "gateway": "Fish Camp / Oakhurst (Hwy 41)",
      "nws": "yose-south",
      "status": "open",
-     "status_label": "Open — Winter Storm Watch to Nov 20",
+     "status_label": "Call for Hwy 41 status",
      "intro": "The South Entrance on Highway 41 from Fresno, Oakhurst and Fish Camp leads to the Mariposa Grove of Giant Sequoias, Wawona, and then Yosemite Valley, a little over an hour north.",
      "conditions": [
       {
-       "text": "Wawona Road (Hwy 41): open.",
+       "text": "Wawona Road (Hwy 41): NPS lists it as \"call\" for current status. Call 209/372-0200 (press 1, then 1) before you drive.",
        "sources": [
         "yose-cond"
-       ],
-       "status": "open"
-      },
-      {
-       "text": "NWS Winter Storm Watch for this area, issued Nov 16, in effect until Nov 20 at 4 am PST; a Winter Weather Advisory runs until Nov 17 at 4 am PST.",
-       "sources": [
-        "nws-hanford-wsw"
        ],
        "status": "caution"
       },
       {
-       "text": "Mariposa Grove Road: open only to vehicles displaying a disability placard. Everyone else takes the free shuttle from the Mariposa Grove Welcome Plaza, which runs approximately late April through November.",
+       "text": "Mariposa Grove Road: closed for the season. (When open, it's for vehicles with a disability placard only; the free shuttle from the Welcome Plaza runs approximately late April through November.)",
        "sources": [
         "yose-cond"
        ],
-       "status": null
+       "status": "closed"
       },
       {
        "text": "Wawona Campground: open, reservation required until Nov 29. Bridalveil Creek Campground: closed.",
@@ -871,7 +855,7 @@
        "status": null
       },
       {
-       "text": "Glacier Point Road is temporarily closed for snow. An area east of Wawona Road and south of Glacier Point Road remains closed after the Dome Fire; the Chilnualna Falls trail has reopened.",
+       "text": "Glacier Point Road is closed for the season due to snow. An area east of Wawona Road and south of Glacier Point Road remains closed after the Dome Fire; the Chilnualna Falls trail has reopened.",
        "sources": [
         "yose-alerts",
         "yose-cond"
@@ -888,11 +872,10 @@
      ],
      "risks": [
       {
-       "title": "Winter storm on Hwy 41",
-       "body": "The NWS forecast here shows rain turning to snow Monday night, light snow Wednesday, rain and snow Thursday, and lows around 20–27°F. Chain controls can start with little notice.",
+       "title": "Cold nights on Hwy 41",
+       "body": "The NWS forecast here: mostly sunny, a chance of rain and snow Tuesday night, light rain possible Wednesday and late Saturday, highs around 44–59°F and lows near 32–40°F. NPS says chain controls can start at any time.",
        "sources": [
         "nws",
-        "nws-hanford-wsw",
         "yose-cond"
        ],
        "goes": "cold"
@@ -917,23 +900,23 @@
      ],
      "prep": [
       [
-       "Watch the forecast until you leave",
-       "The Winter Storm Watch runs through Nov 20."
+       "Call before you drive",
+       "209/372-0200, press 1, then 1, for Wawona Road status."
       ],
       [
        "Chains and a full tank",
        "Fuel at Wawona; carry chains even with 4WD."
       ],
       [
-       "Plan on the shuttle for Mariposa Grove",
-       "Private cars need a disability placard."
+       "Skip Mariposa Grove this trip",
+       "Its road is closed for the season."
       ],
       [
        "Download GOES in Oakhurst or Fish Camp",
        "Before you drive into the forest."
       ]
      ],
-     "cta_reason": "A winter storm watch, fire-scarred slopes and bears in the groves. Get GOES before Fish Camp so its offline cold-weather and injury guidance is ready."
+     "cta_reason": "Freezing nights, fire-scarred slopes and bears in the groves. Get GOES before Fish Camp so its offline cold-weather and injury guidance is ready."
     },
     {
      "slug": "hetch-hetchy-entrance",
@@ -987,11 +970,10 @@
        "goes": "snakes"
       },
       {
-       "title": "Storm closures",
-       "body": "This week's NWS forecast here has light snow Tuesday night into Wednesday and rain and snow Thursday night, with lows around 17–25°F, under a Winter Storm Watch until Nov 20. If snow is forecast overnight, the road may not open.",
+       "title": "Frost and a late-week rain chance",
+       "body": "This week's NWS forecast here: widespread frost early in the week, highs around 52–68°F, lows around 30–38°F, and light rain likely Saturday night. If snow is forecast overnight, the road may not open.",
        "sources": [
         "nws",
-        "nws-sto-wsw",
         "yose-cond"
        ],
        "goes": "cold"
@@ -1025,12 +1007,13 @@
    "name": "Grand Canyon National Park",
    "short": "Grand Canyon",
    "state": "AZ",
-   "tagline": "Day use on the South Rim through Nov 19; NPS expects overnight lodging back Nov 20. Bring water.",
-   "summary": "This is not a normal November at Grand Canyon. An Aug. 29 flash flood badly damaged the Transcanyon Waterline. The South Rim is under Stage 4 water restrictions, overnight accommodations are suspended (dry camping only), and visitors are asked to bring their own water. The park is open for day use, and food service, the Grand Canyon Clinic and the Post Office remain open. NPS now says Stage 4 restrictions continue through Nov. 19 and overnight lodging is anticipated to resume Friday, Nov. 20.",
+   "tagline": "South Rim hotels reopened Nov 20 and water rules eased to Stage 3. Still pack water for the trail.",
+   "summary": "Good news at Grand Canyon: on Friday, Nov. 20 the park moved from Stage 4 to Stage 3 water conservation, and South Rim hotels reopened to overnight guests (El Tovar, Thunderbird, Kachina, Bright Angel, Maswik and Yavapai lodges). NPS says food and beverage services are resuming gradually and asks everyone to keep conserving water. The Aug. 29 flash flood that damaged the Transcanyon Waterline still has inner-canyon water off and Phantom Ranch and the North Kaibab Trail closed. Both South Rim entrances are open 24/7, and NWS forecasts a sunny, dry week.",
    "summary_sources": [
-    "grca-alerts",
     "grca-lodging",
-    "grca-fire"
+    "grca-alerts",
+    "grca-key",
+    "nws"
    ],
    "cta_reason": "7,000-foot rims, icy overlook paths, a rim edge with no second chances, and no water in the inner canyon. GOES carries altitude, cold and dehydration guidance offline.",
    "fees": "Private vehicle $35 (cash is not accepted at the entrances). Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass.",
@@ -1051,9 +1034,10 @@
    ],
    "park_risks": [
     {
-     "title": "Water: bring your own",
-     "body": "Stage 4 restrictions are in effect on the South Rim. Inner-canyon water is off everywhere (1.5 Mile and 3 Mile resthouses, Havasupai Gardens) for the rest of the winter. Potable water tanks are at the Bright Angel and South Kaibab trailheads. Carry all your water or a reliable treatment method.",
+     "title": "Water: carry your own on the trail",
+     "body": "The South Rim moved to Stage 3 water conservation on Nov 20, and NPS asks visitors to keep conserving. Inner-canyon water is off everywhere (1.5 Mile and 3 Mile resthouses, Havasupai Gardens) for the rest of the winter. Potable water tanks are at the Bright Angel and South Kaibab trailheads. Carry all your water or a reliable treatment method.",
      "sources": [
+      "grca-lodging",
       "grca-key",
       "grca-trails",
       "grca-alerts"
@@ -1093,7 +1077,7 @@
      "gateway": "Tusayan, AZ (Hwy 64 / 180)",
      "nws": "grca-south",
      "status": "open",
-     "status_label": "Open 24/7 — day use, bring water",
+     "status_label": "Open 24/7 — lodging reopened Nov 20",
      "intro": "The South Entrance just north of Tusayan is the main gate into Grand Canyon's South Rim (NPS says it gets the most traffic). It leads to Grand Canyon Village, the main visitor center and the Bright Angel and South Kaibab trailheads.",
      "conditions": [
       {
@@ -1112,12 +1096,11 @@
        "status": "caution"
       },
       {
-       "text": "Overnight accommodations are suspended through Nov 19 (NPS anticipates lodging resumes Fri Nov 20); only dry camping is allowed until then. Food and beverage services, the Grand Canyon Clinic and the Post Office remain open.",
+       "text": "South Rim lodging reopened to overnight guests Fri Nov 20: El Tovar, Thunderbird, Kachina, Bright Angel, Maswik and Yavapai lodges. Food and beverage services are resuming gradually; check NPS for current dining hours.",
        "sources": [
-        "grca-alerts",
         "grca-lodging"
        ],
-       "status": "caution"
+       "status": "open"
       },
       {
        "text": "Stage 2 fire restrictions were lifted on the South Rim Nov 4; Stage 1 remains. Campfires at Mather Campground are allowed only in established rings.",
@@ -1127,7 +1110,7 @@
        "status": null
       },
       {
-       "text": "Open trails: Bright Angel to River Resthouse, Plateau Point, River Trail, South Kaibab to the Black Bridge, and Tonto Trail (Tip-Off to Havasupai Gardens). Expect intermittent closures for Bright Angel Trail repairs, and from Nov 18, intermittent delays just above 3-Mile Resthouse for rockfall mitigation work.",
+       "text": "Open trails: Bright Angel to River Resthouse, Plateau Point, River Trail, South Kaibab to the Black Bridge, and Tonto Trail (Tip-Off to Havasupai Gardens). Expect intermittent closures for Bright Angel Trail repairs, and, since Nov 18, intermittent delays just above 3-Mile Resthouse for rockfall mitigation work.",
        "sources": [
         "grca-key",
         "grca-trails",
@@ -1139,7 +1122,7 @@
      "risks": [
       {
        "title": "Dehydration in high, dry air",
-       "body": "At 7,000 feet in desert air you lose water fast, and the park is asking everyone to bring their own. Inner-canyon water stations are off.",
+       "body": "At 7,000 feet in desert air you lose water fast. The South Rim is on Stage 3 water conservation and inner-canyon water stations are off, so fill up at the rim and carry what you need.",
        "sources": [
         "grca-safety",
         "grca-key"
@@ -1148,7 +1131,7 @@
       },
       {
        "title": "Cold mornings and icy rim paths",
-       "body": "NWS forecast for the South Rim this week: showers and thunderstorms Tuesday, rain and snow showers Thursday night, a chance of snow Friday, highs around 40–56°F and lows as cold as 18°F. Freeze/thaw increases rockfall on trails.",
+       "body": "NWS forecast for the South Rim this week: sunny and dry, highs around 46–59°F, but lows as cold as 16°F. Shady stretches of trail can stay icy, and freeze/thaw increases rockfall.",
        "sources": [
         "nws",
         "grca-key"
@@ -1168,11 +1151,11 @@
      "prep": [
       [
        "Water for everyone, plus treatment if hiking",
-       "Stage 4 restrictions; inner-canyon water is off."
+       "Stage 3 conservation; inner-canyon water is off."
       ],
       [
-       "Book a bed outside the park through Nov 19",
-       "NPS anticipates in-park lodging resumes Nov 20; confirm with your lodge."
+       "In-park lodging is back",
+       "South Rim hotels reopened Nov 20; book with the lodge directly."
       ],
       [
        "Card, not cash, at the gate",
@@ -1214,17 +1197,17 @@
        "status": null
       },
       {
-       "text": "Park-wide: Stage 4 water restrictions continue through Nov 19, and overnight lodging is anticipated to resume Nov 20. Bring your own water.",
+       "text": "Park-wide: Stage 3 water conservation since Nov 20, when South Rim lodging also reopened. NPS asks everyone to keep conserving water.",
        "sources": [
-        "grca-alerts"
+        "grca-lodging"
        ],
        "status": "caution"
       }
      ],
      "risks": [
       {
-       "title": "Wind and cold at the Watchtower",
-       "body": "NWS forecast for Desert View: showers and thunderstorms Tuesday, rain and snow showers Thursday night into Friday, highs around 37–49°F and lows in the upper 20s to low 30s.",
+       "title": "Cold at the Watchtower",
+       "body": "NWS forecast for Desert View: sunny all week, highs around 40–53°F and lows around 28–37°F. The rim is exposed, so it feels colder in any wind.",
        "sources": [
         "nws"
        ],
@@ -1254,7 +1237,7 @@
       ],
       [
        "Layers and a windproof shell",
-       "The rim is cold and exposed this week."
+       "Sunny, but cold mornings on an exposed rim."
       ],
       [
        "Download GOES before the drive in",
@@ -1269,7 +1252,7 @@
      "gateway": "Jacob Lake, AZ (SR 67)",
      "nws": "grca-north-rim",
      "status": "limited",
-     "status_label": "Limited day use — no services, closing soon",
+     "status_label": "Limited day use — closes Nov 30",
      "intro": "The North Rim entrance station is on State Route 67, 30 miles south of Jacob Lake. In fall 2026 the North Rim is in modified operations: day use only, with no services. The gate closes for winter at sunset Nov 30 or after the first major snowstorm, whichever comes first.",
      "conditions": [
       {
@@ -1281,7 +1264,7 @@
        "status": "caution"
       },
       {
-       "text": "The SR 67 entrance gate closes at sunset Nov 30, 2026, or after the first major snowstorm, whichever comes first. NWS forecasts snow showers and blowing snow here Tuesday and snow showers again Thursday into Friday, so check before you drive.",
+       "text": "The SR 67 entrance gate closes at sunset Nov 30, 2026, or after the first major snowstorm, whichever comes first. NWS forecasts a sunny, dry week here, but conditions can change quickly at 8,000 feet, so check before you drive.",
        "sources": [
         "grca-nr",
         "nws"
@@ -1313,7 +1296,7 @@
      "risks": [
       {
        "title": "Snow at 8,000 feet",
-       "body": "NPS: snow, ice and rain are common here this time of year. NWS forecast this week: snow showers and areas of blowing snow Tuesday, snow showers likely Thursday and Friday, highs around 31–46°F and lows down to about 15°F.",
+       "body": "NPS: snow, ice and rain are common here this time of year. NWS forecast this week: sunny and dry, highs around 34–50°F, and lows around 19–29°F.",
        "sources": [
         "grca-nr",
         "nws"
@@ -1355,7 +1338,7 @@
        "You'll be far from help and likely out of signal."
       ]
      ],
-     "cta_reason": "Snow at 8,000 feet, no services and slow rescue. If you go, get GOES first so its offline assessment and cold-weather guidance travel with you."
+     "cta_reason": "Freezing nights at 8,000 feet, no services and slow rescue. If you go, get GOES first so its offline assessment and cold-weather guidance travel with you."
     }
    ]
   },
@@ -1365,10 +1348,12 @@
    "name": "Great Smoky Mountains National Park",
    "short": "Great Smoky Mountains",
    "state": "TN · NC",
-   "tagline": "A sunny, mild week, but Kuwohi Road is closed for snow and ice.",
-   "summary": "The Smokies' primary roads (Newfound Gap Road/US-441, Little River Road and Laurel Creek Road) are open 24/7 year-round, weather permitting. Last week's winter weather advisory has ended, and this week's NWS forecast is sunny and mild (highs in the 60s in the valleys, 50s at Newfound Gap). NPS has closed Kuwohi Road for snow and ice. There's no entrance fee, but any vehicle parked longer than 15 minutes needs a parking tag ($5 daily, $15 weekly, $40 annual).",
+   "tagline": "Kuwohi Road and Roaring Fork have their last week of the season (through Nov 29); rain arrives for Thanksgiving.",
+   "summary": "The Smokies' primary roads (Newfound Gap Road/US-441, Little River Road and Laurel Creek Road) are open 24/7 year-round, weather permitting. NPS no longer lists last week's snow-and-ice closure alert for Kuwohi Road, and this is the last week of its season: Kuwohi Road and Roaring Fork Motor Nature Trail are scheduled to close for winter after Nov 29. Bullhead Trail reopened Nov 19 after a two-year rehabilitation. NWS forecasts a sunny Tuesday, then rain Wednesday night through Thanksgiving Day, with a chance of rain and snow at Newfound Gap Thursday night. There's no entrance fee, but any vehicle parked longer than 15 minutes needs a parking tag ($5 daily, $15 weekly, $40 annual).",
    "summary_sources": [
     "grsm-alerts",
+    "grsm-seasonal",
+    "grsm-bullhead",
     "nps-api",
     "nws"
    ],
@@ -1409,7 +1394,7 @@
     },
     {
      "title": "Wet cold and fast-changing mountain weather",
-     "body": "Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. Even in a sunny week, nights drop into the 30s, and wet clothes plus wind on a ridge can still chill you fast.",
+     "body": "Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. This week nights drop into the 30s (28°F at Newfound Gap Thursday night), and wet clothes plus wind on a ridge can still chill you fast.",
      "sources": [
       "nps-api",
       "nws"
@@ -1432,11 +1417,11 @@
      "gateway": "Gatlinburg, TN (US-441)",
      "nws": "grsm-gatlinburg",
      "status": "open",
-     "status_label": "Open — Kuwohi Road closed",
+     "status_label": "Open — Kuwohi Road's last week",
      "intro": "The Gatlinburg entrance on US-441 leads to Sugarlands Visitor Center and then up Newfound Gap Road over the crest to North Carolina. It's one of the park's three main entrances.",
      "conditions": [
       {
-       "text": "Newfound Gap Road (US-441) is a primary road, open 24/7 year-round, weather permitting. NWS forecasts sunny days at Newfound Gap this week (highs in the 50s, lows in the 30s).",
+       "text": "Newfound Gap Road (US-441) is a primary road, open 24/7 year-round, weather permitting. NWS forecast at Newfound Gap: sunny Tuesday, light rain Wednesday night into Thanksgiving, a chance of rain and snow Thursday night, highs around 37–51°F and lows near 28–38°F.",
        "sources": [
         "nps-api",
         "grsm-seasonal",
@@ -1445,12 +1430,12 @@
        "status": "open"
       },
       {
-       "text": "Kuwohi Road (formerly Clingmans Dome Road) is closed due to snow and ice, per a Nov 16 NPS alert. Its seasonal schedule runs through Nov 29, subject to closures like this one.",
+       "text": "Kuwohi Road (formerly Clingmans Dome Road): NPS no longer lists the Nov 16 snow-and-ice closure alert. Its seasonal schedule runs through Nov 29, and it can close at any time for snow, ice or hazardous weather.",
        "sources": [
         "grsm-alerts",
         "grsm-seasonal"
        ],
-       "status": "closed"
+       "status": "caution"
       },
       {
        "text": "Roaring Fork Motor Nature Trail: open through Nov 29 (one-way and steep; no RVs, buses or vans over 25 ft, and no trailers).",
@@ -1460,9 +1445,10 @@
        "status": "open"
       },
       {
-       "text": "Laurel Falls Trail is closed for rehabilitation (closed since Jan 2025 for about 18 months). Bullhead Trail is closed Monday–Thursday through Nov 19.",
+       "text": "Laurel Falls Trail is closed for rehabilitation (closed since Jan 2025 for about 18 months). Bullhead Trail, one of the routes to Mount Le Conte, reopened Nov 19 after rehabilitation.",
        "sources": [
-        "grsm-cond"
+        "grsm-cond",
+        "grsm-bullhead"
        ],
        "status": "closed"
       },
@@ -1484,11 +1470,10 @@
      ],
      "risks": [
       {
-       "title": "Cold at the crest",
-       "body": "Gatlinburg is forecast in the 60s this week, but Newfound Gap runs about 10°F colder by day with lows in the 30s, and NPS still has Kuwohi Road closed for snow and ice. Bring a warm layer for the overlooks.",
+       "title": "Cold, wet crest",
+       "body": "Gatlinburg is forecast in the 50s, but Newfound Gap runs about 10°F colder, with light rain Wednesday night into Thanksgiving and a chance of rain and snow Thursday night. Bring a warm, waterproof layer for the overlooks.",
        "sources": [
-        "nws",
-        "grsm-alerts"
+        "nws"
        ],
        "goes": "cold"
       },
@@ -1503,7 +1488,7 @@
       },
       {
        "title": "Short days on the trail",
-       "body": "This week in Gatlinburg: sunny, highs around 59–68°F and lows near 38–46°F. Mid-November sunset comes early, so carry a light and a layer in case a hike runs long.",
+       "body": "This week in Gatlinburg: highs around 48–60°F, lows near 34–45°F, and rain showers Wednesday night through Thursday. Late-November sunset comes early, so carry a light and a layer in case a hike runs long.",
        "sources": [
         "nws"
        ],
@@ -1516,8 +1501,8 @@
        "Required for any stop over 15 minutes; most trailheads have no tag machine."
       ],
       [
-       "Skip Kuwohi this week",
-       "NPS has the road closed for snow and ice; check alerts for reopening."
+       "Last call for Kuwohi",
+       "The road's season ends Nov 29; check NPS alerts the morning you go."
       ],
       [
        "Rain shell and warm, non-cotton layers",
@@ -1536,7 +1521,7 @@
      "gateway": "Townsend, TN (TN-73)",
      "nws": "grsm-townsend",
      "status": "open",
-     "status_label": "Open — sunny week",
+     "status_label": "Open — rainy Thanksgiving",
      "intro": "The Townsend entrance on TN-73 is the 'quiet side' gateway to Little River Road, Laurel Creek Road and Cades Cove.",
      "conditions": [
       {
@@ -1582,7 +1567,7 @@
       },
       {
        "title": "Cold mornings in the cove",
-       "body": "NWS forecast for Townsend: sunny, highs around 58–69°F, and lows from the mid-30s to low 40s. Frosty early starts in Cades Cove call for layers.",
+       "body": "NWS forecast for Townsend: sunny Tuesday, rain showers Wednesday night through Thursday, highs around 49–61°F and lows near 31–42°F. Cold, wet early starts in Cades Cove call for layers.",
        "sources": [
         "nws"
        ],
@@ -1623,7 +1608,7 @@
      "intro": "The Cherokee entrance on US-441 in North Carolina leads to Oconaluftee Visitor Center and the Mountain Farm Museum, then north up Newfound Gap Road to the state line.",
      "conditions": [
       {
-       "text": "Newfound Gap Road (US-441): open 24/7 year-round, weather permitting. Sunny weather is forecast at Newfound Gap this week.",
+       "text": "Newfound Gap Road (US-441): open 24/7 year-round, weather permitting. NWS forecasts light rain at Newfound Gap Wednesday night into Thanksgiving and a chance of rain and snow Thursday night.",
        "sources": [
         "nps-api",
         "nws"
@@ -1639,11 +1624,12 @@
        "status": "closed"
       },
       {
-       "text": "Kuwohi Road: closed due to snow and ice (NPS alert, Nov 16).",
+       "text": "Kuwohi Road: no current NPS closure alert; its season runs through Nov 29, subject to snow and ice closures.",
        "sources": [
-        "grsm-alerts"
+        "grsm-alerts",
+        "grsm-seasonal"
        ],
-       "status": "closed"
+       "status": "caution"
       },
       {
        "text": "Cataloochee Road: a year-round gravel road that may close for snow and ice.",
@@ -1680,7 +1666,7 @@
       },
       {
        "title": "Chilly nights",
-       "body": "NWS forecast for Cherokee: sunny days around 62–71°F, but lows from about 31°F early in the week to near 40°F by the weekend.",
+       "body": "NWS forecast for Cherokee: sunny Tuesday, light rain Wednesday night into Thanksgiving, highs around 52–65°F and lows near 29–41°F.",
        "sources": [
         "nws"
        ],
@@ -1694,7 +1680,7 @@
       ],
       [
        "Check alerts before heading up",
-       "Kuwohi Road is closed for snow and ice."
+       "Kuwohi Road's season ends Nov 29 and it can close for ice."
       ],
       [
        "Download GOES in Cherokee",
@@ -1711,8 +1697,8 @@
    "name": "Zion National Park",
    "short": "Zion",
    "state": "UT",
-   "tagline": "Shuttle through Nov 28; top-down Narrows closed for high water; tunnel closes nightly Nov 16–20.",
-   "summary": "Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedule through Nov 28 (first bus 7 am, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm), with no shuttle service Nov 29 – Dec 25. The Narrows is closed to top-down travel because of high water (the bottom-up section from Big Spring down is open), and the Zion–Mt. Carmel Tunnel closes nightly 9 pm – 6 am Mon Nov 16 through Fri morning Nov 20 for fiber-optic work. NWS forecasts showers and thunderstorms Tuesday and rain and snow Thursday into Friday. The Narrows closes whenever NWS issues a Flash Flood Warning or the Virgin River tops 150 cfs.",
+   "tagline": "Last week of shuttle service (through Nov 28), the tunnel's nightly closures are over, and a sunny week ahead.",
+   "summary": "Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedule through Nov 28 (first bus 7 am, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm), with no shuttle service Nov 29 – Dec 25. From Nov 29 you can drive the Zion Canyon Scenic Drive in your own car. NPS no longer lists last week's high-water closure of the top-down Narrows route (that through-hike needs a wilderness permit), and the Zion–Mt. Carmel Tunnel's nightly closures for fiber-optic work ended Nov 20. The road to Lava Point and the West Rim Trailhead is now closed for the season. NWS forecasts sunny, dry weather all week, with highs in the upper 50s to upper 60s in Springdale. The Narrows closes whenever NWS issues a Flash Flood Warning or the Virgin River tops 150 cfs.",
    "summary_sources": [
     "zion-shuttle",
     "zion-hours",
@@ -1730,18 +1716,10 @@
    ],
    "closed": [
     {
-     "name": "The Narrows from the top (top-down route)",
-     "note": "Closed to top-down travel due to high water. The lower Narrows from Big Spring down, and the canyons leading into it, are open.",
+     "name": "Lava Point and West Rim Trailhead road",
+     "note": "Regular seasonal closure for snow; Lava Point Overlook is also closed. NPS will lift it when the snow melts.",
      "sources": [
       "zion-alerts"
-     ]
-    },
-    {
-     "name": "Zion–Mt. Carmel Tunnel, overnight",
-     "note": "Full closures nightly 9 pm – 6 am, Mon Nov 16 through Fri morning Nov 20, for fiber-optic cable work. Vehicles are turned around at Canyon Junction and near the east tunnel entrance.",
-     "sources": [
-      "zion-alerts",
-      "udot-zion"
      ]
     },
     {
@@ -1762,7 +1740,7 @@
    "park_risks": [
     {
      "title": "Flash floods",
-     "body": "Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. This week NWS forecasts showers and thunderstorms Tuesday and rain and snow Thursday into Friday.",
+     "body": "Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. This week's NWS forecast is sunny and dry, but always check it the morning you go.",
      "sources": [
       "zion-safety",
       "zion-cond",
@@ -1803,13 +1781,14 @@
      "gateway": "Springdale, UT (SR-9)",
      "nws": "zion-south",
      "status": "open",
-     "status_label": "Open — shuttle through Nov 28",
+     "status_label": "Open — last shuttle week",
      "intro": "The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.",
      "conditions": [
       {
-       "text": "Zion Canyon shuttle, Oct 25 – Nov 28: first bus 7 am from the Visitor Center, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm. No service Nov 29 – Dec 25. Springdale Line: 8 am – 6 pm through Nov 28.",
+       "text": "Zion Canyon shuttle, Oct 25 – Nov 28: first bus 7 am from the Visitor Center, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm. No service Nov 29 – Dec 25, when you can drive the Scenic Drive in your own vehicle. Springdale Line: 8 am – 6 pm through Nov 28.",
        "sources": [
-        "zion-shuttle"
+        "zion-shuttle",
+        "zion-hours"
        ],
        "status": "open"
       },
@@ -1821,11 +1800,12 @@
        "status": null
       },
       {
-       "text": "The Narrows is closed to top-down travel due to high water; bottom-up from Big Spring down is open.",
+       "text": "The Narrows: NPS no longer lists last week's high-water closure of the top-down route. Bottom-up to Big Spring needs no permit; the 16-mile top-down through-hike needs a wilderness permit. It closes above 150 cfs or under a Flash Flood Warning.",
        "sources": [
-        "zion-alerts"
+        "zion-alerts",
+        "zion-narrows"
        ],
-       "status": "closed"
+       "status": "open"
       },
       {
        "text": "Watchman Trail is closed pending repairs and Hidden Canyon is closed (rockfall). Angels Landing requires a permit.",
@@ -1835,6 +1815,13 @@
         "zion-angels"
        ],
        "status": "closed"
+      },
+      {
+       "text": "UDOT fiber work on SR-9 at the west end of Springdale (daytime, through Nov 25): expect one-way traffic with minor delays. Crews pause for the holiday from noon Nov 25.",
+       "sources": [
+        "udot-zion"
+       ],
+       "status": "caution"
       },
       {
        "text": "Parking is limited. When park lots fill, park in Springdale; vehicles outside designated spaces can be cited and towed.",
@@ -1855,10 +1842,10 @@
      "risks": [
       {
        "title": "The Narrows in November",
-       "body": "Cold water and short days. Check USGS flow and the NWS forecast the morning you go; the route closes at 150 cfs or under a Flash Flood Warning. Right now high water has closed the top-down route; bottom-up from Big Spring down is open. Showers and storms are forecast Tuesday, and rain and snow Thursday into Friday.",
+       "body": "Cold water and short days. Check USGS flow and the NWS forecast the morning you go; the route closes at 150 cfs or under a Flash Flood Warning. NWS forecasts a dry week in Springdale (highs around 58–68°F, lows near 36–42°F), but the water stays cold, so dress in non-cotton layers.",
        "sources": [
         "zion-cond",
-        "zion-alerts",
+        "zion-narrows",
         "nws"
        ],
        "goes": "cold"
@@ -1887,7 +1874,7 @@
       ],
       [
        "Note the last shuttle times",
-       "Last bus up-canyon 5 pm; last out 6:15 pm through Nov 28."
+       "Last bus up-canyon 5 pm; last out 6:15 pm. Final shuttle day is Nov 28."
       ],
       [
        "A gallon of water per person per day",
@@ -1906,16 +1893,16 @@
      "gateway": "Mt. Carmel Junction, UT (SR-9)",
      "nws": "zion-east",
      "status": "open",
-     "status_label": "Open — tunnel closed nightly Nov 16–20",
+     "status_label": "Open — tunnel open overnight again",
      "intro": "The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.",
      "conditions": [
       {
-       "text": "Zion–Mt. Carmel Tunnel: full closures nightly 9 pm – 6 am, Mon Nov 16 through Fri morning Nov 20, for fiber-optic work. Drivers are turned around near the east tunnel entrance and at Canyon Junction, so plan to be through by 9 pm.",
+       "text": "Zion–Mt. Carmel Tunnel: last week's nightly fiber-optic closures ended Nov 20. UDOT's Nov 20 update lists no tunnel work this week; fiber crews on US-89 near Mt. Carmel Junction and Orderville are working along the shoulders with minimal traffic impact.",
        "sources": [
         "zion-alerts",
         "udot-zion"
        ],
-       "status": "closed"
+       "status": "open"
       },
       {
        "text": "The Zion–Mt. Carmel Highway reopened to visitors Oct 9 after a Sept 30 rockfall. One section is temporarily gravel until it's repaved, so drive with caution and watch for crews and pedestrians.",
@@ -1951,15 +1938,15 @@
       },
       {
        "title": "Colder, higher side of the park",
-       "body": "NWS forecast near the East Entrance: showers and thunderstorms Tuesday, rain and snow Thursday, light snow likely Friday, highs around 38–55°F and lows down to about 19°F.",
+       "body": "NWS forecast near the East Entrance: sunny and dry all week, highs around 47–57°F, but lows down to about 25°F, so expect frosty mornings.",
        "sources": [
         "nws"
        ],
        "goes": "cold"
       },
       {
-       "title": "Lightning and flash floods",
-       "body": "Storms are in the forecast. NPS warns flash floods can occur at any time in Zion; avoid washes and narrow canyons when storms are around.",
+       "title": "Short days and flash floods",
+       "body": "This week is dry, but NPS warns flash floods can occur at any time in Zion; avoid washes and narrow canyons when storms are around, and plan around a late-November sunset.",
        "sources": [
         "zion-safety",
         "nws"
@@ -1969,8 +1956,8 @@
      ],
      "prep": [
       [
-       "Get through the tunnel before 9 pm",
-       "It closes nightly 9 pm – 6 am through Fri morning Nov 20."
+       "Tunnel is open around the clock again",
+       "Nightly closures ended Nov 20."
       ],
       [
        "Check your vehicle size",
@@ -1985,7 +1972,7 @@
        "Plan for thin coverage on the east side."
       ]
      ],
-     "cta_reason": "Slickrock drop-offs, a cold week with rain and snow, and a rebuilt road. Download GOES before Mt. Carmel Junction so its offline injury guidance is ready."
+     "cta_reason": "Slickrock drop-offs, frosty mornings and a rebuilt road. Download GOES before Mt. Carmel Junction so its offline injury guidance is ready."
     },
     {
      "slug": "kolob-canyons-entrance",
@@ -2022,7 +2009,7 @@
      "risks": [
       {
        "title": "Cold, exposed wilderness trails",
-       "body": "NWS forecast for Kolob: showers and thunderstorms Tuesday, rain and snow Thursday into Friday, highs around 37–54°F, and frosty nights near 20°F by Friday. These are designated wilderness trails with few people around to help.",
+       "body": "NWS forecast for Kolob: sunny and dry, with patchy frost early in the week, highs around 47–57°F, and lows near 29–40°F. These are designated wilderness trails with few people around to help.",
        "sources": [
         "nws",
         "zion-kolob"
@@ -2062,8 +2049,8 @@
    "name": "Glacier National Park",
    "short": "Glacier",
    "state": "MT",
-   "tagline": "Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season.",
-   "summary": "Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-service season. Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side and at Jackson Glacier Overlook on the east. The lower road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. There's no fuel inside the park and no in-park lodging this time of year. Entrance fees still apply; use the self-pay stations when entrances aren't staffed.",
+   "tagline": "Going-to-the-Sun Road is closed for the season at Avalanche Creek and, on the east side, now at Rising Sun.",
+   "summary": "Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-service season. Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side and, as of NPS's Nov 23 alert, at Rising Sun on the east. The lower road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. There's no fuel inside the park and no in-park lodging this time of year. Entrance fees still apply; use the self-pay stations when entrances aren't staffed.",
    "summary_sources": [
     "glac-alerts",
     "glac-winter",
@@ -2079,14 +2066,14 @@
    "closed": [
     {
      "name": "Going-to-the-Sun Road alpine section (Logan Pass)",
-     "note": "Closed for the season between Avalanche Creek (west) and Jackson Glacier Overlook (east). Open sections may change at any time due to winter weather.",
+     "note": "Closed for the season between Avalanche Creek (west) and Rising Sun (east; the closure moved down from Jackson Glacier Overlook in NPS's Nov 23 alert). Open sections may change at any time due to winter weather.",
      "sources": [
       "glac-alerts"
      ]
     },
     {
      "name": "Many Glacier and Two Medicine",
-     "note": "No entrance pages this week. NPS says Many Glacier Road closes the third weekend in November (weather permitting) and Two Medicine Road closes once snow requires it. Confirm on the NPS road status map, or text GNPROADS to 333111.",
+     "note": "No entrance pages this week. NPS says Many Glacier Road is scheduled to close the third weekend in November (weather permitting) and Two Medicine Road closes once snow requires it. Confirm on the NPS road status map, or text GNPROADS to 333111.",
      "sources": [
       "glac-hours",
       "glac-roads"
@@ -2201,7 +2188,7 @@
       },
       {
        "title": "Fog and short days",
-       "body": "NWS forecast for West Glacier this week: light rain Monday, areas of fog Tuesday and Wednesday, highs in the mid-30s to low 40s, lows in the mid-20s, and a chance of light snow Friday into the weekend.",
+       "body": "NWS forecast for West Glacier this week: areas of fog Monday, then rain and snow from Wednesday night through Thanksgiving and Friday, highs in the 30s and lows around 20–34°F.",
        "sources": [
         "nws"
        ],
@@ -2234,11 +2221,11 @@
      "gateway": "St. Mary, MT (US-89)",
      "nws": "glac-st-mary",
      "status": "limited",
-     "status_label": "Open — road to Jackson Glacier Overlook",
+     "status_label": "Open — road to Rising Sun",
      "intro": "St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.",
      "conditions": [
       {
-       "text": "Going-to-the-Sun Road is closed for the season at Jackson Glacier Overlook on the east side. Open sections can change at any time due to winter weather.",
+       "text": "Going-to-the-Sun Road is now closed for the season at Rising Sun on the east side (NPS alert, Nov 23). Open sections can change at any time due to winter weather.",
        "sources": [
         "glac-alerts"
        ],
@@ -2251,6 +2238,13 @@
         "glac-hours"
        ],
        "status": "closed"
+      },
+      {
+       "text": "NWS Winter Weather Advisory for the St. Mary area until Tue Nov 24 at noon MST, with patchy blowing snow.",
+       "sources": [
+        "nws"
+       ],
+       "status": "caution"
       },
       {
        "text": "Tularemia was confirmed in a dead snowshoe hare in the St. Mary Lake area (Sept 17 release).",
@@ -2271,7 +2265,7 @@
      "risks": [
       {
        "title": "East-side wind and cold",
-       "body": "Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: light snow Tuesday and chances of light snow most days after, highs around 33–44°F and lows near 18–29°F. Expect colder, harsher conditions higher up.",
+       "body": "Glacier sits where Pacific air from the west meets arctic air from the northeast. NWS forecast for St. Mary this week: patchy blowing snow under a Winter Weather Advisory through Tuesday noon, then rain and snow Thanksgiving Day and Thursday night, highs around 30–41°F and lows near 25–35°F. Expect colder, harsher conditions higher up.",
        "sources": [
         "nws",
         "glac-cond",

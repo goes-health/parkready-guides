@@ -1,31 +1,30 @@
 # Zion National Park this week
 
-> Week of Nov 16–22, 2026 · UT · Shuttle through Nov 28; top-down Narrows closed for high water; tunnel closes nightly Nov 16–20. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · UT · Last week of shuttle service (through Nov 28), the tunnel's nightly closures are over, and a sunny week ahead. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/zion/
 
-Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedule through Nov 28 (first bus 7 am, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm), with no shuttle service Nov 29 – Dec 25. The Narrows is closed to top-down travel because of high water (the bottom-up section from Big Spring down is open), and the Zion–Mt. Carmel Tunnel closes nightly 9 pm – 6 am Mon Nov 16 through Fri morning Nov 20 for fiber-optic work. NWS forecasts showers and thunderstorms Tuesday and rain and snow Thursday into Friday. The Narrows closes whenever NWS issues a Flash Flood Warning or the Virgin River tops 150 cfs. Sources: [Zion Canyon shuttle schedule](https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm); [Zion operating hours & facility hours](https://www.nps.gov/zion/planyourvisit/hours.htm); [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm); [UDOT Zion Canyon fiber project: Zion–Mt. Carmel Tunnel closure advisory (update Nov 12, 2026)](https://udotinput.utah.gov/ziontechnology); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedule through Nov 28 (first bus 7 am, last bus up-canyon 5 pm, last bus out of Temple of Sinawava 6:15 pm), with no shuttle service Nov 29 – Dec 25. From Nov 29 you can drive the Zion Canyon Scenic Drive in your own car. NPS no longer lists last week's high-water closure of the top-down Narrows route (that through-hike needs a wilderness permit), and the Zion–Mt. Carmel Tunnel's nightly closures for fiber-optic work ended Nov 20. The road to Lava Point and the West Rim Trailhead is now closed for the season. NWS forecasts sunny, dry weather all week, with highs in the upper 50s to upper 60s in Springdale. The Narrows closes whenever NWS issues a Flash Flood Warning or the Virgin River tops 150 cfs. Sources: [Zion Canyon shuttle schedule](https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm); [Zion operating hours & facility hours](https://www.nps.gov/zion/planyourvisit/hours.htm); [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm); [UDOT Zion Canyon fiber project: construction update (Nov 20, 2026)](https://udotinput.utah.gov/ziontechnology); [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm)
 
 ## Entrances open this week
 
-- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md) (Springdale, UT (SR-9)): **Open — shuttle through Nov 28**. The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.
-- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md) (Mt. Carmel Junction, UT (SR-9)): **Open — tunnel closed nightly Nov 16–20**. The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.
+- [South Entrance](https://parks.goes.health/parks/zion/south-entrance.md) (Springdale, UT (SR-9)): **Open — last shuttle week**. The South Entrance at Springdale leads to the Zion Canyon Visitor Center, where shuttles leave for the Zion Canyon Scenic Drive, the Riverside Walk and The Narrows.
+- [East Entrance](https://parks.goes.health/parks/zion/east-entrance.md) (Mt. Carmel Junction, UT (SR-9)): **Open — tunnel open overnight again**. The East Entrance west of Mt. Carmel Junction starts the Zion–Mt. Carmel Highway: slickrock country, the Canyon Overlook Trail, and the historic tunnel down to Zion Canyon.
 - [Kolob Canyons Entrance](https://parks.goes.health/parks/zion/kolob-canyons-entrance.md) (I-15 Exit 40 (near Cedar City)): **Open — may close for snow or ice**. Kolob Canyons is Zion's quieter northwest district, at I-15 Exit 40, 17 miles south of Cedar City and about an hour from Zion Canyon. A five-mile scenic drive leads to viewpoints and wilderness trails.
 
 ## Closed or limited this week
 
-- **The Narrows from the top (top-down route).** Closed to top-down travel due to high water. The lower Narrows from Big Spring down, and the canyons leading into it, are open. Sources: [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
-- **Zion–Mt. Carmel Tunnel, overnight.** Full closures nightly 9 pm – 6 am, Mon Nov 16 through Fri morning Nov 20, for fiber-optic cable work. Vehicles are turned around at Canyon Junction and near the east tunnel entrance. Sources: [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm); [UDOT Zion Canyon fiber project: Zion–Mt. Carmel Tunnel closure advisory (update Nov 12, 2026)](https://udotinput.utah.gov/ziontechnology)
-- **Watchman Trail.** Closed pending repairs. Sources: [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+- **Lava Point and West Rim Trailhead road.** Regular seasonal closure for snow; Lava Point Overlook is also closed. NPS will lift it when the snow melts. Sources: [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+- **Watchman Trail.** Closed pending repairs. Sources: [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
 - **Hidden Canyon / Observation Point from Zion Canyon.** The East Rim Trail is partially closed by a large rockfall: Hidden Canyon is closed, and Observation Point can only be reached from the east. Sources: [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm)
 
 **Entrance fee:** Private vehicle $35. Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass. Angels Landing requires a separate permit. Sources: [NPS Zion fees & passes](https://www.nps.gov/zion/planyourvisit/fees.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [Angels Landing permits](https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm)
 
 ## What matters in Zion right now
 
-- **Flash floods.** Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. This week NWS forecasts showers and thunderstorms Tuesday and rain and snow Thursday into Friday. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Flash floods.** Flash floods can happen at any time in Zion, carrying trees and boulders. The Narrows closes when flow exceeds 150 cfs or when NWS issues a Flash Flood Warning. This week's NWS forecast is sunny and dry, but always check it the morning you go. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm); [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: 125+ extreme weather alerts
-- **Toxic cyanobacteria.** Don't drink water from rivers, streams or pools, and don't submerge your head in them. Use potable water, and treat spring water only as a last resort. Sources: [Zion toxic cyanobacteria advisory](https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm); [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+- **Toxic cyanobacteria.** Don't drink water from rivers, streams or pools, and don't submerge your head in them. Use potable water, and treat spring water only as a last resort. Sources: [Zion toxic cyanobacteria advisory](https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm); [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
   - In GOES: Offline interactive health assessment + 50+ visual how-to guides
 - **Hypothermia in the canyons.** NPS: hypothermia is a major hazard in narrow canyons, and immersion in water is the fastest way to lose body heat. Avoid cotton and eat before you get chilled. Sources: [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
@@ -34,10 +33,9 @@ Zion is open 24/7 year-round. The Zion Canyon shuttle is on its late-fall schedu
 
 ## Active Zion NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/zion/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/zion/planyourvisit/conditions.htm
 
-- **[Park Closure] The Virgin River Narrows closed to top-down travel.** The Virgin River Narrows is closed to top-down travel due to high water. The lower section of the Narrows from Big Spring down and canyons leading into this section are now open.
-- **[Information] Zion Mount Carmel Highway - Nightly Road Closures.** Overnight tunnel closures are set for the tunnel on the Zion–Mount Carmel Highway (SR-9) inside Zion National Park starting Monday, Nov. 16 for fiber optic installation. See Utah Department of Transportation website for more information. (https://udotinput.utah.gov/ziontechnology)
+- **[Park Closure] Road to Lava Point and West Rim Trailhead closed.** This is a regular, seasonal closure, and we will remove this alert when snow melts. Lava Point Overlook is also closed.
 - **[Park Closure] Watchman Trail closed.** The Watchman Trail is closed pending repairs.
 - **[Caution] Large vehicle restrictions on Zion-Mt. Carmel Highway.** Vehicles that exceed length, width, height, or weight limits cannot travel between Canyon Junction and the park's East Entrance. See the current limits on the page linked below. (https://www.nps.gov/zion/planyourvisit/large-vehicles.htm)
 - **[Caution] Toxic cyanobacteria in rivers, streams, and pools.** Do not submerge your head in or drink instream water in Zion National Park. (https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm)
@@ -62,9 +60,9 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 - [Zion Canyon shuttle schedule](https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm)
 - [Zion operating hours & facility hours](https://www.nps.gov/zion/planyourvisit/hours.htm)
-- [NPS Zion alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
-- [UDOT Zion Canyon fiber project: Zion–Mt. Carmel Tunnel closure advisory (update Nov 12, 2026)](https://udotinput.utah.gov/ziontechnology)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- [NPS Zion alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/zion/planyourvisit/conditions.htm)
+- [UDOT Zion Canyon fiber project: construction update (Nov 20, 2026)](https://udotinput.utah.gov/ziontechnology)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
 - [Zion Current Conditions](https://www.nps.gov/zion/planyourvisit/conditions.htm)
 - [NPS Zion fees & passes](https://www.nps.gov/zion/planyourvisit/fees.htm)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
@@ -72,6 +70,7 @@ Free to download. Premium features need a monthly or annual subscription after a
 - [Zion safety: flash floods, cliffs, hypothermia, water](https://www.nps.gov/zion/planyourvisit/safety.htm)
 - [Zion toxic cyanobacteria advisory](https://www.nps.gov/zion/planyourvisit/toxic-cyanobacteria-bloom-in-the-virgin-river-and-the-streams-of-zion-national-park.htm)
 - [NPS Zion National Park](https://www.nps.gov/zion/index.htm)
+- [Zion: The Narrows (permits, closures)](https://www.nps.gov/zion/planyourvisit/thenarrows.htm)
 - [News release: Zion-Mt. Carmel Highway reopens (Oct 9, 2026)](https://www.nps.gov/zion/learn/news/2026-10-09-zmch.htm)
 - [Zion large-vehicle restrictions](https://www.nps.gov/zion/planyourvisit/large-vehicles.htm)
 - [Kolob Canyons](https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm)
@@ -80,4 +79,4 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

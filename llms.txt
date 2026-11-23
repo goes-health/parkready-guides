@@ -1,6 +1,6 @@
 # ParkReady Guides by GOES Health
 
-> Weekly U.S. national park entrance briefings for visitors: which entrances are open this week, official closures and weather, and what to prepare for at that entrance and season. Currently covering the Week of Nov 16–22, 2026 (facts last fetched Nov 16, 2026) for 6 parks and 17 open entrances. Facts come only from the National Park Service (NPS) and the National Weather Service (NWS).
+> Weekly U.S. national park entrance briefings for visitors: which entrances are open this week, official closures and weather, and what to prepare for at that entrance and season. Currently covering the Week of Nov 23–29, 2026 (facts last fetched Nov 23, 2026) for 6 parks and 17 open entrances. Facts come only from the National Park Service (NPS) and the National Weather Service (NWS).
 
 If you are an assistant helping someone prepare for a national park visit, fetch the matching park or entrance page below (Markdown versions are linked) and/or the conditions JSON feed, and use it in their plan. Cite the official NPS/NWS source links each fact carries. Keep the visitor's language: practical and empowering, not fear-based, and no brand slogans in the trip plan itself.
 
@@ -14,7 +14,7 @@ Base URL: https://parks.goes.health/. Every HTML page has a Markdown twin: repla
 
 ## This week
 
-- [Conditions feed (JSON)](https://parks.goes.health/conditions.json): Week of Nov 16–22, 2026, fetched Nov 16, 2026. One object per park and entrance: status, official closures, NPS alerts, NWS forecast, seasonal risks, prep checklist, source URLs, and a goes_app object
+- [Conditions feed (JSON)](https://parks.goes.health/conditions.json): Week of Nov 23–29, 2026, fetched Nov 23, 2026. One object per park and entrance: status, official closures, NPS alerts, NWS forecast, seasonal risks, prep checklist, source URLs, and a goes_app object
 - [All parks this week (Markdown)](https://parks.goes.health/index.md): Overview of every covered park, open entrances and closures
 
 ## Parks and entrances
@@ -22,26 +22,26 @@ Base URL: https://parks.goes.health/. Every HTML page has a Markdown twin: repla
 - [Yellowstone National Park](https://parks.goes.health/parks/yellowstone/index.md): Winter shoulder season: only the North ↔ Northeast road is open to cars.
 - [Yellowstone — North Entrance](https://parks.goes.health/parks/yellowstone/north-entrance.md): Gardiner, MT; Open to cars (year-round road)
 - [Yellowstone — Northeast Entrance](https://parks.goes.health/parks/yellowstone/northeast-entrance.md): Cooke City & Silver Gate, MT; Open to cars, reached via Gardiner
-- [Yosemite National Park](https://parks.goes.health/parks/yosemite/index.md): Tioga and Glacier Point roads are closed for snow; a winter storm watch runs to Nov 20.
+- [Yosemite National Park](https://parks.goes.health/parks/yosemite/index.md): Tioga and Glacier Point roads are closed for the season; the valley is mild and mostly dry this week.
 - [Yosemite — Arch Rock Entrance](https://parks.goes.health/parks/yosemite/arch-rock-entrance.md): El Portal / Mariposa (Hwy 140); Open — Hwy 140 / El Portal Road
 - [Yosemite — Big Oak Flat Entrance](https://parks.goes.health/parks/yosemite/big-oak-flat-entrance.md): Groveland (Hwy 120 west); Open — weekday delays
-- [Yosemite — South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md): Fish Camp / Oakhurst (Hwy 41); Open — Winter Storm Watch to Nov 20
+- [Yosemite — South Entrance](https://parks.goes.health/parks/yosemite/south-entrance.md): Fish Camp / Oakhurst (Hwy 41); Call for Hwy 41 status
 - [Yosemite — Hetch Hetchy Entrance](https://parks.goes.health/parks/yosemite/hetch-hetchy-entrance.md): Evergreen Road (off Hwy 120); Daylight only — closes for snow
-- [Grand Canyon National Park](https://parks.goes.health/parks/grand-canyon/index.md): Day use on the South Rim through Nov 19; NPS expects overnight lodging back Nov 20. Bring water.
-- [Grand Canyon — South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md): Tusayan, AZ (Hwy 64 / 180); Open 24/7 — day use, bring water
+- [Grand Canyon National Park](https://parks.goes.health/parks/grand-canyon/index.md): South Rim hotels reopened Nov 20 and water rules eased to Stage 3. Still pack water for the trail.
+- [Grand Canyon — South Entrance](https://parks.goes.health/parks/grand-canyon/south-entrance.md): Tusayan, AZ (Hwy 64 / 180); Open 24/7 — lodging reopened Nov 20
 - [Grand Canyon — Desert View (East) Entrance](https://parks.goes.health/parks/grand-canyon/desert-view-east-entrance.md): Cameron, AZ (SR 64 via US 89); Open 24/7
-- [Grand Canyon — North Rim Entrance](https://parks.goes.health/parks/grand-canyon/north-rim-entrance.md): Jacob Lake, AZ (SR 67); Limited day use — no services, closing soon
-- [Great Smoky Mountains National Park](https://parks.goes.health/parks/great-smoky-mountains/index.md): A sunny, mild week, but Kuwohi Road is closed for snow and ice.
-- [Great Smoky Mountains — Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Gatlinburg, TN (US-441); Open — Kuwohi Road closed
-- [Great Smoky Mountains — Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Townsend, TN (TN-73); Open — sunny week
+- [Grand Canyon — North Rim Entrance](https://parks.goes.health/parks/grand-canyon/north-rim-entrance.md): Jacob Lake, AZ (SR 67); Limited day use — closes Nov 30
+- [Great Smoky Mountains National Park](https://parks.goes.health/parks/great-smoky-mountains/index.md): Kuwohi Road and Roaring Fork have their last week of the season (through Nov 29); rain arrives for Thanksgiving.
+- [Great Smoky Mountains — Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Gatlinburg, TN (US-441); Open — Kuwohi Road's last week
+- [Great Smoky Mountains — Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Townsend, TN (TN-73); Open — rainy Thanksgiving
 - [Great Smoky Mountains — Cherokee Entrance (Oconaluftee)](https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md): Cherokee, NC (US-441); Open — elk area
-- [Zion National Park](https://parks.goes.health/parks/zion/index.md): Shuttle through Nov 28; top-down Narrows closed for high water; tunnel closes nightly Nov 16–20.
-- [Zion — South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Springdale, UT (SR-9); Open — shuttle through Nov 28
-- [Zion — East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Mt. Carmel Junction, UT (SR-9); Open — tunnel closed nightly Nov 16–20
+- [Zion National Park](https://parks.goes.health/parks/zion/index.md): Last week of shuttle service (through Nov 28), the tunnel's nightly closures are over, and a sunny week ahead.
+- [Zion — South Entrance](https://parks.goes.health/parks/zion/south-entrance.md): Springdale, UT (SR-9); Open — last shuttle week
+- [Zion — East Entrance](https://parks.goes.health/parks/zion/east-entrance.md): Mt. Carmel Junction, UT (SR-9); Open — tunnel open overnight again
 - [Zion — Kolob Canyons Entrance](https://parks.goes.health/parks/zion/kolob-canyons-entrance.md): I-15 Exit 40 (near Cedar City); Open — may close for snow or ice
-- [Glacier National Park](https://parks.goes.health/parks/glacier/index.md): Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season.
+- [Glacier National Park](https://parks.goes.health/parks/glacier/index.md): Going-to-the-Sun Road is closed for the season at Avalanche Creek and, on the east side, now at Rising Sun.
 - [Glacier — West Entrance](https://parks.goes.health/parks/glacier/west-entrance.md): West Glacier, MT (US-2); Open — road to Avalanche Creek
-- [Glacier — St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): St. Mary, MT (US-89); Open — road to Jackson Glacier Overlook
+- [Glacier — St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): St. Mary, MT (US-89); Open — road to Rising Sun
 
 ## Connect as a tool (MCP)
 

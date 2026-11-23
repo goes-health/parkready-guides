@@ -1,6 +1,6 @@
 # Great Smoky Mountains Townsend Entrance: this week
 
-> Week of Nov 16–22, 2026 · Great Smoky Mountains National Park · Townsend, TN (TN-73) · Status: **Open — sunny week**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · Great Smoky Mountains National Park · Townsend, TN (TN-73) · Status: **Open — rainy Thanksgiving**. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.html
 
@@ -10,25 +10,25 @@ The Townsend entrance on TN-73 is the 'quiet side' gateway to Little River Road,
 
 - **Open:** Little River Road and Laurel Creek Road: primary roads, open 24/7 year-round, weather permitting. Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - **Open:** Cades Cove Loop Road: open sunrise to sunset daily, weather permitting. Sources: [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
-- **Closed:** Rich Mountain Road and Parson Branch Road (out of Cades Cove) are closed for the season. Forge Creek Road is open through Dec 31, subject to closures for snow, ice or mud. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
+- **Closed:** Rich Mountain Road and Parson Branch Road (out of Cades Cove) are closed for the season. Forge Creek Road is open through Dec 31, subject to closures for snow, ice or mud. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
 - **Info:** Parking tags are sold at The Great Smokies Welcome Center in Townsend, Cades Cove Visitor Center and the Tremont Institute store. Cades Cove Campground is open year-round. Sources: [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm); [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 
-**Entrance fee:** No entrance fee. A parking tag is required for any vehicle parked more than 15 minutes: daily $5, weekly $15, annual $40. America the Beautiful passes are not accepted in place of a tag. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm)
+**Entrance fee:** No entrance fee. A parking tag is required for any vehicle parked more than 15 minutes: daily $5, weekly $15, annual $40. America the Beautiful passes are not accepted in place of a tag. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm)
 
 ## Forecast near the Townsend Entrance
 
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| This Afternoon | 58°F | Sunny | 0 to 5 mph |
-| Tonight | 34°F | Mostly Clear | 0 to 5 mph |
-| Tuesday | 63°F | Sunny | 0 to 5 mph |
-| Tuesday Night | 35°F | Clear | 0 to 5 mph |
-| Wednesday | 66°F | Sunny | 0 mph |
-| Wednesday Night | 38°F | Mostly Clear | 0 to 5 mph |
-| Thursday | 68°F | Sunny | 0 mph |
-| Thursday Night | 41°F | Partly Cloudy | 0 mph |
+| Today | 61°F | Chance Rain Showers | 0 to 5 mph |
+| Tonight | 32°F | Mostly Cloudy | 5 to 10 mph |
+| Tuesday | 57°F | Sunny | 5 to 10 mph |
+| Tuesday Night | 37°F | Partly Cloudy | 5 mph |
+| Wednesday | 60°F | Partly Sunny then Chance Rain Showers | 5 mph |
+| Wednesday Night | 42°F | Rain Showers | 10 mph |
+| Thanksgiving Day | 53°F | Rain Showers | 0 to 10 mph |
+| Thursday Night | 31°F | Rain Showers Likely | 10 to 15 mph |
 
-Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=35.659&lon=-83.711
+Snapshot from the National Weather Service, fetched Nov 23, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=35.659&lon=-83.711
 
 ## What actually matters here this season
 
@@ -36,7 +36,7 @@ The goal is a good trip, not a scary one. These are the hazards NPS highlights f
 
 - **Bear jams in Cades Cove.** Cades Cove is one of the park's best places to see bears, and one of the easiest places to get too close. Approaching within 50 yards is illegal. Use pull-offs and don't stop in the road. Sources: [News release: View elk and black bears safely this fall (Sep 14, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm); [Smokies black bears](https://www.nps.gov/grsm/learn/nature/black-bears.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
-- **Cold mornings in the cove.** NWS forecast for Townsend: sunny, highs around 58–69°F, and lows from the mid-30s to low 40s. Frosty early starts in Cades Cove call for layers. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Cold mornings in the cove.** NWS forecast for Townsend: sunny Tuesday, rain showers Wednesday night through Thursday, highs around 49–61°F and lows near 31–42°F. Cold, wet early starts in Cades Cove call for layers. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **Little River's slick rocks.** Wet rocks and cold water make the Little River a fall and hypothermia risk. NPS links to USGS gauges for current flow. Sources: [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
   - In GOES: Offline interactive health assessment + 50+ visual how-to guides
@@ -55,16 +55,15 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
 - **Elk.** It's illegal to approach elk within 25 yards (75 ft). During the fall rut, bulls can be aggressive toward people, vehicles and pets. NPS closed the fields around Oconaluftee and Cataloochee to visitors during the rut, so obey any posted closures. Sources: [News release: View elk and black bears safely this fall (Sep 14, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm); [News release: Approaching elk is dangerous and illegal (Oct 7, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-approaching-elk-is-both-dangerous-and-illegal.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for dangerous animals
-- **Wet cold and fast-changing mountain weather.** Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. Even in a sunny week, nights drop into the 30s, and wet clothes plus wind on a ridge can still chill you fast. Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Wet cold and fast-changing mountain weather.** Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. This week nights drop into the 30s (28°F at Newfound Gap Thursday night), and wet clothes plus wind on a ridge can still chill you fast. Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **GPS and no signal.** NPS warns that GPS units may send drivers the wrong way on one-way roads or to dead ends, and points mobile users to offline maps for areas without cell service. Sources: [Smokies directions & GPS warning](https://www.nps.gov/grsm/planyourvisit/directions.htm)
   - In GOES: 125+ extreme weather alerts
 
 ## All active Great Smoky Mountains NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/grsm/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/grsm/planyourvisit/conditions.htm
 
-- **[Park Closure] KUWOHI Road Closed Due To Snow And Ice.** KUWOHI Road Closed Due To Snow and Ice (https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 - **[Park Closure] Seasonal road closures.** Heintooga Ridge Road, Parson Branch Road, and Rich Mountain Road are closed for the season. (https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
 - **[Park Closure] Park Headquarters Road is closed.** Park Headquarters Road is closed due to rehabilitation work on the Sugarlands water and wastewater systems.
 - **[Park Closure] Straight Fork and the one-way section of Balsam Mountain Road closed..** Straight Fork and the one-way section of Balsam Mountain Road (Heintooga Round-Bottom Road) are closed. (https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
@@ -84,22 +83,23 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Great Smoky Mountains entrances
 
-- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Kuwohi Road closed
+- [Gatlinburg Entrance (Sugarlands)](https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.md): Open — Kuwohi Road's last week
 - [Cherokee Entrance (Oconaluftee)](https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md): Open — elk area
 - [Great Smoky Mountains overview, closures and park-wide risks](https://parks.goes.health/parks/great-smoky-mountains/index.md)
 
 ## Sources
 
-Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 23, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
-- [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
+- [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 - [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm)
 - [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 - [News release: View elk and black bears safely this fall (Sep 14, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm)
 - [Smokies black bears](https://www.nps.gov/grsm/learn/nature/black-bears.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
+- [News release: Bullhead Trail reopens (Nov 19, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reopens-rehabilitated-bullhead-trail.htm)
 - [News release: Approaching elk is dangerous and illegal (Oct 7, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-approaching-elk-is-both-dangerous-and-illegal.htm)
 - [Smokies directions & GPS warning](https://www.nps.gov/grsm/planyourvisit/directions.htm)
 - [NPS Great Smoky Mountains National Park](https://www.nps.gov/grsm/index.htm)
@@ -108,4 +108,4 @@ Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildl
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

@@ -1,20 +1,20 @@
 # Glacier National Park this week
 
-> Week of Nov 16–22, 2026 · MT · Going-to-the-Sun Road closed at Avalanche Creek and Jackson Glacier Overlook for the season. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · MT · Going-to-the-Sun Road is closed for the season at Avalanche Creek and, on the east side, now at Rising Sun. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/glacier/
 
-Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-service season. Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side and at Jackson Glacier Overlook on the east. The lower road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. There's no fuel inside the park and no in-park lodging this time of year. Entrance fees still apply; use the self-pay stations when entrances aren't staffed. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm); [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
+Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-service season. Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side and, as of NPS's Nov 23 alert, at Rising Sun on the east. The lower road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. There's no fuel inside the park and no in-park lodging this time of year. Entrance fees still apply; use the self-pay stations when entrances aren't staffed. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm); [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 
 ## Entrances open this week
 
 - [West Entrance](https://parks.goes.health/parks/glacier/west-entrance.md) (West Glacier, MT (US-2)): **Open — road to Avalanche Creek**. The West Entrance at West Glacier is the park's year-round front door to Apgar Village, Lake McDonald and the lower Going-to-the-Sun Road. It's about 33 miles from Kalispell.
-- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md) (St. Mary, MT (US-89)): **Open — road to Jackson Glacier Overlook**. St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.
+- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md) (St. Mary, MT (US-89)): **Open — road to Rising Sun**. St. Mary is the east-side entrance to Going-to-the-Sun Road, along St. Mary Lake. It's about 125 miles from Great Falls via US-89 and Browning.
 
 ## Closed or limited this week
 
-- **Going-to-the-Sun Road alpine section (Logan Pass).** Closed for the season between Avalanche Creek (west) and Jackson Glacier Overlook (east). Open sections may change at any time due to winter weather. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
-- **Many Glacier and Two Medicine.** No entrance pages this week. NPS says Many Glacier Road closes the third weekend in November (weather permitting) and Two Medicine Road closes once snow requires it. Confirm on the NPS road status map, or text GNPROADS to 333111. Sources: [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm); [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm)
+- **Going-to-the-Sun Road alpine section (Logan Pass).** Closed for the season between Avalanche Creek (west) and Rising Sun (east; the closure moved down from Jackson Glacier Overlook in NPS's Nov 23 alert). Open sections may change at any time due to winter weather. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
+- **Many Glacier and Two Medicine.** No entrance pages this week. NPS says Many Glacier Road is scheduled to close the third weekend in November (weather permitting) and Two Medicine Road closes once snow requires it. Confirm on the NPS road status map, or text GNPROADS to 333111. Sources: [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm); [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm)
 
 **Entrance fee:** Private vehicle $35 (self-pay when stations are unstaffed). Non-US residents 16+ pay an additional $100 nonresident fee unless entering with an annual / America the Beautiful pass. Sources: [NPS Glacier fees & passes](https://www.nps.gov/glac/planyourvisit/fees.htm); [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 
@@ -31,9 +31,9 @@ Glacier is open 24 hours a day, 365 days a year, but it's in its late-fall, low-
 
 ## Active Glacier NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/glac/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/glac/planyourvisit/conditions.htm
 
-- **[Park Closure] Going-to-the-Sun Road Seasonal Closure.** Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Jackson Glacier Overlook. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather. (https://www.nps.gov/glac/planyourvisit/directions.htm)
+- **[Park Closure] Going-to-the-Sun Road Seasonal Closure.** Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Rising Sun. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather. (https://www.nps.gov/glac/planyourvisit/directions.htm)
 
 Follow official NPS rules, posted closures and ranger instructions. They override anything on this page.
 
@@ -51,7 +51,7 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Sources
 
-- [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
+- [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
 - [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
 - [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
@@ -62,9 +62,10 @@ Free to download. Premium features need a monthly or annual subscription after a
 - [News release: Tularemia detected in Many Glacier Valley (Oct 15, 2026)](https://www.nps.gov/glac/learn/news/tularemia-detected-in-glacier-national-park-s-many-glacier-valley.htm)
 - [News release: Tularemia detected in St. Mary Lake area (Sep 17, 2026)](https://www.nps.gov/glac/learn/news/tularemia-detected-in-st-mary-lake-area-of-glacier-national-park.htm)
 - [NPS Glacier National Park](https://www.nps.gov/glac/index.htm)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
 
 ---
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

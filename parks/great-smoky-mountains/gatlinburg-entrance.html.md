@@ -1,6 +1,6 @@
 # Great Smoky Mountains Gatlinburg Entrance (Sugarlands): this week
 
-> Week of Nov 16–22, 2026 · Great Smoky Mountains National Park · Gatlinburg, TN (US-441) · Status: **Open — Kuwohi Road closed**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · Great Smoky Mountains National Park · Gatlinburg, TN (US-441) · Status: **Open — Kuwohi Road's last week**. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/great-smoky-mountains/gatlinburg-entrance.html
 
@@ -8,45 +8,45 @@ The Gatlinburg entrance on US-441 leads to Sugarlands Visitor Center and then up
 
 ## This week at the Gatlinburg Entrance (Sugarlands) (official conditions)
 
-- **Open:** Newfound Gap Road (US-441) is a primary road, open 24/7 year-round, weather permitting. NWS forecasts sunny days at Newfound Gap this week (highs in the 50s, lows in the 30s). Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
-- **Closed:** Kuwohi Road (formerly Clingmans Dome Road) is closed due to snow and ice, per a Nov 16 NPS alert. Its seasonal schedule runs through Nov 29, subject to closures like this one. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
+- **Open:** Newfound Gap Road (US-441) is a primary road, open 24/7 year-round, weather permitting. NWS forecast at Newfound Gap: sunny Tuesday, light rain Wednesday night into Thanksgiving, a chance of rain and snow Thursday night, highs around 37–51°F and lows near 28–38°F. Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
+- **Heads-up:** Kuwohi Road (formerly Clingmans Dome Road): NPS no longer lists the Nov 16 snow-and-ice closure alert. Its seasonal schedule runs through Nov 29, and it can close at any time for snow, ice or hazardous weather. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
 - **Open:** Roaring Fork Motor Nature Trail: open through Nov 29 (one-way and steep; no RVs, buses or vans over 25 ft, and no trailers). Sources: [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
-- **Closed:** Laurel Falls Trail is closed for rehabilitation (closed since Jan 2025 for about 18 months). Bullhead Trail is closed Monday–Thursday through Nov 19. Sources: [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
-- **Closed:** Park Headquarters Road is closed for Sugarlands water and wastewater work. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
+- **Closed:** Laurel Falls Trail is closed for rehabilitation (closed since Jan 2025 for about 18 months). Bullhead Trail, one of the routes to Mount Le Conte, reopened Nov 19 after rehabilitation. Sources: [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [News release: Bullhead Trail reopens (Nov 19, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reopens-rehabilitated-bullhead-trail.htm)
+- **Closed:** Park Headquarters Road is closed for Sugarlands water and wastewater work. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 - **Info:** Parking tags are sold at the Gatlinburg Welcome Center and Sugarlands Visitor Center, and online. Visitor centers are open year-round except Christmas Day. Sources: [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm); [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 
-**Entrance fee:** No entrance fee. A parking tag is required for any vehicle parked more than 15 minutes: daily $5, weekly $15, annual $40. America the Beautiful passes are not accepted in place of a tag. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm)
+**Entrance fee:** No entrance fee. A parking tag is required for any vehicle parked more than 15 minutes: daily $5, weekly $15, annual $40. America the Beautiful passes are not accepted in place of a tag. Sources: [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm); [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm)
 
 ## Forecast near the Gatlinburg Entrance (Sugarlands)
 
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| This Afternoon | 59°F | Sunny | 0 to 5 mph |
-| Tonight | 38°F | Mostly Clear | 0 mph |
-| Tuesday | 63°F | Sunny | 0 mph |
-| Tuesday Night | 39°F | Clear | 0 mph |
-| Wednesday | 66°F | Sunny | 0 mph |
-| Wednesday Night | 42°F | Mostly Clear | 0 mph |
-| Thursday | 68°F | Mostly Sunny | 0 mph |
-| Thursday Night | 44°F | Partly Cloudy | 0 mph |
+| Today | 60°F | Chance Rain Showers | 0 to 5 mph |
+| Tonight | 36°F | Slight Chance Rain Showers then Mostly Cloudy | 5 to 10 mph |
+| Tuesday | 57°F | Sunny | 5 to 10 mph |
+| Tuesday Night | 39°F | Partly Cloudy | 5 mph |
+| Wednesday | 59°F | Partly Sunny then Chance Rain Showers | 5 to 10 mph |
+| Wednesday Night | 45°F | Rain Showers | 10 to 15 mph |
+| Thanksgiving Day | 52°F | Rain Showers | 5 to 10 mph |
+| Thursday Night | 35°F | Rain Showers Likely | 15 mph |
 
-Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=35.685&lon=-83.537
+Snapshot from the National Weather Service, fetched Nov 23, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=35.685&lon=-83.537
 
 ## What actually matters here this season
 
 The goal is a good trip, not a scary one. These are the hazards NPS highlights for this area and season, and what to do about each.
 
-- **Cold at the crest.** Gatlinburg is forecast in the 60s this week, but Newfound Gap runs about 10°F colder by day with lows in the 30s, and NPS still has Kuwohi Road closed for snow and ice. Bring a warm layer for the overlooks. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/); [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
+- **Cold, wet crest.** Gatlinburg is forecast in the 50s, but Newfound Gap runs about 10°F colder, with light rain Wednesday night into Thanksgiving and a chance of rain and snow Thursday night. Bring a warm, waterproof layer for the overlooks. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **Roadside bears.** Fall is peak feeding time. Use pull-offs, get fully off the road, and stay 50 yards away. Never feed bears, and put trash in bear-proof containers. Sources: [News release: View elk and black bears safely this fall (Sep 14, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm); [Smokies black bears](https://www.nps.gov/grsm/learn/nature/black-bears.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
-- **Short days on the trail.** This week in Gatlinburg: sunny, highs around 59–68°F and lows near 38–46°F. Mid-November sunset comes early, so carry a light and a layer in case a hike runs long. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Short days on the trail.** This week in Gatlinburg: highs around 48–60°F, lows near 34–45°F, and rain showers Wednesday night through Thursday. Late-November sunset comes early, so carry a light and a layer in case a hike runs long. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 
 ## Checklist for the Gatlinburg Entrance (Sugarlands)
 
 - [ ] **Buy a parking tag first** — Required for any stop over 15 minutes; most trailheads have no tag machine.
-- [ ] **Skip Kuwohi this week** — NPS has the road closed for snow and ice; check alerts for reopening.
+- [ ] **Last call for Kuwohi** — The road's season ends Nov 29; check NPS alerts the morning you go.
 - [ ] **Rain shell and warm, non-cotton layers** — Summit temps run 10–20°F colder than town.
 - [ ] **Download GOES in Gatlinburg** — Before the signal drops on the climb.
 
@@ -58,16 +58,15 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
 - **Elk.** It's illegal to approach elk within 25 yards (75 ft). During the fall rut, bulls can be aggressive toward people, vehicles and pets. NPS closed the fields around Oconaluftee and Cataloochee to visitors during the rut, so obey any posted closures. Sources: [News release: View elk and black bears safely this fall (Sep 14, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm); [News release: Approaching elk is dangerous and illegal (Oct 7, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-approaching-elk-is-both-dangerous-and-illegal.htm)
   - In GOES: Wildlife Encounters: location-specific risk indicators for dangerous animals
-- **Wet cold and fast-changing mountain weather.** Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. Even in a sunny week, nights drop into the 30s, and wet clothes plus wind on a ridge can still chill you fast. Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Wet cold and fast-changing mountain weather.** Temperatures can vary 10–20°F between base and summit, and clear skies lower down don't guarantee the same up high. This week nights drop into the 30s (28°F at Newfound Gap Thursday night), and wet clothes plus wind on a ridge can still chill you fast. Sources: [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm); [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
 - **GPS and no signal.** NPS warns that GPS units may send drivers the wrong way on one-way roads or to dead ends, and points mobile users to offline maps for areas without cell service. Sources: [Smokies directions & GPS warning](https://www.nps.gov/grsm/planyourvisit/directions.htm)
   - In GOES: 125+ extreme weather alerts
 
 ## All active Great Smoky Mountains NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/grsm/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/grsm/planyourvisit/conditions.htm
 
-- **[Park Closure] KUWOHI Road Closed Due To Snow And Ice.** KUWOHI Road Closed Due To Snow and Ice (https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 - **[Park Closure] Seasonal road closures.** Heintooga Ridge Road, Parson Branch Road, and Rich Mountain Road are closed for the season. (https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
 - **[Park Closure] Park Headquarters Road is closed.** Park Headquarters Road is closed due to rehabilitation work on the Sugarlands water and wastewater systems.
 - **[Park Closure] Straight Fork and the one-way section of Balsam Mountain Road closed..** Straight Fork and the one-way section of Balsam Mountain Road (Heintooga Round-Bottom Road) are closed. (https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
@@ -87,19 +86,20 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Great Smoky Mountains entrances
 
-- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — sunny week
+- [Townsend Entrance](https://parks.goes.health/parks/great-smoky-mountains/townsend-entrance.md): Open — rainy Thanksgiving
 - [Cherokee Entrance (Oconaluftee)](https://parks.goes.health/parks/great-smoky-mountains/cherokee-entrance.md): Open — elk area
 - [Great Smoky Mountains overview, closures and park-wide risks](https://parks.goes.health/parks/great-smoky-mountains/index.md)
 
 ## Sources
 
-Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 23, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - [Smokies seasonal road schedule (2026 season)](https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
-- [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
+- [NPS Great Smoky Mountains alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
 - [Smokies current conditions & trail closures](https://www.nps.gov/grsm/planyourvisit/conditions.htm)
+- [News release: Bullhead Trail reopens (Nov 19, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reopens-rehabilitated-bullhead-trail.htm)
 - [NPS Great Smoky Mountains fees & passes](https://www.nps.gov/grsm/planyourvisit/fees.htm)
 - [News release: View elk and black bears safely this fall (Sep 14, 2026)](https://www.nps.gov/grsm/learn/news/great-smoky-mountains-national-park-reminds-visitors-to-view-elk-and-black-bears-safely-this-fall.htm)
 - [Smokies black bears](https://www.nps.gov/grsm/learn/nature/black-bears.htm)
@@ -111,4 +111,4 @@ Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildl
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json

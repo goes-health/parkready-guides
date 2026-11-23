@@ -1,4 +1,4 @@
-src("yell-roads", "Yellowstone Park Roads (updated Nov 3, 2026)", "https://www.nps.gov/yell/planyourvisit/parkroads.htm")
+src("yell-roads", "Yellowstone Park Roads (updated Nov 12, 2026)", "https://www.nps.gov/yell/planyourvisit/parkroads.htm")
 src("yell-close-nov1", "News release: Most Yellowstone roads and entrances close Nov. 1, 2026 (Oct 21)", "https://www.nps.gov/yell/learn/news/26026.htm")
 src("yell-hours", "Yellowstone operating dates (updated Nov 9, 2026)", "https://www.nps.gov/yell/planyourvisit/hours.htm")
 src("yell-safety", "Yellowstone safety: thermal areas, wildlife, bears", "https://www.nps.gov/yell/planyourvisit/safety.htm")
@@ -39,7 +39,7 @@ PARKS.append({
      R("Thermal terraces at Mammoth", "Mammoth Hot Springs is the main thermal area you can reach by car right now. Stay on boardwalks and designated trails; thermal runoff can burn. Pets aren't allowed on boardwalks or in thermal areas. If you feel sick in a thermal area, leave immediately — gases can build up.", ["yell-safety"], "injury"),
      R("Elk and bison around Mammoth and the road", "The rule: at least 25 yards from elk and bison, 100 yards from bears and wolves. If an animal moves toward you, back away. It's illegal to stay near any animal at a distance that disturbs it.", ["yell-safety"], "wildlife"),
      R("Bears may still be active", "NPS treats all of Yellowstone as bear country. Carry bear spray on any walk away from the car, hike in a group, and never leave packs or coolers unattended.", ["yell-safety"], "bears"),
-     R("Cold, ice and short days", "This week's NWS forecast for Gardiner: mid-50s Monday and Tuesday, then rain and snow showers from Tuesday night, highs around 37–43°F and lows near 22°F the rest of the week. NPS asks drivers to carry blankets and keep a full tank.", ["nws", "yell-close-nov1"], "cold"),
+     R("Cold, ice and short days", "This week's NWS forecast for Gardiner: mostly sunny through Wednesday, then chances of rain and snow showers from Thanksgiving Day into the weekend, highs around 39–46°F and lows near 26–33°F. NPS asks drivers to carry blankets and keep a full tank.", ["nws", "yell-close-nov1"], "cold"),
    ],
    "prep": [
      ("Fill the tank in Gardiner", "NPS lists the Mammoth gas station as closed for winter."),
@@ -63,7 +63,7 @@ PARKS.append({
    "risks": [
      R("Lamar Valley wildlife: bison, wolves, bears", "Use pullouts, stay in or near your vehicle, keep 100 yards from wolves and bears and 25 yards from bison. Don't stop in the travel lane.", ["yell-safety"], "wildlife"),
      R("Bear country right up to town", "Hike in a group of 3+, make noise, carry bear spray, and if you find a carcass, leave by the way you came and report it.", ["yell-safety"], "bears"),
-     R("Remote, cold and far from help", "This week's NWS forecast near Silver Gate: snow showers from Tuesday night on and off through the weekend, highs in the upper 30s to low 40s after Tuesday, and lows down to about 12°F. Services in the northeast corner are closed for the winter; the nearest year-round park facilities are back at Mammoth.", ["nws", "yell-hours"], "cold"),
+     R("Remote, cold and far from help", "This week's NWS forecast near Silver Gate: mostly sunny Tuesday and Wednesday, then snow showers from Thanksgiving Day through the weekend, highs around 34–42°F and lows down to about 13°F. Services in the northeast corner are closed for the winter; the nearest year-round park facilities are back at Mammoth.", ["nws", "yell-hours"], "cold"),
    ],
    "prep": [
      ("Plan an out-and-back trip", "With Beartooth closed, Cooke City is reached through the park from Gardiner."),

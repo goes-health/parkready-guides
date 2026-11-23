@@ -1,6 +1,6 @@
 # Glacier West Entrance: this week
 
-> Week of Nov 16–22, 2026 · Glacier National Park · West Glacier, MT (US-2) · Status: **Open — road to Avalanche Creek**. Facts fetched Nov 16, 2026 from official NPS and NWS sources.
+> Week of Nov 23–29, 2026 · Glacier National Park · West Glacier, MT (US-2) · Status: **Open — road to Avalanche Creek**. Facts fetched Nov 23, 2026 from official NPS and NWS sources.
 
 HTML version: https://parks.goes.health/parks/glacier/west-entrance.html
 
@@ -8,7 +8,7 @@ The West Entrance at West Glacier is the park's year-round front door to Apgar V
 
 ## This week at the West Entrance (official conditions)
 
-- **Open:** Going-to-the-Sun Road is open from West Glacier and closed for the season at Avalanche Creek. NPS's winter page says the road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
+- **Open:** Going-to-the-Sun Road is open from West Glacier and closed for the season at Avalanche Creek. NPS's winter page says the road from West Glacier to Lake McDonald Lodge is plowed year-round, weather permitting. Sources: [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
 - **Info:** Beyond the closure gate, the unplowed road is open to hikers and bicyclists, and to skiing and snowshoeing once there's snow. Sources: [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
 - **Info:** Apgar Visitor Center restrooms are open year-round, with a water bottle filling station (about 2 miles north of the entrance). NPS's winter page says the visitor center opens on weekends in winter. Sources: [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm); [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
 - **Info:** Apgar Campground offers primitive camping (vault toilet, no running water, first-come, first-served). There's no lodging in the park this time of year. Sources: [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm)
@@ -20,16 +20,16 @@ The West Entrance at West Glacier is the park's year-round front door to Apgar V
 
 | Period | Temp | Forecast | Wind |
 |---|---|---|---|
-| Today | 41°F | Light Rain | 2 mph |
-| Tonight | 32°F | Areas Of Fog | 0 mph |
-| Tuesday | 37°F | Areas Of Fog then Patchy Fog | 1 mph |
-| Tuesday Night | 29°F | Areas Of Fog | 0 mph |
-| Wednesday | 36°F | Areas Of Fog then Partly Sunny | 0 mph |
-| Wednesday Night | 26°F | Mostly Cloudy | 1 mph |
-| Thursday | 35°F | Mostly Cloudy | 0 mph |
-| Thursday Night | 25°F | Mostly Cloudy | 1 mph |
+| Today | 31°F | Areas Of Fog | 1 mph |
+| Tonight | 20°F | Areas Of Fog | 0 mph |
+| Tuesday | 34°F | Partly Sunny | 0 mph |
+| Tuesday Night | 26°F | Mostly Cloudy | 0 mph |
+| Wednesday | 37°F | Mostly Cloudy then Slight Chance Light Rain | 1 mph |
+| Wednesday Night | 31°F | Chance Rain And Snow | 1 mph |
+| Thanksgiving Day | 38°F | Rain And Snow | 0 to 5 mph |
+| Thursday Night | 34°F | Rain And Snow | 5 to 10 mph |
 
-Snapshot from the National Weather Service, fetched Nov 16, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=48.502&lon=-113.987
+Snapshot from the National Weather Service, fetched Nov 23, 2026. Live forecast: https://forecast.weather.gov/MapClick.php?lat=48.502&lon=-113.987
 
 ## What actually matters here this season
 
@@ -39,7 +39,7 @@ The goal is a good trip, not a scary one. These are the hazards NPS highlights f
   - In GOES: Wildlife Encounters: location-specific risk indicators for bears and other dangerous animals
 - **Lake McDonald's cold water.** Water is the park's top cause of death. Slick shoreline rocks and near-freezing water make a fall dangerous within minutes. Sources: [Glacier current conditions & safety](https://www.nps.gov/glac/planyourvisit/conditions.htm)
   - In GOES: Environmental Health: hypothermia and frostbite assessments
-- **Fog and short days.** NWS forecast for West Glacier this week: light rain Monday, areas of fog Tuesday and Wednesday, highs in the mid-30s to low 40s, lows in the mid-20s, and a chance of light snow Friday into the weekend. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- **Fog and short days.** NWS forecast for West Glacier this week: areas of fog Monday, then rain and snow from Wednesday night through Thanksgiving and Friday, highs in the 30s and lows around 20–34°F. Sources: [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
   - In GOES: 125+ extreme weather alerts
 
 ## Checklist for the West Entrance
@@ -64,9 +64,9 @@ Follow official NPS rules, posted closures and ranger instructions. They overrid
 
 ## All active Glacier NPS alerts
 
-From the NPS Data API, fetched Nov 16, 2026. Live: https://www.nps.gov/glac/planyourvisit/conditions.htm
+From the NPS Data API, fetched Nov 23, 2026. Live: https://www.nps.gov/glac/planyourvisit/conditions.htm
 
-- **[Park Closure] Going-to-the-Sun Road Seasonal Closure.** Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Jackson Glacier Overlook. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather. (https://www.nps.gov/glac/planyourvisit/directions.htm)
+- **[Park Closure] Going-to-the-Sun Road Seasonal Closure.** Going-to-the-Sun Road is closed for the season at Avalanche Creek on the west side of the park. On the east side, the closure is located at Rising Sun. Travel on open sections of the road may change at any time due to winter weather conditions. Visitors should check road conditions before their arrival and be prepared for winter weather. (https://www.nps.gov/glac/planyourvisit/directions.htm)
 
 ## Get the GOES app before the gate
 
@@ -82,20 +82,20 @@ Free to download. Premium features need a monthly or annual subscription after a
 
 ## Other Glacier entrances
 
-- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): Open — road to Jackson Glacier Overlook
+- [St. Mary Entrance](https://parks.goes.health/parks/glacier/st-mary-entrance.md): Open — road to Rising Sun
 - [Glacier overview, closures and park-wide risks](https://parks.goes.health/parks/glacier/index.md)
 
 ## Sources
 
-Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
+Fetched Mon Nov 23, 2026, about 9 am Pacific. We don't publish wait times, wildlife sightings or conditions we can't source.
 
-- [NPS Glacier alerts (NPS Data API, fetched Nov 16)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
+- [NPS Glacier alerts (NPS Data API, fetched Nov 23)](https://www.nps.gov/glac/planyourvisit/conditions.htm)
 - [Glacier: visiting in winter](https://www.nps.gov/glac/planyourvisit/winter.htm)
 - [Glacier operating hours & seasons](https://www.nps.gov/glac/planyourvisit/hours.htm)
 - [Glacier directions, transportation & road status](https://www.nps.gov/glac/planyourvisit/directions.htm)
 - [Glacier bear safety](https://www.nps.gov/glac/planyourvisit/bears.htm)
 - [Glacier current conditions & safety](https://www.nps.gov/glac/planyourvisit/conditions.htm)
-- [National Weather Service point forecasts (api.weather.gov, fetched Nov 16)](https://www.weather.gov/)
+- [National Weather Service point forecasts (api.weather.gov, fetched Nov 23)](https://www.weather.gov/)
 - [NPS Data API (parks, operating hours, fees)](https://www.nps.gov/subjects/developer/api-documentation.htm)
 - [NPS Glacier fees & passes](https://www.nps.gov/glac/planyourvisit/fees.htm)
 - [News release: Tularemia detected in Many Glacier Valley (Oct 15, 2026)](https://www.nps.gov/glac/learn/news/tularemia-detected-in-glacier-national-park-s-many-glacier-valley.htm)
@@ -106,4 +106,4 @@ Fetched Mon Nov 16, 2026, about 9 am Pacific. We don't publish wait times, wildl
 
 *GOES provides guidance. It is not a substitute for professional medical care. ParkReady Guides is not affiliated with or endorsed by the National Park Service. Always follow official NPS rules, posted closures and ranger instructions. Conditions change quickly; check the linked NPS pages before you go. In an emergency, call 911.*
 
-ParkReady Guides by GOES Health · Week of Nov 16–22, 2026 · facts fetched Nov 16, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
+ParkReady Guides by GOES Health · Week of Nov 23–29, 2026 · facts fetched Nov 23, 2026 from NPS and NWS. Agent overview: https://parks.goes.health/llms.txt · Conditions feed (JSON): https://parks.goes.health/conditions.json
