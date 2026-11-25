@@ -120,6 +120,7 @@ def page(rel, title, desc, canonical, body, active=None, extra_head=""):
         <li><a href="{e(ios_url())}" rel="noopener">GOES on the App Store</a></li>
         <li><a href="{e(play_url())}" rel="noopener">GOES on Google Play</a></li>
         <li><a href="{GOES["site"]}">goes.health</a></li>
+        <li><a href="https://skiready.goes.health/">SkiReady</a></li>
       </ul>
     </div>
   </footer>

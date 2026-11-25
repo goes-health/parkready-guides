@@ -54,6 +54,10 @@ Base URL: https://parks.goes.health/. Every HTML page has a Markdown twin: repla
 - [GOES on Google Play (Android)](https://play.google.com/store/apps/details?id=com.goes.mobile&referrer=utm_source%3Dllms_txt%26utm_medium%3Dagent%26utm_campaign%3Dparkready): Free download; same offline features
 - [GOES platform](https://goes.health/platform?utm_source=llms_txt&utm_medium=agent&utm_campaign=parkready): What GOES is and who built it
 
+## Also from GOES Health
+
+- [SkiReady](https://skiready.goes.health/): Family ski-trip cold safety — frostbite, hypothermia and wind-chill cutoffs for young kids, with live NWS wind chill at covered resorts. Overview: https://skiready.goes.health/llms.txt
+
 ## Optional
 
 - [Full text (llms-full.txt)](https://parks.goes.health/llms-full.txt): Every Markdown page above in one file
